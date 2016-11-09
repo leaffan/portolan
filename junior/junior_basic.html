@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Draft-eligible players from QMJHL, OHL and WHL: Summary</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/spacelab/bootstrap.min.css">
+    <style>
+        body { padding-top: 40px; }
+    </style>
+
+    <!-- javascript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="junior_basic.js"></script>
+
+</head>
+<body>
+<div class="container" ng-app="showSortJuniorApp" ng-controller="mainController">
+  
+  <h1>Skaters from Major Junior Eligible for the 2017 NHL Entry Draft</h1>
+
+  <hr>
+
+  <div class="alert alert-info">
+    <p>The following sortable and searchable table contains all skaters from QMJHL, OHL and WHL that are eligible for the 2017 NHL Entry Draft. For a description of the workflow and a detailed explanation of the methodology refer to the Portolan Blog.</p>
+    <p><b>Last modified:</b> {{ last_modified }}
+  </div>
+
+  <table class="table table-bordered table-striped">
+     <thead>
+         <tr>
+             <td>Name</td>
+             <td>Team</td>
+             <td>Draft Day Age</td>
+             <td>GP</td> 
+             <td>G</td> 
+             <td>A</td> 
+             <td>Pts.</td> 
+             <td>SH</td> 
+             <td>S%</td> 
+             <td>P/G</td> 
+         </tr>
+     </thead>
+     <tbody>
+         <tr ng-repeat="stat in stats">
+             <td class="col-md-2"><a href="{{ stat.url }}">{{ stat.first_name }} {{ stat.last_name }}</a></td>
+             <td class="col-md-2">{{ stat.team[2] }}</td>
+             <td class="col-md-1">{{ stat.draft_day_age.toFixed(3) }}</td>
+             <td class="col-md-1">{{ stat.games_played }}</td>
+             <td class="col-md-1">{{ stat.goals }}</td>
+             <td class="col-md-1">{{ stat.assists }}</td>
+             <td class="col-md-1">{{ stat.points }}</td>
+             <td class="col-md-1">{{ stat.shots }}</td>
+             <td class="col-md-1">{{ stat.shooting_percentage.toFixed(1) }}</td>
+             <td class="col-md-1">{{ stat.points_per_game.toFixed(2) }}</td>
+         </tr>
+     </tbody>
+</table>
+</div>
+</body>
+</html>
