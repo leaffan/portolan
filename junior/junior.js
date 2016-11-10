@@ -10,11 +10,11 @@ angular.module('showSortJuniorApp', [])
   // changing displayed table according to selected value 
   $scope.selectChange = function() {
     if ($scope.tableSelect === 'basic_stats') {
-      $scope.statsSortCriterion = '';
+      $scope.statsSortCriterion = 'points';
     } else if ($scope.tableSelect === 'additional_stats') {
-      $scope.statsSortCriterion = '';
+      $scope.statsSortCriterion = 'power_play_points';
     } else if ($scope.tableSelect === 'player_information') {
-      $scope.statsSortCriterion = '';
+      $scope.statsSortCriterion = 'dob';
     }
   };
 
@@ -24,6 +24,24 @@ angular.module('showSortJuniorApp', [])
       return false;
     } else {
       return true;
+    }
+  };
+
+  // setting column sort order according to current and new sort criteria, and current sort order 
+  $scope.setSortOrder = function(sortCriterion, oldSortCriterion, oldStatsSortDescending) {
+    // if current criterion equals the new one
+    if (oldSortCriterion === sortCriterion) {
+      // just change sort direction
+      return !oldStatsSortDescending;
+    // otherwise
+    } else {
+      // ascending for a few columns
+      if (['last_name', 'team[2]', 'league', 'shoots', 'position', 'draft_day_age'].indexOf(sortCriterion) !== -1) {
+        return false;
+      } else {
+        // otherwise descending sort order
+        return true;
+      }
     }
   };
 
