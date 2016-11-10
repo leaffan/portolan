@@ -94,9 +94,9 @@
                  </a>
               </td>
               <td>
-                 <a href="#" data-ng-click="statsSortCriterion = 'pob'; statsSortDescending = !statsSortDescending">Date of birth 
-                    <span data-ng-show="statsSortCriterion == 'pob' && statsSortDescending" class="fa fa-caret-down"></span>
-                    <span data-ng-show="statsSortCriterion == 'pob' && !statsSortDescending" class="fa fa-caret-up"></span>
+                 <a href="#" data-ng-click="statsSortCriterion = 'dob'; statsSortDescending = !statsSortDescending">Date of birth 
+                    <span data-ng-show="statsSortCriterion == 'dob' && statsSortDescending" class="fa fa-caret-down"></span>
+                    <span data-ng-show="statsSortCriterion == 'dob' && !statsSortDescending" class="fa fa-caret-up"></span>
                  </a>
               </td>
           </tr>
@@ -110,7 +110,7 @@
              <td class="col-md-1">{{ stat.shoots }}</td>
              <td class="col-md-1">{{ stat.height.toFixed(2) }}</td>
              <td class="col-md-1">{{ stat.weight }}</td>
-             <td class="col-md-1">{{ stat.dob }}</td>
+             <td class="col-md-1">{{ stat.dob | date : 'yyyy-MM-dd' }}</td>
          </tr>
      </tbody>
   </table>
