@@ -1,7 +1,7 @@
 angular.module('showSortJuniorApp', [])
 
 .controller('mainController', function($scope, $http) {
-  $scope.tableSelect = 'player_information';   // default table
+  $scope.tableSelect = 'basic_stats';   // default table
   $scope.statsSortCriterion = 'points'; // default sort criterion
   $scope.statsSortDescending = true;    // descending as default sort order
   $scope.nameFilter = '';               // empty name filter
@@ -26,6 +26,14 @@ angular.module('showSortJuniorApp', [])
       return true;
     }
   };
+
+  $scope.ushlFilterFunc = function(a) {
+    if ($scope.hideUshlPlayers && a.league === 'USHL') {
+      return false;
+    } else {
+      return true;
+    }
+  }
 
   // setting column sort order according to current and new sort criteria, and current sort order 
   $scope.setSortOrder = function(sortCriterion, oldSortCriterion, oldStatsSortDescending) {

@@ -46,6 +46,10 @@
             <label>
                 <input type="checkbox" id="a" data-ng-model="hideOveragers" value="Hide overage players"/>Hide overage players
             </label>
+            <span>|</span>
+            <label>
+                <input type="checkbox" id="a" data-ng-model="hideUshlPlayers" value="Hide USHL players"/>Hide USHL players
+            </label>
       </div>
     </div>
   </form>
@@ -110,7 +114,7 @@
           </tr>
       </thead>
        <tbody>
-         <tr data-ng-repeat="stat in stats | orderBy:statsSortCriterion:statsSortDescending | filter:nameFilter | filter:overageFilterFunc">
+         <tr data-ng-repeat="stat in stats | orderBy:statsSortCriterion:statsSortDescending | filter:nameFilter | filter:overageFilterFunc | filter:ushlFilterFunc">
              <td class="col-md-3"><a data-ng-href="{{ stat.url }}">{{ stat.first_name }} {{ stat.last_name }}</a></td>
              <td class="col-md-2"><a data-ng-href="{{ stat.team[4] }}">{{ stat.team[2] }}</a></td>
              <td class="col-md-1">{{ stat.league }}</td>
@@ -191,7 +195,7 @@
       </thead>
   
        <tbody>
-         <tr data-ng-repeat="stat in stats | orderBy:statsSortCriterion:statsSortDescending | filter:nameFilter | filter:overageFilterFunc">
+         <tr data-ng-repeat="stat in stats | orderBy:statsSortCriterion:statsSortDescending | filter:nameFilter | filter:overageFilterFunc | filter:ushlFilterFunc">
              <td class="col-md-2"><a data-ng-href="{{ stat.url }}">{{ stat.first_name }} {{ stat.last_name }}</a></td>
              <td class="col-md-2"><a data-ng-href="{{ stat.team[4] }}">{{ stat.team[2] }}</a></td>
              <td class="col-md-1">{{ stat.plus_minus }}</td>
@@ -272,7 +276,7 @@
          </tr>
      </thead>
      <tbody>
-         <tr data-ng-repeat="stat in stats | orderBy:statsSortCriterion:statsSortDescending | filter:nameFilter | filter:overageFilterFunc">
+         <tr data-ng-repeat="stat in stats | orderBy:statsSortCriterion:statsSortDescending | filter:nameFilter | filter:overageFilterFunc | filter:ushlFilterFunc">
              <td class="col-md-2"><a data-ng-href="{{ stat.url }}">{{ stat.first_name }} {{ stat.last_name }}</a></td>
              <td class="col-md-2"><a data-ng-href="{{ stat.team[4] }}">{{ stat.team[2] }}</a></td>
              <td class="col-md-1">{{ stat.draft_day_age.toFixed(3) }}</td>
