@@ -8,7 +8,8 @@
 
 u"""
 This script retrieves player information and current season statistics for all
-draft-eligible players in the three junior leagues QMJHL, OHL and WHL.
+draft-eligible players in the three junior leagues QMJHL, OHL and WHL and the
+USHL.
 Results are stored in a JSON-file for later use in other applications or
 environments.
 """
@@ -21,9 +22,9 @@ from types import ListType
 
 # definition of named tuples to hold some data
 # team information
-Team = namedtuple('Team', 'id name city code')
+Team = namedtuple('Team', 'id name city code team_url')
 # player information
-Player = namedtuple('Player', 'id first_name last_name team league dob draft_day_age is_overager position height weight shoots url')
+Player = namedtuple('Player', 'id first_name last_name team league dob country draft_day_age is_overager position height weight shoots url')
 # single season player statistics
 Statline = namedtuple('Statline', 'id season games_played goals assists points plus_minus penalty_minutes power_play_goals power_play_assists power_play_points short_handed_goals short_handed_assists short_handed_points shots shooting_percentage points_per_game')
 
@@ -39,9 +40,10 @@ DRAFT_DATE = parse("Jun 23, 2017").date()
 
 # league-specific template urls for team overview pages
 TEAM_OVERVIEW_URLS = {
-    'QMJHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=c680916776709578&fmt=json&client_code=lhjmq&lang=en&season_id=184&fmt=json",
-    'OHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=c680916776709578&fmt=json&client_code=ohl&lang=en&season_id=56&fmt=json",
-    'WHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=c680916776709578&fmt=json&client_code=whl&season_id=257&lang=en&fmt=json",
+    'QMJHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=c680916776709578&fmt=json&client_code=lhjmq&lang=en&fmt=json",
+    'OHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=c680916776709578&fmt=json&client_code=ohl&lang=en&fmt=json",
+    'WHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=c680916776709578&fmt=json&client_code=whl&lang=en&fmt=json",
+    'USHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=e828f89b243dc43f&fmt=json&client_code=ushl&lang=en&fmt=json",
 }
 
 # league-specific template urls for team roster pages
@@ -49,6 +51,7 @@ TEAM_ROSTER_URLS = {
     'QMJHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=roster&key=c680916776709578&fmt=json&client_code=lhjmq&lang=en&season_id=184&team_id=%d&fmt=json",
     'OHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=roster&key=c680916776709578&fmt=json&client_code=ohl&lang=en&season_id=56&team_id=%d&fmt=json",
     'WHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=roster&key=c680916776709578&fmt=json&client_code=whl&lang=en&season_id=257&team_id=%d&fmt=json",
+    'USHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=roster&key=e828f89b243dc43f&fmt=json&client_code=ushl&lang=en&season_id=58&team_id=%d&fmt=json",
 }
 
 # league-specific template urls for team statistic pages
@@ -56,6 +59,7 @@ TEAM_STATS_URLS = {
     'QMJHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=statviewtype&type=skaters&key=c680916776709578&fmt=json&client_code=lhjmq&lang=en&season_id=184&team_id=%d&league_code=&fmt=json&sort=active&order_direction=",
     'OHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=statviewtype&type=skaters&key=c680916776709578&fmt=json&client_code=ohl&lang=en&season_id=56&team_id=%d&league_code=&fmt=json&sort=active&order_direction=",
     'WHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=statviewtype&type=skaters&key=c680916776709578&fmt=json&client_code=whl&lang=en&season_id=257&team_id=%d&league_code=&fmt=json&sort=active&order_direction=",
+    'USHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=statviewtype&type=skaters&key=e828f89b243dc43f&fmt=json&client_code=ushl&lang=en&season_id=58&team_id=%d&league_code=&fmt=json&sort=active&order_direction=",
 }
 
 # league-specific template urls for single player pages
@@ -63,18 +67,50 @@ PLAYER_PAGE_URLS = {
     'QMJHL': "http://theqmjhl.ca/players/%s",
     'OHL': "http://www.ontariohockeyleague.com/players/%s",
     'WHL': "http://whl.ca/players/%s",
+    'USHL': "http://www.ushl.com/view/#/player?playerId=%s"
+}
+
+# league-specific base urls
+BASE_URLS = {
+    'QMJHL': "http://theqmjhl.ca",
+    'OHL': "http://www.ontariohockeyleague.com",
+    'WHL': "http://whl.ca",
+    'USHL': "http://www.ushl.com",
 }
 
 # TODO: allow for retrieval of other seasons
 SEASON_CODES = {
     'QMJHL': 184,
     'OHL': 56,
-    'WHL': 257
+    'WHL': 257,
+    'USHL': 58,
+}
+
+LEAGUE_KEYS = {
+    'QMJHL': 'c680916776709578',
+    'OHL': 'c680916776709578',
+    'WHL': 'c680916776709578',
+    'USHL': 'e828f89b243dc43f',
+    'BCHL': 'ca4e9e599d4dae55',
+    'AHL': '50c2cd9b5e18e390'
+}
+
+LEAGUE_CODES = {
+    'QMJHL': 'lhjmq',
+    'OHL': 'ohl',
+    'WHL': 'whl',
+    'USHL': 'ushl',
+    'BCHL': 'bchl',
+    'AHL': 'ahl'
 }
 
 # necessary regular expressions patterns for height conversion
 FEET_INCH_PATTERN = re.compile("(\d).?\s?(\d+)")
 FEET_PATTERN = re.compile("(\d).?")
+
+# provinces/states/countries or abbreviations and according iso country codes
+# TODO: transfer to external location
+COUNTRIES = {u'AB': 'ca', u'AZ': 'us', u'B.C.': 'ca', u'BC': 'ca', u'Belarus': 'by', u'CA': 'us', u'CHN': 'cn', u'CO': 'us', u'CT': 'us', u'CZE': 'cz', u'Canada': 'ca', u'Cze': 'cz', u'Czech Rep.': 'cz', u'Czech Republic': 'cz', u'DEN': 'dk', u'Denmark': 'dk', u'FIN': 'fi', u'FL': 'us', u'Finland': 'fi', u'Finlande': 'fi', u'GA': 'us', u'GER': 'de', u'Germany': 'de', u'HUN': 'hu', u'IA': 'us', u'ID': 'us', u'IL': 'us', u'IN': 'us', u'LAT': 'lv', u'Latvia': 'lv', u'MA': 'us', u'MAN': 'ca', u'MB': 'ca', u'MD': 'us', u'MI': 'us', u'MN': 'us', u'MO': 'us', u'Man': 'ca', u'NB': 'ca', u'ND': 'us', u'NE': 'us', u'NED': 'nl', u'NF': 'ca', u'NH': 'us', u'NJ': 'us', u'NL': 'ca', u'NM': 'us', u'NS': 'ca', u'NY': 'us', u'OH': 'us', u'ON': 'ca', u'ONT': 'ca', u'PA': 'us', u'PE': 'ca', u'QC': 'ca', u'RI': 'us', u'RUS': 'ru', u'Republic of Belarus': 'by', u'Rus': 'ru', u'Russia': 'ru', u'Russie': 'ru', u'SD': 'us', u'SK': 'ca', u'SVK': 'sk', u'SWE': 'se', u'Sas': 'ca', u'Slovakia': 'sk', u'Sweden': 'se', u'Switzerland': 'ch', u'TN': 'us', u'TX': 'us', u'UKR': 'ua', u'USA': 'us', u'UT': 'us', u'United States': 'us', u'VA': 'us', u'WA': 'us', u'WI': 'us'}
 
 ################################################################################
 
@@ -101,7 +137,11 @@ def retrieve_teams(league):
 
     # integrating retrieved information components in dictionary of teams
     for team_id, team_name, team_city, team_code in zip(team_ids, team_names, team_cities, team_codes):
-        team = Team(team_id, team_name.replace(",", ""), team_city, team_code)
+        if league == 'USHL':
+            team_roster_url = "%s/view/#/roster?team=%d&season=%d&league=1&league_code=USHL" % (BASE_URLS[league], team_id, SEASON_CODES[league])
+        else:
+            team_roster_url = "%s/roster/%d" % (BASE_URLS[league], team_id)
+        team = Team(team_id, team_name.replace(",", ""), team_city, team_code, team_roster_url)
         teams[team_id] = team
             
     return teams
@@ -149,17 +189,23 @@ def retrieve_roster(team, league):
         # converting player height
         height = convert_height(plr['height'])
         
-        # TODO: hometown, country
+        # retrieving last component of homeplace string
+        homeplace_comp = plr['homeplace'].split(",")[-1].strip()
+        if homeplace_comp in COUNTRIES:
+            # converting country string to ISO country code
+            country = COUNTRIES[homeplace_comp]
+        else:
+            country = ""
         
         # setting up player object
         player = Player(plr['id'], plr['first_name'].strip(), plr['last_name'].strip(),
-                        team, league, dob, draft_day_age, is_overager,
+                        team, league, dob, country, draft_day_age, is_overager,
                         plr['position'], height, plr['weight'], plr['shoots'],
                         plr_page_url)
         
         # adding current player to roster
         roster[plr['id']] = player
-
+        
     return roster
 
 def retrieve_stats(team, league, roster):
@@ -306,7 +352,7 @@ if __name__ == '__main__':
     full_stats = dict()
     
     # doing the following for each league
-    for league in ['QMJHL', 'OHL', 'WHL']:
+    for league in ['QMJHL', 'OHL', 'WHL', 'USHL']:
         # retrieving teams in current league
         teams = retrieve_teams(league)
         for team in teams.values()[:]:
