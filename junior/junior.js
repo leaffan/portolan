@@ -1,7 +1,7 @@
 angular.module('showSortJuniorApp', [])
 
 .controller('mainController', function($scope, $http) {
-  $scope.tableSelect = 'basic_stats';   // default table
+  $scope.tableSelect = 'player_information';   // default table
   $scope.statsSortCriterion = 'points'; // default sort criterion
   $scope.statsSortDescending = true;    // descending as default sort order
   $scope.nameFilter = '';               // empty name filter
@@ -36,7 +36,7 @@ angular.module('showSortJuniorApp', [])
     // otherwise
     } else {
       // ascending for a few columns
-      if (['last_name', 'team[2]', 'league', 'shoots', 'position', 'draft_day_age'].indexOf(sortCriterion) !== -1) {
+      if (['last_name', 'team[2]', 'league', 'shoots', 'position', 'draft_day_age', 'country'].indexOf(sortCriterion) !== -1) {
         return false;
       } else {
         // otherwise descending sort order
