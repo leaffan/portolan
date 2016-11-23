@@ -59,7 +59,7 @@ angular.module('showSortJuniorApp', [])
       $scope.stats = res.data.slice(1);
   });
 
-  // loading stats from external json file
+  // loading goalie stats from external json file
   $http.get('junior_goalies.json').then(function(res) {
       $scope.goalies_last_modified = res.data[0]['last_modified'];
       $scope.goalie_stats = res.data.slice(1);
