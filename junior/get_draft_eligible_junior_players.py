@@ -14,19 +14,25 @@ Results are stored in a JSON-file for later use in other applications or
 environments.
 """
 
+# TODO: propper logging
+
 import requests, datetime, json, re
 
 from collections import namedtuple
 from dateutil.parser import parse
 from types import ListType
 
+import locations
+
 # definition of named tuples to hold some data
 # team information
 Team = namedtuple('Team', 'id name city code team_url')
 # player information
 Player = namedtuple('Player', 'id first_name last_name team league dob country draft_day_age is_overager position height weight shoots url')
-# single season player statistics
+# single season player statistics item
 Statline = namedtuple('Statline', 'id season games_played goals assists points plus_minus penalty_minutes power_play_goals power_play_assists power_play_points short_handed_goals short_handed_assists short_handed_points shots shooting_percentage points_per_game')
+# single season goalie statistics item
+StatlineGoalie = namedtuple('StatlineGoalie', 'id season games_played seconds_played minutes_played shots saves goals_against shutouts goals_against_average save_percentage wins losses ot_losses shootout_games_played shootout_wins shootout_losses')
 
 # defining dates
 # lower date of birth for draft-eligible players, older players do not need to be drafted
@@ -108,10 +114,6 @@ LEAGUE_CODES = {
 FEET_INCH_PATTERN = re.compile("(\d).?\s?(\d+)")
 FEET_PATTERN = re.compile("(\d).?")
 
-# provinces/states/countries or abbreviations and according iso country codes
-# TODO: transfer to external location
-COUNTRIES = {u'AB': 'ca', u'AZ': 'us', u'B.C.': 'ca', u'BC': 'ca', u'Belarus': 'by', u'CA': 'us', u'CHN': 'cn', u'CO': 'us', u'CT': 'us', u'CZE': 'cz', u'Canada': 'ca', u'Cze': 'cz', u'Czech Rep.': 'cz', u'Czech Republic': 'cz', u'DEN': 'dk', u'Denmark': 'dk', u'FIN': 'fi', u'FL': 'us', u'Finland': 'fi', u'Finlande': 'fi', u'GA': 'us', u'GER': 'de', u'Germany': 'de', u'HUN': 'hu', u'IA': 'us', u'ID': 'us', u'IL': 'us', u'IN': 'us', u'LAT': 'lv', u'Latvia': 'lv', u'MA': 'us', u'MAN': 'ca', u'MB': 'ca', u'MD': 'us', u'MI': 'us', u'MN': 'us', u'MO': 'us', u'Man': 'ca', u'NB': 'ca', u'ND': 'us', u'NE': 'us', u'NED': 'nl', u'NF': 'ca', u'NH': 'us', u'NJ': 'us', u'NL': 'ca', u'NM': 'us', u'NS': 'ca', u'NY': 'us', u'OH': 'us', u'ON': 'ca', u'ONT': 'ca', u'PA': 'us', u'PE': 'ca', u'QC': 'ca', u'RI': 'us', u'RUS': 'ru', u'Republic of Belarus': 'by', u'Rus': 'ru', u'Russia': 'ru', u'Russie': 'ru', u'SD': 'us', u'SK': 'ca', u'SVK': 'sk', u'SWE': 'se', u'Sas': 'ca', u'Slovakia': 'sk', u'Sweden': 'se', u'Switzerland': 'ch', u'TN': 'us', u'TX': 'us', u'UKR': 'ua', u'USA': 'us', u'UT': 'us', u'United States': 'us', u'VA': 'us', u'WA': 'us', u'WI': 'us'}
-
 ################################################################################
 
 def retrieve_teams(league):
@@ -166,9 +168,10 @@ def retrieve_roster(team, league):
         # skipping staff members (provided in a separate sub-list)
         if type(plr) is ListType:
             continue
-        # skipping goalies
-        if plr['position'] == 'G':
-            continue
+
+        # adjusting id to include league:
+        plr_id = "".join((league, plr['id'])).lower()
+        
         # skipping player if he has already been drafted
         if is_nhl_drafted(plr['draftinfo']):
             continue
@@ -191,28 +194,82 @@ def retrieve_roster(team, league):
         
         # retrieving last component of homeplace string
         homeplace_comp = plr['homeplace'].split(",")[-1].strip()
-        if homeplace_comp in COUNTRIES:
-            # converting country string to ISO country code
-            country = COUNTRIES[homeplace_comp]
+        # converting homeplace string to ISO country code
+        country = locations.retrieve_iso_country_code(homeplace_comp)
+        
+        if plr['position'] == 'G':
+            shoots_catches = plr['catches']
         else:
-            country = ""
+            shoots_catches = plr['shoots']
         
         # setting up player object
-        player = Player(plr['id'], plr['first_name'].strip(), plr['last_name'].strip(),
+        player = Player(plr_id, plr['first_name'].strip(), plr['last_name'].strip(),
                         team, league, dob, country, draft_day_age, is_overager,
-                        plr['position'], height, plr['weight'], plr['shoots'],
+                        plr['position'], height, plr['weight'], shoots_catches,
                         plr_page_url)
         
         # adding current player to roster
-        roster[plr['id']] = player
+        roster[plr_id] = player
         
     return roster
 
+def retrieve_goalie_stats(team, league, roster):
+    u"""
+    Retrieves goalie statlines for specified team roster and league.
+    """
+    print "+ Retrieving goalie stats for %s (%s)..." % (team.name, league)
+
+    # retrieving url to team statistics page for specified league and team
+    url = (TEAM_STATS_URLS[league.upper()] % team.id).replace("type=skaters", "type=goalies")
+
+    # setting up container for retrieved team statistics
+    goalie_stats = dict()
+    # retrieving team statistics JSON structure
+    r = requests.get(url)
+    json_data = r.json()
+    json_data_node = json_data['SiteKit']['Statviewtype']
+    # iterating over each player in JSON structure
+    for plr in json_data_node:
+        
+        # skipping item if it doesn't represent an actual goalie
+        if not 'player_id' in plr:
+            continue
+        
+        plr_id = "".join((league, plr['player_id'])).lower()
+        # skipping players not available in specified roster, i.e. non-draft-eligible players
+        if not plr_id in roster:
+            continue
+
+        # setting up dictionary for raw stats
+        raw_stat_line = dict()
+        # retrieving all relevant stats
+        for field in StatlineGoalie._fields[2:]:
+            if field in ('goals_against_average', 'save_percentage'):
+                value = float(plr[field])
+            # formatting minutes played using a default format of mmmm:ss
+            elif field in ('minutes_played'):
+                value = "%d:%02d" % (int(plr['seconds_played']) / 60, int(plr['seconds_played']) % 60)
+            else:
+                value = int(plr[field])
+            raw_stat_line[field] = value
+        
+        # setting up statline object
+        statline = StatlineGoalie(plr_id, "", raw_stat_line['games_played'], raw_stat_line['seconds_played'], raw_stat_line['minutes_played'],
+                                  raw_stat_line['shots'], raw_stat_line['saves'], raw_stat_line['goals_against'], raw_stat_line['shutouts'],
+                                  raw_stat_line['goals_against_average'], raw_stat_line['save_percentage'],
+                                  raw_stat_line['wins'], raw_stat_line['losses'], raw_stat_line['ot_losses'],
+                                  raw_stat_line['shootout_games_played'], raw_stat_line['shootout_wins'], raw_stat_line['shootout_losses'])
+
+        # adding current statline to roster stats
+        goalie_stats[plr_id] = statline
+    
+    return goalie_stats
+
 def retrieve_stats(team, league, roster):
     u"""
-    Retrieves statlines for specified team roster and league.
+    Retrieves skater statlines for specified team roster and league.
     """
-    print "+ Retrieving stats for %s (%s)..." % (team.name, league)
+    print "+ Retrieving skater stats for %s (%s)..." % (team.name, league)
 
     # retrieving url to team statistics page for specified league and team
     url = TEAM_STATS_URLS[league.upper()] % team.id
@@ -225,7 +282,7 @@ def retrieve_stats(team, league, roster):
     json_data_node = json_data['SiteKit']['Statviewtype']
     # iterating over each player in JSON structure
     for plr in json_data_node:
-        plr_id = plr['player_id']
+        plr_id = "".join((league, plr['player_id'])).lower()
         # skipping players not available in specified roster, i.e. non-draft-eligible players
         if not plr_id in roster:
             continue
@@ -241,7 +298,7 @@ def retrieve_stats(team, league, roster):
             raw_stat_line[field] = value
         
         # setting up statline objects
-        statline = Statline(plr['player_id'], "", raw_stat_line['games_played'],
+        statline = Statline(plr_id, "", raw_stat_line['games_played'],
                             raw_stat_line['goals'], raw_stat_line['assists'], raw_stat_line['points'],
                             raw_stat_line['plus_minus'], raw_stat_line['penalty_minutes'],
                             raw_stat_line['power_play_goals'], raw_stat_line['power_play_assists'], raw_stat_line['power_play_points'],
@@ -311,7 +368,7 @@ def json_serial(obj):
         return serial
     raise TypeError ("Type not serializable: %s" % type(obj))
 
-def dump_to_json_file(tgt_path, rosters, stats):
+def dump_to_json_file(tgt_path, rosters, stats, goalies = False):
     u"""
     Dumps rosters and according stats to a JSON file at the specified
     target location.
@@ -330,8 +387,12 @@ def dump_to_json_file(tgt_path, rosters, stats):
         # adding player information and statistics field by field to data item
         for field in Player._fields:
             data_item[field] = getattr(player, field)
-        for field in Statline._fields[1:]:
-            data_item[field] = getattr(statline, field)
+        if goalies:
+            for field in StatlineGoalie._fields[1:]:
+                data_item[field] = getattr(statline, field)
+        else:
+            for field in Statline._fields[1:]:
+                data_item[field] = getattr(statline, field)
             
         # adding current data item to list of all data items
         json_dump_prep.append(data_item)
@@ -345,25 +406,31 @@ def dump_to_json_file(tgt_path, rosters, stats):
 
 if __name__ == '__main__':
 
-    tgt_path = r"junior.json"
+    leagues = ['QMJHL', 'OHL', 'WHL', 'USHL']
+    skater_tgt_path = r"junior.json"
+    goalie_tgt_path = r"junior_goalies.json"
 
     # setting up result containers for rosters and player stats
-    full_rosters = dict()
-    full_stats = dict()
+    rosters = dict()
+    skater_stats = dict()
+    goalie_stats = dict()
     
     # doing the following for each league
-    for league in ['QMJHL', 'OHL', 'WHL', 'USHL']:
+    for league in leagues:
         # retrieving teams in current league
         teams = retrieve_teams(league)
         for team in teams.values()[:]:
             # retrieving roster for current team
-            roster = retrieve_roster(team, league)
+            team_roster = retrieve_roster(team, league)
             # updating container for all rosters
-            full_rosters.update(roster)
+            rosters.update(team_roster)
             # retrieving player statistics for current team
-            stats = retrieve_stats(team, league, roster)
+            team_skater_stats = retrieve_stats(team, league, roster)
+            team_goalie_stats = retrieve_goalie_stats(team, league, roster)
             # updating container for all player statistics
-            full_stats.update(stats)
+            skater_stats.update(team_skater_stats)
+            goalie_stats.update(team_goalie_stats)
 
     # dumping rosters and stats to JSON file
-    dump_to_json_file(tgt_path, full_rosters, full_stats)
+    dump_to_json_file(skater_tgt_path, rosters, skater_stats)
+    dump_to_json_file(goalie_tgt_path, rosters, goalie_stats, goalies = True)
