@@ -425,8 +425,8 @@ if __name__ == '__main__':
             # updating container for all rosters
             rosters.update(team_roster)
             # retrieving player statistics for current team
-            team_skater_stats = retrieve_stats(team, league, roster)
-            team_goalie_stats = retrieve_goalie_stats(team, league, roster)
+            team_skater_stats = retrieve_stats(team, league, team_roster)
+            team_goalie_stats = retrieve_goalie_stats(team, league, team_roster)
             # updating container for all player statistics
             skater_stats.update(team_skater_stats)
             goalie_stats.update(team_goalie_stats)
