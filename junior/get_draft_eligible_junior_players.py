@@ -146,7 +146,11 @@ def retrieve_teams(league):
             team_roster_url = "%s/view/#/roster?team=%d&season=%d&league=1&league_code=USHL" % (BASE_URLS[league], team_id, SEASON_CODES[league])
         else:
             team_roster_url = "%s/roster/%d" % (BASE_URLS[league], team_id)
-        teams_in_league[team_id] = Team(team_id, team_name.replace(",", ""), team_city, team_code, team_roster_url)
+        teams_in_league[team_id] = Team(team_id,
+                                        team_name.replace(",", ""),
+                                        team_city,
+                                        team_code,
+                                        team_roster_url)
 
     return teams_in_league
 
@@ -230,7 +234,7 @@ def retrieve_goalie_stats(team, league, roster):
     url = (TEAM_STATS_URLS[league.upper()] % team.id).replace("type=skaters", "type=goalies")
 
     # setting up container for retrieved team statistics
-    goalie_stats = dict()
+    goalie_statlines = dict()
     # retrieving team statistics JSON structure
     json_data = fetch_json_data(url)
     # iterating over each player in JSON structure
@@ -260,23 +264,23 @@ def retrieve_goalie_stats(team, league, roster):
             raw_stat_line[field] = value
 
         # setting up statline object and adding it to roster stats
-        goalie_stats[plr_id] = StatlineGoalie(plr_id, "", raw_stat_line['games_played'],
-                                              raw_stat_line['seconds_played'],
-                                              raw_stat_line['minutes_played'],
-                                              raw_stat_line['shots'],
-                                              raw_stat_line['saves'],
-                                              raw_stat_line['goals_against'],
-                                              raw_stat_line['shutouts'],
-                                              raw_stat_line['goals_against_average'],
-                                              raw_stat_line['save_percentage'],
-                                              raw_stat_line['wins'],
-                                              raw_stat_line['losses'],
-                                              raw_stat_line['ot_losses'],
-                                              raw_stat_line['shootout_games_played'],
-                                              raw_stat_line['shootout_wins'],
-                                              raw_stat_line['shootout_losses'])
+        goalie_statlines[plr_id] = StatlineGoalie(plr_id, "", raw_stat_line['games_played'],
+                                                  raw_stat_line['seconds_played'],
+                                                  raw_stat_line['minutes_played'],
+                                                  raw_stat_line['shots'],
+                                                  raw_stat_line['saves'],
+                                                  raw_stat_line['goals_against'],
+                                                  raw_stat_line['shutouts'],
+                                                  raw_stat_line['goals_against_average'],
+                                                  raw_stat_line['save_percentage'],
+                                                  raw_stat_line['wins'],
+                                                  raw_stat_line['losses'],
+                                                  raw_stat_line['ot_losses'],
+                                                  raw_stat_line['shootout_games_played'],
+                                                  raw_stat_line['shootout_wins'],
+                                                  raw_stat_line['shootout_losses'])
 
-    return goalie_stats
+    return goalie_statlines
 
 def retrieve_stats(team, league, roster):
     u"""
@@ -288,7 +292,7 @@ def retrieve_stats(team, league, roster):
     url = TEAM_STATS_URLS[league.upper()] % team.id
 
     # setting up container for retrieved team statistics
-    roster_stats = dict()
+    roster_statlines = dict()
     # retrieving team statistics JSON structure
     json_data = fetch_json_data(url)
     # iterating over each player in JSON structure
@@ -309,24 +313,24 @@ def retrieve_stats(team, league, roster):
             raw_stat_line[field] = value
 
         # setting up statline objects and adding it to roster stats
-        roster_stats[plr_id] = Statline(plr_id, "",
-                                        raw_stat_line['games_played'],
-                                        raw_stat_line['goals'],
-                                        raw_stat_line['assists'],
-                                        raw_stat_line['points'],
-                                        raw_stat_line['plus_minus'],
-                                        raw_stat_line['penalty_minutes'],
-                                        raw_stat_line['power_play_goals'],
-                                        raw_stat_line['power_play_assists'],
-                                        raw_stat_line['power_play_points'],
-                                        raw_stat_line['short_handed_goals'],
-                                        raw_stat_line['short_handed_assists'],
-                                        raw_stat_line['short_handed_points'],
-                                        raw_stat_line['shots'],
-                                        raw_stat_line['shooting_percentage'],
-                                        raw_stat_line['points_per_game'])
+        roster_statlines[plr_id] = Statline(plr_id, "",
+                                            raw_stat_line['games_played'],
+                                            raw_stat_line['goals'],
+                                            raw_stat_line['assists'],
+                                            raw_stat_line['points'],
+                                            raw_stat_line['plus_minus'],
+                                            raw_stat_line['penalty_minutes'],
+                                            raw_stat_line['power_play_goals'],
+                                            raw_stat_line['power_play_assists'],
+                                            raw_stat_line['power_play_points'],
+                                            raw_stat_line['short_handed_goals'],
+                                            raw_stat_line['short_handed_assists'],
+                                            raw_stat_line['short_handed_points'],
+                                            raw_stat_line['shots'],
+                                            raw_stat_line['shooting_percentage'],
+                                            raw_stat_line['points_per_game'])
 
-    return roster_stats
+    return roster_statlines
 
 def is_nhl_drafted(draft_info):
     u"""
@@ -393,7 +397,7 @@ def fetch_json_data(json_url):
     req = requests.get(json_url)
     return req.json()
 
-def dump_to_json_file(tgt_path, rosters, stats, goalies=False):
+def dump_to_json_file(tgt_path, dump_rosters, dump_stats, goalies=False):
     u"""
     Dumps rosters and according stats to a JSON file at the specified
     target location.
@@ -401,10 +405,10 @@ def dump_to_json_file(tgt_path, rosters, stats, goalies=False):
     # setting up list of JSON file entries
     json_dump_prep = list()
 
-    for player_id in stats:
+    for player_id in dump_stats:
         # retrieving player and according statline
-        player = rosters[player_id]
-        statline = stats[player_id]
+        player = dump_rosters[player_id]
+        statline = dump_stats[player_id]
 
         # setting singe data item
         data_item = dict()
@@ -439,26 +443,26 @@ if __name__ == '__main__':
     goalie_tgt_path = r"junior_goalies.json"
 
     # setting up result containers for rosters and player stats
-    full_rosters = dict()
-    full_skater_stats = dict()
-    full_goalie_stats = dict()
+    rosters = dict()
+    skater_stats = dict()
+    goalie_stats = dict()
 
     # doing the following for each league
     for current_league in leagues:
         # retrieving teams in current league
         teams = retrieve_teams(current_league)
-        for current_team in teams.values()[:2]:
+        for current_team in teams.values()[:]:
             # retrieving roster for current team
             team_roster = retrieve_roster(current_team, current_league)
             # updating container for all rosters
-            full_rosters.update(team_roster)
+            rosters.update(team_roster)
             # retrieving player statistics for current team
             team_skater_stats = retrieve_stats(current_team, current_league, team_roster)
             team_goalie_stats = retrieve_goalie_stats(current_team, current_league, team_roster)
             # updating container for all player statistics
-            full_skater_stats.update(team_skater_stats)
-            full_goalie_stats.update(team_goalie_stats)
+            skater_stats.update(team_skater_stats)
+            goalie_stats.update(team_goalie_stats)
 
     # dumping rosters and stats to JSON file
-    dump_to_json_file(skater_tgt_path, full_rosters, full_skater_stats)
-    dump_to_json_file(goalie_tgt_path, full_rosters, full_goalie_stats, goalies=True)
+    dump_to_json_file(skater_tgt_path, rosters, skater_stats)
+    dump_to_json_file(goalie_tgt_path, rosters, goalie_stats, goalies=True)
