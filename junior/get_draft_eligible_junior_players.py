@@ -18,9 +18,11 @@ environments.
 import datetime
 import json
 import re
+import os
 
 from collections import namedtuple
 
+import Levenshtein
 import requests
 from dateutil.parser import parse
 
@@ -118,6 +120,9 @@ LEAGUE_CODES = {
 FEET_INCH_PATTERN = re.compile(r'(\d).?\s?(\d+)')
 FEET_PATTERN = re.compile(r'(\d).?')
 
+# retrieve players already drafted
+DRAFTED_PLAYERS_FILE = "drafted_players_by_dobs.json"
+
 ################################################################################
 
 def retrieve_teams(league):
@@ -154,7 +159,7 @@ def retrieve_teams(league):
 
     return teams_in_league
 
-def retrieve_roster(team, league):
+def retrieve_roster(team, league, already_drafted=None):
     u"""
     Retrieves rosters for specified team and league by downloading and
     evaluating a corresponding JSON file.
@@ -181,14 +186,18 @@ def retrieve_roster(team, league):
             continue
 
         # retrieving player's date of birth
-        dob = parse(plr['birthdate']).date()
+        plr_dob = parse(plr['birthdate']).date()
+
+        # skipping player if he is present in a list of already drafted ones
+        if is_nhl_drafted_2(" ".join((plr['first_name'].strip(), plr['last_name'].strip())), plr_dob, already_drafted):
+            continue
 
         # skipping non-draft-eligible players
-        if not is_draft_eligible(dob):
+        if not is_draft_eligible(plr_dob):
             continue
 
         # calculating draft day age and retrieving overager status
-        draft_day_age, is_overager = calculate_draft_day_age(dob)
+        draft_day_age, is_overager = calculate_draft_day_age(plr_dob)
 
         # retrieving player plage url
         plr_page_url = PLAYER_PAGE_URLS[league] % plr['id']
@@ -212,7 +221,7 @@ def retrieve_roster(team, league):
                                 plr['last_name'].strip(),
                                 team,
                                 league,
-                                dob,
+                                plr_dob,
                                 country,
                                 draft_day_age,
                                 is_overager,
@@ -343,6 +352,20 @@ def is_nhl_drafted(draft_info):
     else:
         return False
 
+def is_nhl_drafted_2(player_name, player_dob, already_drafted_players):
+    u"""
+    Determines whether specified player name is present in a dictionary of
+    already drafted players using the player's date of birth as key comparator.
+    """
+    if player_dob.isoformat() in already_drafted_players:
+        for drafted_player in already_drafted_players[player_dob.isoformat()]:
+            drafted_player_name = " ".join(drafted_player)
+            levenshtein_ratio = Levenshtein.ratio(player_name, drafted_player_name)
+            if levenshtein_ratio > 0.8:
+                print "-> Already drafted player found: %s vs. %s (Levenshtein ratio: %0.4f)" % (player_name, drafted_player_name, levenshtein_ratio)
+                return True
+    return False
+
 def is_draft_eligible(player_dob):
     u"""
     Determines whether specified date of birth is a draft-eligible one.
@@ -447,13 +470,19 @@ if __name__ == '__main__':
     skater_stats = dict()
     goalie_stats = dict()
 
+    if os.path.isfile(DRAFTED_PLAYERS_FILE):
+        already_drafted = json.loads(open(DRAFTED_PLAYERS_FILE).read())
+        print "+ List of already drafted players loaded from '%s'" % DRAFTED_PLAYERS_FILE
+    else:
+        already_drafted = dict()
+
     # doing the following for each league
-    for current_league in leagues:
+    for current_league in leagues[:]:
         # retrieving teams in current league
         teams = retrieve_teams(current_league)
         for current_team in teams.values()[:]:
             # retrieving roster for current team
-            team_roster = retrieve_roster(current_team, current_league)
+            team_roster = retrieve_roster(current_team, current_league, already_drafted)
             # updating container for all rosters
             rosters.update(team_roster)
             # retrieving player statistics for current team
@@ -463,6 +492,6 @@ if __name__ == '__main__':
             skater_stats.update(team_skater_stats)
             goalie_stats.update(team_goalie_stats)
 
-    # dumping rosters and stats to JSON file
+    # dumping rosters and stats to JSON files
     dump_to_json_file(skater_tgt_path, rosters, skater_stats)
     dump_to_json_file(goalie_tgt_path, rosters, goalie_stats, goalies=True)
