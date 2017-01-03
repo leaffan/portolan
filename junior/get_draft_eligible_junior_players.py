@@ -15,6 +15,7 @@ environments.
 """
 # TODO: propper logging
 
+
 import datetime
 import json
 import re
@@ -125,6 +126,7 @@ DRAFTED_PLAYERS_FILE = "drafted_players_by_dobs.json"
 
 ################################################################################
 
+
 def retrieve_teams(league):
     u"""
     Retrieves teams for specified league by downloading and evaluating a
@@ -159,6 +161,7 @@ def retrieve_teams(league):
 
     return teams_in_league
 
+
 def retrieve_roster(team, league, already_drafted=None):
     u"""
     Retrieves rosters for specified team and league by downloading and
@@ -175,7 +178,7 @@ def retrieve_roster(team, league, already_drafted=None):
     # iterating over each player in JSON structure
     for plr in json_data['SiteKit']['Roster']:
         # skipping staff members (provided in a separate sub-list)
-        if not 'id' in plr:
+        if 'id' not in plr:
             continue
 
         # adjusting id to include league:
@@ -233,6 +236,7 @@ def retrieve_roster(team, league, already_drafted=None):
 
     return roster
 
+
 def retrieve_goalie_stats(team, league, roster):
     u"""
     Retrieves goalie statlines for specified team roster and league.
@@ -250,12 +254,12 @@ def retrieve_goalie_stats(team, league, roster):
     for plr in json_data['SiteKit']['Statviewtype']:
 
         # skipping item if it doesn't represent an actual goalie
-        if not 'player_id' in plr:
+        if 'player_id' not in plr:
             continue
 
         plr_id = "".join((league, plr['player_id'])).lower()
         # skipping players not available in specified roster, i.e. non-draft-eligible players
-        if not plr_id in roster:
+        if plr_id not in roster:
             continue
 
         # setting up dictionary for raw stats
@@ -273,23 +277,26 @@ def retrieve_goalie_stats(team, league, roster):
             raw_stat_line[field] = value
 
         # setting up statline object and adding it to roster stats
-        goalie_statlines[plr_id] = StatlineGoalie(plr_id, "", raw_stat_line['games_played'],
-                                                  raw_stat_line['seconds_played'],
-                                                  raw_stat_line['minutes_played'],
-                                                  raw_stat_line['shots'],
-                                                  raw_stat_line['saves'],
-                                                  raw_stat_line['goals_against'],
-                                                  raw_stat_line['shutouts'],
-                                                  raw_stat_line['goals_against_average'],
-                                                  raw_stat_line['save_percentage'],
-                                                  raw_stat_line['wins'],
-                                                  raw_stat_line['losses'],
-                                                  raw_stat_line['ot_losses'],
-                                                  raw_stat_line['shootout_games_played'],
-                                                  raw_stat_line['shootout_wins'],
-                                                  raw_stat_line['shootout_losses'])
+        goalie_statlines[plr_id] = StatlineGoalie(
+            plr_id, "",
+            raw_stat_line['games_played'],
+            raw_stat_line['seconds_played'],
+            raw_stat_line['minutes_played'],
+            raw_stat_line['shots'],
+            raw_stat_line['saves'],
+            raw_stat_line['goals_against'],
+            raw_stat_line['shutouts'],
+            raw_stat_line['goals_against_average'],
+            raw_stat_line['save_percentage'],
+            raw_stat_line['wins'],
+            raw_stat_line['losses'],
+            raw_stat_line['ot_losses'],
+            raw_stat_line['shootout_games_played'],
+            raw_stat_line['shootout_wins'],
+            raw_stat_line['shootout_losses'])
 
     return goalie_statlines
+
 
 def retrieve_stats(team, league, roster):
     u"""
@@ -308,7 +315,7 @@ def retrieve_stats(team, league, roster):
     for plr in json_data['SiteKit']['Statviewtype']:
         plr_id = "".join((league, plr['player_id'])).lower()
         # skipping players not available in specified roster, i.e. non-draft-eligible players
-        if not plr_id in roster:
+        if plr_id not in roster:
             continue
 
         # setting up dictionary for raw stats
@@ -341,6 +348,7 @@ def retrieve_stats(team, league, roster):
 
     return roster_statlines
 
+
 def is_nhl_drafted(draft_info):
     u"""
     Determines whether specified draft information reveals the according
@@ -352,6 +360,7 @@ def is_nhl_drafted(draft_info):
     else:
         return False
 
+
 def is_nhl_drafted_2(player_name, player_dob, already_drafted_players):
     u"""
     Determines whether specified player name is present in a dictionary of
@@ -360,11 +369,13 @@ def is_nhl_drafted_2(player_name, player_dob, already_drafted_players):
     if player_dob.isoformat() in already_drafted_players:
         for drafted_player in already_drafted_players[player_dob.isoformat()]:
             drafted_player_name = " ".join(drafted_player)
-            levenshtein_ratio = Levenshtein.ratio(player_name, drafted_player_name)
+            levenshtein_ratio = Levenshtein.ratio(
+                player_name, drafted_player_name)
             if levenshtein_ratio > 0.8:
                 print "-> Already drafted player found: %s vs. %s (Levenshtein ratio: %0.4f)" % (player_name, drafted_player_name, levenshtein_ratio)
                 return True
     return False
+
 
 def is_draft_eligible(player_dob):
     u"""
@@ -374,6 +385,7 @@ def is_draft_eligible(player_dob):
         return True
     else:
         return False
+
 
 def convert_height(height):
     u"""
@@ -388,6 +400,7 @@ def convert_height(height):
         return float("%d.%02d" % (int(feet_match.group(1)), 0))
     else:
         return None
+
 
 def calculate_draft_day_age(player_dob):
     u"""
@@ -404,6 +417,7 @@ def calculate_draft_day_age(player_dob):
 
     return draft_day_age, is_overager
 
+
 def json_serial(obj):
     u"""
     Custom converter to serialize datetime.dates to JSON structures.
@@ -413,12 +427,14 @@ def json_serial(obj):
         return serial
     raise TypeError("Type not serializable: %s" % type(obj))
 
+
 def fetch_json_data(json_url):
     u"""
     Fetches JSON data from specified url.
     """
     req = requests.get(json_url)
     return req.json()
+
 
 def dump_to_json_file(tgt_path, dump_rosters, dump_stats, goalies=False):
     u"""
@@ -458,7 +474,7 @@ def dump_to_json_file(tgt_path, dump_rosters, dump_stats, goalies=False):
         json.dumps(json_dump_prep, default=json_serial, indent=2, sort_keys=True)
     )
 
-################################################################################
+
 if __name__ == '__main__':
 
     leagues = ['QMJHL', 'OHL', 'WHL', 'USHL']
