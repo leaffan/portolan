@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NHL Goals per Season</title>
+    <meta charset="utf-8" />
+
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script type="text/javascript" src="utils.js"></script>
+    
+    <style>
+
+    svg {
+        border: 1px solid #ACACAC;
+    }
+
+    .bar_games{
+        fill:orangered;
+    }
+
+    .bar_goals{
+        fill:dodgerblue;
+    }
+
+    .bar:hover{
+        fill: brown;
+    }
+
+    .axis {
+        font: 10px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    path { 
+        stroke: steelblue;
+        stroke-width: 2;
+        fill: none;
+    }
+
+    .d3-tip {
+        line-height: 1;
+        font: .75em sans-serif;
+        font-weight: bold;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        border-radius: 2px;
+    }
+
+    </style>
+
+
+</head>
+<body>
+    <script>
+
+        var width = 1400;
+        var height = 550;
+        var margin = {top: 20, bottom: 50, left: 50, right: 50};
+
+        // defining scales
+        var xScale = d3.scale.ordinal().rangeRoundBands([0, width], .1, 0);
+        var yLeftScale = d3.scale.linear().range([height, 0]);
+        var yRightScale = d3.scale.linear().range([height, 0]);
+
+        // defining axes
+        var xAxis = d3.svg.axis()
+            .scale(xScale)
+            .orient("bottom")
+            .ticks(10);
+
+        var yLeftAxis = d3.svg.axis()
+            .scale(yLeftScale)
+            .orient("left")
+            .ticks(10);
+
+        var yRightAxis = d3.svg.axis()
+            .scale(yRightScale)
+            .orient("right")
+            .ticks(10);
+
+        var tip2 = d3.tip()
+            .attr('class', 'd3-tip')
+            // .offset(function() { return [this.getBBox().height / 2, 0]})
+            // .offset(function() { return [-50, 0]})
+            // .offset([50, 0])
+            .offset(function() {
+                return [this.getBBox().height / 2, 0]
+            })
+            .html(function(d) {
+                return(
+                    "<span>" + d.key + ":</span><br />" +
+                    "<span>" + d.value[0] +" Games</span><br />" +
+                    "<span>" + d.value[1] + " Goals</span><br />" +
+                    "<span>" + Math.round10(d.value[1]/d.value[0], -2).toFixed(2) + " Goals/Game</span>"
+                );
+            });
+
+        var tip_avg = d3.tip()
+            .attr('class', 'd3-tip')
+            .offset([-10, 0]);
+
+        var svg = d3.select("body").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        svg.call(tip2);
+        svg.call(tip_avg);
+
+        d3.json('goals_per_season.json', function(data) {
+
+            overall_goals_per_game = data['overall']['goals_per_game'];
+            delete data['overall'];
+
+            seasons = d3.entries(data).map(function(a) { return a.key; });
+            games = d3.values(data).map(function(a) { return a.games; });
+            goals = d3.values(data).map(function(a) { return a.goals; })
+            goals_per_game = d3.values(data).map(function(a) { return a.goals_per_game; })
+
+            season_games_goals = seasons.map(function (e, i) { return o = { key: e, value: [games[i], goals[i]] }; });
+            season_goals_per_game = seasons.map(function (e, i) { return o = { key: e, value: goals_per_game[i] }; });
+
+            // setting domains
+            xScale.domain(season_games_goals.map(function (d) {return d.key; }));
+            yLeftScale.domain([0, Math.ceil(d3.max(goals) / 500.0) * 500]);
+            yRightScale.domain([0, Math.ceil(d3.max(season_goals_per_game, function(d) { return d.value; }))]);
+
+            // console.log(d3.max(season_goals_per_game, function(d) { return d.value; }));
+            // console.log(yRightScale.domain());
+
+            // defining tick values for x axis
+            xAxis.tickValues(["1919-20", "1929-30", "1939-40", "1949-50", "1959-60", "1969-70", "1979-80", "1989-90", "1999-00", "2009-10"]);
+
+            // annotating x axis
+            svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + height + ")")
+                .call(xAxis)
+                .selectAll("text")
+                .style("text-anchor", "left")
+                .attr("dx", "0em")
+                .attr("dy", "1em");
+                // .attr("transform", "rotate(-45)" );
+        
+            // annotating left y axis
+            svg.append("g")
+                .attr("class", "y axis")
+                .call(yLeftAxis)
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", -15)
+                .attr("dy", "3em")
+                .style("text-anchor", "end")
+                .text("Games played / Goals scored");
+
+            // annotating right y axis
+            svg.append("g")
+                .attr("class", "y axis")
+                .attr("transform", "translate(" + width + " ,0)")
+                .call(yRightAxis)
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", -12)
+                .attr("dy", ".71em")
+                .style("text-anchor", "end")
+                .text("Goals per Game");
+
+            // adding bar chart for total goals per season
+            svg.selectAll("bar")
+                .data(season_games_goals)
+                .enter()
+                .append("rect")
+                .attr("class", "bar_goals")
+                .attr("x", function(d, i) { return xScale(d.key) ; })
+                .attr("y", function(d) { return yLeftScale(d.value[1]); })
+                .attr("transform", "translate(0," + -1 + ")")
+                .attr("height", function(d) { return height - yLeftScale(d.value[1]); })
+                .attr("width", xScale.rangeBand())
+                .on('mouseover', tip2.show)
+                .on('mouseout', tip2.hide);
+
+            // adding bar chart for total games per season
+            svg.selectAll("bar")
+                .data(season_games_goals)
+                .enter()
+                .append("rect")
+                .attr("class", "bar_games")
+                .attr("x", function(d, i) { return xScale(d.key); })
+                .attr("y", function(d) { return yLeftScale(d.value[0]); })
+                .attr("transform", "translate(0," + -1 + ")")
+                .attr("height", function(d) { return height - yLeftScale(d.value[0]); })
+                .attr("width", xScale.rangeBand());
+                // .on('mouseover', tip2.show)
+                // .on('mouseout', tip2.hide);
+
+            // creating line indicating goals per game per season
+            var valueline = d3.svg.line()
+                .interpolate("cardinal")
+                .x(function(d) { return xScale(d.key); })
+                .y(function(d) { return yRightScale(d.value); });            
+
+            tip_avg.html(function(d) {
+                return(
+                    "<span>" + overall_goals_per_game.toFixed(2) + " Goals per Game overall</span>"
+                )
+            });
+
+            // adding horizontal line to indicate overall goals per game
+            svg.append("svg:line")
+                .attr("x1", 0 + 1)
+                .attr("x2", width - 1)
+                .attr("y1", yRightScale(overall_goals_per_game))
+                .attr("y2", yRightScale(overall_goals_per_game))
+                .style("stroke", "rgb(255, 150, 160)")
+                .style("stroke-width", "5")
+                .on('mouseover', tip_avg.show)
+                .on('mouseout', tip_avg.hide);
+
+            // adding line graph
+            svg.append("path")
+                .style("stroke", "red")
+                .attr("transform", "translate(" + xScale.rangeBand() / 2 + " ,0)")
+                .attr("d", valueline(season_goals_per_game));
+
+        });
+        
+    </script>
+</body>
+</html>
