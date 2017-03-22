@@ -10,8 +10,8 @@
     <style>
         body { padding-top: 40px; }
 
-        .red { color: lightcoral; }
-        .green { background-color: lightgreen; }
+        .red { color: red; }
+        .green { color: green; }
 
         .inline { display: inline-block; }
 
@@ -61,6 +61,11 @@
                  <span data-ng-show="sortCriterion == 'last_name' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('sum_seasons', sortCriterion, statsSortDescending); sortCriterion = 'sum_seasons'">Seasons</a>
+                 <span data-ng-show="sortCriterion == 'sum_seasons' && statsSortDescending" class="fa fa-caret-down"></span>
+                 <span data-ng-show="sortCriterion == 'sum_seasons' && !statsSortDescending" class="fa fa-caret-up"></span>
+             </td>
+             <td class="text-center">
                  <a href="#" data-ng-click="statsSortDescending = setSortOrder('sum_games', sortCriterion, statsSortDescending); sortCriterion = 'sum_games'">Games</a>
                  <span data-ng-show="sortCriterion == 'sum_games' && statsSortDescending" class="fa fa-caret-down"></span>
                  <span data-ng-show="sortCriterion == 'sum_games' && !statsSortDescending" class="fa fa-caret-up"></span>
@@ -71,29 +76,29 @@
                  <span data-ng-show="sortCriterion == 'sum_goals' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
-                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('goals_per_game', sortCriterion, statsSortDescending); sortCriterion = 'goals_per_game'">G/GP</a>
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('goals_per_game', sortCriterion, statsSortDescending); sortCriterion = 'goals_per_game'">G/G</a>
                  <span data-ng-show="sortCriterion == 'goals_per_game' && statsSortDescending" class="fa fa-caret-down"></span>
                  <span data-ng-show="sortCriterion == 'goals_per_game' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
-                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('goals_per_season', sortCriterion, statsSortDescending); sortCriterion = 'goals_per_season'">G/82GP</a>
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('goals_per_season', sortCriterion, statsSortDescending); sortCriterion = 'goals_per_season'">G/82G</a>
                  <span data-ng-show="sortCriterion == 'goals_per_season' && statsSortDescending" class="fa fa-caret-down"></span>
                  <span data-ng-show="sortCriterion == 'goals_per_season' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
-                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_per_game', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_per_game'">AdjG/GP</a>
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_per_game', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_per_game'">AdjG/G</a>
                  <span data-ng-show="sortCriterion == 'adjusted_goals_per_game' && statsSortDescending" class="fa fa-caret-down"></span>
                  <span data-ng-show="sortCriterion == 'adjusted_goals_per_game' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
-                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_per_season', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_per_season'">AdjG/82GP</a>
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_per_season', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_per_season'">AdjG/82G</a>
                  <span data-ng-show="sortCriterion == 'adjusted_goals_per_season' && statsSortDescending" class="fa fa-caret-down"></span>
                  <span data-ng-show="sortCriterion == 'adjusted_goals_per_season' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
-                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_diff_game', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_diff_game'">AdjGDiff</a>
-                 <span data-ng-show="sortCriterion == 'adjusted_goals_diff_game' && statsSortDescending" class="fa fa-caret-down"></span>
-                 <span data-ng-show="sortCriterion == 'adjusted_goals_diff_game' && !statsSortDescending" class="fa fa-caret-up"></span>
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_diff_season', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_diff_season'">AdjGDiff</a>
+                 <span data-ng-show="sortCriterion == 'adjusted_goals_diff_season' && statsSortDescending" class="fa fa-caret-down"></span>
+                 <span data-ng-show="sortCriterion == 'adjusted_goals_diff_season' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
          </tr>
      </thead>
@@ -101,13 +106,14 @@
          <tr data-ng-repeat="stat in stats | orderBy:sortCriterion:statsSortDescending | filter:nameFilter | filter:careerGoalFilter | filter:gamesPlayedFilter">
              <td class="col-md-1 text-right" style="width: 3%">{{ $index + 1 }}</td>
              <td class="col-md-3"><!--<a data-ng-href="{{ stat.url }}">-->{{ stat.first_name }} {{ stat.last_name }}</td><!--</a>-->
+             <td class="col-md-1 text-right">{{ stat.sum_seasons }}</td>
              <td class="col-md-1 text-right">{{ stat.sum_games }}</td>
              <td class="col-md-1 text-right">{{ stat.sum_goals }}</td>
              <td class="col-md-1 text-right">{{ stat.goals_per_game.toFixed(4) }}</td>
              <td class="col-md-1 text-right">{{ stat.goals_per_season.toFixed(4) }}</td>
              <td class="col-md-1 text-right">{{ stat.adjusted_goals_per_game.toFixed(4) }}</td>
              <td class="col-md-1 text-right">{{ stat.adjusted_goals_per_season.toFixed(4) }}</td>
-             <td class="col-md-1 text-right">{{ stat.adjusted_goals_diff_game.toFixed(4) }}</td>
+             <td class="col-md-1 text-right{{ setTextColor(stat.adjusted_goals_diff_season) }}">{{ stat.adjusted_goals_diff_season.toFixed(4) }}</td>
          </tr>
      </tbody>
 </table>
