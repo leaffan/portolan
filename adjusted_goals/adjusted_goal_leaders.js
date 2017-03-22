@@ -50,14 +50,18 @@ angular.module('adjustedGoalLeadersApp', [])
         }
     }
 
-    // $scope.setTextColor = function (val) {
-    //     var isRed = false;
-    //     if (val < 0) {
-    //         isRed = true;
-    //     }
-
-    //     return isRed;
-    // };
+    $scope.setTextColor = function (val) {
+        var isRed = false;
+        if (val < 0) {
+            return " red";
+        }
+        else if (val > 0) {
+            return " green"
+        }
+        else {
+            return ""
+        }
+    };
 
     // loading stats from external json file
     $http.get('adjusted_goal_data.json').then(function(res) {
