@@ -40,7 +40,8 @@ Statline = namedtuple('Statline', 'id season games_played goals assists points p
 StatlineGoalie = namedtuple('StatlineGoalie', 'id season games_played seconds_played minutes_played shots saves goals_against shutouts goals_against_average save_percentage wins losses ot_losses shootout_games_played shootout_wins shootout_losses')
 
 # defining dates
-# lower date of birth for draft-eligible players, older players do not need to be drafted
+# lower date of birth for draft-eligible players,
+# older players do not need to be drafted
 LOWER_CUTOFF_DOB = parse("Jan 1, 1997").date()
 # regular cutoff date of birth for draft-eligible players,
 # younger ones weren't draft-eligible in the previous draft
@@ -124,7 +125,7 @@ FEET_PATTERN = re.compile(r'(\d).?')
 # retrieve players already drafted
 DRAFTED_PLAYERS_FILE = "drafted_players_by_dobs.json"
 
-################################################################################
+###############################################################################
 
 
 def retrieve_teams(league):
@@ -149,15 +150,15 @@ def retrieve_teams(league):
 
     # integrating retrieved information components in dictionary of teams
     for team_id, team_name, team_city, team_code in zip(team_ids, team_names, team_cities, team_codes):
-        if league == 'USHL':
-            team_roster_url = "%s/view/#/roster?team=%d&season=%d&league=1&league_code=USHL" % (BASE_URLS[league], team_id, SEASON_CODES[league])
-        else:
-            team_roster_url = "%s/roster/%d" % (BASE_URLS[league], team_id)
-        teams_in_league[team_id] = Team(team_id,
-                                        team_name.replace(",", ""),
-                                        team_city,
-                                        team_code,
-                                        team_roster_url)
+            if league == 'USHL':
+                team_roster_url = "%s/view/#/roster?team=%d&season=%d&league=1&league_code=USHL" % (BASE_URLS[league], team_id, SEASON_CODES[league])
+            else:
+                team_roster_url = "%s/roster/%d" % (BASE_URLS[league], team_id)
+            teams_in_league[team_id] = Team(team_id,
+                                            team_name.replace(",", ""),
+                                            team_city,
+                                            team_code,
+                                            team_roster_url)
 
     return teams_in_league
 
@@ -244,7 +245,8 @@ def retrieve_goalie_stats(team, league, roster):
     print "+ Retrieving goalie stats for %s (%s)..." % (team.name, league)
 
     # retrieving url to team statistics page for specified league and team
-    url = (TEAM_STATS_URLS[league.upper()] % team.id).replace("type=skaters", "type=goalies")
+    url = (TEAM_STATS_URLS[league.upper()] % team.id).replace(
+        "type=skaters", "type=goalies")
 
     # setting up container for retrieved team statistics
     goalie_statlines = dict()
@@ -258,8 +260,13 @@ def retrieve_goalie_stats(team, league, roster):
             continue
 
         plr_id = "".join((league, plr['player_id'])).lower()
-        # skipping players not available in specified roster, i.e. non-draft-eligible players
+        # skipping players not available in specified roster,
+        #  e.g. non-draft-eligible players
         if plr_id not in roster:
+            continue
+
+        # skipping players that are not actually goalies
+        if roster[plr_id].position != 'G':
             continue
 
         # setting up dictionary for raw stats
@@ -267,7 +274,10 @@ def retrieve_goalie_stats(team, league, roster):
         # retrieving all relevant stats
         for field in StatlineGoalie._fields[2:]:
             if field in ('goals_against_average', 'save_percentage'):
-                value = float(plr[field])
+                if plr[field]:
+                    value = float(plr[field])
+                else:
+                    value = None
             # formatting minutes played using a default format of mmmm:ss
             elif field == 'minutes_played':
                 value = "%d:%02d" % (int(plr['seconds_played']) / 60,
@@ -314,7 +324,8 @@ def retrieve_stats(team, league, roster):
     # iterating over each player in JSON structure
     for plr in json_data['SiteKit']['Statviewtype']:
         plr_id = "".join((league, plr['player_id'])).lower()
-        # skipping players not available in specified roster, i.e. non-draft-eligible players
+        # skipping players not available in specified roster,
+        # e.g. non-draft-eligible players
         if plr_id not in roster:
             continue
 
@@ -395,7 +406,8 @@ def convert_height(height):
     feet_match = re.match(FEET_PATTERN, height)
 
     if feet_inch_match:
-        return float("%d.%02d" % tuple([int(x) for x in feet_inch_match.group(1, 2)]))
+        return float(
+            "%d.%02d" % tuple([int(x) for x in feet_inch_match.group(1, 2)]))
     elif feet_match:
         return float("%d.%02d" % (int(feet_match.group(1)), 0))
     else:
@@ -413,7 +425,8 @@ def calculate_draft_day_age(player_dob):
         is_overager = False
 
     draft_day_age = (DRAFT_DATE - player_dob).days
-    draft_day_age = float("%d.%03d" % (draft_day_age / 365, draft_day_age % 365))
+    draft_day_age = float(
+        "%d.%03d" % (draft_day_age / 365, draft_day_age % 365))
 
     return draft_day_age, is_overager
 
@@ -465,13 +478,16 @@ def dump_to_json_file(tgt_path, dump_rosters, dump_stats, goalies=False):
         # adding current data item to list of all data items
         json_dump_prep.append(data_item)
 
-    # inserting current date and time into JSON structure as last modification timestamp
+    # inserting current date and time into JSON structure
+    # as last modification timestamp
     json_dump_prep.insert(0, {
-        "last_modified": datetime.datetime.now().strftime("%a %b %d %Y, %H:%M CET")
+        "last_modified": datetime.datetime.now().strftime(
+            "%a %b %d %Y, %H:%M CET")
     })
     # finally dumping contents to JSON file
     open(tgt_path, 'wb').write(
-        json.dumps(json_dump_prep, default=json_serial, indent=2, sort_keys=True)
+        json.dumps(
+            json_dump_prep, default=json_serial, indent=2, sort_keys=True)
     )
 
 
@@ -488,7 +504,8 @@ if __name__ == '__main__':
 
     if os.path.isfile(DRAFTED_PLAYERS_FILE):
         already_drafted = json.loads(open(DRAFTED_PLAYERS_FILE).read())
-        print "+ List of already drafted players loaded from '%s'" % DRAFTED_PLAYERS_FILE
+        print(
+            "+ List of already drafted players loaded from '%s'" % DRAFTED_PLAYERS_FILE)
     else:
         already_drafted = dict()
 
@@ -498,7 +515,8 @@ if __name__ == '__main__':
         teams = retrieve_teams(current_league)
         for current_team in teams.values()[:]:
             # retrieving roster for current team
-            team_roster = retrieve_roster(current_team, current_league, already_drafted)
+            team_roster = retrieve_roster(
+                current_team, current_league, already_drafted)
             # updating container for all rosters
             rosters.update(team_roster)
             # retrieving player statistics for current team
