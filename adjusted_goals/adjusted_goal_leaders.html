@@ -110,7 +110,7 @@
      <tbody>
          <tr data-ng-repeat="stat in stats | orderBy:sortCriterion:statsSortDescending | filter:nameFilter | filter:careerGoalFilter | filter:gamesPlayedFilter | filter:yearlyLeaderFilter">
              <td class="col-md-1 text-right" style="width: 3%">{{ $index + 1 }}</td>
-             <td class="col-md-2"><a data-ng-href="{{ stat.url }}">{{ stat.first_name }} {{ stat.last_name }}</td></a>
+             <td class="col-md-2"><a data-ng-href="{{ stat.url }}">{{ stat.first_name }} {{ stat.last_name }}</a></td>
              <td class="col-md-1 text-right">{{ stat.sum_seasons }}</td>
              <td class="col-md-1 text-right">{{ stat.sum_games }}</td>
              <td class="col-md-1 text-right">{{ stat.sum_goals }}</td>
