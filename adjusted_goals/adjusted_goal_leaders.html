@@ -48,6 +48,11 @@
         <label class="control-label" for="goals_scored">Minimum career goals:</label>
         <input id="goals_scored" type="text" class="form-control" placeholder="" data-ng-model="goalFilter" />
       </div>
+      <div class="checkbox">
+            <label>
+                <input type="checkbox" id="a" data-ng-model="showYearlyLeaders" value="Show yearly leaders"/>Include top five goal-scorers for each season
+            </label>
+      </div>
     </div>
   </form>
 
@@ -103,7 +108,7 @@
          </tr>
      </thead>
      <tbody>
-         <tr data-ng-repeat="stat in stats | orderBy:sortCriterion:statsSortDescending | filter:nameFilter | filter:careerGoalFilter | filter:gamesPlayedFilter">
+         <tr data-ng-repeat="stat in stats | orderBy:sortCriterion:statsSortDescending | filter:nameFilter | filter:careerGoalFilter | filter:gamesPlayedFilter | filter:yearlyLeaderFilter">
              <td class="col-md-1 text-right" style="width: 3%">{{ $index + 1 }}</td>
              <td class="col-md-3"><!--<a data-ng-href="{{ stat.url }}">-->{{ stat.first_name }} {{ stat.last_name }}</td><!--</a>-->
              <td class="col-md-1 text-right">{{ stat.sum_seasons }}</td>

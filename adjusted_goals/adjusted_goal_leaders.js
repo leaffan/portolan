@@ -5,6 +5,7 @@ angular.module('adjustedGoalLeadersApp', [])
     $scope.sortCriterion = 'adjusted_goals_per_season';
     // default sort order is descending
     $scope.statsSortDescending = true;
+    $scope.showYearlyLeaders = false;
 
 
     // setting column sort order according to current and new sort criteria, and current sort order 
@@ -21,6 +22,18 @@ angular.module('adjustedGoalLeadersApp', [])
                 // otherwise descending sort order
                 return true;
             }
+        }
+    };
+
+    // show yearly leaders if corresponding checkbox is checked
+    $scope.yearlyLeaderFilter = function(a) {
+        if (!a.yearly_leader) {
+            return true;
+        }
+        if ($scope.showYearlyLeaders && a.yearly_leader) {
+            return true;
+        } else {
+            return false;
         }
     };
 
