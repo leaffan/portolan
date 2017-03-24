@@ -37,7 +37,7 @@
     <div class="form-group">
       <div class="input-group">
         <div class="input-group-addon"><i class="fa fa-search"></i></div>
-        <input type="text" class="form-control" placeholder="Filter by player name" data-ng-model="nameFilter" />
+        <input type="text" class="form-control" placeholder="Search player" data-ng-model="nameFilter" />
       </div>
       <br />
       <div class="input-group inline">
@@ -81,27 +81,27 @@
                  <span data-ng-show="sortCriterion == 'sum_goals' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
-                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('goals_per_game', sortCriterion, statsSortDescending); sortCriterion = 'goals_per_game'">G/G</a>
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('goals_per_game', sortCriterion, statsSortDescending); sortCriterion = 'goals_per_game'"><abbr title="Goals per game">G/G</abbr></a>
                  <span data-ng-show="sortCriterion == 'goals_per_game' && statsSortDescending" class="fa fa-caret-down"></span>
                  <span data-ng-show="sortCriterion == 'goals_per_game' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
-                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('goals_per_season', sortCriterion, statsSortDescending); sortCriterion = 'goals_per_season'">G/82G</a>
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('goals_per_season', sortCriterion, statsSortDescending); sortCriterion = 'goals_per_season'"><abbr title="Goals per 82 games">G/82G</abbr></a>
                  <span data-ng-show="sortCriterion == 'goals_per_season' && statsSortDescending" class="fa fa-caret-down"></span>
                  <span data-ng-show="sortCriterion == 'goals_per_season' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
-                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_per_game', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_per_game'">AdjG/G</a>
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_per_game', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_per_game'"><abbr title="Adjusted goals per game">AdjG/G</abbr></a>
                  <span data-ng-show="sortCriterion == 'adjusted_goals_per_game' && statsSortDescending" class="fa fa-caret-down"></span>
                  <span data-ng-show="sortCriterion == 'adjusted_goals_per_game' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
-                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_per_season', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_per_season'">AdjG/82G</a>
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_per_season', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_per_season'"><abbr title="Adjusted goals per 82 games">AdjG/82G</abbr></a>
                  <span data-ng-show="sortCriterion == 'adjusted_goals_per_season' && statsSortDescending" class="fa fa-caret-down"></span>
                  <span data-ng-show="sortCriterion == 'adjusted_goals_per_season' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
              <td class="text-center">
-                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_diff_season', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_diff_season'">AdjGDiff</a>
+                 <a href="#" data-ng-click="statsSortDescending = setSortOrder('adjusted_goals_diff_season', sortCriterion, statsSortDescending); sortCriterion = 'adjusted_goals_diff_season'"><abbr title="Adjusted goals per 82 games - Goals per 82 games">AdjGDiff</abbr></a>
                  <span data-ng-show="sortCriterion == 'adjusted_goals_diff_season' && statsSortDescending" class="fa fa-caret-down"></span>
                  <span data-ng-show="sortCriterion == 'adjusted_goals_diff_season' && !statsSortDescending" class="fa fa-caret-up"></span>
              </td>
@@ -111,7 +111,7 @@
          <tr data-ng-repeat="stat in stats | orderBy:sortCriterion:statsSortDescending | filter:nameFilter | filter:careerGoalFilter | filter:gamesPlayedFilter | filter:yearlyLeaderFilter">
              <td class="col-md-1 text-right" style="width: 3%">{{ $index + 1 }}</td>
              <td class="col-md-2"><a data-ng-href="{{ stat.url }}">{{ stat.first_name }} {{ stat.last_name }}</a></td>
-             <td class="col-md-1 text-right">{{ stat.sum_seasons }}</td>
+             <td class="col-md-2 text-right" style="width: 10%">{{ stat.sum_seasons }} ({{ stat.seasons[0].substring(0, 4) }}-{{ stat.seasons[stat.seasons.length - 1].substring(5) == '00'? '20' : stat.seasons[stat.seasons.length - 1].substring(0, 2) }}{{ stat.seasons[stat.seasons.length - 1].substring(5) }})</td>
              <td class="col-md-1 text-right">{{ stat.sum_games }}</td>
              <td class="col-md-1 text-right">{{ stat.sum_goals }}</td>
              <td class="col-md-1 text-right">{{ stat.goals_per_game.toFixed(4) }}</td>
