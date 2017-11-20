@@ -33,47 +33,66 @@ import locations
 # team information
 Team = namedtuple('Team', 'id name city code team_url')
 # player information
-Player = namedtuple('Player', 'id first_name last_name team league dob country draft_day_age is_overager position height weight shoots url')
+Player = namedtuple(
+    'Player', 'id first_name last_name team league dob country ' +
+    'draft_day_age is_overager position height weight shoots url')
 # single season player statistics item
-Statline = namedtuple('Statline', 'id season games_played goals assists points plus_minus penalty_minutes power_play_goals power_play_assists power_play_points short_handed_goals short_handed_assists short_handed_points shots shooting_percentage points_per_game')
+Statline = namedtuple(
+    'Statline', 'id season games_played goals assists points plus_minus ' +
+    'penalty_minutes power_play_goals power_play_assists power_play_points ' +
+    'short_handed_goals short_handed_assists short_handed_points shots ' +
+    'shooting_percentage points_per_game')
 # single season goalie statistics item
-StatlineGoalie = namedtuple('StatlineGoalie', 'id season games_played seconds_played minutes_played shots saves goals_against shutouts goals_against_average save_percentage wins losses ot_losses shootout_games_played shootout_wins shootout_losses')
+StatlineGoalie = namedtuple(
+    'StatlineGoalie', 'id season games_played seconds_played minutes_played ' +
+    'shots saves goals_against shutouts goals_against_average ' +
+    'save_percentage wins losses ot_losses shootout_games_played ' +
+    'shootout_wins shootout_losses')
 
 # defining dates
 # lower date of birth for draft-eligible players,
 # older players do not need to be drafted
-LOWER_CUTOFF_DOB = parse("Jan 1, 1997").date()
+LOWER_CUTOFF_DOB = parse("Jan 1, 1998").date()
 # regular cutoff date of birth for draft-eligible players,
 # younger ones weren't draft-eligible in the previous draft
-REGULAR_CUTOFF_DOB = parse("Sep 15, 1998").date()
+REGULAR_CUTOFF_DOB = parse("Sep 15, 1999").date()
 # upper cutoff date of birth for draft-eligible players,
 # younger ones are only draft-eligible in the next draft
-UPPER_CUTOFF_DOB = parse("Sep 15, 1999").date()
+UPPER_CUTOFF_DOB = parse("Sep 15, 2000").date()
 # date of the upcoming draft
-DRAFT_DATE = parse("Jun 23, 2017").date()
+DRAFT_DATE = parse("Jun 22, 2018").date()
 
-# league-specific template urls for team overview pages
-TEAM_OVERVIEW_URLS = {
-    'QMJHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=c680916776709578&fmt=json&client_code=lhjmq&lang=en&fmt=json",
-    'OHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=c680916776709578&fmt=json&client_code=ohl&lang=en&fmt=json",
-    'WHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=c680916776709578&fmt=json&client_code=whl&lang=en&fmt=json",
-    'USHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=teamsbyseason&key=e828f89b243dc43f&fmt=json&client_code=ushl&lang=en&fmt=json",
+BASE_URL = 'http://cluster.leaguestat.com/feed'
+
+BASE_PARAMS = {
+    'feed': 'modulekit',
+    'key': '',
+    'fmt': 'json',
+    'client_code': '',
+    'lang': 'en',
 }
 
-# league-specific template urls for team roster pages
-TEAM_ROSTER_URLS = {
-    'QMJHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=roster&key=c680916776709578&fmt=json&client_code=lhjmq&lang=en&season_id=184&team_id=%d&fmt=json",
-    'OHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=roster&key=c680916776709578&fmt=json&client_code=ohl&lang=en&season_id=56&team_id=%d&fmt=json",
-    'WHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=roster&key=c680916776709578&fmt=json&client_code=whl&lang=en&season_id=257&team_id=%d&fmt=json",
-    'USHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=roster&key=e828f89b243dc43f&fmt=json&client_code=ushl&lang=en&season_id=58&team_id=%d&fmt=json",
+# template parameters for team overview page urls
+TEAM_OVERVIEW_PARAMS = {
+    'view': 'teamsbyseason',
 }
 
-# league-specific template urls for team statistic pages
-TEAM_STATS_URLS = {
-    'QMJHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=statviewtype&type=skaters&key=c680916776709578&fmt=json&client_code=lhjmq&lang=en&season_id=184&team_id=%d&league_code=&fmt=json&sort=active&order_direction=",
-    'OHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=statviewtype&type=skaters&key=c680916776709578&fmt=json&client_code=ohl&lang=en&season_id=56&team_id=%d&league_code=&fmt=json&sort=active&order_direction=",
-    'WHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=statviewtype&type=skaters&key=c680916776709578&fmt=json&client_code=whl&lang=en&season_id=257&team_id=%d&league_code=&fmt=json&sort=active&order_direction=",
-    'USHL': "http://cluster.leaguestat.com/feed/?feed=modulekit&view=statviewtype&type=skaters&key=e828f89b243dc43f&fmt=json&client_code=ushl&lang=en&season_id=58&team_id=%d&league_code=&fmt=json&sort=active&order_direction=",
+# template parameters for team roster page urls
+TEAM_ROSTER_PARAMS = {
+    'view': 'roster',
+    'season_id': 184,
+    'team_id': '%d'
+}
+
+# template parameters for team statistics page urls
+TEAM_STATS_PARAMS = {
+    'view': 'statviewtype',
+    'type': 'skaters',
+    'season_id': 184,  # TODO
+    'team_id': '%d',
+    'league_code': '',
+    'sort': 'active',
+    'order_direction': '',
 }
 
 # league-specific template urls for single player pages
@@ -94,10 +113,10 @@ BASE_URLS = {
 
 # TODO: allow for retrieval of other seasons
 SEASON_CODES = {
-    'QMJHL': 184,
-    'OHL': 56,
-    'WHL': 257,
-    'USHL': 58,
+    'QMJHL': 187,
+    'OHL': 60,
+    'WHL': 262,
+    'USHL': 62,
 }
 
 LEAGUE_KEYS = {
@@ -133,14 +152,22 @@ def retrieve_teams(league):
     Retrieves teams for specified league by downloading and evaluating a
     corresponding JSON file.
     """
-    print "+ Retrieving %s teams..." % league
+    print("+ Retrieving %s teams..." % league)
 
     # retrieving url to team overview page for specified league
-    url = TEAM_OVERVIEW_URLS[league.upper()]
+    # url = TEAM_OVERVIEW_URLS[league.upper()]
+    # print(url)
     # setting up container for retrieved teams
     teams_in_league = dict()
+
     # retrieving team overview JSON structure
-    json_data = fetch_json_data(url)
+    # retrieving url parameters for data retrieval
+    params = {**BASE_PARAMS, **TEAM_OVERVIEW_PARAMS}
+    # updating client code and key to current league
+    params['client_code'] = LEAGUE_CODES[league]
+    params['key'] = LEAGUE_KEYS[league]
+
+    json_data = fetch_json_data_with_params(BASE_URL, params)
     json_data_node = json_data['SiteKit']['Teamsbyseason']
     # retrieving team names, ids, cities and codes
     team_names = [item['name'] for item in json_data_node]
@@ -149,33 +176,38 @@ def retrieve_teams(league):
     team_codes = [item['code'] for item in json_data_node]
 
     # integrating retrieved information components in dictionary of teams
-    for team_id, team_name, team_city, team_code in zip(team_ids, team_names, team_cities, team_codes):
-            if league == 'USHL':
-                team_roster_url = "%s/view/#/roster?team=%d&season=%d&league=1&league_code=USHL" % (BASE_URLS[league], team_id, SEASON_CODES[league])
-            else:
-                team_roster_url = "%s/roster/%d" % (BASE_URLS[league], team_id)
+    for team_id, team_name, team_city, team_code in zip(
+            team_ids, team_names, team_cities, team_codes):
+
             teams_in_league[team_id] = Team(team_id,
                                             team_name.replace(",", ""),
                                             team_city,
                                             team_code,
-                                            team_roster_url)
+                                            "")
 
     return teams_in_league
 
 
 def retrieve_roster(team, league, already_drafted=None):
-    u"""
+    """
     Retrieves rosters for specified team and league by downloading and
     evaluating a corresponding JSON file.
     """
-    print "+ Retrieving roster for %s (%s)..." % (team.name, league)
+    print("+ Retrieving roster for %s (%s)..." % (team.name, league))
 
     # retrieving url to team roster page for specified league and team
-    url = TEAM_ROSTER_URLS[league.upper()] % team.id
+    # retrieving url parameters for data retrieval
+    params = {**BASE_PARAMS, **TEAM_ROSTER_PARAMS}
+    # modifying url parameters
+    params['client_code'] = LEAGUE_CODES[league]
+    params['key'] = LEAGUE_KEYS[league]
+    params['team_id'] = team.id
+    params['season_id'] = SEASON_CODES[league]
+
     # setting up container for retrieved roster
     roster = dict()
     # retrieving roster JSON structure
-    json_data = fetch_json_data(url)
+    json_data = fetch_json_data_with_params(BASE_URL, params)
     # iterating over each player in JSON structure
     for plr in json_data['SiteKit']['Roster']:
         # skipping staff members (provided in a separate sub-list)
@@ -190,11 +222,17 @@ def retrieve_roster(team, league, already_drafted=None):
             continue
 
         # retrieving player's date of birth
+        if not plr['birthdate']:
+            continue
         plr_dob = parse(plr['birthdate']).date()
 
         # skipping player if he is present in a list of already drafted ones
-        if is_nhl_drafted_2(" ".join((plr['first_name'].strip(), plr['last_name'].strip())), plr_dob, already_drafted):
-            continue
+        if is_nhl_drafted_2(
+                " ".join(
+                    (plr['first_name'].strip(), plr['last_name'].strip())),
+                plr_dob,
+                already_drafted):
+                    continue
 
         # skipping non-draft-eligible players
         if not is_draft_eligible(plr_dob):
@@ -239,19 +277,25 @@ def retrieve_roster(team, league, already_drafted=None):
 
 
 def retrieve_goalie_stats(team, league, roster):
-    u"""
+    """
     Retrieves goalie statlines for specified team roster and league.
     """
-    print "+ Retrieving goalie stats for %s (%s)..." % (team.name, league)
+    print("+ Retrieving goalie stats for %s (%s)..." % (team.name, league))
 
     # retrieving url to team statistics page for specified league and team
-    url = (TEAM_STATS_URLS[league.upper()] % team.id).replace(
-        "type=skaters", "type=goalies")
+    # retrieving url parameters for data retrieval
+    params = {**BASE_PARAMS, **TEAM_STATS_PARAMS}
+    # modifying url parameters
+    params['client_code'] = LEAGUE_CODES[league]
+    params['key'] = LEAGUE_KEYS[league]
+    params['team_id'] = team.id
+    params['season_id'] = SEASON_CODES[league]
+    params['type'] = 'goalies'
 
     # setting up container for retrieved team statistics
     goalie_statlines = dict()
     # retrieving team statistics JSON structure
-    json_data = fetch_json_data(url)
+    json_data = fetch_json_data_with_params(BASE_URL, params)
     # iterating over each player in JSON structure
     for plr in json_data['SiteKit']['Statviewtype']:
 
@@ -309,18 +353,25 @@ def retrieve_goalie_stats(team, league, roster):
 
 
 def retrieve_stats(team, league, roster):
-    u"""
+    """
     Retrieves skater statlines for specified team roster and league.
     """
-    print "+ Retrieving skater stats for %s (%s)..." % (team.name, league)
+    print("+ Retrieving skater stats for %s (%s)..." % (team.name, league))
 
     # retrieving url to team statistics page for specified league and team
-    url = TEAM_STATS_URLS[league.upper()] % team.id
+    # retrieving url parameters for data retrieval
+    params = {**BASE_PARAMS, **TEAM_STATS_PARAMS}
+    # modifying url parameters
+    params['client_code'] = LEAGUE_CODES[league]
+    params['key'] = LEAGUE_KEYS[league]
+    params['team_id'] = team.id
+    params['season_id'] = SEASON_CODES[league]
 
     # setting up container for retrieved team statistics
     roster_statlines = dict()
     # retrieving team statistics JSON structure
-    json_data = fetch_json_data(url)
+    # json_data = fetch_json_data(url)
+    json_data = fetch_json_data_with_params(BASE_URL, params)
     # iterating over each player in JSON structure
     for plr in json_data['SiteKit']['Statviewtype']:
         plr_id = "".join((league, plr['player_id'])).lower()
@@ -340,28 +391,29 @@ def retrieve_stats(team, league, roster):
             raw_stat_line[field] = value
 
         # setting up statline objects and adding it to roster stats
-        roster_statlines[plr_id] = Statline(plr_id, "",
-                                            raw_stat_line['games_played'],
-                                            raw_stat_line['goals'],
-                                            raw_stat_line['assists'],
-                                            raw_stat_line['points'],
-                                            raw_stat_line['plus_minus'],
-                                            raw_stat_line['penalty_minutes'],
-                                            raw_stat_line['power_play_goals'],
-                                            raw_stat_line['power_play_assists'],
-                                            raw_stat_line['power_play_points'],
-                                            raw_stat_line['short_handed_goals'],
-                                            raw_stat_line['short_handed_assists'],
-                                            raw_stat_line['short_handed_points'],
-                                            raw_stat_line['shots'],
-                                            raw_stat_line['shooting_percentage'],
-                                            raw_stat_line['points_per_game'])
+        roster_statlines[plr_id] = Statline(
+            plr_id, "",
+            raw_stat_line['games_played'],
+            raw_stat_line['goals'],
+            raw_stat_line['assists'],
+            raw_stat_line['points'],
+            raw_stat_line['plus_minus'],
+            raw_stat_line['penalty_minutes'],
+            raw_stat_line['power_play_goals'],
+            raw_stat_line['power_play_assists'],
+            raw_stat_line['power_play_points'],
+            raw_stat_line['short_handed_goals'],
+            raw_stat_line['short_handed_assists'],
+            raw_stat_line['short_handed_points'],
+            raw_stat_line['shots'],
+            raw_stat_line['shooting_percentage'],
+            raw_stat_line['points_per_game'])
 
     return roster_statlines
 
 
 def is_nhl_drafted(draft_info):
-    u"""
+    """
     Determines whether specified draft information reveals the according
     player as already drafted by an NHL team.
     """
@@ -373,7 +425,7 @@ def is_nhl_drafted(draft_info):
 
 
 def is_nhl_drafted_2(player_name, player_dob, already_drafted_players):
-    u"""
+    """
     Determines whether specified player name is present in a dictionary of
     already drafted players using the player's date of birth as key comparator.
     """
@@ -383,13 +435,16 @@ def is_nhl_drafted_2(player_name, player_dob, already_drafted_players):
             levenshtein_ratio = Levenshtein.ratio(
                 player_name, drafted_player_name)
             if levenshtein_ratio > 0.8:
-                print "-> Already drafted player found: %s vs. %s (Levenshtein ratio: %0.4f)" % (player_name, drafted_player_name, levenshtein_ratio)
+                print(
+                    "-> Already drafted player found: " +
+                    "%s vs. %s (Levenshtein ratio: %0.4f)" % (
+                        player_name, drafted_player_name, levenshtein_ratio))
                 return True
     return False
 
 
 def is_draft_eligible(player_dob):
-    u"""
+    """
     Determines whether specified date of birth is a draft-eligible one.
     """
     if player_dob >= LOWER_CUTOFF_DOB and player_dob < UPPER_CUTOFF_DOB:
@@ -399,7 +454,7 @@ def is_draft_eligible(player_dob):
 
 
 def convert_height(height):
-    u"""
+    """
     Converts input height to a sortable height string.
     """
     feet_inch_match = re.match(FEET_INCH_PATTERN, height)
@@ -415,7 +470,7 @@ def convert_height(height):
 
 
 def calculate_draft_day_age(player_dob):
-    u"""
+    """
     Calculates age of player on draft day and determines whether player is
     considered an overager.
     """
@@ -432,7 +487,7 @@ def calculate_draft_day_age(player_dob):
 
 
 def json_serial(obj):
-    u"""
+    """
     Custom converter to serialize datetime.dates to JSON structures.
     """
     if isinstance(obj, datetime.date):
@@ -441,8 +496,16 @@ def json_serial(obj):
     raise TypeError("Type not serializable: %s" % type(obj))
 
 
+def fetch_json_data_with_params(base_url, params):
+    """
+    Fetches JSON data using specified base url and parameters.
+    """
+    req = requests.get(base_url, params=params)
+    return req.json()
+
+
 def fetch_json_data(json_url):
-    u"""
+    """
     Fetches JSON data from specified url.
     """
     req = requests.get(json_url)
@@ -450,7 +513,7 @@ def fetch_json_data(json_url):
 
 
 def dump_to_json_file(tgt_path, dump_rosters, dump_stats, goalies=False):
-    u"""
+    """
     Dumps rosters and according stats to a JSON file at the specified
     target location.
     """
@@ -485,7 +548,7 @@ def dump_to_json_file(tgt_path, dump_rosters, dump_stats, goalies=False):
             "%a %b %d %Y, %H:%M CET")
     })
     # finally dumping contents to JSON file
-    open(tgt_path, 'wb').write(
+    open(tgt_path, 'w').write(
         json.dumps(
             json_dump_prep, default=json_serial, indent=2, sort_keys=True)
     )
@@ -494,8 +557,8 @@ def dump_to_json_file(tgt_path, dump_rosters, dump_stats, goalies=False):
 if __name__ == '__main__':
 
     leagues = ['QMJHL', 'OHL', 'WHL', 'USHL']
-    skater_tgt_path = r"junior.json"
-    goalie_tgt_path = r"junior_goalies.json"
+    skater_tgt_path = r"junior_1.json"
+    goalie_tgt_path = r"junior_goalies_1.json"
 
     # setting up result containers for rosters and player stats
     rosters = dict()
@@ -505,7 +568,8 @@ if __name__ == '__main__':
     if os.path.isfile(DRAFTED_PLAYERS_FILE):
         already_drafted = json.loads(open(DRAFTED_PLAYERS_FILE).read())
         print(
-            "+ List of already drafted players loaded from '%s'" % DRAFTED_PLAYERS_FILE)
+            "+ List of already drafted players " +
+            "loaded from '%s'" % DRAFTED_PLAYERS_FILE)
     else:
         already_drafted = dict()
 
@@ -513,15 +577,17 @@ if __name__ == '__main__':
     for current_league in leagues[:]:
         # retrieving teams in current league
         teams = retrieve_teams(current_league)
-        for current_team in teams.values()[:]:
+        for current_team in sorted(list(teams.values()))[:]:
             # retrieving roster for current team
             team_roster = retrieve_roster(
                 current_team, current_league, already_drafted)
             # updating container for all rosters
             rosters.update(team_roster)
             # retrieving player statistics for current team
-            team_skater_stats = retrieve_stats(current_team, current_league, team_roster)
-            team_goalie_stats = retrieve_goalie_stats(current_team, current_league, team_roster)
+            team_skater_stats = retrieve_stats(
+                current_team, current_league, team_roster)
+            team_goalie_stats = retrieve_goalie_stats(
+                current_team, current_league, team_roster)
             # updating container for all player statistics
             skater_stats.update(team_skater_stats)
             goalie_stats.update(team_goalie_stats)
