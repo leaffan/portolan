@@ -520,7 +520,7 @@ def dump_to_json_file(tgt_path, dump_rosters, dump_stats, goalies=False):
     # setting up list of JSON file entries
     json_dump_prep = list()
 
-    for player_id in dump_stats:
+    for player_id in sorted(dump_stats.keys()):
         # retrieving player and according statline
         player = dump_rosters[player_id]
         statline = dump_stats[player_id]
@@ -557,8 +557,8 @@ def dump_to_json_file(tgt_path, dump_rosters, dump_stats, goalies=False):
 if __name__ == '__main__':
 
     leagues = ['QMJHL', 'OHL', 'WHL', 'USHL']
-    skater_tgt_path = r"junior_1.json"
-    goalie_tgt_path = r"junior_goalies_1.json"
+    skater_tgt_path = r"junior.json"
+    goalie_tgt_path = r"junior_goalies.json"
 
     # setting up result containers for rosters and player stats
     rosters = dict()
