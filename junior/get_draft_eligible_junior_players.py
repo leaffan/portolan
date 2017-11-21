@@ -100,7 +100,7 @@ PLAYER_PAGE_URLS = {
     'QMJHL': "http://theqmjhl.ca/players/%s",
     'OHL': "http://www.ontariohockeyleague.com/players/%s",
     'WHL': "http://whl.ca/players/%s",
-    'USHL': "http://www.ushl.com/view/#/player?playerId=%s"
+    'USHL': "http://www.ushl.com/view/#/player/%s"
 }
 
 # league-specific base urls
