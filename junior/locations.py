@@ -6,10 +6,10 @@
 # Contact: markus@leaffan.net
 # Creation Date: 2016/11/23 10:01:04
 
-u"""
-This script allows for ISO country code retrieval for a number of country, state, province,
-or territory abbreviations as well as some special cases used on the hockey websites utilized
-for data retrieval.
+"""
+This script allows for ISO country code retrieval for a number of country,
+state, province, or territory abbreviations as well as some special cases used
+on the hockey websites utilized for data retrieval.
 """
 
 # special cases found on hockey league websites
@@ -25,6 +25,7 @@ SPECIAL_CASES = {
     'Man': 'MB',
     'Sas': 'SK',
     'MAN': 'MB',
+    'Ontario': 'ON',
 }
 
 # state abbreviations for the US
@@ -121,7 +122,8 @@ COUNTRY_ABBREVIATIONS = {
     'SVK': 'Slovakia',
     'NOR': 'Norway',
     'SUI': 'Switzerland',
-    'EST': 'Estonia'
+    'EST': 'Estonia',
+    'BLR': 'Belarus',
 }
 
 # look-up dictionary for ISO country codes found relevant for
@@ -145,10 +147,14 @@ ISO_COUNTRY_CODES = {
     'Ukraine': 'ua',
     'United States': 'us',
     'Estonia': 'ee',
+    'Belgium': 'be',
+    'Suisse': 'ch',
+    'Poland': 'pl',
 }
 
+
 def retrieve_iso_country_code(orig_abbr):
-    u"""
+    """
     Retrieves ISO country code based on specified input string (representing a
     state, province, territory or country abbreviation or any other location
     related sequence of letters).
@@ -164,13 +170,14 @@ def retrieve_iso_country_code(orig_abbr):
     elif orig_abbr.upper() in COUNTRY_ABBREVIATIONS:
         full_country = COUNTRY_ABBREVIATIONS[orig_abbr.upper()]
     else:
-        full_country = orig_abbr
+        full_country = orig_abbr.strip()
 
     if full_country in ISO_COUNTRY_CODES:
         return ISO_COUNTRY_CODES[full_country]
     else:
         # TODO: proper logging
         return None
+
 
 if __name__ == '__main__':
     pass
