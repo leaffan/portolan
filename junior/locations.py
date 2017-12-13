@@ -150,6 +150,7 @@ ISO_COUNTRY_CODES = {
     'Belgium': 'be',
     'Suisse': 'ch',
     'Poland': 'pl',
+    'France': 'fr',
 }
 
 
