@@ -124,6 +124,7 @@ COUNTRY_ABBREVIATIONS = {
     'SUI': 'Switzerland',
     'EST': 'Estonia',
     'BLR': 'Belarus',
+    'KAZ': 'Kazakhstan',
 }
 
 # look-up dictionary for ISO country codes found relevant for
@@ -151,6 +152,7 @@ ISO_COUNTRY_CODES = {
     'Suisse': 'ch',
     'Poland': 'pl',
     'France': 'fr',
+    'Kazakhstan': 'kz',
 }
 
 
