@@ -1,4700 +1,4806 @@
 {
-    "1993-04-08": [
-      [
-        "Viktor",
-        "Arvidsson"
-      ]
-    ],
-    "1993-10-04": [
-      [
-        "Lukas",
-        "Sutter"
-      ],
-      [
-        "Alexander",
-        "Kadeykin"
-      ]
-    ],
-    "1994-01-13": [
-      [
-        "Kyle",
-        "Schempp"
-      ]
-    ],
-    "1994-01-30": [
-      [
-        "Zach",
-        "Nagelvoort"
-      ]
-    ],
-    "1994-02-07": [
-      [
-        "Nathan",
-        "Walker"
-      ]
-    ],
-    "1994-02-19": [
-      [
-        "Daniel",
-        "Walcott"
-      ]
-    ],
-    "1994-02-21": [
-      [
-        "Devon",
-        "Toews"
-      ]
-    ],
-    "1994-03-02": [
-      [
-        "Cameron",
-        "Darcy"
-      ]
-    ],
-    "1994-03-17": [
-      [
-        "C.J.",
-        "Suess"
-      ]
-    ],
-    "1994-03-26": [
-      [
-        "Austin",
-        "Carroll"
-      ]
-    ],
-    "1994-04-11": [
-      [
-        "Brandon",
-        "Montour"
-      ]
-    ],
-    "1994-04-13": [
-      [
-        "Elvis",
-        "Merzlikins"
-      ],
-      [
-        "Jeff",
-        "Taylor"
-      ]
-    ],
-    "1994-04-14": [
-      [
-        "Tyler",
-        "Vesel"
-      ]
-    ],
-    "1994-05-02": [
-      [
-        "Richard",
-        "Nejezchleb"
-      ]
-    ],
-    "1994-05-15": [
-      [
-        "Matt",
-        "Iacopelli"
-      ]
-    ],
-    "1994-05-27": [
-      [
-        "Matt",
-        "Ustaski"
-      ]
-    ],
-    "1994-06-06": [
-      [
-        "Markus",
-        "Nutivaara"
-      ]
-    ],
-    "1994-06-27": [
-      [
-        "Steven",
-        "Johnson"
-      ]
-    ],
-    "1994-07-16": [
-      [
-        "Jesper",
-        "Pettersson"
-      ]
-    ],
-    "1994-07-29": [
-      [
-        "Andrei",
-        "Mironov"
-      ]
-    ],
-    "1994-08-08": [
-      [
-        "Dominik",
-        "Simon"
-      ]
-    ],
-    "1994-08-12": [
-      [
-        "Ivan",
-        "Nalimov"
-      ]
-    ],
-    "1994-08-30": [
-      [
-        "Nikita",
-        "Tryamkin"
-      ]
-    ],
-    "1994-09-19": [
-      [
-        "Liam",
-        "Coughlin"
-      ]
-    ],
-    "1994-11-13": [
-      [
-        "Edgars",
-        "Kulda"
-      ]
-    ],
-    "1994-11-29": [
-      [
-        "Anton",
-        "Lindholm"
-      ]
-    ],
-    "1995-01-13": [
-      [
-        "Maxim",
-        "Mamin"
-      ]
-    ],
-    "1995-01-26": [
-      [
-        "Colby",
-        "Williams"
-      ]
-    ],
-    "1995-02-05": [
-      [
-        "David",
-        "Westlund"
-      ]
-    ],
-    "1995-02-06": [
-      [
-        "Ville",
-        "Husso"
-      ]
-    ],
-    "1995-02-08": [
-      [
-        "Ziyat",
-        "Paigin"
-      ]
-    ],
-    "1995-02-13": [
-      [
-        "Maxwell",
-        "Willman"
-      ]
-    ],
-    "1995-02-14": [
-      [
-        "Anatoli",
-        "Golyshev"
-      ]
-    ],
-    "1995-02-22": [
-      [
-        "Jaedon",
-        "Descheneau"
-      ]
-    ],
-    "1995-03-01": [
-      [
-        "Hayden",
-        "Hawkey"
-      ],
-      [
-        "Matt",
-        "Roy"
-      ]
-    ],
-    "1995-03-06": [
-      [
-        "Sam",
-        "Lafferty"
-      ]
-    ],
-    "1995-03-07": [
-      [
-        "Miroslav",
-        "Svoboda"
-      ]
-    ],
-    "1995-03-17": [
-      [
-        "Christian",
-        "Wolanin"
-      ]
-    ],
-    "1995-03-22": [
-      [
-        "Dwyer",
-        "Tschantz"
-      ]
-    ],
-    "1995-03-23": [
-      [
-        "Julius",
-        "V\u00e4h\u00e4talo"
-      ]
-    ],
-    "1995-03-28": [
-      [
-        "Nolan",
-        "Vesey"
-      ]
-    ],
-    "1995-03-29": [
-      [
-        "Brandon",
-        "Baddock"
-      ]
-    ],
-    "1995-04-03": [
-      [
-        "Ivan",
-        "Chukarov"
-      ]
-    ],
-    "1995-04-04": [
-      [
-        "Joonas",
-        "Lyytinen"
-      ]
-    ],
-    "1995-05-11": [
-      [
-        "Rinat",
-        "Valiyev"
-      ]
-    ],
-    "1995-05-20": [
-      [
-        "Jake",
-        "Marchment"
-      ],
-      [
-        "Frederik",
-        "Tiffels"
-      ]
-    ],
-    "1995-06-01": [
-      [
-        "Dylan",
-        "Sikura"
-      ]
-    ],
-    "1995-07-05": [
-      [
-        "Danton",
-        "Heinen"
-      ]
-    ],
-    "1995-07-18": [
-      [
-        "Victor",
-        "Olofsson"
-      ],
-      [
-        "Tyler",
-        "Moy"
-      ]
-    ],
-    "1995-07-21": [
-      [
-        "Adam",
-        "Helewka"
-      ]
-    ],
-    "1995-08-04": [
-      [
-        "Ilya",
-        "Sorokin"
-      ]
-    ],
-    "1995-08-10": [
-      [
-        "Mackenze",
-        "Stewart"
-      ]
-    ],
-    "1995-09-05": [
-      [
-        "Lucas",
-        "Wallmark"
-      ]
-    ],
-    "1995-09-11": [
-      [
-        "Hunter",
-        "Smith"
-      ]
-    ],
-    "1995-09-17": [
-      [
-        "Michael",
-        "Bunting"
-      ]
-    ],
-    "1995-09-18": [
-      [
-        "Luc",
-        "Snuggerud"
-      ]
-    ],
-    "1995-09-19": [
-      [
-        "Jonas",
-        "Johansson"
-      ]
-    ],
-    "1995-09-23": [
-      [
-        "Alex",
-        "Lintuniemi"
-      ]
-    ],
-    "1995-09-24": [
-      [
-        "Brett",
-        "Lernout"
-      ]
-    ],
-    "1995-10-05": [
-      [
-        "Tanner",
-        "Faith"
-      ]
-    ],
-    "1995-10-07": [
-      [
-        "Nikolay",
-        "Goldobin"
-      ]
-    ],
-    "1995-10-10": [
-      [
-        "Shane",
-        "Eiserman"
-      ]
-    ],
-    "1995-10-17": [
-      [
-        "Matthew",
-        "Mistele"
-      ]
-    ],
-    "1995-10-24": [
-      [
-        "Anthony",
-        "DeAngelo"
-      ]
-    ],
-    "1995-10-25": [
-      [
-        "Chase",
-        "De Leo"
-      ]
-    ],
-    "1995-10-27": [
-      [
-        "Leon",
-        "Draisaitl"
-      ],
-      [
-        "Jake",
-        "Kupsky"
-      ]
-    ],
-    "1995-10-30": [
-      [
-        "Connor",
-        "Chatham"
-      ]
-    ],
-    "1995-11-01": [
-      [
-        "Beau",
-        "Starrett"
-      ]
-    ],
-    "1995-11-02": [
-      [
-        "Julius",
-        "Bergman"
-      ],
-      [
-        "Jack",
-        "Ramsey"
-      ]
-    ],
-    "1995-11-06": [
-      [
-        "Sam",
-        "Reinhart"
-      ]
-    ],
-    "1995-11-07": [
-      [
-        "Ryan",
-        "Rehill"
-      ]
-    ],
-    "1995-11-08": [
-      [
-        "Ondrej",
-        "Kase"
-      ]
-    ],
-    "1995-11-21": [
-      [
-        "Vladislav",
-        "Gavrikov"
-      ]
-    ],
-    "1995-12-03": [
-      [
-        "Julius",
-        "Honka"
-      ]
-    ],
-    "1995-12-05": [
-      [
-        "Nick",
-        "Ritchie"
-      ]
-    ],
-    "1995-12-08": [
-      [
-        "Thatcher",
-        "Demko"
-      ]
-    ],
-    "1995-12-12": [
-      [
-        "Alex",
-        "Schoenborn"
-      ],
-      [
-        "Kevin",
-        "Labanc"
-      ]
-    ],
-    "1995-12-14": [
-      [
-        "Ivan",
-        "Barbashyov"
-      ]
-    ],
-    "1995-12-15": [
-      [
-        "Steven",
-        "Spinner"
-      ]
-    ],
-    "1995-12-21": [
-      [
-        "Alexis",
-        "Vanier"
-      ]
-    ],
-    "1995-12-25": [
-      [
-        "Mark",
-        "Friedman"
-      ]
-    ],
-    "1995-12-30": [
-      [
-        "Nikita",
-        "Scherbak"
-      ],
-      [
-        "Igor",
-        "Shestyorkin"
-      ]
-    ],
-    "1996-01-01": [
-      [
-        "Jayce",
-        "Hawryluk"
-      ],
-      [
-        "Joni",
-        "Tuulola"
-      ]
-    ],
-    "1996-01-02": [
-      [
-        "Jacob",
-        "Middleton"
-      ]
-    ],
-    "1996-01-04": [
-      [
-        "Maximilian",
-        "Pajpach"
-      ]
-    ],
-    "1996-01-05": [
-      [
-        "Rodrigo",
-        "Abols"
-      ]
-    ],
-    "1996-01-07": [
-      [
-        "Alex",
-        "Nedeljkovic"
-      ],
-      [
-        "Michael",
-        "Prapavessis"
-      ],
-      [
-        "Radel",
-        "Fazleyev"
-      ]
-    ],
-    "1996-01-09": [
-      [
-        "Vitek",
-        "Vanecek"
-      ],
-      [
-        "Hugo",
-        "Fagerblom"
-      ]
-    ],
-    "1996-01-10": [
-      [
-        "Cristiano",
-        "DiGiacinto"
-      ]
-    ],
-    "1996-01-11": [
-      [
-        "Jaden",
-        "Lindo"
-      ]
-    ],
-    "1996-01-15": [
-      [
-        "Mason",
-        "Appleton"
-      ]
-    ],
-    "1996-01-19": [
-      [
-        "Nikolas",
-        "Koberstein"
-      ],
-      [
-        "Kyle",
-        "Pettit"
-      ]
-    ],
-    "1996-01-20": [
-      [
-        "Roland",
-        "McKeown"
-      ]
-    ],
-    "1996-01-21": [
-      [
-        "Andreas",
-        "Englund"
-      ]
-    ],
-    "1996-01-22": [
-      [
-        "Robby",
-        "Fabbri"
-      ],
-      [
-        "Joshua",
-        "Ho-Sang"
-      ]
-    ],
-    "1996-01-23": [
-      [
-        "Jared",
-        "Fiegl"
-      ]
-    ],
-    "1996-01-24": [
-      [
-        "Sergei",
-        "Boikov"
-      ]
-    ],
-    "1996-01-25": [
-      [
-        "Lukas",
-        "Vejdemo"
-      ]
-    ],
-    "1996-01-26": [
-      [
-        "Chandler",
-        "Yakimowicz"
-      ],
-      [
-        "Stephen",
-        "Desrocher"
-      ],
-      [
-        "Blake",
-        "Hillman"
-      ]
-    ],
-    "1996-01-28": [
-      [
-        "Reid",
-        "Duke"
-      ]
-    ],
-    "1996-01-29": [
-      [
-        "Juho",
-        "Lammikko"
-      ],
-      [
-        "Joey",
-        "Dudek"
-      ]
-    ],
-    "1996-02-01": [
-      [
-        "Dominik",
-        "Masin"
-      ]
-    ],
-    "1996-02-02": [
-      [
-        "Christian",
-        "Dvorak"
-      ]
-    ],
-    "1996-02-06": [
-      [
-        "Aaron",
-        "Haydon"
-      ]
-    ],
-    "1996-02-07": [
-      [
-        "Aaron",
-        "Ekblad"
-      ],
-      [
-        "Conner",
-        "Bleackley"
-      ],
-      [
-        "Conner",
-        "Bleackley"
-      ]
-    ],
-    "1996-02-08": [
-      [
-        "Chase",
-        "Perry"
-      ]
-    ],
-    "1996-02-14": [
-      [
-        "Nikolaj",
-        "Ehlers"
-      ],
-      [
-        "Ryan",
-        "MacInnis"
-      ]
-    ],
-    "1996-02-15": [
-      [
-        "Joshua",
-        "Jacobs"
-      ]
-    ],
-    "1996-02-16": [
-      [
-        "Austin",
-        "Poganski"
-      ],
-      [
-        "Matthew",
-        "Berkovitz"
-      ]
-    ],
-    "1996-02-17": [
-      [
-        "Olivier",
-        "LeBlanc"
-      ],
-      [
-        "Sebastian",
-        "Aho"
-      ]
-    ],
-    "1996-02-20": [
-      [
-        "Maxim",
-        "Letunov"
-      ],
-      [
-        "Jake",
-        "Walman"
-      ]
-    ],
-    "1996-02-22": [
-      [
-        "William",
-        "Lagesson"
-      ],
-      [
-        "Christopher",
-        "Brown"
-      ]
-    ],
-    "1996-02-23": [
-      [
-        "Nick",
-        "Schmaltz"
-      ]
-    ],
-    "1996-02-25": [
-      [
-        "Dominic",
-        "Turgeon"
-      ]
-    ],
-    "1996-02-27": [
-      [
-        "Blake",
-        "Siebenaler"
-      ]
-    ],
-    "1996-02-28": [
-      [
-        "Jakub",
-        "Vr\u00e1na"
-      ],
-      [
-        "Rhett",
-        "Gardner"
-      ]
-    ],
-    "1996-02-29": [
-      [
-        "Brett",
-        "Seney"
-      ]
-    ],
-    "1996-03-01": [
-      [
-        "Gilles",
-        "Senn"
-      ]
-    ],
-    "1996-03-03": [
-      [
-        "Aaron",
-        "Irving"
-      ]
-    ],
-    "1996-03-05": [
-      [
-        "Garrett",
-        "Metcalf"
-      ]
-    ],
-    "1996-03-06": [
-      [
-        "Anthony",
-        "Angello"
-      ],
-      [
-        "Sam",
-        "Ruopp"
-      ],
-      [
-        "Patrik",
-        "Virta"
-      ]
-    ],
-    "1996-03-11": [
-      [
-        "Conor",
-        "Garland"
-      ]
-    ],
-    "1996-03-13": [
-      [
-        "Brayden",
-        "Point"
-      ]
-    ],
-    "1996-03-15": [
-      [
-        "Brendan",
-        "Lemieux"
-      ]
-    ],
-    "1996-03-17": [
-      [
-        "Brett",
-        "Pollock"
-      ],
-      [
-        "Tyler",
-        "Nanne"
-      ],
-      [
-        "Miguel",
-        "Fidler"
-      ]
-    ],
-    "1996-03-19": [
-      [
-        "Chase",
-        "Priskie"
-      ]
-    ],
-    "1996-03-21": [
-      [
-        "Matt",
-        "Schmalz"
-      ]
-    ],
-    "1996-03-29": [
-      [
-        "Travis",
-        "Sanheim"
-      ],
-      [
-        "Brandon",
-        "Halverson"
-      ],
-      [
-        "Clark",
-        "Bishop"
-      ]
-    ],
-    "1996-04-01": [
-      [
-        "Warren",
-        "Foegele"
-      ]
-    ],
-    "1996-04-02": [
-      [
-        "Dylan",
-        "Sadowy"
-      ],
-      [
-        "Pavel",
-        "Jenys"
-      ],
-      [
-        "Christian",
-        "Jaros"
-      ],
-      [
-        "Patrick",
-        "Kudla"
-      ]
-    ],
-    "1996-04-03": [
-      [
-        "Rourke",
-        "Chartier"
-      ],
-      [
-        "Todd",
-        "Burgess"
-      ]
-    ],
-    "1996-04-04": [
-      [
-        "Andrew",
-        "Mangiapane"
-      ]
-    ],
-    "1996-04-05": [
-      [
-        "Keegan",
-        "Iverson"
-      ],
-      [
-        "Christoffer",
-        "Ehn"
-      ]
-    ],
-    "1996-04-06": [
-      [
-        "Andrei",
-        "Svetlakov"
-      ]
-    ],
-    "1996-04-09": [
-      [
-        "Ryan",
-        "Donato"
-      ],
-      [
-        "Josh",
-        "Wesley"
-      ]
-    ],
-    "1996-04-11": [
-      [
-        "Eric",
-        "Cornel"
-      ],
-      [
-        "Daniel",
-        "Bernhardt"
-      ]
-    ],
-    "1996-04-13": [
-      [
-        "Brandon",
-        "Hickey"
-      ],
-      [
-        "Steven",
-        "Lorentz"
-      ]
-    ],
-    "1996-04-16": [
-      [
-        "John",
-        "Quenneville"
-      ]
-    ],
-    "1996-04-18": [
-      [
-        "Francis",
-        "Perron"
-      ]
-    ],
-    "1996-04-19": [
-      [
-        "Keven",
-        "Bouchard"
-      ]
-    ],
-    "1996-04-22": [
-      [
-        "Kyle",
-        "Jenkins"
-      ]
-    ],
-    "1996-04-23": [
-      [
-        "Mason",
-        "McDonald"
-      ]
-    ],
-    "1996-04-24": [
-      [
-        "Alexis",
-        "P\u00e9pin"
-      ]
-    ],
-    "1996-04-25": [
-      [
-        "Spencer",
-        "Watson"
-      ]
-    ],
-    "1996-04-27": [
-      [
-        "Brendan",
-        "Perlini"
-      ],
-      [
-        "Niko",
-        "Mikkola"
-      ]
-    ],
-    "1996-04-29": [
-      [
-        "Kelly",
-        "Summers"
-      ]
-    ],
-    "1996-05-01": [
-      [
-        "William",
-        "Nylander"
-      ]
-    ],
-    "1996-05-02": [
-      [
-        "Vaclav",
-        "Karabacek"
-      ]
-    ],
-    "1996-05-04": [
-      [
-        "Kyle",
-        "Wood"
-      ]
-    ],
-    "1996-05-05": [
-      [
-        "Alec",
-        "Dillon"
-      ]
-    ],
-    "1996-05-06": [
-      [
-        "Ryan",
-        "Collins"
-      ],
-      [
-        "Daniel",
-        "Audette"
-      ],
-      [
-        "Emil",
-        "Johansson"
-      ],
-      [
-        "Adam",
-        "Brooks"
-      ]
-    ],
-    "1996-05-08": [
-      [
-        "Marcus",
-        "Pettersson"
-      ]
-    ],
-    "1996-05-09": [
-      [
-        "Brycen",
-        "Martin"
-      ]
-    ],
-    "1996-05-10": [
-      [
-        "Alex",
-        "Tuch"
-      ],
-      [
-        "Nicolas",
-        "Aub\u00e9-Kubel"
-      ]
-    ],
-    "1996-05-11": [
-      [
-        "Adin",
-        "Hill"
-      ]
-    ],
-    "1996-05-12": [
-      [
-        "Sonny",
-        "Milano"
-      ]
-    ],
-    "1996-05-13": [
-      [
-        "Michael",
-        "Amadio"
-      ]
-    ],
-    "1996-05-14": [
-      [
-        "Louis",
-        "Belpedio"
-      ]
-    ],
-    "1996-05-15": [
-      [
-        "Dakota",
-        "Joshua"
-      ],
-      [
-        "Cam",
-        "Clarke"
-      ]
-    ],
-    "1996-05-16": [
-      [
-        "Petter",
-        "Hansson"
-      ]
-    ],
-    "1996-05-17": [
-      [
-        "Jack",
-        "Glover"
-      ]
-    ],
-    "1996-05-23": [
-      [
-        "Miro",
-        "Karjalainen"
-      ]
-    ],
-    "1996-05-25": [
-      [
-        "David",
-        "Pastrnak"
-      ],
-      [
-        "Jack",
-        "Dougherty"
-      ],
-      [
-        "Karel",
-        "Vejmelka"
-      ]
-    ],
-    "1996-05-26": [
-      [
-        "Ryan",
-        "Jones"
-      ]
-    ],
-    "1996-05-27": [
-      [
-        "Fredrik",
-        "Olofsson"
-      ],
-      [
-        "Nelson",
-        "Nogier"
-      ]
-    ],
-    "1996-05-28": [
-      [
-        "Ben",
-        "Thomas"
-      ]
-    ],
-    "1996-05-29": [
-      [
-        "Nick",
-        "Magyar"
-      ],
-      [
-        "Kevin",
-        "Elgest\u00e5l"
-      ],
-      [
-        "Vincent",
-        "Desharnais"
-      ]
-    ],
-    "1996-05-31": [
-      [
-        "Jared",
-        "McCann"
-      ],
-      [
-        "Pierre",
-        "Engvall"
-      ]
-    ],
-    "1996-06-02": [
-      [
-        "Johnathan",
-        "MacLeod"
-      ],
-      [
-        "Jake",
-        "Evans"
-      ]
-    ],
-    "1996-06-07": [
-      [
-        "Noah",
-        "Rod"
-      ]
-    ],
-    "1996-06-12": [
-      [
-        "J.J.",
-        "Piccinich"
-      ],
-      [
-        "Gustav",
-        "Forsling"
-      ],
-      [
-        "Pontus",
-        "Sj\u00e4lin"
-      ]
-    ],
-    "1996-06-16": [
-      [
-        "Joe",
-        "Wegwerth"
-      ],
-      [
-        "Andreas",
-        "S\u00f6derberg"
-      ]
-    ],
-    "1996-06-17": [
-      [
-        "Samuel",
-        "Blais"
-      ]
-    ],
-    "1996-06-18": [
-      [
-        "Ryan",
-        "Mantha"
-      ]
-    ],
-    "1996-06-20": [
-      [
-        "Sam",
-        "Bennett"
-      ],
-      [
-        "Michael",
-        "Dal Colle"
-      ]
-    ],
-    "1996-06-23": [
-      [
-        "Sebastian",
-        "Repo"
-      ]
-    ],
-    "1996-06-26": [
-      [
-        "Ryan",
-        "Lohin"
-      ]
-    ],
-    "1996-06-28": [
-      [
-        "Miles",
-        "Gendron"
-      ],
-      [
-        "Julien",
-        "Pelletier"
-      ],
-      [
-        "Patrick",
-        "Sanvido"
-      ]
-    ],
-    "1996-06-29": [
-      [
-        "Axel",
-        "Holmstr\u00f6m"
-      ]
-    ],
-    "1996-07-02": [
-      [
-        "Alexander",
-        "Peters"
-      ]
-    ],
-    "1996-07-05": [
-      [
-        "Brent",
-        "Moran"
-      ]
-    ],
-    "1996-07-06": [
-      [
-        "Carl",
-        "Neill"
-      ]
-    ],
-    "1996-07-08": [
-      [
-        "Haydn",
-        "Fleury"
-      ]
-    ],
-    "1996-07-10": [
-      [
-        "Shane",
-        "Gersich"
-      ],
-      [
-        "Christopher",
-        "Wilkie"
-      ],
-      [
-        "Yegor",
-        "Korshkov"
-      ]
-    ],
-    "1996-07-14": [
-      [
-        "John",
-        "Nyberg"
-      ]
-    ],
-    "1996-07-22": [
-      [
-        "Kevin",
-        "Fiala"
-      ],
-      [
-        "Nolan",
-        "Stevens"
-      ]
-    ],
-    "1996-07-23": [
-      [
-        "Kasperi",
-        "Kapanen"
-      ]
-    ],
-    "1996-07-30": [
-      [
-        "Dylan",
-        "Larkin"
-      ],
-      [
-        "Adam",
-        "Ollas Mattsson"
-      ],
-      [
-        "Jack",
-        "Walker"
-      ]
-    ],
-    "1996-08-02": [
-      [
-        "Justin",
-        "Kirkland"
-      ]
-    ],
-    "1996-08-03": [
-      [
-        "Anton",
-        "Karlsson"
-      ],
-      [
-        "Bokondji",
-        "Imama"
-      ]
-    ],
-    "1996-08-05": [
-      [
-        "Anders",
-        "Bjork"
-      ]
-    ],
-    "1996-08-12": [
-      [
-        "Vladislav",
-        "Kamenev"
-      ]
-    ],
-    "1996-08-14": [
-      [
-        "Tyler",
-        "Bird"
-      ]
-    ],
-    "1996-08-15": [
-      [
-        "Oskar",
-        "Lindblom"
-      ]
-    ],
-    "1996-08-16": [
-      [
-        "Kaapo",
-        "K\u00e4hk\u00f6nen"
-      ]
-    ],
-    "1996-08-17": [
-      [
-        "Jake",
-        "Virtanen"
-      ],
-      [
-        "Dysin",
-        "Mayo"
-      ]
-    ],
-    "1996-08-19": [
-      [
-        "Joel",
-        "Daccord"
-      ]
-    ],
-    "1996-08-23": [
-      [
-        "Linus",
-        "S\u00f6derstr\u00f6m"
-      ]
-    ],
-    "1996-08-26": [
-      [
-        "Dylan",
-        "Gambrell"
-      ]
-    ],
-    "1996-09-06": [
-      [
-        "Julien",
-        "Nantel"
-      ]
-    ],
-    "1996-09-09": [
-      [
-        "Spencer",
-        "Smallman"
-      ],
-      [
-        "Michael",
-        "Eyssimont"
-      ]
-    ],
-    "1996-09-11": [
-      [
-        "Pavel",
-        "Kraskovsky"
-      ],
-      [
-        "Ross",
-        "Colton"
-      ]
-    ],
-    "1996-09-13": [
-      [
-        "Adrian",
-        "Kempe"
-      ],
-      [
-        "Chase",
-        "Lang"
-      ]
-    ],
-    "1996-09-16": [
-      [
-        "Ryan",
-        "Gropp"
-      ]
-    ],
-    "1996-09-20": [
-      [
-        "Kevin",
-        "Stenlund"
-      ]
-    ],
-    "1996-09-25": [
-      [
-        "Chris",
-        "Martenet"
-      ]
-    ],
-    "1996-09-27": [
-      [
-        "Alexander",
-        "Dergachyov"
-      ]
-    ],
-    "1996-10-01": [
-      [
-        "Dmytro",
-        "Timashov"
-      ],
-      [
-        "Patrick",
-        "Holway"
-      ]
-    ],
-    "1996-10-03": [
-      [
-        "Adam",
-        "Gaudette"
-      ]
-    ],
-    "1996-10-08": [
-      [
-        "Timo",
-        "Meier"
-      ],
-      [
-        "Alexandre",
-        "Carrier"
-      ]
-    ],
-    "1996-10-09": [
-      [
-        "Cameron",
-        "Hughes"
-      ]
-    ],
-    "1996-10-10": [
-      [
-        "Ryan",
-        "Pilon"
-      ],
-      [
-        "Sami",
-        "Niku"
-      ]
-    ],
-    "1996-10-14": [
-      [
-        "Erik",
-        "K\u00e4llgren"
-      ]
-    ],
-    "1996-10-17": [
-      [
-        "Jake",
-        "DeBrusk"
-      ]
-    ],
-    "1996-10-21": [
-      [
-        "Jeremiah",
-        "Addison"
-      ]
-    ],
-    "1996-10-26": [
-      [
-        "Thomas",
-        "Schemitsch"
-      ]
-    ],
-    "1996-10-27": [
-      [
-        "Rasmus",
-        "Andersson"
-      ]
-    ],
-    "1996-10-28": [
-      [
-        "Jack",
-        "Eichel"
-      ]
-    ],
-    "1996-10-29": [
-      [
-        "Mikko",
-        "Rantanen"
-      ],
-      [
-        "Vince",
-        "Dunn"
-      ]
-    ],
-    "1996-10-30": [
-      [
-        "Samuel",
-        "Montembeault"
-      ],
-      [
-        "Dennis",
-        "Gilbert"
-      ]
-    ],
-    "1996-10-31": [
-      [
-        "Yevgeni",
-        "Svechnikov"
-      ],
-      [
-        "Jakob",
-        "Forsbacka Karlsson"
-      ]
-    ],
-    "1996-11-04": [
-      [
-        "Paul",
-        "Bittner"
-      ]
-    ],
-    "1996-11-06": [
-      [
-        "Adam",
-        "Smith"
-      ]
-    ],
-    "1996-11-11": [
-      [
-        "Gabriel",
-        "Gagn\u00e9"
-      ]
-    ],
-    "1996-11-13": [
-      [
-        "Andrew",
-        "Nielsen"
-      ]
-    ],
-    "1996-11-16": [
-      [
-        "Robin",
-        "Kovacs"
-      ]
-    ],
-    "1996-11-17": [
-      [
-        "Roope",
-        "Hintz"
-      ]
-    ],
-    "1996-11-21": [
-      [
-        "Manuel",
-        "Wiederer"
-      ]
-    ],
-    "1996-11-26": [
-      [
-        "Brandon",
-        "Carlo"
-      ]
-    ],
-    "1996-11-28": [
-      [
-        "Ivan",
-        "Fedotov"
-      ]
-    ],
-    "1996-12-04": [
-      [
-        "Jeremy",
-        "Davies"
-      ]
-    ],
-    "1996-12-09": [
-      [
-        "Kyle",
-        "Connor"
-      ],
-      [
-        "MacKenzie",
-        "Blackwood"
-      ]
-    ],
-    "1996-12-10": [
-      [
-        "Roy",
-        "Radke"
-      ]
-    ],
-    "1996-12-14": [
-      [
-        "A.J.",
-        "Greer"
-      ]
-    ],
-    "1996-12-18": [
-      [
-        "Stepan",
-        "Falkovsky"
-      ]
-    ],
-    "1996-12-19": [
-      [
-        "William",
-        "Borgen"
-      ]
-    ],
-    "1996-12-20": [
-      [
-        "Anthony",
-        "Richard"
-      ],
-      [
-        "Cooper",
-        "Marody"
-      ]
-    ],
-    "1996-12-22": [
-      [
-        "Travis",
-        "Dermott"
-      ]
-    ],
-    "1997-01-01": [
-      [
-        "Steven",
-        "Ruggiero"
-      ],
-      [
-        "Chaz",
-        "Reddekopp"
-      ]
-    ],
-    "1997-01-02": [
-      [
-        "Gabriel",
-        "Carlsson"
-      ],
-      [
-        "Blake",
-        "Speers"
-      ],
-      [
-        "Devante",
-        "Stephens"
-      ]
-    ],
-    "1997-01-03": [
-      [
-        "Adam",
-        "Parsells"
-      ]
-    ],
-    "1997-01-04": [
-      [
-        "Brad",
-        "Morrison"
-      ],
-      [
-        "Connor",
-        "Hobbs"
-      ]
-    ],
-    "1997-01-05": [
-      [
-        "Mikhail",
-        "Vorobyov"
-      ]
-    ],
-    "1997-01-06": [
-      [
-        "Ales",
-        "Stezka"
-      ]
-    ],
-    "1997-01-07": [
-      [
-        "Aleksi",
-        "Saarela"
-      ]
-    ],
-    "1997-01-08": [
-      [
-        "Mattias",
-        "Elfstr\u00f6m"
-      ]
-    ],
-    "1997-01-12": [
-      [
-        "Felix",
-        "Sandstr\u00f6m"
-      ],
-      [
-        "Simon",
-        "Bourque"
-      ]
-    ],
-    "1997-01-13": [
-      [
-        "Connor",
-        "McDavid"
-      ],
-      [
-        "Ivan",
-        "Provorov"
-      ],
-      [
-        "Graham",
-        "Knott"
-      ],
-      [
-        "Yakov",
-        "Trenin"
-      ]
-    ],
-    "1997-01-14": [
-      [
-        "Julius",
-        "N\u00e4ttinen"
-      ]
-    ],
-    "1997-01-18": [
-      [
-        "Denis",
-        "Malgin"
-      ]
-    ],
-    "1997-01-21": [
-      [
-        "Jake",
-        "Massie"
-      ]
-    ],
-    "1997-01-22": [
-      [
-        "Matt",
-        "Bradley"
-      ],
-      [
-        "John",
-        "Dahlstr\u00f6m"
-      ]
-    ],
-    "1997-01-24": [
-      [
-        "Gustav",
-        "Bouramman"
-      ]
-    ],
-    "1997-01-25": [
-      [
-        "Noah",
-        "Hanifin"
-      ]
-    ],
-    "1997-01-27": [
-      [
-        "Radovan",
-        "Bondra"
-      ]
-    ],
-    "1997-01-28": [
-      [
-        "David",
-        "Kase"
-      ]
-    ],
-    "1997-01-29": [
-      [
-        "Joel",
-        "Eriksson Ek"
-      ],
-      [
-        "Jack",
-        "Roslovic"
-      ]
-    ],
-    "1997-01-30": [
-      [
-        "Thomas",
-        "Chabot"
-      ],
-      [
-        "Colin",
-        "White"
-      ]
-    ],
-    "1997-01-31": [
-      [
-        "Andong",
-        "Song"
-      ]
-    ],
-    "1997-02-02": [
-      [
-        "Brandon",
-        "Crawley"
-      ]
-    ],
-    "1997-02-03": [
-      [
-        "Giorgio",
-        "Estephan"
-      ]
-    ],
-    "1997-02-05": [
-      [
-        "Mitchell",
-        "Stephens"
-      ],
-      [
-        "Nicolas",
-        "Roy"
-      ],
-      [
-        "John",
-        "Adams"
-      ]
-    ],
-    "1997-02-08": [
-      [
-        "Nikita",
-        "Korostelev"
-      ]
-    ],
-    "1997-02-09": [
-      [
-        "Mathieu",
-        "Joseph"
-      ]
-    ],
-    "1997-02-10": [
-      [
-        "Tyler",
-        "Soy"
-      ]
-    ],
-    "1997-02-11": [
-      [
-        "Mitchell",
-        "Vande Sompel"
-      ],
-      [
-        "Ryan",
-        "Shea"
-      ],
-      [
-        "Luke",
-        "Stevens"
-      ]
-    ],
-    "1997-02-16": [
-      [
-        "Jordan",
-        "Greenway"
-      ]
-    ],
-    "1997-02-17": [
-      [
-        "Joseph",
-        "Masonius"
-      ]
-    ],
-    "1997-02-21": [
-      [
-        "Jakub",
-        "Zboril"
-      ],
-      [
-        "Sergei",
-        "Zborovsky"
-      ]
-    ],
-    "1997-02-22": [
-      [
-        "Ilya",
-        "Samsonov"
-      ]
-    ],
-    "1997-02-25": [
-      [
-        "Brock",
-        "Boeser"
-      ],
-      [
-        "Casey",
-        "Fitzgerald"
-      ]
-    ],
-    "1997-02-26": [
-      [
-        "Damien",
-        "Riat"
-      ],
-      [
-        "Kristoffer",
-        "Gunnarsson"
-      ]
-    ],
-    "1997-02-27": [
-      [
-        "Luke",
-        "Opilka"
-      ],
-      [
-        "Evan",
-        "Smith"
-      ]
-    ],
-    "1997-03-03": [
-      [
-        "Marcus",
-        "Vela"
-      ]
-    ],
-    "1997-03-06": [
-      [
-        "Jakob",
-        "Stukel"
-      ]
-    ],
-    "1997-03-07": [
-      [
-        "Dylan",
-        "Strome"
-      ]
-    ],
-    "1997-03-10": [
-      [
-        "Karch",
-        "Bachman"
-      ]
-    ],
-    "1997-03-11": [
-      [
-        "Travis",
-        "Konecny"
-      ]
-    ],
-    "1997-03-12": [
-      [
-        "Brett",
-        "McKenzie"
-      ],
-      [
-        "Jonathan",
-        "Davidsson"
-      ]
-    ],
-    "1997-03-15": [
-      [
-        "Pavel",
-        "Karnaukhov"
-      ]
-    ],
-    "1997-03-17": [
-      [
-        "Daniel",
-        "Sprong"
-      ],
-      [
-        "Jeremy",
-        "Bracco"
-      ]
-    ],
-    "1997-03-21": [
-      [
-        "Tate",
-        "Olson"
-      ]
-    ],
-    "1997-03-23": [
-      [
-        "Nikita",
-        "Pavlychev"
-      ]
-    ],
-    "1997-03-24": [
-      [
-        "Matthew",
-        "Spencer"
-      ],
-      [
-        "Dmitri",
-        "Zhukenov"
-      ]
-    ],
-    "1997-03-25": [
-      [
-        "Jean-Christophe",
-        "Beaudin"
-      ],
-      [
-        "Glenn",
-        "Gawdin"
-      ],
-      [
-        "Patrick",
-        "Shea"
-      ]
-    ],
-    "1997-03-26": [
-      [
-        "Adam",
-        "Musil"
-      ]
-    ],
-    "1997-03-27": [
-      [
-        "Mike",
-        "Robinson"
-      ]
-    ],
-    "1997-03-30": [
-      [
-        "Zach",
-        "Senyshyn"
-      ],
-      [
-        "Matteo",
-        "Gennaro"
-      ]
-    ],
-    "1997-03-31": [
-      [
-        "Ryan",
-        "Bednard"
-      ],
-      [
-        "Connor",
-        "Ingram"
-      ]
-    ],
-    "1997-04-02": [
-      [
-        "Noah",
-        "Juulsen"
-      ],
-      [
-        "Rem",
-        "Pitlick"
-      ]
-    ],
-    "1997-04-04": [
-      [
-        "Martins",
-        "Dzierkals"
-      ]
-    ],
-    "1997-04-06": [
-      [
-        "Pavel",
-        "Zacha"
-      ]
-    ],
-    "1997-04-08": [
-      [
-        "Keegan",
-        "Kolesar"
-      ],
-      [
-        "Rudolfs",
-        "Balcers"
-      ],
-      [
-        "Dominik",
-        "Lakatos"
-      ]
-    ],
-    "1997-04-09": [
-      [
-        "Michael",
-        "Spacek"
-      ]
-    ],
-    "1997-04-10": [
-      [
-        "Samuel",
-        "Dove-McFalls"
-      ]
-    ],
-    "1997-04-11": [
-      [
-        "Jens",
-        "L\u00f6\u00f6ke"
-      ]
-    ],
-    "1997-04-13": [
-      [
-        "Alex",
-        "Dostie"
-      ]
-    ],
-    "1997-04-14": [
-      [
-        "Dennis",
-        "Yan"
-      ],
-      [
-        "Deven",
-        "Sideroff"
-      ],
-      [
-        "Yegor",
-        "Rykov"
-      ],
-      [
-        "Wyatt",
-        "Kalynuk"
-      ]
-    ],
-    "1997-04-15": [
-      [
-        "Christian",
-        "Fischer"
-      ]
-    ],
-    "1997-04-18": [
-      [
-        "Vladimir",
-        "Bobylyov"
-      ]
-    ],
-    "1997-04-19": [
-      [
-        "Jack",
-        "Sadek"
-      ]
-    ],
-    "1997-04-26": [
-      [
-        "Kirill",
-        "Kaprizov"
-      ]
-    ],
-    "1997-04-27": [
-      [
-        "Philip",
-        "Nyberg"
-      ]
-    ],
-    "1997-04-28": [
-      [
-        "J\u00e9r\u00e9my",
-        "Lauzon"
-      ],
-      [
-        "Thomas",
-        "Novak"
-      ]
-    ],
-    "1997-04-29": [
-      [
-        "Jacob",
-        "Larsson"
-      ]
-    ],
-    "1997-04-30": [
-      [
-        "Gabriel",
-        "Fontaine"
-      ]
-    ],
-    "1997-05-02": [
-      [
-        "Adam",
-        "Werner"
-      ]
-    ],
-    "1997-05-03": [
-      [
-        "Colton",
-        "White"
-      ]
-    ],
-    "1997-05-05": [
-      [
-        "Mitch",
-        "Marner"
-      ]
-    ],
-    "1997-05-06": [
-      [
-        "Jonas",
-        "Siegenthaler"
-      ]
-    ],
-    "1997-05-07": [
-      [
-        "Brendan",
-        "Warren"
-      ]
-    ],
-    "1997-05-10": [
-      [
-        "Filip",
-        "Berglund"
-      ]
-    ],
-    "1997-05-12": [
-      [
-        "Adam",
-        "Huska"
-      ]
-    ],
-    "1997-05-14": [
-      [
-        "J\u00e9r\u00e9my",
-        "Roy"
-      ]
-    ],
-    "1997-05-15": [
-      [
-        "Vili",
-        "Saarij\u00e4rvi"
-      ]
-    ],
-    "1997-05-19": [
-      [
-        "Oliver",
-        "Kylington"
-      ],
-      [
-        "Jesper",
-        "Lindgren"
-      ]
-    ],
-    "1997-05-21": [
-      [
-        "Callum",
-        "Booth"
-      ],
-      [
-        "John",
-        "Marino"
-      ]
-    ],
-    "1997-05-22": [
-      [
-        "Brandon",
-        "Duhaime"
-      ]
-    ],
-    "1997-05-23": [
-      [
-        "Nicholas",
-        "Merkley"
-      ],
-      [
-        "Jansen",
-        "Harkins"
-      ],
-      [
-        "Joseph",
-        "Cecconi"
-      ]
-    ],
-    "1997-05-24": [
-      [
-        "Matej",
-        "Tomek"
-      ],
-      [
-        "Peter",
-        "Thome"
-      ]
-    ],
-    "1997-05-25": [
-      [
-        "Jeremy",
-        "Helvig"
-      ]
-    ],
-    "1997-05-26": [
-      [
-        "Mathew",
-        "Barzal"
-      ]
-    ],
-    "1997-05-28": [
-      [
-        "Erik",
-        "Cernak"
-      ]
-    ],
-    "1997-06-01": [
-      [
-        "Tanner",
-        "Laczynski"
-      ]
-    ],
-    "1997-06-03": [
-      [
-        "Filip",
-        "Chlapik"
-      ]
-    ],
-    "1997-06-05": [
-      [
-        "Joren",
-        "van Pottelberghe"
-      ],
-      [
-        "Linus",
-        "\u00d6lund"
-      ]
-    ],
-    "1997-06-06": [
-      [
-        "Caleb",
-        "Jones"
-      ]
-    ],
-    "1997-06-07": [
-      [
-        "Denis",
-        "Guryanov"
-      ]
-    ],
-    "1997-06-08": [
-      [
-        "Anthony",
-        "Beauvillier"
-      ]
-    ],
-    "1997-06-10": [
-      [
-        "Kale",
-        "Howarth"
-      ]
-    ],
-    "1997-06-12": [
-      [
-        "Filip",
-        "Ahl"
-      ]
-    ],
-    "1997-06-16": [
-      [
-        "Veeti",
-        "Vainio"
-      ]
-    ],
-    "1997-06-17": [
-      [
-        "Jesse",
-        "Gabrielle"
-      ],
-      [
-        "Karlis",
-        "Cukste"
-      ]
-    ],
-    "1997-06-21": [
-      [
-        "Nathan",
-        "Noel"
-      ]
-    ],
-    "1997-06-23": [
-      [
-        "Lawson",
-        "Crouse"
-      ],
-      [
-        "Austin",
-        "Wagner"
-      ]
-    ],
-    "1997-06-24": [
-      [
-        "Jack",
-        "Becker"
-      ]
-    ],
-    "1997-06-25": [
-      [
-        "Kristian",
-        "Oldham"
-      ]
-    ],
-    "1997-06-26": [
-      [
-        "Ethan",
-        "Bear"
-      ]
-    ],
-    "1997-06-27": [
-      [
-        "Calvin",
-        "Th\u00fcrkauf"
-      ]
-    ],
-    "1997-06-30": [
-      [
-        "Erik",
-        "Foley"
-      ]
-    ],
-    "1997-07-01": [
-      [
-        "Ryan",
-        "Zuhlsdorf"
-      ]
-    ],
-    "1997-07-02": [
-      [
-        "Johnathan",
-        "Kovacevic"
-      ]
-    ],
-    "1997-07-03": [
-      [
-        "Gustav",
-        "Olhaver"
-      ]
-    ],
-    "1997-07-05": [
-      [
-        "Lucas",
-        "Carlsson"
-      ]
-    ],
-    "1997-07-09": [
-      [
-        "David",
-        "Cotton"
-      ]
-    ],
-    "1997-07-10": [
-      [
-        "Kasper",
-        "Bj\u00f6rkqvist"
-      ]
-    ],
-    "1997-07-15": [
-      [
-        "Anthony",
-        "Cirelli"
-      ]
-    ],
-    "1997-07-16": [
-      [
-        "Riley",
-        "Bruce"
-      ],
-      [
-        "Petrus",
-        "Palmu"
-      ]
-    ],
-    "1997-07-18": [
-      [
-        "Nicolas",
-        "Meloche"
-      ]
-    ],
-    "1997-07-19": [
-      [
-        "Zach",
-        "Werenski"
-      ],
-      [
-        "Zach",
-        "Fischer"
-      ]
-    ],
-    "1997-07-21": [
-      [
-        "Guillaume",
-        "Brisebois"
-      ]
-    ],
-    "1997-07-23": [
-      [
-        "William",
-        "Reilly"
-      ]
-    ],
-    "1997-07-26": [
-      [
-        "Sebastian",
-        "Aho"
-      ]
-    ],
-    "1997-07-28": [
-      [
-        "Jacob",
-        "Friend"
-      ]
-    ],
-    "1997-07-29": [
-      [
-        "Brendan",
-        "Guhle"
-      ]
-    ],
-    "1997-08-01": [
-      [
-        "Nikolai",
-        "Chebykin"
-      ]
-    ],
-    "1997-08-02": [
-      [
-        "Alexander",
-        "Volkov"
-      ]
-    ],
-    "1997-08-05": [
-      [
-        "Jonne",
-        "Tammela"
-      ]
-    ],
-    "1997-08-06": [
-      [
-        "Henrik",
-        "Borgstr\u00f6m"
-      ]
-    ],
-    "1997-08-12": [
-      [
-        "Brent",
-        "Gates"
-      ],
-      [
-        "Denis",
-        "Smirnov"
-      ]
-    ],
-    "1997-08-13": [
-      [
-        "Kyle",
-        "Capobianco"
-      ]
-    ],
-    "1997-08-18": [
-      [
-        "Carson",
-        "Meyer"
-      ]
-    ],
-    "1997-08-20": [
-      [
-        "Dan",
-        "Vladar"
-      ]
-    ],
-    "1997-08-22": [
-      [
-        "Adam",
-        "Marsh"
-      ]
-    ],
-    "1997-08-23": [
-      [
-        "Chase",
-        "Pearson"
-      ],
-      [
-        "Markus",
-        "Ruusu"
-      ]
-    ],
-    "1997-08-24": [
-      [
-        "Parker",
-        "Wotherspoon"
-      ]
-    ],
-    "1997-08-28": [
-      [
-        "Lukas",
-        "Jasek"
-      ],
-      [
-        "Croix",
-        "Evingson"
-      ]
-    ],
-    "1997-09-04": [
-      [
-        "Vasili",
-        "Glotov"
-      ]
-    ],
-    "1997-09-08": [
-      [
-        "Nicholas",
-        "Boka"
-      ]
-    ],
-    "1997-09-09": [
-      [
-        "Nick",
-        "Swaney"
-      ]
-    ],
-    "1997-09-10": [
-      [
-        "Troy",
-        "Terry"
-      ]
-    ],
-    "1997-09-12": [
-      [
-        "Petr",
-        "Kvaca"
-      ]
-    ],
-    "1997-09-15": [
-      [
-        "Liam",
-        "Dunda"
-      ]
-    ],
-    "1997-09-17": [
-      [
-        "Auston",
-        "Matthews"
-      ]
-    ],
-    "1997-09-18": [
-      [
-        "Tyler",
-        "Parsons"
-      ],
-      [
-        "Jordy",
-        "Stallard"
-      ]
-    ],
-    "1997-09-20": [
-      [
-        "Konstantin",
-        "Volkov"
-      ]
-    ],
-    "1997-09-28": [
-      [
-        "Mark",
-        "Shoemaker"
-      ]
-    ],
-    "1997-10-01": [
-      [
-        "Benjamin",
-        "Finkelstein"
-      ]
-    ],
-    "1997-10-14": [
-      [
-        "Wade",
-        "Allison"
-      ]
-    ],
-    "1997-10-15": [
-      [
-        "Julien",
-        "Gauthier"
-      ]
-    ],
-    "1997-10-20": [
-      [
-        "Ty",
-        "Ronning"
-      ]
-    ],
-    "1997-10-29": [
-      [
-        "Max",
-        "Zimmer"
-      ]
-    ],
-    "1997-10-30": [
-      [
-        "Tage",
-        "Thompson"
-      ]
-    ],
-    "1997-11-02": [
-      [
-        "Filip",
-        "Hronek"
-      ]
-    ],
-    "1997-11-05": [
-      [
-        "Maxime",
-        "Lajoie"
-      ]
-    ],
-    "1997-11-06": [
-      [
-        "Evan",
-        "Cormier"
-      ]
-    ],
-    "1997-11-07": [
-      [
-        "Brandon",
-        "Gignac"
-      ]
-    ],
-    "1997-11-16": [
-      [
-        "Lucas",
-        "Johansen"
-      ]
-    ],
-    "1997-11-18": [
-      [
-        "Jacob",
-        "Bryson"
-      ]
-    ],
-    "1997-11-24": [
-      [
-        "Carsen",
-        "Twarynski"
-      ]
-    ],
-    "1997-12-01": [
-      [
-        "Carl",
-        "Grundstr\u00f6m"
-      ],
-      [
-        "David",
-        "Bernhardt"
-      ]
-    ],
-    "1997-12-02": [
-      [
-        "Noah",
-        "Carroll"
-      ]
-    ],
-    "1997-12-03": [
-      [
-        "Rasmus",
-        "Asplund"
-      ]
-    ],
-    "1997-12-04": [
-      [
-        "Luke",
-        "Kunin"
-      ]
-    ],
-    "1997-12-06": [
-      [
-        "Nathan",
-        "Bastian"
-      ]
-    ],
-    "1997-12-10": [
-      [
-        "Hudson",
-        "Elynuik"
-      ]
-    ],
-    "1997-12-11": [
-      [
-        "Matthew",
-        "Tkachuk"
-      ]
-    ],
-    "1997-12-16": [
-      [
-        "Mathias",
-        "From"
-      ]
-    ],
-    "1997-12-18": [
-      [
-        "Alex",
-        "DeBrincat"
-      ]
-    ],
-    "1997-12-20": [
-      [
-        "Jonathan",
-        "Dahl\u00e9n"
-      ]
-    ],
-    "1997-12-21": [
-      [
-        "Charlie",
-        "McAvoy"
-      ]
-    ],
-    "1997-12-27": [
-      [
-        "Fr\u00e9d\u00e9ric",
-        "Allard"
-      ]
-    ],
-    "1997-12-31": [
-      [
-        "Matt",
-        "Filipe"
-      ]
-    ],
-    "1998-01-02": [
-      [
-        "Mitchell",
-        "Mattson"
-      ]
-    ],
-    "1998-01-03": [
-      [
-        "Dylan",
-        "Wells"
-      ]
-    ],
-    "1998-01-06": [
-      [
-        "Jack",
-        "LaFontaine"
-      ]
-    ],
-    "1998-01-07": [
-      [
-        "Tyler",
-        "Steenbergen"
-      ]
-    ],
-    "1998-01-08": [
-      [
-        "Linus",
-        "Lindstr\u00f6m"
-      ],
-      [
-        "Casey",
-        "Staum"
-      ]
-    ],
-    "1998-01-09": [
-      [
-        "Sean",
-        "Day"
-      ]
-    ],
-    "1998-01-12": [
-      [
-        "Luke",
-        "Green"
-      ],
-      [
-        "Fredrik",
-        "Karlstr\u00f6m"
-      ],
-      [
-        "Otto",
-        "Somppi"
-      ]
-    ],
-    "1998-01-14": [
-      [
-        "Tyler",
-        "Wall"
-      ]
-    ],
-    "1998-01-18": [
-      [
-        "Dmitri",
-        "Zaitsev"
-      ]
-    ],
-    "1998-01-19": [
-      [
-        "Jack",
-        "Badini"
-      ]
-    ],
-    "1998-01-20": [
-      [
-        "Skyler",
-        "McKenzie"
-      ]
-    ],
-    "1998-01-21": [
-      [
-        "Nick",
-        "Pastujov"
-      ]
-    ],
-    "1998-01-23": [
-      [
-        "Tim",
-        "S\u00f6derlund"
-      ]
-    ],
-    "1998-01-28": [
-      [
-        "Evan",
-        "Fitzpatrick"
-      ],
-      [
-        "Connor",
-        "Hall"
-      ],
-      [
-        "Tanner",
-        "Kaspick"
-      ]
-    ],
-    "1998-01-29": [
-      [
-        "Vojtech",
-        "Budik"
-      ]
-    ],
-    "1998-01-30": [
-      [
-        "Jacob",
-        "Cederholm"
-      ]
-    ],
-    "1998-01-31": [
-      [
-        "Jonathan",
-        "Ang"
-      ]
-    ],
-    "1998-02-03": [
-      [
-        "Michael",
-        "McLeod"
-      ],
-      [
-        "Sam",
-        "Steel"
-      ]
-    ],
-    "1998-02-04": [
-      [
-        "Libor",
-        "H\u00e1jek"
-      ],
-      [
-        "Beck",
-        "Malenstyn"
-      ]
-    ],
-    "1998-02-10": [
-      [
-        "Keaton",
-        "Middleton"
-      ],
-      [
-        "Axel",
-        "Jonsson Fj\u00e4llby"
-      ]
-    ],
-    "1998-02-11": [
-      [
-        "Trent",
-        "Frederic"
-      ],
-      [
-        "Ryan",
-        "Lindgren"
-      ]
-    ],
-    "1998-02-13": [
-      [
-        "Cole",
-        "Candella"
-      ]
-    ],
-    "1998-02-14": [
-      [
-        "Artur",
-        "Kayumov"
-      ]
-    ],
-    "1998-02-15": [
-      [
-        "Dennis",
-        "Cholowski"
-      ]
-    ],
-    "1998-02-17": [
-      [
-        "Max",
-        "Jones"
-      ],
-      [
-        "Adam",
-        "Fox"
-      ]
-    ],
-    "1998-02-18": [
-      [
-        "Taylor",
-        "Raddysh"
-      ]
-    ],
-    "1998-02-23": [
-      [
-        "Arvid",
-        "Henrikson"
-      ]
-    ],
-    "1998-02-25": [
-      [
-        "Joona",
-        "Koppanen"
-      ]
-    ],
-    "1998-02-27": [
-      [
-        "Givani",
-        "Smith"
-      ]
-    ],
-    "1998-03-01": [
-      [
-        "Tarmo",
-        "Reunanen"
-      ],
-      [
-        "Mikhail",
-        "Berdin"
-      ]
-    ],
-    "1998-03-02": [
-      [
-        "Alexander",
-        "Nylander"
-      ]
-    ],
-    "1998-03-04": [
-      [
-        "Colton",
-        "Point"
-      ]
-    ],
-    "1998-03-05": [
-      [
-        "Logan",
-        "Brown"
-      ],
-      [
-        "Jack",
-        "Kopacka"
-      ],
-      [
-        "Anthony",
-        "Salinitri"
-      ],
-      [
-        "Nicolas",
-        "Mattinen"
-      ]
-    ],
-    "1998-03-09": [
-      [
-        "Riley",
-        "Stillman"
-      ],
-      [
-        "Oskar",
-        "Steen"
-      ]
-    ],
-    "1998-03-12": [
-      [
-        "Mikhail",
-        "Maltsev"
-      ]
-    ],
-    "1998-03-13": [
-      [
-        "Michael",
-        "Pezzetta"
-      ],
-      [
-        "David",
-        "Quenneville"
-      ]
-    ],
-    "1998-03-14": [
-      [
-        "Tyson",
-        "Jost"
-      ]
-    ],
-    "1998-03-15": [
-      [
-        "Tyler",
-        "Benson"
-      ]
-    ],
-    "1998-03-17": [
-      [
-        "Andrew",
-        "Peeke"
-      ],
-      [
-        "Eetu",
-        "Tuulola"
-      ],
-      [
-        "Jakob",
-        "Stenqvist"
-      ]
-    ],
-    "1998-03-19": [
-      [
-        "Jake",
-        "Ryczek"
-      ]
-    ],
-    "1998-03-21": [
-      [
-        "Matthew",
-        "Hellickson"
-      ]
-    ],
-    "1998-03-23": [
-      [
-        "Brendan",
-        "De Jong"
-      ]
-    ],
-    "1998-03-24": [
-      [
-        "Jonathan",
-        "Dugan"
-      ]
-    ],
-    "1998-03-27": [
-      [
-        "Christopher",
-        "Paquette"
-      ]
-    ],
-    "1998-03-29": [
-      [
-        "Brett",
-        "Howden"
-      ]
-    ],
-    "1998-03-31": [
-      [
-        "Jakob",
-        "Chychrun"
-      ]
-    ],
-    "1998-04-06": [
-      [
-        "Matthew",
-        "Phillips"
-      ]
-    ],
-    "1998-04-09": [
-      [
-        "Pascal",
-        "Laberge"
-      ],
-      [
-        "Filip",
-        "Helt"
-      ]
-    ],
-    "1998-04-10": [
-      [
-        "Riley",
-        "Tufte"
-      ],
-      [
-        "Chad",
-        "Krys"
-      ]
-    ],
-    "1998-04-11": [
-      [
-        "Jordan",
-        "Sambrook"
-      ]
-    ],
-    "1998-04-13": [
-      [
-        "Garrett",
-        "Pilon"
-      ],
-      [
-        "Oleg",
-        "Sosunov"
-      ]
-    ],
-    "1998-04-14": [
-      [
-        "Timothy",
-        "Gettinger"
-      ],
-      [
-        "Dmitri",
-        "Sokolov"
-      ]
-    ],
-    "1998-04-16": [
-      [
-        "Connor",
-        "Bunnaman"
-      ]
-    ],
-    "1998-04-19": [
-      [
-        "Patrik",
-        "Laine"
-      ],
-      [
-        "Linus",
-        "Weissbach"
-      ]
-    ],
-    "1998-04-20": [
-      [
-        "Vladislav",
-        "Kara"
-      ]
-    ],
-    "1998-04-24": [
-      [
-        "Collin",
-        "Adams"
-      ]
-    ],
-    "1998-04-27": [
-      [
-        "James",
-        "Greenway"
-      ],
-      [
-        "Matthew",
-        "Cairns"
-      ],
-      [
-        "Drake",
-        "Batherson"
-      ]
-    ],
-    "1998-04-30": [
-      [
-        "Austin",
-        "Osmanski"
-      ]
-    ],
-    "1998-05-03": [
-      [
-        "Yegor",
-        "Zaitsev"
-      ]
-    ],
-    "1998-05-05": [
-      [
-        "Olli",
-        "Juolevi"
-      ],
-      [
-        "Josh",
-        "Mahura"
-      ]
-    ],
-    "1998-05-07": [
-      [
-        "Jesse",
-        "Puljuj\u00e4rvi"
-      ]
-    ],
-    "1998-05-08": [
-      [
-        "Jordan",
-        "Kyrou"
-      ],
-      [
-        "Vitali",
-        "Abramov"
-      ],
-      [
-        "Nate",
-        "Clurman"
-      ]
-    ],
-    "1998-05-09": [
-      [
-        "Braydyn",
-        "Chizen"
-      ]
-    ],
-    "1998-05-10": [
-      [
-        "Linus",
-        "N\u00e4ss\u00e9n"
-      ]
-    ],
-    "1998-05-11": [
-      [
-        "Niclas",
-        "Almari"
-      ]
-    ],
-    "1998-05-12": [
-      [
-        "Samuel",
-        "Girard"
-      ]
-    ],
-    "1998-05-22": [
-      [
-        "Cole",
-        "Hults"
-      ]
-    ],
-    "1998-05-25": [
-      [
-        "Janne",
-        "Kuokkanen"
-      ]
-    ],
-    "1998-05-26": [
-      [
-        "Logan",
-        "Stanley"
-      ]
-    ],
-    "1998-06-01": [
-      [
-        "Aapeli",
-        "R\u00e4s\u00e4nen"
-      ]
-    ],
-    "1998-06-03": [
-      [
-        "Cliff",
-        "Pu"
-      ]
-    ],
-    "1998-06-05": [
-      [
-        "Kale",
-        "Clague"
-      ]
-    ],
-    "1998-06-06": [
-      [
-        "Adam",
-        "Mascherin"
-      ]
-    ],
-    "1998-06-07": [
-      [
-        "Filip",
-        "Gustavsson"
-      ],
-      [
-        "Victor",
-        "Mete"
-      ]
-    ],
-    "1998-06-08": [
-      [
-        "Markus",
-        "Niemel\u00e4inen"
-      ]
-    ],
-    "1998-06-09": [
-      [
-        "Jake",
-        "Bean"
-      ]
-    ],
-    "1998-06-10": [
-      [
-        "Kieffer",
-        "Bellows"
-      ]
-    ],
-    "1998-06-11": [
-      [
-        "Trenton",
-        "Bourque"
-      ]
-    ],
-    "1998-06-12": [
-      [
-        "Alfons",
-        "Malmstr\u00f6m"
-      ],
-      [
-        "Dean",
-        "Stewart"
-      ]
-    ],
-    "1998-06-15": [
-      [
-        "Nicklaus",
-        "Perbix"
-      ]
-    ],
-    "1998-06-18": [
-      [
-        "Boris",
-        "Katchouk"
-      ]
-    ],
-    "1998-06-19": [
-      [
-        "Cam",
-        "Dineen"
-      ],
-      [
-        "Joseph",
-        "Anderson"
-      ]
-    ],
-    "1998-06-20": [
-      [
-        "Dante",
-        "Fabbro"
-      ],
-      [
-        "William",
-        "Lockwood"
-      ]
-    ],
-    "1998-06-24": [
-      [
-        "Pierre-Luc",
-        "Dubois"
-      ]
-    ],
-    "1998-06-25": [
-      [
-        "Mikhail",
-        "Sergachyov"
-      ]
-    ],
-    "1998-06-27": [
-      [
-        "German",
-        "Rubtsov"
-      ]
-    ],
-    "1998-06-29": [
-      [
-        "Markus",
-        "Nurmi"
-      ]
-    ],
-    "1998-07-04": [
-      [
-        "Hardy",
-        "H\u00e4man Aktell"
-      ]
-    ],
-    "1998-07-10": [
-      [
-        "William",
-        "Bitten"
-      ],
-      [
-        "Igor",
-        "Shvyryov"
-      ]
-    ],
-    "1998-07-12": [
-      [
-        "Joseph",
-        "Woll"
-      ]
-    ],
-    "1998-07-17": [
-      [
-        "Joachim",
-        "Blichfeld"
-      ]
-    ],
-    "1998-07-20": [
-      [
-        "Dillon",
-        "Dub\u00e9"
-      ],
-      [
-        "Brett",
-        "Murray"
-      ],
-      [
-        "Morgan",
-        "Geekie"
-      ]
-    ],
-    "1998-07-24": [
-      [
-        "Graham",
-        "McPhee"
-      ]
-    ],
-    "1998-07-28": [
-      [
-        "Noah",
-        "Gregor"
-      ]
-    ],
-    "1998-07-29": [
-      [
-        "Clayton",
-        "Keller"
-      ],
-      [
-        "Patrick",
-        "Harper"
-      ]
-    ],
-    "1998-07-30": [
-      [
-        "Jesper",
-        "Bratt"
-      ]
-    ],
-    "1998-07-31": [
-      [
-        "Wouter",
-        "Peeters"
-      ]
-    ],
-    "1998-08-04": [
-      [
-        "Andrei",
-        "Altybarmakyan"
-      ]
-    ],
-    "1998-08-06": [
-      [
-        "Drake",
-        "Rymsha"
-      ]
-    ],
-    "1998-08-08": [
-      [
-        "Matt",
-        "Brassard"
-      ]
-    ],
-    "1998-08-12": [
-      [
-        "Nikolaj",
-        "Krag Christensen"
-      ]
-    ],
-    "1998-08-13": [
-      [
-        "Carter",
-        "Hart"
-      ]
-    ],
-    "1998-08-17": [
-      [
-        "Filip",
-        "Larsson"
-      ],
-      [
-        "Travis",
-        "Barron"
-      ]
-    ],
-    "1998-08-23": [
-      [
-        "Roope",
-        "Laavainen"
-      ]
-    ],
-    "1998-08-27": [
-      [
-        "Cam",
-        "Morrison"
-      ],
-      [
-        "Brandon",
-        "Hagel"
-      ]
-    ],
-    "1998-08-29": [
-      [
-        "Josh",
-        "Anderson"
-      ]
-    ],
-    "1998-08-31": [
-      [
-        "Jacob",
-        "Moverare"
-      ]
-    ],
-    "1998-09-01": [
-      [
-        "Otto",
-        "Koivula"
-      ]
-    ],
-    "1998-09-02": [
-      [
-        "Eetu",
-        "Luostarinen"
-      ]
-    ],
-    "1998-09-04": [
-      [
-        "Linus",
-        "H\u00f6gberg"
-      ]
-    ],
-    "1998-09-07": [
-      [
-        "Nicholas",
-        "Caamano"
-      ]
-    ],
-    "1998-09-12": [
-      [
-        "Parker",
-        "Foo"
-      ]
-    ],
-    "1998-09-14": [
-      [
-        "Nick",
-        "Leivermann"
-      ]
-    ],
-    "1998-09-17": [
-      [
-        "Mario",
-        "Ferraro"
-      ]
-    ],
-    "1998-09-18": [
-      [
-        "Conor",
-        "Timmins"
-      ]
-    ],
-    "1998-09-19": [
-      [
-        "Nolan",
-        "Patrick"
-      ]
-    ],
-    "1998-09-20": [
-      [
-        "Luke",
-        "Martin"
-      ],
-      [
-        "Dylan",
-        "Ferguson"
-      ]
-    ],
-    "1998-09-29": [
-      [
-        "Kailer",
-        "Yamamoto"
-      ]
-    ],
-    "1998-09-30": [
-      [
-        "Robbie",
-        "Stucker"
-      ]
-    ],
-    "1998-10-06": [
-      [
-        "Juuso",
-        "V\u00e4lim\u00e4ki"
-      ]
-    ],
-    "1998-10-08": [
-      [
-        "Ville",
-        "R\u00e4s\u00e4nen"
-      ]
-    ],
-    "1998-10-10": [
-      [
-        "Zachary",
-        "Lauzon"
-      ]
-    ],
-    "1998-10-12": [
-      [
-        "Jonah",
-        "Gadjovich"
-      ]
-    ],
-    "1998-10-13": [
-      [
-        "Lias",
-        "Andersson"
-      ],
-      [
-        "Robin",
-        "Salo"
-      ]
-    ],
-    "1998-10-16": [
-      [
-        "Kole",
-        "Lind"
-      ]
-    ],
-    "1998-10-20": [
-      [
-        "Gustav",
-        "Lindstr\u00f6m"
-      ]
-    ],
-    "1998-10-28": [
-      [
-        "Marian",
-        "Studenic"
-      ]
-    ],
-    "1998-10-30": [
-      [
-        "Cale",
-        "Makar"
-      ],
-      [
-        "Jesper",
-        "Boqvist"
-      ]
-    ],
-    "1998-11-01": [
-      [
-        "Stuart",
-        "Skinner"
-      ]
-    ],
-    "1998-11-03": [
-      [
-        "Mason",
-        "Shaw"
-      ],
-      [
-        "Arvid",
-        "Holm"
-      ]
-    ],
-    "1998-11-12": [
-      [
-        "Elias",
-        "Pettersson"
-      ]
-    ],
-    "1998-11-16": [
-      [
-        "Kasper",
-        "Kotkansalo"
-      ]
-    ],
-    "1998-11-18": [
-      [
-        "Marcus",
-        "Davidsson"
-      ]
-    ],
-    "1998-11-19": [
-      [
-        "Cale",
-        "Fleury"
-      ]
-    ],
-    "1998-11-20": [
-      [
-        "Nikita A.",
-        "Popugayev"
-      ]
-    ],
-    "1998-11-22": [
-      [
-        "Casey",
-        "Mittelstadt"
-      ]
-    ],
-    "1998-11-24": [
-      [
-        "Jeremy",
-        "Swayman"
-      ]
-    ],
-    "1998-11-25": [
-      [
-        "Benton",
-        "Maass"
-      ]
-    ],
-    "1998-12-02": [
-      [
-        "Morgan",
-        "Barron"
-      ]
-    ],
-    "1998-12-05": [
-      [
-        "Nicolas",
-        "Hague"
-      ]
-    ],
-    "1998-12-13": [
-      [
-        "Cal",
-        "Foote"
-      ]
-    ],
-    "1998-12-18": [
-      [
-        "Jake",
-        "Oettinger"
-      ],
-      [
-        "Michael",
-        "Karow"
-      ]
-    ],
-    "1998-12-27": [
-      [
-        "Lane",
-        "Zablocki"
-      ]
-    ],
-    "1999-01-01": [
-      [
-        "Urho",
-        "Vaakanainen"
-      ]
-    ],
-    "1999-01-03": [
-      [
-        "Ryan",
-        "Poehling"
-      ]
-    ],
-    "1999-01-04": [
-      [
-        "Nico",
-        "Hischier"
-      ],
-      [
-        "Ivan",
-        "Chekhovich"
-      ]
-    ],
-    "1999-01-06": [
-      [
-        "Matthew",
-        "Strome"
-      ],
-      [
-        "Noel",
-        "Hoefenmayer"
-      ],
-      [
-        "Anton",
-        "Andersson"
-      ]
-    ],
-    "1999-01-08": [
-      [
-        "Maxime",
-        "Comtois"
-      ]
-    ],
-    "1999-01-09": [
-      [
-        "Aleksi",
-        "Heponiemi"
-      ]
-    ],
-    "1999-01-11": [
-      [
-        "Ian",
-        "Scott"
-      ]
-    ],
-    "1999-01-12": [
-      [
-        "Scott",
-        "Walford"
-      ]
-    ],
-    "1999-01-14": [
-      [
-        "Malte",
-        "Setkov"
-      ],
-      [
-        "Arnaud",
-        "Durandeau"
-      ]
-    ],
-    "1999-01-15": [
-      [
-        "Martin",
-        "Necas"
-      ]
-    ],
-    "1999-01-18": [
-      [
-        "Ian",
-        "Mitchell"
-      ],
-      [
-        "Antti",
-        "Paloj\u00e4rvi"
-      ]
-    ],
-    "1999-01-24": [
-      [
-        "Dylan",
-        "Samberg"
-      ],
-      [
-        "C\u00e9dric",
-        "Par\u00e9"
-      ]
-    ],
-    "1999-01-27": [
-      [
-        "Fedor",
-        "Gordeev"
-      ]
-    ],
-    "1999-01-29": [
-      [
-        "Kirill",
-        "Ustimenko"
-      ],
-      [
-        "Ryan",
-        "McGregor"
-      ]
-    ],
-    "1999-02-05": [
-      [
-        "Noah",
-        "Cates"
-      ]
-    ],
-    "1999-02-09": [
-      [
-        "Keith",
-        "Petruzzelli"
-      ]
-    ],
-    "1999-02-10": [
-      [
-        "Maxim",
-        "Sushko"
-      ]
-    ],
-    "1999-02-11": [
-      [
-        "Ostap",
-        "Safin"
-      ],
-      [
-        "Aarne",
-        "Talvitie"
-      ]
-    ],
-    "1999-02-12": [
-      [
-        "Philip",
-        "Kemp"
-      ]
-    ],
-    "1999-02-13": [
-      [
-        "Tobias",
-        "Geisser"
-      ]
-    ],
-    "1999-02-15": [
-      [
-        "Isaac",
-        "Ratcliffe"
-      ]
-    ],
-    "1999-02-16": [
-      [
-        "Owen",
-        "Tippett"
-      ],
-      [
-        "Nick",
-        "Campoli"
-      ]
-    ],
-    "1999-02-17": [
-      [
-        "Pavel",
-        "Koltygin"
-      ]
-    ],
-    "1999-02-18": [
-      [
-        "Jack",
-        "Studnicka"
-      ],
-      [
-        "Antoine",
-        "Morand"
-      ],
-      [
-        "Evan",
-        "Barratt"
-      ]
-    ],
-    "1999-02-19": [
-      [
-        "Grant",
-        "Mismash"
-      ]
-    ],
-    "1999-02-24": [
-      [
-        "Jiri",
-        "Patera"
-      ]
-    ],
-    "1999-02-25": [
-      [
-        "Nate",
-        "Schnarr"
-      ],
-      [
-        "Jake",
-        "McGrew"
-      ]
-    ],
-    "1999-02-26": [
-      [
-        "Ben",
-        "Jones"
-      ]
-    ],
-    "1999-02-27": [
-      [
-        "Erik",
-        "Walli Walterholm"
-      ]
-    ],
-    "1999-03-03": [
-      [
-        "Logan",
-        "Cockerill"
-      ]
-    ],
-    "1999-03-06": [
-      [
-        "Eemeli",
-        "R\u00e4s\u00e4nen"
-      ],
-      [
-        "Zach",
-        "Gallant"
-      ]
-    ],
-    "1999-03-09": [
-      [
-        "Ukko-Pekka",
-        "Luukkonen"
-      ]
-    ],
-    "1999-03-10": [
-      [
-        "Jake",
-        "Leschyshyn"
-      ]
-    ],
-    "1999-03-15": [
-      [
-        "Jarret",
-        "Tyszka"
-      ]
-    ],
-    "1999-03-19": [
-      [
-        "Sebastian",
-        "Walfridsson"
-      ]
-    ],
-    "1999-03-20": [
-      [
-        "Jacob",
-        "Golden"
-      ]
-    ],
-    "1999-03-21": [
-      [
-        "Markus",
-        "Phillips"
-      ]
-    ],
-    "1999-03-22": [
-      [
-        "Kyle",
-        "Olson"
-      ]
-    ],
-    "1999-03-27": [
-      [
-        "Daniil",
-        "Tarasov"
-      ]
-    ],
-    "1999-03-31": [
-      [
-        "Jonas",
-        "R\u00f8ndbjerg"
-      ],
-      [
-        "Jordan",
-        "Hollett"
-      ]
-    ],
-    "1999-04-01": [
-      [
-        "Cody",
-        "Glass"
-      ],
-      [
-        "Jan",
-        "Drozg"
-      ]
-    ],
-    "1999-04-03": [
-      [
-        "Joshua",
-        "Ess"
-      ]
-    ],
-    "1999-04-04": [
-      [
-        "Scott",
-        "Reedy"
-      ]
-    ],
-    "1999-04-06": [
-      [
-        "Cole",
-        "Guttman"
-      ]
-    ],
-    "1999-04-07": [
-      [
-        "D'Artagnan",
-        "Joly"
-      ]
-    ],
-    "1999-04-10": [
-      [
-        "David",
-        "No\u00ebl"
-      ]
-    ],
-    "1999-04-14": [
-      [
-        "Joni",
-        "Ikonen"
-      ]
-    ],
-    "1999-04-17": [
-      [
-        "Michael",
-        "Rasmussen"
-      ],
-      [
-        "Filip",
-        "Westerlund"
-      ]
-    ],
-    "1999-04-18": [
-      [
-        "Liam",
-        "Hawel"
-      ],
-      [
-        "Brady",
-        "Gilmour"
-      ]
-    ],
-    "1999-04-19": [
-      [
-        "Eetu",
-        "M\u00e4kiniemi"
-      ]
-    ],
-    "1999-04-21": [
-      [
-        "Reilly",
-        "Walsh"
-      ]
-    ],
-    "1999-04-22": [
-      [
-        "Eeli",
-        "Tolvanen"
-      ]
-    ],
-    "1999-04-25": [
-      [
-        "Ryan",
-        "O'Connell"
-      ]
-    ],
-    "1999-04-29": [
-      [
-        "Daniel",
-        "Bukac"
-      ]
-    ],
-    "1999-04-30": [
-      [
-        "Timothy",
-        "Liljegren"
-      ]
-    ],
-    "1999-05-02": [
-      [
-        "Tomas",
-        "Vomacka"
-      ]
-    ],
-    "1999-05-04": [
-      [
-        "Reilly",
-        "Webb"
-      ]
-    ],
-    "1999-05-05": [
-      [
-        "Joshua",
-        "Norris"
-      ],
-      [
-        "Klim",
-        "Kostin"
-      ],
-      [
-        "Cameron",
-        "Crotty"
-      ]
-    ],
-    "1999-05-06": [
-      [
-        "Tyler",
-        "Inamoto"
-      ]
-    ],
-    "1999-05-08": [
-      [
-        "Benjamin",
-        "Mirageas"
-      ]
-    ],
-    "1999-05-11": [
-      [
-        "Santeri",
-        "Virtanen"
-      ],
-      [
-        "Adam",
-        "Ruzicka"
-      ]
-    ],
-    "1999-05-14": [
-      [
-        "Morgan",
-        "Frost"
-      ]
-    ],
-    "1999-05-17": [
-      [
-        "Maxwell",
-        "Gildon"
-      ]
-    ],
-    "1999-05-20": [
-      [
-        "Jack",
-        "Rathbone"
-      ]
-    ],
-    "1999-05-25": [
-      [
-        "Michael",
-        "Anderson"
-      ]
-    ],
-    "1999-05-26": [
-      [
-        "Jacob",
-        "Paquette"
-      ]
-    ],
-    "1999-05-31": [
-      [
-        "Leon",
-        "Gawanke"
-      ]
-    ],
-    "1999-06-01": [
-      [
-        "Kristian",
-        "Vesalainen"
-      ],
-      [
-        "Emil",
-        "Bemstr\u00f6m"
-      ],
-      [
-        "Kirill",
-        "Maximov"
-      ],
-      [
-        "Brett",
-        "Davis"
-      ]
-    ],
-    "1999-06-03": [
-      [
-        "Matt",
-        "Villalta"
-      ]
-    ],
-    "1999-06-07": [
-      [
-        "Samuel",
-        "Walker"
-      ]
-    ],
-    "1999-06-09": [
-      [
-        "Michael",
-        "DiPietro"
-      ],
-      [
-        "Alexander",
-        "Chmelevski"
-      ]
-    ],
-    "1999-06-14": [
-      [
-        "Stelio",
-        "Mattheos"
-      ]
-    ],
-    "1999-06-15": [
-      [
-        "Jakub",
-        "Galvas"
-      ]
-    ],
-    "1999-06-16": [
-      [
-        "Dmitri",
-        "Samorukov"
-      ]
-    ],
-    "1999-06-17": [
-      [
-        "Henri",
-        "Jokiharju"
-      ],
-      [
-        "Josh",
-        "Brook"
-      ]
-    ],
-    "1999-06-22": [
-      [
-        "Olle",
-        "Eriksson Ek"
-      ]
-    ],
-    "1999-06-23": [
-      [
-        "David",
-        "Farrance"
-      ]
-    ],
-    "1999-06-25": [
-      [
-        "Alexey",
-        "Toropchenko"
-      ]
-    ],
-    "1999-07-01": [
-      [
-        "Pierre-Olivier",
-        "Joseph"
-      ]
-    ],
-    "1999-07-02": [
-      [
-        "Robert",
-        "Thomas"
-      ],
-      [
-        "Oskari",
-        "Laaksonen"
-      ]
-    ],
-    "1999-07-03": [
-      [
-        "Filip",
-        "Sveningsson"
-      ]
-    ],
-    "1999-07-04": [
-      [
-        "Nick",
-        "Henry"
-      ]
-    ],
-    "1999-07-14": [
-      [
-        "MacKenzie",
-        "Entwistle"
-      ]
-    ],
-    "1999-07-18": [
-      [
-        "Miro",
-        "Heiskanen"
-      ]
-    ],
-    "1999-07-19": [
-      [
-        "Jacob",
-        "Peterson"
-      ]
-    ],
-    "1999-07-22": [
-      [
-        "Jason",
-        "Robertson"
-      ],
-      [
-        "Maxim",
-        "Zhukov"
-      ]
-    ],
-    "1999-07-27": [
-      [
-        "Skyler",
-        "Brind'Amour"
-      ]
-    ],
-    "1999-07-30": [
-      [
-        "Shane",
-        "Bowers"
-      ]
-    ],
-    "1999-08-02": [
-      [
-        "Victor",
-        "Berglund"
-      ]
-    ],
-    "1999-08-10": [
-      [
-        "Nick",
-        "Suzuki"
-      ]
-    ],
-    "1999-08-11": [
-      [
-        "Cayden",
-        "Primeau"
-      ]
-    ],
-    "1999-08-16": [
-      [
-        "Gabriel",
-        "Vilardi"
-      ]
-    ],
-    "1999-08-17": [
-      [
-        "Alexei",
-        "Lipanov"
-      ]
-    ],
-    "1999-08-18": [
-      [
-        "Lukas",
-        "Elvenes"
-      ]
-    ],
-    "1999-08-20": [
-      [
-        "Kristian",
-        "R\u00f8yk\u00e5s Marthinsen"
-      ]
-    ],
-    "1999-08-23": [
-      [
-        "Cole",
-        "Fraser"
-      ]
-    ],
-    "1999-08-24": [
-      [
-        "Olle",
-        "Lycksell"
-      ]
-    ],
-    "1999-08-25": [
-      [
-        "Fabian",
-        "Zetterlund"
-      ]
-    ],
-    "1999-08-31": [
-      [
-        "Ivan",
-        "Lodnia"
-      ]
-    ],
-    "1999-09-02": [
-      [
-        "Erik",
-        "Br\u00e4nnstr\u00f6m"
-      ],
-      [
-        "Calle",
-        "Sj\u00e4lin"
-      ]
-    ],
-    "1999-09-05": [
-      [
-        "Filip",
-        "Chytil"
-      ],
-      [
-        "Bryce",
-        "Misley"
-      ]
-    ],
-    "1999-09-08": [
-      [
-        "Jocktan",
-        "Chainey"
-      ]
-    ],
-    "1999-09-09": [
-      [
-        "Clayton",
-        "Phillips"
-      ]
-    ],
-    "1999-09-12": [
-      [
-        "Jaret",
-        "Anderson-Dolan"
-      ]
-    ],
-    "1999-09-13": [
-      [
-        "Alexandre",
-        "Texier"
-      ],
-      [
-        "Alex",
-        "Formenton"
-      ]
+  "1993-04-08": [
+    [
+      "Viktor Arvidsson"
     ]
-  }
+  ],
+  "1993-10-04": [
+    [
+      "Lukas Sutter"
+    ],
+    [
+      "Alexander Kadeykin"
+    ]
+  ],
+  "1994-01-13": [
+    [
+      "Kyle Schempp"
+    ]
+  ],
+  "1994-01-30": [
+    [
+      "Zach Nagelvoort"
+    ]
+  ],
+  "1994-02-07": [
+    [
+      "Nathan Walker"
+    ]
+  ],
+  "1994-02-19": [
+    [
+      "Daniel Walcott"
+    ]
+  ],
+  "1994-02-21": [
+    [
+      "Devon Toews"
+    ]
+  ],
+  "1994-03-02": [
+    [
+      "Cam Darcy"
+    ]
+  ],
+  "1994-03-17": [
+    [
+      "C.J. Suess"
+    ]
+  ],
+  "1994-03-26": [
+    [
+      "Austin Carroll"
+    ]
+  ],
+  "1994-04-11": [
+    [
+      "Brandon Montour"
+    ]
+  ],
+  "1994-04-13": [
+    [
+      "Elvis Merzlikins"
+    ],
+    [
+      "Jeff Taylor"
+    ]
+  ],
+  "1994-04-14": [
+    [
+      "Tyler Vesel"
+    ]
+  ],
+  "1994-05-02": [
+    [
+      "Richard Nejezchleb"
+    ]
+  ],
+  "1994-05-15": [
+    [
+      "Matt Iacopelli"
+    ]
+  ],
+  "1994-05-27": [
+    [
+      "Matt Ustaski"
+    ]
+  ],
+  "1994-06-06": [
+    [
+      "Markus Nutivaara"
+    ]
+  ],
+  "1994-06-27": [
+    [
+      "Steven Johnson"
+    ]
+  ],
+  "1994-07-16": [
+    [
+      "Jesper Pettersson"
+    ]
+  ],
+  "1994-07-29": [
+    [
+      "Andrei Mironov"
+    ]
+  ],
+  "1994-08-08": [
+    [
+      "Dominik Simon"
+    ]
+  ],
+  "1994-08-12": [
+    [
+      "Ivan Nalimov"
+    ]
+  ],
+  "1994-08-30": [
+    [
+      "Nikita Tryamkin"
+    ]
+  ],
+  "1994-09-19": [
+    [
+      "Liam Coughlin"
+    ]
+  ],
+  "1994-11-13": [
+    [
+      "Edgars Kulda"
+    ]
+  ],
+  "1994-11-29": [
+    [
+      "Anton Lindholm"
+    ]
+  ],
+  "1995-01-13": [
+    [
+      "Maxim Mamin"
+    ]
+  ],
+  "1995-01-26": [
+    [
+      "Colby Williams"
+    ]
+  ],
+  "1995-02-05": [
+    [
+      "David Westlund"
+    ]
+  ],
+  "1995-02-06": [
+    [
+      "Ville Husso"
+    ]
+  ],
+  "1995-02-08": [
+    [
+      "Ziyat Paigin"
+    ]
+  ],
+  "1995-02-13": [
+    [
+      "Maxwell Willman"
+    ]
+  ],
+  "1995-02-14": [
+    [
+      "Anatoli Golyshev"
+    ]
+  ],
+  "1995-02-22": [
+    [
+      "Jaedon Descheneau"
+    ]
+  ],
+  "1995-03-01": [
+    [
+      "Hayden Hawkey"
+    ],
+    [
+      "Matt Roy"
+    ]
+  ],
+  "1995-03-06": [
+    [
+      "Sam Lafferty"
+    ]
+  ],
+  "1995-03-07": [
+    [
+      "Miroslav Svoboda"
+    ]
+  ],
+  "1995-03-17": [
+    [
+      "Christian Wolanin"
+    ]
+  ],
+  "1995-03-22": [
+    [
+      "Dwyer Tschantz"
+    ]
+  ],
+  "1995-03-23": [
+    [
+      "Julius V\u00e4h\u00e4talo"
+    ]
+  ],
+  "1995-03-28": [
+    [
+      "Nolan Vesey"
+    ]
+  ],
+  "1995-03-29": [
+    [
+      "Brandon Baddock"
+    ]
+  ],
+  "1995-04-03": [
+    [
+      "Ivan Chukarov"
+    ]
+  ],
+  "1995-04-04": [
+    [
+      "Joonas Lyytinen"
+    ]
+  ],
+  "1995-05-11": [
+    [
+      "Rinat Valiyev"
+    ]
+  ],
+  "1995-05-20": [
+    [
+      "Jake Marchment"
+    ],
+    [
+      "Frederik Tiffels"
+    ]
+  ],
+  "1995-06-01": [
+    [
+      "Dylan Sikura"
+    ]
+  ],
+  "1995-07-05": [
+    [
+      "Danton Heinen"
+    ]
+  ],
+  "1995-07-18": [
+    [
+      "Victor Olofsson"
+    ],
+    [
+      "Tyler Moy"
+    ]
+  ],
+  "1995-07-21": [
+    [
+      "Adam Helewka"
+    ]
+  ],
+  "1995-08-04": [
+    [
+      "Ilya Sorokin"
+    ]
+  ],
+  "1995-08-10": [
+    [
+      "Mackenze Stewart"
+    ]
+  ],
+  "1995-09-05": [
+    [
+      "Lucas Wallmark"
+    ]
+  ],
+  "1995-09-11": [
+    [
+      "Hunter Smith"
+    ]
+  ],
+  "1995-09-17": [
+    [
+      "Michael Bunting"
+    ]
+  ],
+  "1995-09-18": [
+    [
+      "Luc Snuggerud"
+    ]
+  ],
+  "1995-09-19": [
+    [
+      "Jonas Johansson"
+    ]
+  ],
+  "1995-09-23": [
+    [
+      "Alex Lintuniemi"
+    ]
+  ],
+  "1995-09-24": [
+    [
+      "Brett Lernout"
+    ]
+  ],
+  "1995-10-05": [
+    [
+      "Tanner Faith"
+    ]
+  ],
+  "1995-10-07": [
+    [
+      "Nikolay Goldobin"
+    ]
+  ],
+  "1995-10-10": [
+    [
+      "Shane Eiserman"
+    ]
+  ],
+  "1995-10-17": [
+    [
+      "Matt Mistele"
+    ]
+  ],
+  "1995-10-24": [
+    [
+      "Tony DeAngelo"
+    ]
+  ],
+  "1995-10-25": [
+    [
+      "Chase De Leo"
+    ]
+  ],
+  "1995-10-27": [
+    [
+      "Leon Draisaitl"
+    ],
+    [
+      "Jake Kupsky"
+    ]
+  ],
+  "1995-10-30": [
+    [
+      "Connor Chatham"
+    ]
+  ],
+  "1995-11-01": [
+    [
+      "Beau Starrett"
+    ]
+  ],
+  "1995-11-02": [
+    [
+      "Julius Bergman"
+    ],
+    [
+      "Jack Ramsey"
+    ]
+  ],
+  "1995-11-06": [
+    [
+      "Sam Reinhart"
+    ]
+  ],
+  "1995-11-07": [
+    [
+      "Ryan Rehill"
+    ]
+  ],
+  "1995-11-08": [
+    [
+      "Ondrej Kase"
+    ]
+  ],
+  "1995-11-21": [
+    [
+      "Vladislav Gavrikov"
+    ]
+  ],
+  "1995-12-03": [
+    [
+      "Julius Honka"
+    ]
+  ],
+  "1995-12-05": [
+    [
+      "Nick Ritchie"
+    ]
+  ],
+  "1995-12-08": [
+    [
+      "Thatcher Demko"
+    ]
+  ],
+  "1995-12-12": [
+    [
+      "Alex Schoenborn"
+    ],
+    [
+      "Kevin Labanc"
+    ]
+  ],
+  "1995-12-14": [
+    [
+      "Ivan Barbashyov"
+    ]
+  ],
+  "1995-12-15": [
+    [
+      "Steven Spinner"
+    ]
+  ],
+  "1995-12-21": [
+    [
+      "Alexis Vanier"
+    ]
+  ],
+  "1995-12-25": [
+    [
+      "Mark Friedman"
+    ]
+  ],
+  "1995-12-30": [
+    [
+      "Nikita Scherbak"
+    ],
+    [
+      "Igor Shestyorkin"
+    ]
+  ],
+  "1996-01-01": [
+    [
+      "Jayce Hawryluk"
+    ],
+    [
+      "Joni Tuulola"
+    ]
+  ],
+  "1996-01-02": [
+    [
+      "Jacob Middleton"
+    ]
+  ],
+  "1996-01-04": [
+    [
+      "Maximilian Pajpach"
+    ]
+  ],
+  "1996-01-05": [
+    [
+      "Rodrigo Abols"
+    ]
+  ],
+  "1996-01-07": [
+    [
+      "Alex Nedeljkovic"
+    ],
+    [
+      "Michael Prapavessis"
+    ],
+    [
+      "Radel Fazleyev"
+    ]
+  ],
+  "1996-01-09": [
+    [
+      "Vitek Vanecek"
+    ],
+    [
+      "Hugo Fagerblom"
+    ]
+  ],
+  "1996-01-10": [
+    [
+      "Cristiano DiGiacinto"
+    ]
+  ],
+  "1996-01-11": [
+    [
+      "Jaden Lindo"
+    ]
+  ],
+  "1996-01-15": [
+    [
+      "Mason Appleton"
+    ]
+  ],
+  "1996-01-19": [
+    [
+      "Nikolas Koberstein"
+    ],
+    [
+      "Kyle Pettit"
+    ]
+  ],
+  "1996-01-20": [
+    [
+      "Roland McKeown"
+    ]
+  ],
+  "1996-01-21": [
+    [
+      "Andreas Englund"
+    ]
+  ],
+  "1996-01-22": [
+    [
+      "Robby Fabbri"
+    ],
+    [
+      "Joshua Ho-Sang"
+    ]
+  ],
+  "1996-01-23": [
+    [
+      "Jared Fiegl"
+    ]
+  ],
+  "1996-01-24": [
+    [
+      "Sergei Boikov"
+    ]
+  ],
+  "1996-01-25": [
+    [
+      "Lukas Vejdemo"
+    ]
+  ],
+  "1996-01-26": [
+    [
+      "Chandler Yakimowicz"
+    ],
+    [
+      "Stephen Desrocher"
+    ],
+    [
+      "Blake Hillman"
+    ]
+  ],
+  "1996-01-28": [
+    [
+      "Reid Duke"
+    ]
+  ],
+  "1996-01-29": [
+    [
+      "Juho Lammikko"
+    ],
+    [
+      "Joey Dudek"
+    ]
+  ],
+  "1996-02-01": [
+    [
+      "Dominik Masin"
+    ]
+  ],
+  "1996-02-02": [
+    [
+      "Christian Dvorak"
+    ]
+  ],
+  "1996-02-06": [
+    [
+      "Aaron Haydon"
+    ]
+  ],
+  "1996-02-07": [
+    [
+      "Aaron Ekblad"
+    ],
+    [
+      "Conner Bleackley"
+    ],
+    [
+      "Conner Bleackley"
+    ]
+  ],
+  "1996-02-08": [
+    [
+      "Chase Perry"
+    ]
+  ],
+  "1996-02-14": [
+    [
+      "Nikolaj Ehlers"
+    ],
+    [
+      "Ryan MacInnis"
+    ]
+  ],
+  "1996-02-15": [
+    [
+      "Josh Jacobs"
+    ]
+  ],
+  "1996-02-16": [
+    [
+      "Austin Poganski"
+    ],
+    [
+      "Matthew Berkovitz"
+    ]
+  ],
+  "1996-02-17": [
+    [
+      "Olivier LeBlanc"
+    ],
+    [
+      "Sebastian Aho"
+    ]
+  ],
+  "1996-02-20": [
+    [
+      "Maxim Letunov"
+    ],
+    [
+      "Jake Walman"
+    ]
+  ],
+  "1996-02-22": [
+    [
+      "William Lagesson"
+    ],
+    [
+      "Christopher Brown"
+    ]
+  ],
+  "1996-02-23": [
+    [
+      "Nick Schmaltz"
+    ]
+  ],
+  "1996-02-25": [
+    [
+      "Dominic Turgeon"
+    ]
+  ],
+  "1996-02-27": [
+    [
+      "Blake Siebenaler"
+    ]
+  ],
+  "1996-02-28": [
+    [
+      "Jakub Vr\u00e1na"
+    ],
+    [
+      "Rhett Gardner"
+    ]
+  ],
+  "1996-02-29": [
+    [
+      "Brett Seney"
+    ]
+  ],
+  "1996-03-01": [
+    [
+      "Gilles Senn"
+    ]
+  ],
+  "1996-03-03": [
+    [
+      "Aaron Irving"
+    ]
+  ],
+  "1996-03-05": [
+    [
+      "Garrett Metcalf"
+    ]
+  ],
+  "1996-03-06": [
+    [
+      "Anthony Angello"
+    ],
+    [
+      "Sam Ruopp"
+    ],
+    [
+      "Patrik Virta"
+    ]
+  ],
+  "1996-03-11": [
+    [
+      "Conor Garland"
+    ]
+  ],
+  "1996-03-13": [
+    [
+      "Brayden Point"
+    ]
+  ],
+  "1996-03-15": [
+    [
+      "Brendan Lemieux"
+    ]
+  ],
+  "1996-03-17": [
+    [
+      "Brett Pollock"
+    ],
+    [
+      "Tyler Nanne"
+    ],
+    [
+      "Miguel Fidler"
+    ]
+  ],
+  "1996-03-19": [
+    [
+      "Chase Priskie"
+    ]
+  ],
+  "1996-03-21": [
+    [
+      "Matt Schmalz"
+    ]
+  ],
+  "1996-03-29": [
+    [
+      "Travis Sanheim"
+    ],
+    [
+      "Brandon Halverson"
+    ],
+    [
+      "Clark Bishop"
+    ]
+  ],
+  "1996-04-01": [
+    [
+      "Warren Foegele"
+    ]
+  ],
+  "1996-04-02": [
+    [
+      "Dylan Sadowy"
+    ],
+    [
+      "Pavel Jenys"
+    ],
+    [
+      "Christian Jaros"
+    ],
+    [
+      "Patrick Kudla"
+    ]
+  ],
+  "1996-04-03": [
+    [
+      "Rourke Chartier"
+    ],
+    [
+      "Todd Burgess"
+    ]
+  ],
+  "1996-04-04": [
+    [
+      "Andrew Mangiapane"
+    ]
+  ],
+  "1996-04-05": [
+    [
+      "Keegan Iverson"
+    ],
+    [
+      "Christoffer Ehn"
+    ]
+  ],
+  "1996-04-06": [
+    [
+      "Andrei Svetlakov"
+    ]
+  ],
+  "1996-04-09": [
+    [
+      "Ryan Donato"
+    ],
+    [
+      "Josh Wesley"
+    ]
+  ],
+  "1996-04-11": [
+    [
+      "Eric Cornel"
+    ],
+    [
+      "Daniel Bernhardt"
+    ]
+  ],
+  "1996-04-13": [
+    [
+      "Brandon Hickey"
+    ],
+    [
+      "Steven Lorentz"
+    ]
+  ],
+  "1996-04-16": [
+    [
+      "John Quenneville"
+    ]
+  ],
+  "1996-04-18": [
+    [
+      "Francis Perron"
+    ]
+  ],
+  "1996-04-19": [
+    [
+      "Keven Bouchard"
+    ]
+  ],
+  "1996-04-22": [
+    [
+      "Kyle Jenkins"
+    ]
+  ],
+  "1996-04-23": [
+    [
+      "Mason McDonald"
+    ]
+  ],
+  "1996-04-24": [
+    [
+      "Alexis P\u00e9pin"
+    ]
+  ],
+  "1996-04-25": [
+    [
+      "Spencer Watson"
+    ]
+  ],
+  "1996-04-27": [
+    [
+      "Brendan Perlini"
+    ],
+    [
+      "Niko Mikkola"
+    ]
+  ],
+  "1996-04-29": [
+    [
+      "Kelly Summers"
+    ]
+  ],
+  "1996-05-01": [
+    [
+      "William Nylander"
+    ]
+  ],
+  "1996-05-02": [
+    [
+      "Vaclav Karabacek"
+    ]
+  ],
+  "1996-05-04": [
+    [
+      "Kyle Wood"
+    ]
+  ],
+  "1996-05-05": [
+    [
+      "Alec Dillon"
+    ]
+  ],
+  "1996-05-06": [
+    [
+      "Ryan Collins"
+    ],
+    [
+      "Daniel Audette"
+    ],
+    [
+      "Emil Johansson"
+    ],
+    [
+      "Adam Brooks"
+    ]
+  ],
+  "1996-05-08": [
+    [
+      "Marcus Pettersson"
+    ]
+  ],
+  "1996-05-09": [
+    [
+      "Brycen Martin"
+    ]
+  ],
+  "1996-05-10": [
+    [
+      "Alex Tuch"
+    ],
+    [
+      "Nicolas Aub\u00e9-Kubel"
+    ]
+  ],
+  "1996-05-11": [
+    [
+      "Adin Hill"
+    ]
+  ],
+  "1996-05-12": [
+    [
+      "Sonny Milano"
+    ]
+  ],
+  "1996-05-13": [
+    [
+      "Michael Amadio"
+    ]
+  ],
+  "1996-05-14": [
+    [
+      "Louie Belpedio"
+    ]
+  ],
+  "1996-05-15": [
+    [
+      "Dakota Joshua"
+    ],
+    [
+      "Cam Clarke"
+    ]
+  ],
+  "1996-05-16": [
+    [
+      "Petter Hansson"
+    ]
+  ],
+  "1996-05-17": [
+    [
+      "Jack Glover"
+    ]
+  ],
+  "1996-05-23": [
+    [
+      "Miro Karjalainen"
+    ]
+  ],
+  "1996-05-25": [
+    [
+      "David Pastrnak"
+    ],
+    [
+      "Jack Dougherty"
+    ],
+    [
+      "Karel Vejmelka"
+    ]
+  ],
+  "1996-05-26": [
+    [
+      "Ryan Jones"
+    ]
+  ],
+  "1996-05-27": [
+    [
+      "Fredrik Olofsson"
+    ],
+    [
+      "Nelson Nogier"
+    ]
+  ],
+  "1996-05-28": [
+    [
+      "Ben Thomas"
+    ]
+  ],
+  "1996-05-29": [
+    [
+      "Nick Magyar"
+    ],
+    [
+      "Kevin Elgest\u00e5l"
+    ],
+    [
+      "Vincent Desharnais"
+    ]
+  ],
+  "1996-05-31": [
+    [
+      "Jared McCann"
+    ],
+    [
+      "Pierre Engvall"
+    ]
+  ],
+  "1996-06-02": [
+    [
+      "John MacLeod"
+    ],
+    [
+      "Jake Evans"
+    ]
+  ],
+  "1996-06-07": [
+    [
+      "Noah Rod"
+    ]
+  ],
+  "1996-06-12": [
+    [
+      "J.J. Piccinich"
+    ],
+    [
+      "Gustav Forsling"
+    ],
+    [
+      "Pontus Sj\u00e4lin"
+    ]
+  ],
+  "1996-06-16": [
+    [
+      "Joe Wegwerth"
+    ],
+    [
+      "Andreas S\u00f6derberg"
+    ]
+  ],
+  "1996-06-17": [
+    [
+      "Sammy Blais"
+    ]
+  ],
+  "1996-06-18": [
+    [
+      "Ryan Mantha"
+    ]
+  ],
+  "1996-06-20": [
+    [
+      "Sam Bennett"
+    ],
+    [
+      "Michael Dal Colle"
+    ]
+  ],
+  "1996-06-23": [
+    [
+      "Sebastian Repo"
+    ]
+  ],
+  "1996-06-26": [
+    [
+      "Ryan Lohin"
+    ]
+  ],
+  "1996-06-28": [
+    [
+      "Miles Gendron"
+    ],
+    [
+      "Julien Pelletier"
+    ],
+    [
+      "Patrick Sanvido"
+    ]
+  ],
+  "1996-06-29": [
+    [
+      "Axel Holmstr\u00f6m"
+    ]
+  ],
+  "1996-07-02": [
+    [
+      "Alexander Peters"
+    ]
+  ],
+  "1996-07-05": [
+    [
+      "Brent Moran"
+    ]
+  ],
+  "1996-07-06": [
+    [
+      "Carl Neill"
+    ]
+  ],
+  "1996-07-08": [
+    [
+      "Haydn Fleury"
+    ]
+  ],
+  "1996-07-10": [
+    [
+      "Shane Gersich"
+    ],
+    [
+      "Christopher Wilkie"
+    ],
+    [
+      "Yegor Korshkov"
+    ]
+  ],
+  "1996-07-14": [
+    [
+      "John Nyberg"
+    ]
+  ],
+  "1996-07-22": [
+    [
+      "Kevin Fiala"
+    ],
+    [
+      "Nolan Stevens"
+    ]
+  ],
+  "1996-07-23": [
+    [
+      "Kasperi Kapanen"
+    ]
+  ],
+  "1996-07-30": [
+    [
+      "Dylan Larkin"
+    ],
+    [
+      "Adam Ollas Mattsson"
+    ],
+    [
+      "Jack Walker"
+    ]
+  ],
+  "1996-08-02": [
+    [
+      "Justin Kirkland"
+    ]
+  ],
+  "1996-08-03": [
+    [
+      "Anton Karlsson"
+    ],
+    [
+      "Bokondji Imama"
+    ]
+  ],
+  "1996-08-05": [
+    [
+      "Anders Bjork"
+    ]
+  ],
+  "1996-08-12": [
+    [
+      "Vladislav Kamenev"
+    ]
+  ],
+  "1996-08-14": [
+    [
+      "Tyler Bird"
+    ]
+  ],
+  "1996-08-15": [
+    [
+      "Oskar Lindblom"
+    ]
+  ],
+  "1996-08-16": [
+    [
+      "Kaapo K\u00e4hk\u00f6nen"
+    ]
+  ],
+  "1996-08-17": [
+    [
+      "Jake Virtanen"
+    ],
+    [
+      "Dysin Mayo"
+    ]
+  ],
+  "1996-08-19": [
+    [
+      "Joel Daccord"
+    ]
+  ],
+  "1996-08-23": [
+    [
+      "Linus S\u00f6derstr\u00f6m"
+    ]
+  ],
+  "1996-08-26": [
+    [
+      "Dylan Gambrell"
+    ]
+  ],
+  "1996-09-06": [
+    [
+      "Julien Nantel"
+    ]
+  ],
+  "1996-09-09": [
+    [
+      "Spencer Smallman"
+    ],
+    [
+      "Michael Eyssimont"
+    ]
+  ],
+  "1996-09-11": [
+    [
+      "Pavel Kraskovsky"
+    ],
+    [
+      "Ross Colton"
+    ]
+  ],
+  "1996-09-13": [
+    [
+      "Adrian Kempe"
+    ],
+    [
+      "Chase Lang"
+    ]
+  ],
+  "1996-09-16": [
+    [
+      "Ryan Gropp"
+    ]
+  ],
+  "1996-09-20": [
+    [
+      "Kevin Stenlund"
+    ]
+  ],
+  "1996-09-25": [
+    [
+      "Chris Martenet"
+    ]
+  ],
+  "1996-09-27": [
+    [
+      "Alexander Dergachyov"
+    ]
+  ],
+  "1996-10-01": [
+    [
+      "Dmytro Timashov"
+    ],
+    [
+      "Patrick Holway"
+    ]
+  ],
+  "1996-10-03": [
+    [
+      "Adam Gaudette"
+    ]
+  ],
+  "1996-10-08": [
+    [
+      "Timo Meier"
+    ],
+    [
+      "Alexandre Carrier"
+    ]
+  ],
+  "1996-10-09": [
+    [
+      "Cameron Hughes"
+    ]
+  ],
+  "1996-10-10": [
+    [
+      "Ryan Pilon"
+    ],
+    [
+      "Sami Niku"
+    ]
+  ],
+  "1996-10-14": [
+    [
+      "Erik K\u00e4llgren"
+    ]
+  ],
+  "1996-10-17": [
+    [
+      "Jake DeBrusk"
+    ]
+  ],
+  "1996-10-21": [
+    [
+      "Jeremiah Addison"
+    ]
+  ],
+  "1996-10-26": [
+    [
+      "Thomas Schemitsch"
+    ]
+  ],
+  "1996-10-27": [
+    [
+      "Rasmus Andersson"
+    ]
+  ],
+  "1996-10-28": [
+    [
+      "Jack Eichel"
+    ]
+  ],
+  "1996-10-29": [
+    [
+      "Mikko Rantanen"
+    ],
+    [
+      "Vince Dunn"
+    ]
+  ],
+  "1996-10-30": [
+    [
+      "Sam Montembeault"
+    ],
+    [
+      "Dennis Gilbert"
+    ]
+  ],
+  "1996-10-31": [
+    [
+      "Yevgeni Svechnikov"
+    ],
+    [
+      "Jakob Forsbacka Karlsson"
+    ]
+  ],
+  "1996-11-04": [
+    [
+      "Paul Bittner"
+    ]
+  ],
+  "1996-11-06": [
+    [
+      "Adam Smith"
+    ]
+  ],
+  "1996-11-11": [
+    [
+      "Gabriel Gagn\u00e9"
+    ]
+  ],
+  "1996-11-13": [
+    [
+      "Andrew Nielsen"
+    ]
+  ],
+  "1996-11-16": [
+    [
+      "Robin Kovacs"
+    ]
+  ],
+  "1996-11-17": [
+    [
+      "Roope Hintz"
+    ]
+  ],
+  "1996-11-21": [
+    [
+      "Manuel Wiederer"
+    ]
+  ],
+  "1996-11-26": [
+    [
+      "Brandon Carlo"
+    ]
+  ],
+  "1996-11-28": [
+    [
+      "Ivan Fedotov"
+    ]
+  ],
+  "1996-12-04": [
+    [
+      "J\u00e9r\u00e9my Davies"
+    ]
+  ],
+  "1996-12-09": [
+    [
+      "Kyle Connor"
+    ],
+    [
+      "Mackenzie Blackwood"
+    ]
+  ],
+  "1996-12-10": [
+    [
+      "Roy Radke"
+    ]
+  ],
+  "1996-12-14": [
+    [
+      "A.J. Greer"
+    ]
+  ],
+  "1996-12-18": [
+    [
+      "Stepan Falkovsky"
+    ]
+  ],
+  "1996-12-19": [
+    [
+      "William Borgen"
+    ]
+  ],
+  "1996-12-20": [
+    [
+      "Anthony Richard"
+    ],
+    [
+      "Cooper Marody"
+    ]
+  ],
+  "1996-12-22": [
+    [
+      "Travis Dermott"
+    ]
+  ],
+  "1997-01-01": [
+    [
+      "Steven Ruggiero"
+    ],
+    [
+      "Chaz Reddekopp"
+    ]
+  ],
+  "1997-01-02": [
+    [
+      "Gabriel Carlsson"
+    ],
+    [
+      "Blake Speers"
+    ],
+    [
+      "Devante Stephens"
+    ]
+  ],
+  "1997-01-03": [
+    [
+      "Adam Parsells"
+    ]
+  ],
+  "1997-01-04": [
+    [
+      "Brad Morrison"
+    ],
+    [
+      "Connor Hobbs"
+    ]
+  ],
+  "1997-01-05": [
+    [
+      "Mikhail Vorobyov"
+    ]
+  ],
+  "1997-01-06": [
+    [
+      "Ales Stezka"
+    ]
+  ],
+  "1997-01-07": [
+    [
+      "Aleksi Saarela"
+    ]
+  ],
+  "1997-01-08": [
+    [
+      "Mattias Elfstr\u00f6m"
+    ]
+  ],
+  "1997-01-12": [
+    [
+      "Felix Sandstr\u00f6m"
+    ],
+    [
+      "Simon Bourque"
+    ]
+  ],
+  "1997-01-13": [
+    [
+      "Connor McDavid"
+    ],
+    [
+      "Ivan Provorov"
+    ],
+    [
+      "Graham Knott"
+    ],
+    [
+      "Yakov Trenin"
+    ]
+  ],
+  "1997-01-14": [
+    [
+      "Julius N\u00e4ttinen"
+    ]
+  ],
+  "1997-01-18": [
+    [
+      "Denis Malgin"
+    ]
+  ],
+  "1997-01-21": [
+    [
+      "Jake Massie"
+    ]
+  ],
+  "1997-01-22": [
+    [
+      "Matt Bradley"
+    ],
+    [
+      "John Dahlstr\u00f6m"
+    ]
+  ],
+  "1997-01-24": [
+    [
+      "Gustav Bouramman"
+    ]
+  ],
+  "1997-01-25": [
+    [
+      "Noah Hanifin"
+    ]
+  ],
+  "1997-01-27": [
+    [
+      "Radovan Bondra"
+    ]
+  ],
+  "1997-01-28": [
+    [
+      "David Kase"
+    ]
+  ],
+  "1997-01-29": [
+    [
+      "Joel Eriksson Ek"
+    ],
+    [
+      "Jack Roslovic"
+    ]
+  ],
+  "1997-01-30": [
+    [
+      "Thomas Chabot"
+    ],
+    [
+      "Colin White"
+    ]
+  ],
+  "1997-01-31": [
+    [
+      "Andong Song"
+    ]
+  ],
+  "1997-02-02": [
+    [
+      "Brandon Crawley"
+    ]
+  ],
+  "1997-02-03": [
+    [
+      "Giorgio Estephan"
+    ]
+  ],
+  "1997-02-05": [
+    [
+      "Mitchell Stephens"
+    ],
+    [
+      "Nicolas Roy"
+    ],
+    [
+      "John Adams"
+    ]
+  ],
+  "1997-02-08": [
+    [
+      "Nikita Korostelev"
+    ]
+  ],
+  "1997-02-09": [
+    [
+      "Mathieu Joseph"
+    ]
+  ],
+  "1997-02-10": [
+    [
+      "Tyler Soy"
+    ]
+  ],
+  "1997-02-11": [
+    [
+      "Mitchell Vande Sompel"
+    ],
+    [
+      "Ryan Shea"
+    ],
+    [
+      "Luke Stevens"
+    ]
+  ],
+  "1997-02-13": [
+    [
+      "Veini Vehvil\u00e4inen"
+    ]
+  ],
+  "1997-02-16": [
+    [
+      "Jordan Greenway"
+    ]
+  ],
+  "1997-02-17": [
+    [
+      "Joseph Masonius"
+    ]
+  ],
+  "1997-02-21": [
+    [
+      "Jakub Zboril"
+    ],
+    [
+      "Sergei Zborovsky"
+    ]
+  ],
+  "1997-02-22": [
+    [
+      "Ilya Samsonov"
+    ]
+  ],
+  "1997-02-25": [
+    [
+      "Brock Boeser"
+    ],
+    [
+      "Casey Fitzgerald"
+    ]
+  ],
+  "1997-02-26": [
+    [
+      "Damien Riat"
+    ],
+    [
+      "Kristoffer Gunnarsson"
+    ]
+  ],
+  "1997-02-27": [
+    [
+      "Luke Opilka"
+    ],
+    [
+      "Evan Smith"
+    ]
+  ],
+  "1997-03-03": [
+    [
+      "Marcus Vela"
+    ]
+  ],
+  "1997-03-06": [
+    [
+      "Jakob Stukel"
+    ]
+  ],
+  "1997-03-07": [
+    [
+      "Dylan Strome"
+    ]
+  ],
+  "1997-03-10": [
+    [
+      "Karch Bachman"
+    ]
+  ],
+  "1997-03-11": [
+    [
+      "Travis Konecny"
+    ]
+  ],
+  "1997-03-12": [
+    [
+      "Brett McKenzie"
+    ],
+    [
+      "Jonathan Davidsson"
+    ]
+  ],
+  "1997-03-15": [
+    [
+      "Pavel Karnaukhov"
+    ]
+  ],
+  "1997-03-17": [
+    [
+      "Daniel Sprong"
+    ],
+    [
+      "Jeremy Bracco"
+    ]
+  ],
+  "1997-03-21": [
+    [
+      "Tate Olson"
+    ]
+  ],
+  "1997-03-22": [
+    [
+      "Victor Brattstr\u00f6m"
+    ]
+  ],
+  "1997-03-23": [
+    [
+      "Nikita Pavlychev"
+    ]
+  ],
+  "1997-03-24": [
+    [
+      "Matthew Spencer"
+    ],
+    [
+      "Dmitri Zhukenov"
+    ]
+  ],
+  "1997-03-25": [
+    [
+      "Jean-Christophe Beaudin"
+    ],
+    [
+      "Glenn Gawdin"
+    ],
+    [
+      "Patrick Shea"
+    ]
+  ],
+  "1997-03-26": [
+    [
+      "Adam Musil"
+    ]
+  ],
+  "1997-03-27": [
+    [
+      "Mike Robinson"
+    ]
+  ],
+  "1997-03-30": [
+    [
+      "Zach Senyshyn"
+    ],
+    [
+      "Matteo Gennaro"
+    ]
+  ],
+  "1997-03-31": [
+    [
+      "Ryan Bednard"
+    ],
+    [
+      "Connor Ingram"
+    ]
+  ],
+  "1997-04-02": [
+    [
+      "Noah Juulsen"
+    ],
+    [
+      "Rem Pitlick"
+    ]
+  ],
+  "1997-04-04": [
+    [
+      "Martins Dzierkals"
+    ]
+  ],
+  "1997-04-06": [
+    [
+      "Pavel Zacha"
+    ]
+  ],
+  "1997-04-08": [
+    [
+      "Keegan Kolesar"
+    ],
+    [
+      "Rudolfs Balcers"
+    ],
+    [
+      "Dominik Lakatos"
+    ]
+  ],
+  "1997-04-09": [
+    [
+      "Michael Spacek"
+    ]
+  ],
+  "1997-04-10": [
+    [
+      "Samuel Dove-McFalls"
+    ]
+  ],
+  "1997-04-11": [
+    [
+      "Jens L\u00f6\u00f6ke"
+    ]
+  ],
+  "1997-04-13": [
+    [
+      "Alex Dostie"
+    ]
+  ],
+  "1997-04-14": [
+    [
+      "Dennis Yan"
+    ],
+    [
+      "Deven Sideroff"
+    ],
+    [
+      "Yegor Rykov"
+    ],
+    [
+      "Wyatt Kalynuk"
+    ]
+  ],
+  "1997-04-15": [
+    [
+      "Christian Fischer"
+    ]
+  ],
+  "1997-04-18": [
+    [
+      "Vladimir Bobylyov"
+    ]
+  ],
+  "1997-04-19": [
+    [
+      "Jack Sadek"
+    ]
+  ],
+  "1997-04-26": [
+    [
+      "Kirill Kaprizov"
+    ]
+  ],
+  "1997-04-27": [
+    [
+      "Philip Nyberg"
+    ]
+  ],
+  "1997-04-28": [
+    [
+      "J\u00e9r\u00e9my Lauzon"
+    ],
+    [
+      "Thomas Novak"
+    ]
+  ],
+  "1997-04-29": [
+    [
+      "Jacob Larsson"
+    ]
+  ],
+  "1997-04-30": [
+    [
+      "Gabriel Fontaine"
+    ]
+  ],
+  "1997-05-02": [
+    [
+      "Adam Werner"
+    ]
+  ],
+  "1997-05-03": [
+    [
+      "Colton White"
+    ]
+  ],
+  "1997-05-05": [
+    [
+      "Mitchell Marner"
+    ]
+  ],
+  "1997-05-06": [
+    [
+      "Jonas Siegenthaler"
+    ]
+  ],
+  "1997-05-07": [
+    [
+      "Brendan Warren"
+    ]
+  ],
+  "1997-05-10": [
+    [
+      "Filip Berglund"
+    ]
+  ],
+  "1997-05-12": [
+    [
+      "Adam Huska"
+    ]
+  ],
+  "1997-05-14": [
+    [
+      "J\u00e9r\u00e9my Roy"
+    ]
+  ],
+  "1997-05-15": [
+    [
+      "Vili Saarij\u00e4rvi"
+    ]
+  ],
+  "1997-05-19": [
+    [
+      "Oliver Kylington"
+    ],
+    [
+      "Jesper Lindgren"
+    ]
+  ],
+  "1997-05-21": [
+    [
+      "Callum Booth"
+    ],
+    [
+      "John Marino"
+    ]
+  ],
+  "1997-05-22": [
+    [
+      "Brandon Duhaime"
+    ]
+  ],
+  "1997-05-23": [
+    [
+      "Nicholas Merkley"
+    ],
+    [
+      "Jansen Harkins"
+    ],
+    [
+      "Joseph Cecconi"
+    ]
+  ],
+  "1997-05-24": [
+    [
+      "Matej Tomek"
+    ],
+    [
+      "Peter Thome"
+    ]
+  ],
+  "1997-05-25": [
+    [
+      "Jeremy Helvig"
+    ]
+  ],
+  "1997-05-26": [
+    [
+      "Mathew Barzal"
+    ]
+  ],
+  "1997-05-28": [
+    [
+      "Erik Cernak"
+    ]
+  ],
+  "1997-06-01": [
+    [
+      "Tanner Laczynski"
+    ]
+  ],
+  "1997-06-03": [
+    [
+      "Filip Chlap\u00edk"
+    ]
+  ],
+  "1997-06-05": [
+    [
+      "Joren van Pottelberghe"
+    ],
+    [
+      "Linus \u00d6lund"
+    ]
+  ],
+  "1997-06-06": [
+    [
+      "Caleb Jones"
+    ]
+  ],
+  "1997-06-07": [
+    [
+      "Denis Guryanov"
+    ]
+  ],
+  "1997-06-08": [
+    [
+      "Anthony Beauvillier"
+    ]
+  ],
+  "1997-06-10": [
+    [
+      "Kale Howarth"
+    ]
+  ],
+  "1997-06-12": [
+    [
+      "Filip Ahl"
+    ]
+  ],
+  "1997-06-16": [
+    [
+      "Veeti Vainio"
+    ]
+  ],
+  "1997-06-17": [
+    [
+      "Jesse Gabrielle"
+    ],
+    [
+      "Karlis Cukste"
+    ]
+  ],
+  "1997-06-21": [
+    [
+      "Nathan Noel"
+    ]
+  ],
+  "1997-06-23": [
+    [
+      "Lawson Crouse"
+    ],
+    [
+      "Austin Wagner"
+    ]
+  ],
+  "1997-06-24": [
+    [
+      "Jack Becker"
+    ]
+  ],
+  "1997-06-25": [
+    [
+      "Kristian Oldham"
+    ]
+  ],
+  "1997-06-26": [
+    [
+      "Ethan Bear"
+    ]
+  ],
+  "1997-06-27": [
+    [
+      "Calvin Th\u00fcrkauf"
+    ]
+  ],
+  "1997-06-30": [
+    [
+      "Erik Foley"
+    ]
+  ],
+  "1997-07-01": [
+    [
+      "Ryan Zuhlsdorf"
+    ]
+  ],
+  "1997-07-03": [
+    [
+      "Gustav Olhaver"
+    ]
+  ],
+  "1997-07-05": [
+    [
+      "Lucas Carlsson"
+    ]
+  ],
+  "1997-07-09": [
+    [
+      "David Cotton"
+    ]
+  ],
+  "1997-07-10": [
+    [
+      "Kasper Bj\u00f6rkqvist"
+    ]
+  ],
+  "1997-07-12": [
+    [
+      "Johnathan Kovacevic"
+    ]
+  ],
+  "1997-07-15": [
+    [
+      "Anthony Cirelli"
+    ]
+  ],
+  "1997-07-16": [
+    [
+      "Riley Bruce"
+    ],
+    [
+      "Petrus Palmu"
+    ]
+  ],
+  "1997-07-18": [
+    [
+      "Nicolas Meloche"
+    ]
+  ],
+  "1997-07-19": [
+    [
+      "Zach Werenski"
+    ],
+    [
+      "Zach Fischer"
+    ]
+  ],
+  "1997-07-21": [
+    [
+      "Guillaume Brisebois"
+    ]
+  ],
+  "1997-07-23": [
+    [
+      "William Reilly"
+    ]
+  ],
+  "1997-07-26": [
+    [
+      "Sebastian Aho"
+    ]
+  ],
+  "1997-07-28": [
+    [
+      "Jacob Friend"
+    ]
+  ],
+  "1997-07-29": [
+    [
+      "Brendan Guhle"
+    ]
+  ],
+  "1997-08-01": [
+    [
+      "Nikolai Chebykin"
+    ]
+  ],
+  "1997-08-02": [
+    [
+      "Alexander Volkov"
+    ]
+  ],
+  "1997-08-05": [
+    [
+      "Jonne Tammela"
+    ]
+  ],
+  "1997-08-06": [
+    [
+      "Henrik Borgstr\u00f6m"
+    ]
+  ],
+  "1997-08-12": [
+    [
+      "Brent Gates"
+    ],
+    [
+      "Denis Smirnov"
+    ]
+  ],
+  "1997-08-13": [
+    [
+      "Kyle Capobianco"
+    ]
+  ],
+  "1997-08-18": [
+    [
+      "Carson Meyer"
+    ]
+  ],
+  "1997-08-20": [
+    [
+      "Dan Vladar"
+    ]
+  ],
+  "1997-08-22": [
+    [
+      "Adam Marsh"
+    ]
+  ],
+  "1997-08-23": [
+    [
+      "Chase Pearson"
+    ],
+    [
+      "Markus Ruusu"
+    ]
+  ],
+  "1997-08-24": [
+    [
+      "Parker Wotherspoon"
+    ]
+  ],
+  "1997-08-28": [
+    [
+      "Lukas Jasek"
+    ],
+    [
+      "Croix Evingson"
+    ]
+  ],
+  "1997-09-04": [
+    [
+      "Vasili Glotov"
+    ]
+  ],
+  "1997-09-08": [
+    [
+      "Nicholas Boka"
+    ]
+  ],
+  "1997-09-09": [
+    [
+      "Nick Swaney"
+    ]
+  ],
+  "1997-09-10": [
+    [
+      "Troy Terry"
+    ]
+  ],
+  "1997-09-12": [
+    [
+      "Petr Kvaca"
+    ]
+  ],
+  "1997-09-15": [
+    [
+      "Liam Dunda"
+    ]
+  ],
+  "1997-09-17": [
+    [
+      "Auston Matthews"
+    ]
+  ],
+  "1997-09-18": [
+    [
+      "Tyler Parsons"
+    ],
+    [
+      "Jordy Stallard"
+    ]
+  ],
+  "1997-09-20": [
+    [
+      "Konstantin Volkov"
+    ]
+  ],
+  "1997-09-28": [
+    [
+      "Mark Shoemaker"
+    ]
+  ],
+  "1997-10-01": [
+    [
+      "Benjamin Finkelstein"
+    ]
+  ],
+  "1997-10-14": [
+    [
+      "Wade Allison"
+    ]
+  ],
+  "1997-10-15": [
+    [
+      "Julien Gauthier"
+    ]
+  ],
+  "1997-10-20": [
+    [
+      "Ty Ronning"
+    ]
+  ],
+  "1997-10-29": [
+    [
+      "Max Zimmer"
+    ]
+  ],
+  "1997-10-30": [
+    [
+      "Tage Thompson"
+    ]
+  ],
+  "1997-11-02": [
+    [
+      "Filip Hronek"
+    ]
+  ],
+  "1997-11-05": [
+    [
+      "Maxime Lajoie"
+    ]
+  ],
+  "1997-11-06": [
+    [
+      "Evan Cormier"
+    ]
+  ],
+  "1997-11-07": [
+    [
+      "Brandon Gignac"
+    ]
+  ],
+  "1997-11-16": [
+    [
+      "Lucas Johansen"
+    ]
+  ],
+  "1997-11-18": [
+    [
+      "Jacob Bryson"
+    ]
+  ],
+  "1997-11-24": [
+    [
+      "Carsen Twarynski"
+    ]
+  ],
+  "1997-12-01": [
+    [
+      "Carl Grundstr\u00f6m"
+    ],
+    [
+      "David Bernhardt"
+    ]
+  ],
+  "1997-12-02": [
+    [
+      "Noah Carroll"
+    ]
+  ],
+  "1997-12-03": [
+    [
+      "Rasmus Asplund"
+    ]
+  ],
+  "1997-12-04": [
+    [
+      "Luke Kunin"
+    ]
+  ],
+  "1997-12-06": [
+    [
+      "Nathan Bastian"
+    ]
+  ],
+  "1997-12-10": [
+    [
+      "Hudson Elynuik"
+    ]
+  ],
+  "1997-12-11": [
+    [
+      "Matthew Tkachuk"
+    ]
+  ],
+  "1997-12-16": [
+    [
+      "Mathias From"
+    ]
+  ],
+  "1997-12-18": [
+    [
+      "Alex DeBrincat"
+    ]
+  ],
+  "1997-12-20": [
+    [
+      "Jonathan Dahl\u00e9n"
+    ]
+  ],
+  "1997-12-21": [
+    [
+      "Charlie McAvoy"
+    ]
+  ],
+  "1997-12-27": [
+    [
+      "Fr\u00e9d\u00e9ric Allard"
+    ]
+  ],
+  "1997-12-31": [
+    [
+      "Matt Filipe"
+    ]
+  ],
+  "1998-01-02": [
+    [
+      "Mitchell Mattson"
+    ]
+  ],
+  "1998-01-03": [
+    [
+      "Dylan Wells"
+    ]
+  ],
+  "1998-01-06": [
+    [
+      "Jack LaFontaine"
+    ]
+  ],
+  "1998-01-07": [
+    [
+      "Tyler Steenbergen"
+    ]
+  ],
+  "1998-01-08": [
+    [
+      "Linus Lindstr\u00f6m"
+    ],
+    [
+      "Casey Staum"
+    ]
+  ],
+  "1998-01-09": [
+    [
+      "Sean Day"
+    ]
+  ],
+  "1998-01-12": [
+    [
+      "Luke Green"
+    ],
+    [
+      "Fredrik Karlstr\u00f6m"
+    ],
+    [
+      "Otto Somppi"
+    ]
+  ],
+  "1998-01-14": [
+    [
+      "Tyler Wall"
+    ]
+  ],
+  "1998-01-18": [
+    [
+      "Dmitri Zaitsev"
+    ],
+    [
+      "Jermaine Loewen"
+    ]
+  ],
+  "1998-01-19": [
+    [
+      "Jack Badini"
+    ]
+  ],
+  "1998-01-20": [
+    [
+      "Skyler McKenzie"
+    ]
+  ],
+  "1998-01-21": [
+    [
+      "Nick Pastujov"
+    ]
+  ],
+  "1998-01-22": [
+    [
+      "Jasper Weatherby"
+    ]
+  ],
+  "1998-01-23": [
+    [
+      "Tim S\u00f6derlund"
+    ]
+  ],
+  "1998-01-26": [
+    [
+      "Mikael Hakkarainen"
+    ]
+  ],
+  "1998-01-28": [
+    [
+      "Evan Fitzpatrick"
+    ],
+    [
+      "Connor Hall"
+    ],
+    [
+      "Tanner Kaspick"
+    ]
+  ],
+  "1998-01-29": [
+    [
+      "Vojtech Budik"
+    ]
+  ],
+  "1998-01-30": [
+    [
+      "Jacob Cederholm"
+    ]
+  ],
+  "1998-01-31": [
+    [
+      "Jonathan Ang"
+    ]
+  ],
+  "1998-02-03": [
+    [
+      "Michael McLeod"
+    ],
+    [
+      "Sam Steel"
+    ]
+  ],
+  "1998-02-04": [
+    [
+      "Libor H\u00e1jek"
+    ],
+    [
+      "Beck Malenstyn"
+    ]
+  ],
+  "1998-02-10": [
+    [
+      "Keaton Middleton"
+    ],
+    [
+      "Axel Jonsson Fj\u00e4llby"
+    ]
+  ],
+  "1998-02-11": [
+    [
+      "Trent Frederic"
+    ],
+    [
+      "Ryan Lindgren"
+    ]
+  ],
+  "1998-02-13": [
+    [
+      "Cole Candella"
+    ]
+  ],
+  "1998-02-14": [
+    [
+      "Artur Kayumov"
+    ]
+  ],
+  "1998-02-15": [
+    [
+      "Dennis Cholowski"
+    ]
+  ],
+  "1998-02-17": [
+    [
+      "Max Jones"
+    ],
+    [
+      "Adam Fox"
+    ]
+  ],
+  "1998-02-18": [
+    [
+      "Taylor Raddysh"
+    ]
+  ],
+  "1998-02-23": [
+    [
+      "Arvid Henrikson"
+    ]
+  ],
+  "1998-02-25": [
+    [
+      "Joona Koppanen"
+    ]
+  ],
+  "1998-02-27": [
+    [
+      "Givani Smith"
+    ]
+  ],
+  "1998-03-01": [
+    [
+      "Tarmo Reunanen"
+    ],
+    [
+      "Mikhail Berdin"
+    ]
+  ],
+  "1998-03-02": [
+    [
+      "Alexander Nylander"
+    ]
+  ],
+  "1998-03-04": [
+    [
+      "Colton Point"
+    ]
+  ],
+  "1998-03-05": [
+    [
+      "Logan Brown"
+    ],
+    [
+      "Jack Kopacka"
+    ],
+    [
+      "Anthony Salinitri"
+    ],
+    [
+      "Nicolas Mattinen"
+    ]
+  ],
+  "1998-03-09": [
+    [
+      "Riley Stillman"
+    ],
+    [
+      "Oskar Steen"
+    ]
+  ],
+  "1998-03-12": [
+    [
+      "Mikhail Maltsev"
+    ]
+  ],
+  "1998-03-13": [
+    [
+      "Michael Pezzetta"
+    ],
+    [
+      "David Quenneville"
+    ]
+  ],
+  "1998-03-14": [
+    [
+      "Tyson Jost"
+    ]
+  ],
+  "1998-03-15": [
+    [
+      "Tyler Benson"
+    ]
+  ],
+  "1998-03-17": [
+    [
+      "Andrew Peeke"
+    ],
+    [
+      "Eetu Tuulola"
+    ],
+    [
+      "Jakob Stenqvist"
+    ]
+  ],
+  "1998-03-19": [
+    [
+      "Jake Ryczek"
+    ]
+  ],
+  "1998-03-21": [
+    [
+      "Matthew Hellickson"
+    ]
+  ],
+  "1998-03-23": [
+    [
+      "Brendan De Jong"
+    ]
+  ],
+  "1998-03-24": [
+    [
+      "Jack Dugan"
+    ]
+  ],
+  "1998-03-27": [
+    [
+      "Christopher Paquette"
+    ]
+  ],
+  "1998-03-29": [
+    [
+      "Brett Howden"
+    ]
+  ],
+  "1998-03-31": [
+    [
+      "Jakob Chychrun"
+    ]
+  ],
+  "1998-04-06": [
+    [
+      "Matthew Phillips"
+    ]
+  ],
+  "1998-04-09": [
+    [
+      "Pascal Laberge"
+    ],
+    [
+      "Filip Helt"
+    ]
+  ],
+  "1998-04-10": [
+    [
+      "Riley Tufte"
+    ],
+    [
+      "Chad Krys"
+    ]
+  ],
+  "1998-04-11": [
+    [
+      "Jordan Sambrook"
+    ]
+  ],
+  "1998-04-13": [
+    [
+      "Garrett Pilon"
+    ],
+    [
+      "Oleg Sosunov"
+    ]
+  ],
+  "1998-04-14": [
+    [
+      "Timothy Gettinger"
+    ],
+    [
+      "Dmitri Sokolov"
+    ]
+  ],
+  "1998-04-16": [
+    [
+      "Connor Bunnaman"
+    ]
+  ],
+  "1998-04-19": [
+    [
+      "Patrik Laine"
+    ],
+    [
+      "Linus Weissbach"
+    ]
+  ],
+  "1998-04-20": [
+    [
+      "Vladislav Kara"
+    ]
+  ],
+  "1998-04-24": [
+    [
+      "Collin Adams"
+    ]
+  ],
+  "1998-04-27": [
+    [
+      "James Greenway"
+    ],
+    [
+      "Matthew Cairns"
+    ],
+    [
+      "Drake Batherson"
+    ]
+  ],
+  "1998-04-30": [
+    [
+      "Austin Osmanski"
+    ],
+    [
+      "Milan Kloucek"
+    ]
+  ],
+  "1998-05-03": [
+    [
+      "Yegor Zaitsev"
+    ]
+  ],
+  "1998-05-05": [
+    [
+      "Olli Juolevi"
+    ],
+    [
+      "Josh Mahura"
+    ],
+    [
+      "D\u00e1vid Hren\u00e1k"
+    ]
+  ],
+  "1998-05-07": [
+    [
+      "Jesse Puljuj\u00e4rvi"
+    ]
+  ],
+  "1998-05-08": [
+    [
+      "Jordan Kyrou"
+    ],
+    [
+      "Vitali Abramov"
+    ],
+    [
+      "Nate Clurman"
+    ]
+  ],
+  "1998-05-09": [
+    [
+      "Braydyn Chizen"
+    ]
+  ],
+  "1998-05-10": [
+    [
+      "Linus N\u00e4ss\u00e9n"
+    ]
+  ],
+  "1998-05-11": [
+    [
+      "Niclas Almari"
+    ]
+  ],
+  "1998-05-12": [
+    [
+      "Samuel Girard"
+    ]
+  ],
+  "1998-05-17": [
+    [
+      "Cole Koepke"
+    ]
+  ],
+  "1998-05-22": [
+    [
+      "Cole Hults"
+    ]
+  ],
+  "1998-05-25": [
+    [
+      "Janne Kuokkanen"
+    ]
+  ],
+  "1998-05-26": [
+    [
+      "Logan Stanley"
+    ]
+  ],
+  "1998-05-28": [
+    [
+      "Roman Durny"
+    ]
+  ],
+  "1998-06-01": [
+    [
+      "Aapeli R\u00e4s\u00e4nen"
+    ]
+  ],
+  "1998-06-03": [
+    [
+      "Cliff Pu"
+    ]
+  ],
+  "1998-06-05": [
+    [
+      "Kale Clague"
+    ]
+  ],
+  "1998-06-06": [
+    [
+      "Adam Mascherin"
+    ],
+    [
+      "Adam Mascherin"
+    ],
+    [
+      "Yegor Sharangovich"
+    ]
+  ],
+  "1998-06-07": [
+    [
+      "Filip Gustavsson"
+    ],
+    [
+      "Victor Mete"
+    ]
+  ],
+  "1998-06-08": [
+    [
+      "Markus Niemel\u00e4inen"
+    ]
+  ],
+  "1998-06-09": [
+    [
+      "Jake Bean"
+    ],
+    [
+      "Artyom Manukyan"
+    ]
+  ],
+  "1998-06-10": [
+    [
+      "Kieffer Bellows"
+    ]
+  ],
+  "1998-06-11": [
+    [
+      "Trenton Bourque"
+    ],
+    [
+      "Jesper Sellgren"
+    ]
+  ],
+  "1998-06-12": [
+    [
+      "Alfons Malmstr\u00f6m"
+    ],
+    [
+      "Dean Stewart"
+    ]
+  ],
+  "1998-06-14": [
+    [
+      "Brandon Saigeon"
+    ]
+  ],
+  "1998-06-15": [
+    [
+      "Nick Perbix"
+    ]
+  ],
+  "1998-06-18": [
+    [
+      "Boris Katchouk"
+    ],
+    [
+      "Alex Green"
+    ]
+  ],
+  "1998-06-19": [
+    [
+      "Cam Dineen"
+    ],
+    [
+      "Joey Anderson"
+    ]
+  ],
+  "1998-06-20": [
+    [
+      "Dante Fabbro"
+    ],
+    [
+      "William Lockwood"
+    ]
+  ],
+  "1998-06-24": [
+    [
+      "Pierre-Luc Dubois"
+    ]
+  ],
+  "1998-06-25": [
+    [
+      "Mikhail Sergachyov"
+    ]
+  ],
+  "1998-06-27": [
+    [
+      "German Rubtsov"
+    ]
+  ],
+  "1998-06-29": [
+    [
+      "Markus Nurmi"
+    ]
+  ],
+  "1998-07-04": [
+    [
+      "Hardy H\u00e4man Aktell"
+    ]
+  ],
+  "1998-07-10": [
+    [
+      "Will Bitten"
+    ],
+    [
+      "Igor Shvyryov"
+    ]
+  ],
+  "1998-07-11": [
+    [
+      "Hugh McGing"
+    ]
+  ],
+  "1998-07-12": [
+    [
+      "Joseph Woll"
+    ]
+  ],
+  "1998-07-17": [
+    [
+      "Joachim Blichfeld"
+    ]
+  ],
+  "1998-07-20": [
+    [
+      "Dillon Dub\u00e9"
+    ],
+    [
+      "Brett Murray"
+    ],
+    [
+      "Morgan Geekie"
+    ]
+  ],
+  "1998-07-24": [
+    [
+      "Graham McPhee"
+    ]
+  ],
+  "1998-07-28": [
+    [
+      "Noah Gregor"
+    ]
+  ],
+  "1998-07-29": [
+    [
+      "Clayton Keller"
+    ],
+    [
+      "Patrick Harper"
+    ]
+  ],
+  "1998-07-30": [
+    [
+      "Jesper Bratt"
+    ]
+  ],
+  "1998-07-31": [
+    [
+      "Wouter Peeters"
+    ]
+  ],
+  "1998-08-04": [
+    [
+      "Andrei Altybarmakyan"
+    ]
+  ],
+  "1998-08-06": [
+    [
+      "Drake Rymsha"
+    ]
+  ],
+  "1998-08-07": [
+    [
+      "John Leonard"
+    ]
+  ],
+  "1998-08-08": [
+    [
+      "Matt Brassard"
+    ]
+  ],
+  "1998-08-12": [
+    [
+      "Nikolaj Krag Christensen"
+    ]
+  ],
+  "1998-08-13": [
+    [
+      "Carter Hart"
+    ]
+  ],
+  "1998-08-17": [
+    [
+      "Filip Larsson"
+    ],
+    [
+      "Travis Barron"
+    ]
+  ],
+  "1998-08-18": [
+    [
+      "Scott Perunovich"
+    ]
+  ],
+  "1998-08-23": [
+    [
+      "Roope Laavainen"
+    ]
+  ],
+  "1998-08-27": [
+    [
+      "Cam Morrison"
+    ],
+    [
+      "Brandon Hagel"
+    ]
+  ],
+  "1998-08-29": [
+    [
+      "Josh Anderson"
+    ]
+  ],
+  "1998-08-31": [
+    [
+      "Jacob Moverare"
+    ]
+  ],
+  "1998-09-01": [
+    [
+      "Otto Koivula"
+    ]
+  ],
+  "1998-09-02": [
+    [
+      "Eetu Luostarinen"
+    ]
+  ],
+  "1998-09-04": [
+    [
+      "Linus H\u00f6gberg"
+    ]
+  ],
+  "1998-09-07": [
+    [
+      "Nicholas Caamano"
+    ]
+  ],
+  "1998-09-12": [
+    [
+      "Parker Foo"
+    ]
+  ],
+  "1998-09-14": [
+    [
+      "Nick Leivermann"
+    ]
+  ],
+  "1998-09-17": [
+    [
+      "Mario Ferraro"
+    ]
+  ],
+  "1998-09-18": [
+    [
+      "Conor Timmins"
+    ]
+  ],
+  "1998-09-19": [
+    [
+      "Nolan Patrick"
+    ]
+  ],
+  "1998-09-20": [
+    [
+      "Luke Martin"
+    ],
+    [
+      "Dylan Ferguson"
+    ]
+  ],
+  "1998-09-26": [
+    [
+      "Mac Hollowell"
+    ]
+  ],
+  "1998-09-29": [
+    [
+      "Kailer Yamamoto"
+    ]
+  ],
+  "1998-09-30": [
+    [
+      "Robbie Stucker"
+    ]
+  ],
+  "1998-10-06": [
+    [
+      "Juuso V\u00e4lim\u00e4ki"
+    ]
+  ],
+  "1998-10-08": [
+    [
+      "Ville R\u00e4s\u00e4nen"
+    ]
+  ],
+  "1998-10-10": [
+    [
+      "Zachary Lauzon"
+    ]
+  ],
+  "1998-10-12": [
+    [
+      "Jonah Gadjovich"
+    ]
+  ],
+  "1998-10-13": [
+    [
+      "Lias Andersson"
+    ],
+    [
+      "Robin Salo"
+    ]
+  ],
+  "1998-10-16": [
+    [
+      "Kole Lind"
+    ]
+  ],
+  "1998-10-18": [
+    [
+      "Nathan Smith"
+    ]
+  ],
+  "1998-10-20": [
+    [
+      "Gustav Lindstr\u00f6m"
+    ]
+  ],
+  "1998-10-21": [
+    [
+      "Sean Durzi"
+    ],
+    [
+      "Hunter Drew"
+    ]
+  ],
+  "1998-10-22": [
+    [
+      "Jakov Novak"
+    ]
+  ],
+  "1998-10-28": [
+    [
+      "Marian Studenic"
+    ]
+  ],
+  "1998-10-30": [
+    [
+      "Cale Makar"
+    ],
+    [
+      "Jesper Boqvist"
+    ]
+  ],
+  "1998-11-01": [
+    [
+      "Stuart Skinner"
+    ]
+  ],
+  "1998-11-03": [
+    [
+      "Mason Shaw"
+    ],
+    [
+      "Arvid Holm"
+    ]
+  ],
+  "1998-11-12": [
+    [
+      "Elias Pettersson"
+    ]
+  ],
+  "1998-11-16": [
+    [
+      "Kasper Kotkansalo"
+    ]
+  ],
+  "1998-11-18": [
+    [
+      "Marcus Davidsson"
+    ]
+  ],
+  "1998-11-19": [
+    [
+      "Cale Fleury"
+    ]
+  ],
+  "1998-11-20": [
+    [
+      "Nikita A. Popugayev"
+    ]
+  ],
+  "1998-11-22": [
+    [
+      "Casey Mittelstadt"
+    ]
+  ],
+  "1998-11-24": [
+    [
+      "Jeremy Swayman"
+    ]
+  ],
+  "1998-11-25": [
+    [
+      "Benton Maass"
+    ]
+  ],
+  "1998-12-02": [
+    [
+      "Morgan Barron"
+    ]
+  ],
+  "1998-12-05": [
+    [
+      "Nic Hague"
+    ]
+  ],
+  "1998-12-13": [
+    [
+      "Cal Foote"
+    ]
+  ],
+  "1998-12-18": [
+    [
+      "Jake Oettinger"
+    ],
+    [
+      "Michael Karow"
+    ]
+  ],
+  "1998-12-27": [
+    [
+      "Lane Zablocki"
+    ]
+  ],
+  "1998-12-31": [
+    [
+      "Josiah Slavin"
+    ]
+  ],
+  "1999-01-01": [
+    [
+      "Urho Vaakanainen"
+    ]
+  ],
+  "1999-01-03": [
+    [
+      "Ryan Poehling"
+    ]
+  ],
+  "1999-01-04": [
+    [
+      "Nico Hischier"
+    ],
+    [
+      "Ivan Chekhovich"
+    ]
+  ],
+  "1999-01-06": [
+    [
+      "Matthew Strome"
+    ],
+    [
+      "Noel Hoefenmayer"
+    ],
+    [
+      "Anton Andersson"
+    ]
+  ],
+  "1999-01-08": [
+    [
+      "Maxime Comtois"
+    ]
+  ],
+  "1999-01-09": [
+    [
+      "Aleksi Heponiemi"
+    ]
+  ],
+  "1999-01-11": [
+    [
+      "Ian Scott"
+    ]
+  ],
+  "1999-01-12": [
+    [
+      "Scott Walford"
+    ]
+  ],
+  "1999-01-14": [
+    [
+      "Malte Setkov"
+    ],
+    [
+      "Arnaud Durandeau"
+    ]
+  ],
+  "1999-01-15": [
+    [
+      "Martin Necas"
+    ]
+  ],
+  "1999-01-18": [
+    [
+      "Ian Mitchell"
+    ],
+    [
+      "Antti Paloj\u00e4rvi"
+    ]
+  ],
+  "1999-01-24": [
+    [
+      "Dylan Samberg"
+    ],
+    [
+      "C\u00e9dric Par\u00e9"
+    ]
+  ],
+  "1999-01-27": [
+    [
+      "Fedor Gordeev"
+    ]
+  ],
+  "1999-01-29": [
+    [
+      "Kirill Ustimenko"
+    ],
+    [
+      "Ryan McGregor"
+    ]
+  ],
+  "1999-02-05": [
+    [
+      "Noah Cates"
+    ]
+  ],
+  "1999-02-06": [
+    [
+      "Justin Almeida"
+    ]
+  ],
+  "1999-02-09": [
+    [
+      "Keith Petruzzelli"
+    ]
+  ],
+  "1999-02-10": [
+    [
+      "Maxim Sushko"
+    ]
+  ],
+  "1999-02-11": [
+    [
+      "Ostap Safin"
+    ],
+    [
+      "Aarne Talvitie"
+    ],
+    [
+      "Logan Hutsko"
+    ]
+  ],
+  "1999-02-12": [
+    [
+      "Philip Kemp"
+    ]
+  ],
+  "1999-02-13": [
+    [
+      "Tobias Geisser"
+    ]
+  ],
+  "1999-02-15": [
+    [
+      "Isaac Ratcliffe"
+    ]
+  ],
+  "1999-02-16": [
+    [
+      "Owen Tippett"
+    ],
+    [
+      "Nick Campoli"
+    ]
+  ],
+  "1999-02-17": [
+    [
+      "Pavel Koltygin"
+    ]
+  ],
+  "1999-02-18": [
+    [
+      "Jack Studnicka"
+    ],
+    [
+      "Antoine Morand"
+    ],
+    [
+      "Evan Barratt"
+    ],
+    [
+      "Radim Salda"
+    ]
+  ],
+  "1999-02-19": [
+    [
+      "Grant Mismash"
+    ]
+  ],
+  "1999-02-23": [
+    [
+      "Brett Stapley"
+    ]
+  ],
+  "1999-02-24": [
+    [
+      "Jiri Patera"
+    ]
+  ],
+  "1999-02-25": [
+    [
+      "Nate Schnarr"
+    ],
+    [
+      "Jake McGrew"
+    ]
+  ],
+  "1999-02-26": [
+    [
+      "Ben Jones"
+    ]
+  ],
+  "1999-02-27": [
+    [
+      "Erik Walli Walterholm"
+    ]
+  ],
+  "1999-03-03": [
+    [
+      "Logan Cockerill"
+    ]
+  ],
+  "1999-03-05": [
+    [
+      "Ivan Prosvetov"
+    ]
+  ],
+  "1999-03-06": [
+    [
+      "Eemeli R\u00e4s\u00e4nen"
+    ],
+    [
+      "Zach Gallant"
+    ]
+  ],
+  "1999-03-09": [
+    [
+      "Ukko-Pekka Luukkonen"
+    ],
+    [
+      "Pontus Holmberg"
+    ]
+  ],
+  "1999-03-10": [
+    [
+      "Jake Leschyshyn"
+    ]
+  ],
+  "1999-03-15": [
+    [
+      "Jarret Tyszka"
+    ]
+  ],
+  "1999-03-19": [
+    [
+      "Sebastian Walfridsson"
+    ]
+  ],
+  "1999-03-20": [
+    [
+      "Jacob Golden"
+    ]
+  ],
+  "1999-03-21": [
+    [
+      "Markus Phillips"
+    ]
+  ],
+  "1999-03-22": [
+    [
+      "Kyle Olson"
+    ]
+  ],
+  "1999-03-25": [
+    [
+      "Santtu Kinnunen"
+    ]
+  ],
+  "1999-03-26": [
+    [
+      "Brandon Kruse"
+    ]
+  ],
+  "1999-03-27": [
+    [
+      "Daniil Tarasov"
+    ]
+  ],
+  "1999-03-31": [
+    [
+      "Jonas R\u00f8ndbjerg"
+    ],
+    [
+      "Jordan Hollett"
+    ]
+  ],
+  "1999-04-01": [
+    [
+      "Cody Glass"
+    ],
+    [
+      "Jan Drozg"
+    ]
+  ],
+  "1999-04-03": [
+    [
+      "Joshua Ess"
+    ]
+  ],
+  "1999-04-04": [
+    [
+      "Scott Reedy"
+    ]
+  ],
+  "1999-04-06": [
+    [
+      "Cole Guttman"
+    ]
+  ],
+  "1999-04-07": [
+    [
+      "D'Artagnan Joly"
+    ]
+  ],
+  "1999-04-10": [
+    [
+      "David No\u00ebl"
+    ]
+  ],
+  "1999-04-14": [
+    [
+      "Joni Ikonen"
+    ]
+  ],
+  "1999-04-17": [
+    [
+      "Michael Rasmussen"
+    ],
+    [
+      "Filip Westerlund"
+    ]
+  ],
+  "1999-04-18": [
+    [
+      "Liam Hawel"
+    ],
+    [
+      "Brady Gilmour"
+    ]
+  ],
+  "1999-04-19": [
+    [
+      "Eetu M\u00e4kiniemi"
+    ]
+  ],
+  "1999-04-21": [
+    [
+      "Reilly Walsh"
+    ]
+  ],
+  "1999-04-22": [
+    [
+      "Eeli Tolvanen"
+    ]
+  ],
+  "1999-04-24": [
+    [
+      "Vladislav Yeryomenko"
+    ]
+  ],
+  "1999-04-25": [
+    [
+      "Ryan O'Connell"
+    ]
+  ],
+  "1999-04-29": [
+    [
+      "Daniel Bukac"
+    ]
+  ],
+  "1999-04-30": [
+    [
+      "Timothy Liljegren"
+    ]
+  ],
+  "1999-05-02": [
+    [
+      "Tomas Vomacka"
+    ]
+  ],
+  "1999-05-04": [
+    [
+      "Reilly Webb"
+    ]
+  ],
+  "1999-05-05": [
+    [
+      "Josh Norris"
+    ],
+    [
+      "Klim Kostin"
+    ],
+    [
+      "Cameron Crotty"
+    ]
+  ],
+  "1999-05-06": [
+    [
+      "Tyler Inamoto"
+    ]
+  ],
+  "1999-05-08": [
+    [
+      "Benjamin Mirageas"
+    ]
+  ],
+  "1999-05-11": [
+    [
+      "Santeri Virtanen"
+    ],
+    [
+      "Adam Ruzicka"
+    ]
+  ],
+  "1999-05-14": [
+    [
+      "Morgan Frost"
+    ]
+  ],
+  "1999-05-17": [
+    [
+      "Maxwell Gildon"
+    ]
+  ],
+  "1999-05-20": [
+    [
+      "Jack Rathbone"
+    ]
+  ],
+  "1999-05-25": [
+    [
+      "Michael Anderson"
+    ]
+  ],
+  "1999-05-26": [
+    [
+      "Jacob Paquette"
+    ],
+    [
+      "Trey Fix-Wolansky"
+    ]
+  ],
+  "1999-05-31": [
+    [
+      "Leon Gawanke"
+    ]
+  ],
+  "1999-06-01": [
+    [
+      "Kristian Vesalainen"
+    ],
+    [
+      "Emil Bemstr\u00f6m"
+    ],
+    [
+      "Kirill Maximov"
+    ],
+    [
+      "Brett Davis"
+    ]
+  ],
+  "1999-06-03": [
+    [
+      "Matt Villalta"
+    ]
+  ],
+  "1999-06-07": [
+    [
+      "Samuel Walker"
+    ]
+  ],
+  "1999-06-09": [
+    [
+      "Michael DiPietro"
+    ],
+    [
+      "Alexander Chmelevski"
+    ]
+  ],
+  "1999-06-14": [
+    [
+      "Stelio Mattheos"
+    ],
+    [
+      "Simon Johansson"
+    ]
+  ],
+  "1999-06-15": [
+    [
+      "Jakub Galvas"
+    ]
+  ],
+  "1999-06-16": [
+    [
+      "Dmitri Samorukov"
+    ]
+  ],
+  "1999-06-17": [
+    [
+      "Henri Jokiharju"
+    ],
+    [
+      "Josh Brook"
+    ]
+  ],
+  "1999-06-22": [
+    [
+      "Olle Eriksson Ek"
+    ]
+  ],
+  "1999-06-23": [
+    [
+      "David Farrance"
+    ]
+  ],
+  "1999-06-25": [
+    [
+      "Alexei Toropchenko"
+    ],
+    [
+      "Mitchell Gibson"
+    ]
+  ],
+  "1999-06-26": [
+    [
+      "Connor Dewar"
+    ]
+  ],
+  "1999-07-01": [
+    [
+      "Pierre-Olivier Joseph"
+    ]
+  ],
+  "1999-07-02": [
+    [
+      "Robert Thomas"
+    ],
+    [
+      "Oskari Laaksonen"
+    ],
+    [
+      "Joey Keane"
+    ]
+  ],
+  "1999-07-03": [
+    [
+      "Filip Sveningsson"
+    ]
+  ],
+  "1999-07-04": [
+    [
+      "Nick Henry"
+    ]
+  ],
+  "1999-07-05": [
+    [
+      "Ty Taylor"
+    ]
+  ],
+  "1999-07-14": [
+    [
+      "MacKenzie Entwistle"
+    ]
+  ],
+  "1999-07-18": [
+    [
+      "Miro Heiskanen"
+    ]
+  ],
+  "1999-07-19": [
+    [
+      "Jacob Peterson"
+    ]
+  ],
+  "1999-07-22": [
+    [
+      "Jason Robertson"
+    ],
+    [
+      "Maxim Zhukov"
+    ],
+    [
+      "Jack St. Ivany"
+    ],
+    [
+      "Jared Moe"
+    ]
+  ],
+  "1999-07-26": [
+    [
+      "Sam Hentges"
+    ]
+  ],
+  "1999-07-27": [
+    [
+      "Skyler Brind'Amour"
+    ],
+    [
+      "Shamil Shmakov"
+    ]
+  ],
+  "1999-07-30": [
+    [
+      "Shane Bowers"
+    ]
+  ],
+  "1999-08-02": [
+    [
+      "Victor Berglund"
+    ]
+  ],
+  "1999-08-10": [
+    [
+      "Nick Suzuki"
+    ]
+  ],
+  "1999-08-11": [
+    [
+      "Cayden Primeau"
+    ]
+  ],
+  "1999-08-14": [
+    [
+      "Pavel Shen"
+    ]
+  ],
+  "1999-08-16": [
+    [
+      "Gabriel Vilardi"
+    ]
+  ],
+  "1999-08-17": [
+    [
+      "Alexei Lipanov"
+    ]
+  ],
+  "1999-08-18": [
+    [
+      "Lucas Elvenes"
+    ],
+    [
+      "Seth Barton"
+    ]
+  ],
+  "1999-08-23": [
+    [
+      "Cole Fraser"
+    ]
+  ],
+  "1999-08-24": [
+    [
+      "Olle Lycksell"
+    ]
+  ],
+  "1999-08-25": [
+    [
+      "Fabian Zetterlund"
+    ]
+  ],
+  "1999-08-28": [
+    [
+      "Kristian R\u00f8yk\u00e5s Marthinsen"
+    ]
+  ],
+  "1999-08-31": [
+    [
+      "Ivan Lodnia"
+    ]
+  ],
+  "1999-09-02": [
+    [
+      "Erik Br\u00e4nnstr\u00f6m"
+    ],
+    [
+      "Calle Sj\u00e4lin"
+    ]
+  ],
+  "1999-09-05": [
+    [
+      "Filip Chytil"
+    ],
+    [
+      "Bryce Misley"
+    ]
+  ],
+  "1999-09-08": [
+    [
+      "Jocktan Chainey"
+    ]
+  ],
+  "1999-09-09": [
+    [
+      "Clayton Phillips"
+    ]
+  ],
+  "1999-09-12": [
+    [
+      "Jaret Anderson-Dolan"
+    ],
+    [
+      "Lauri Pajuniemi"
+    ]
+  ],
+  "1999-09-13": [
+    [
+      "Alexandre Texier"
+    ],
+    [
+      "Alex Formenton"
+    ]
+  ],
+  "1999-09-14": [
+    [
+      "Shawn Boudrias"
+    ]
+  ],
+  "1999-09-15": [
+    [
+      "Jack Gorniak"
+    ]
+  ],
+  "1999-09-16": [
+    [
+      "Brady Tkachuk"
+    ]
+  ],
+  "1999-09-21": [
+    [
+      "Ryan McLeod"
+    ]
+  ],
+  "1999-09-23": [
+    [
+      "Jacob Ragnarsson"
+    ],
+    [
+      "Michael Callahan"
+    ]
+  ],
+  "1999-09-25": [
+    [
+      "Jake Kucharski"
+    ]
+  ],
+  "1999-10-02": [
+    [
+      "Martin Kaut"
+    ],
+    [
+      "Angus Crookshank"
+    ]
+  ],
+  "1999-10-03": [
+    [
+      "Jesse Yl\u00f6nen"
+    ],
+    [
+      "Eetu P\u00e4kkil\u00e4"
+    ]
+  ],
+  "1999-10-06": [
+    [
+      "Martin Feh\u00e9rv\u00e1ry"
+    ]
+  ],
+  "1999-10-07": [
+    [
+      "Nicolas Beaudin"
+    ]
+  ],
+  "1999-10-12": [
+    [
+      "Philipp Kurashev"
+    ]
+  ],
+  "1999-10-13": [
+    [
+      "Kody Clark"
+    ]
+  ],
+  "1999-10-14": [
+    [
+      "Quinn Hughes"
+    ]
+  ],
+  "1999-10-17": [
+    [
+      "Nikolai Kovalenko"
+    ]
+  ],
+  "1999-10-20": [
+    [
+      "Evan Bouchard"
+    ],
+    [
+      "Samuel Ersson"
+    ],
+    [
+      "Filip Kr\u00e1l"
+    ]
+  ],
+  "1999-10-25": [
+    [
+      "Riley Sutter"
+    ]
+  ],
+  "1999-11-02": [
+    [
+      "Wyatte Wylie"
+    ]
+  ],
+  "1999-11-04": [
+    [
+      "Jay O'Brien"
+    ]
+  ],
+  "1999-11-06": [
+    [
+      "Isac Lundestr\u00f6m"
+    ],
+    [
+      "Milos Roman"
+    ]
+  ],
+  "1999-11-08": [
+    [
+      "Zachary Bouthillier"
+    ]
+  ],
+  "1999-11-09": [
+    [
+      "Tyler Madden"
+    ]
+  ],
+  "1999-11-10": [
+    [
+      "Jakub Skarek"
+    ]
+  ],
+  "1999-11-15": [
+    [
+      "Alexander Alexeyev"
+    ]
+  ],
+  "1999-11-16": [
+    [
+      "Linus Karlsson"
+    ],
+    [
+      "Paul Cotter"
+    ]
+  ],
+  "1999-11-19": [
+    [
+      "Martin Pospisil"
+    ]
+  ],
+  "1999-11-20": [
+    [
+      "Johan S\u00f6dergran"
+    ]
+  ],
+  "1999-11-25": [
+    [
+      "David Tendeck"
+    ]
+  ],
+  "1999-11-27": [
+    [
+      "Filip Zadina"
+    ]
+  ],
+  "1999-12-21": [
+    [
+      "J\u00e1chym Kondel\u00edk"
+    ]
+  ],
+  "1999-12-23": [
+    [
+      "Vitali Kravtsov"
+    ]
+  ],
+  "1999-12-29": [
+    [
+      "Bulat Shafigullin"
+    ]
+  ],
+  "2000-01-02": [
+    [
+      "Akil Thomas"
+    ]
+  ],
+  "2000-01-03": [
+    [
+      "Tyler Weiss"
+    ],
+    [
+      "Liam Kirk"
+    ]
+  ],
+  "2000-01-04": [
+    [
+      "Spencer Stastney"
+    ]
+  ],
+  "2000-01-05": [
+    [
+      "Riley Stotts"
+    ]
+  ],
+  "2000-01-06": [
+    [
+      "Alexander Romanov"
+    ],
+    [
+      "Jack McBain"
+    ],
+    [
+      "Xavier Bernard"
+    ],
+    [
+      "Dennis Busby"
+    ]
+  ],
+  "2000-01-07": [
+    [
+      "Noah Dobson"
+    ]
+  ],
+  "2000-01-10": [
+    [
+      "Eric Florchuk"
+    ]
+  ],
+  "2000-01-12": [
+    [
+      "Declan Chisholm"
+    ],
+    [
+      "Dawson Barteaux"
+    ]
+  ],
+  "2000-01-13": [
+    [
+      "Joseph Veleno"
+    ],
+    [
+      "Adam Ginning"
+    ],
+    [
+      "Michael Kesselring"
+    ]
+  ],
+  "2000-01-19": [
+    [
+      "Semyon Kizimov"
+    ]
+  ],
+  "2000-01-21": [
+    [
+      "K'Andre Miller"
+    ]
+  ],
+  "2000-01-23": [
+    [
+      "Marcus Karlberg"
+    ]
+  ],
+  "2000-01-24": [
+    [
+      "Bode Wilde"
+    ]
+  ],
+  "2000-01-26": [
+    [
+      "Nico Gross"
+    ]
+  ],
+  "2000-01-27": [
+    [
+      "Mitchell Hoelscher"
+    ]
+  ],
+  "2000-02-03": [
+    [
+      "Dominik Bokk"
+    ],
+    [
+      "Jack Drury"
+    ]
+  ],
+  "2000-02-04": [
+    [
+      "Liam Foudy"
+    ]
+  ],
+  "2000-02-06": [
+    [
+      "Benoit-Olivier Groulx"
+    ],
+    [
+      "Gabriel Fortier"
+    ]
+  ],
+  "2000-02-08": [
+    [
+      "Jacob Olofsson"
+    ]
+  ],
+  "2000-02-10": [
+    [
+      "Axel Andersson"
+    ],
+    [
+      "Matej Pekar"
+    ]
+  ],
+  "2000-02-11": [
+    [
+      "Tim Berni"
+    ]
+  ],
+  "2000-02-14": [
+    [
+      "Blake McLaughlin"
+    ],
+    [
+      "Allan McShane"
+    ]
+  ],
+  "2000-02-17": [
+    [
+      "Simon Kjellberg"
+    ]
+  ],
+  "2000-02-21": [
+    [
+      "Giovanni Vallati"
+    ]
+  ],
+  "2000-02-24": [
+    [
+      "Dmitri Semykin"
+    ]
+  ],
+  "2000-02-25": [
+    [
+      "Joel Farabee"
+    ]
+  ],
+  "2000-02-28": [
+    [
+      "Jake Wise"
+    ],
+    [
+      "Jacob Pivonka"
+    ],
+    [
+      "Xavier Bouchard"
+    ]
+  ],
+  "2000-03-01": [
+    [
+      "Tyler Tucker"
+    ]
+  ],
+  "2000-03-03": [
+    [
+      "Jonny Tychonick"
+    ],
+    [
+      "Damien Giroux"
+    ]
+  ],
+  "2000-03-06": [
+    [
+      "Curtis Douglas"
+    ],
+    [
+      "Samuel Houde"
+    ]
+  ],
+  "2000-03-07": [
+    [
+      "Rasmus Sandin"
+    ]
+  ],
+  "2000-03-11": [
+    [
+      "Justus Annunen"
+    ]
+  ],
+  "2000-03-12": [
+    [
+      "Oskar B\u00e4ck"
+    ],
+    [
+      "Marcus Westf\u00e4lt"
+    ]
+  ],
+  "2000-03-14": [
+    [
+      "Mattias Samuelsson"
+    ]
+  ],
+  "2000-03-15": [
+    [
+      "Rasmus Kupari"
+    ]
+  ],
+  "2000-03-20": [
+    [
+      "Riley Damiani"
+    ]
+  ],
+  "2000-03-21": [
+    [
+      "Jesper Eliasson"
+    ],
+    [
+      "Ryan O'Reilly"
+    ],
+    [
+      "Alexis Gravel"
+    ]
+  ],
+  "2000-03-23": [
+    [
+      "Filip Johansson"
+    ]
+  ],
+  "2000-03-24": [
+    [
+      "Ty Smith"
+    ],
+    [
+      "Demetrios Koumontzis"
+    ],
+    [
+      "Otto Kivenm\u00e4ki"
+    ]
+  ],
+  "2000-03-26": [
+    [
+      "Andrei Svechnikov"
+    ]
+  ],
+  "2000-03-27": [
+    [
+      "Jared McIsaac"
+    ]
+  ],
+  "2000-03-28": [
+    [
+      "Jakub Lauko"
+    ]
+  ],
+  "2000-03-31": [
+    [
+      "Peter Diliberatore"
+    ]
+  ],
+  "2000-04-03": [
+    [
+      "Mathias Emilio Pettersen"
+    ],
+    [
+      "Gavin Hain"
+    ]
+  ],
+  "2000-04-04": [
+    [
+      "Slava Demin"
+    ]
+  ],
+  "2000-04-08": [
+    [
+      "Danila Zhuravlyov"
+    ]
+  ],
+  "2000-04-11": [
+    [
+      "Calen Addison"
+    ],
+    [
+      "David Gustafsson"
+    ]
+  ],
+  "2000-04-12": [
+    [
+      "Alexander Khovanov"
+    ]
+  ],
+  "2000-04-13": [
+    [
+      "Rasmus Dahlin"
+    ]
+  ],
+  "2000-04-16": [
+    [
+      "Patrik Siikanen"
+    ]
+  ],
+  "2000-04-24": [
+    [
+      "Cole Fonstad"
+    ]
+  ],
+  "2000-04-26": [
+    [
+      "Curtis Hall"
+    ]
+  ],
+  "2000-04-27": [
+    [
+      "Toni Utunen"
+    ]
+  ],
+  "2000-04-29": [
+    [
+      "Luke Henman"
+    ]
+  ],
+  "2000-04-30": [
+    [
+      "Jordan Kooy"
+    ]
+  ],
+  "2000-05-04": [
+    [
+      "Niklas Nordgren"
+    ],
+    [
+      "Johnny Gruden"
+    ]
+  ],
+  "2000-05-05": [
+    [
+      "Ivan D. Morozov"
+    ],
+    [
+      "Christian Krygier"
+    ],
+    [
+      "Cole Krygier"
+    ]
+  ],
+  "2000-05-08": [
+    [
+      "Liam Gorman"
+    ]
+  ],
+  "2000-05-12": [
+    [
+      "Akira Schmid"
+    ]
+  ],
+  "2000-05-15": [
+    [
+      "William Worge Kre\u00fc"
+    ]
+  ],
+  "2000-05-24": [
+    [
+      "Ty Emberson"
+    ]
+  ],
+  "2000-05-31": [
+    [
+      "Sampo Ranta"
+    ]
+  ],
+  "2000-06-09": [
+    [
+      "Barrett Hayton"
+    ],
+    [
+      "Matthew Thiessen"
+    ]
+  ],
+  "2000-06-10": [
+    [
+      "Jacob Ingham"
+    ]
+  ],
+  "2000-06-13": [
+    [
+      "Oliver Wahlstrom"
+    ]
+  ],
+  "2000-06-15": [
+    [
+      "Lenni Killinen"
+    ],
+    [
+      "Aidan Dudas"
+    ]
+  ],
+  "2000-06-19": [
+    [
+      "Miska Kukkonen"
+    ]
+  ],
+  "2000-06-20": [
+    [
+      "Zachary \u00c9mond"
+    ]
+  ],
+  "2000-06-22": [
+    [
+      "Lukas Dostal"
+    ]
+  ],
+  "2000-06-24": [
+    [
+      "Grigori Denisenko"
+    ],
+    [
+      "Cam Hillis"
+    ],
+    [
+      "Justin Sch\u00fctz"
+    ]
+  ],
+  "2000-06-27": [
+    [
+      "Kevin Bahl"
+    ],
+    [
+      "Mathias Laferri\u00e8re"
+    ],
+    [
+      "Riley Hughes"
+    ]
+  ],
+  "2000-06-29": [
+    [
+      "Filip H\u00e5llander"
+    ]
+  ],
+  "2000-06-30": [
+    [
+      "Jacob Bernard-Docker"
+    ]
+  ],
+  "2000-07-03": [
+    [
+      "Linus Cronholm"
+    ]
+  ],
+  "2000-07-06": [
+    [
+      "Jesperi Kotkaniemi"
+    ],
+    [
+      "Olivier Rodrigue"
+    ]
+  ],
+  "2000-07-07": [
+    [
+      "Jordan Harris"
+    ]
+  ],
+  "2000-07-16": [
+    [
+      "Jonatan Berggren"
+    ]
+  ],
+  "2000-07-20": [
+    [
+      "Albin Eriksson"
+    ],
+    [
+      "Alex Kannok-Leipert"
+    ]
+  ],
+  "2000-07-21": [
+    [
+      "Ty Dellandrea"
+    ],
+    [
+      "Kirill Marchenko"
+    ]
+  ],
+  "2000-07-22": [
+    [
+      "Ruslan Iskhakov"
+    ]
+  ],
+  "2000-07-23": [
+    [
+      "Olof Lindbom"
+    ]
+  ],
+  "2000-07-26": [
+    [
+      "Luke Loheit"
+    ]
+  ],
+  "2000-07-27": [
+    [
+      "Nils Lundkvist"
+    ],
+    [
+      "Jett Woo"
+    ]
+  ],
+  "2000-07-30": [
+    [
+      "Joel Hofer"
+    ]
+  ],
+  "2000-08-04": [
+    [
+      "Dustyn McFaul"
+    ]
+  ],
+  "2000-08-06": [
+    [
+      "Alec Regula"
+    ]
+  ],
+  "2000-08-07": [
+    [
+      "Connor Corcoran"
+    ]
+  ],
+  "2000-08-08": [
+    [
+      "Serron Noel"
+    ]
+  ],
+  "2000-08-11": [
+    [
+      "Blade Jenkins"
+    ],
+    [
+      "Dmitri Zavgorodny"
+    ]
+  ],
+  "2000-08-14": [
+    [
+      "Ryan Merkley"
+    ]
+  ],
+  "2000-08-15": [
+    [
+      "Adam Boqvist"
+    ]
+  ],
+  "2000-08-22": [
+    [
+      "Kevin Mandolese"
+    ]
+  ],
+  "2000-08-26": [
+    [
+      "Austin Wong"
+    ]
+  ],
+  "2000-08-28": [
+    [
+      "Magnus Chrona"
+    ]
+  ],
+  "2000-09-13": [
+    [
+      "Jack Perbix"
+    ]
+  ],
+  "2000-09-15": [
+    [
+      "Jan Jenik"
+    ],
+    [
+      "Semyon Der-Arguchintsev"
+    ]
+  ]
+}
