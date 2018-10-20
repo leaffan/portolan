@@ -52,15 +52,15 @@ StatlineGoalie = namedtuple(
 # defining dates
 # lower date of birth for draft-eligible players,
 # older players do not need to be drafted
-LOWER_CUTOFF_DOB = parse("Jan 1, 1998").date()
+LOWER_CUTOFF_DOB = parse("Jan 1, 1999").date()
 # regular cutoff date of birth for draft-eligible players,
 # younger ones weren't draft-eligible in the previous draft
-REGULAR_CUTOFF_DOB = parse("Sep 15, 1999").date()
+REGULAR_CUTOFF_DOB = parse("Sep 15, 2000").date()
 # upper cutoff date of birth for draft-eligible players,
 # younger ones are only draft-eligible in the next draft
-UPPER_CUTOFF_DOB = parse("Sep 15, 2000").date()
+UPPER_CUTOFF_DOB = parse("Sep 15, 2001").date()
 # date of the upcoming draft
-DRAFT_DATE = parse("Jun 22, 2018").date()
+DRAFT_DATE = parse("Jun 21, 2019").date()
 
 BASE_URL = 'http://cluster.leaguestat.com/feed'
 
@@ -113,16 +113,16 @@ BASE_URLS = {
 
 # TODO: allow for retrieval of other seasons
 SEASON_CODES = {
-    'QMJHL': 187,
-    'OHL': 60,
-    'WHL': 262,
-    'USHL': 62,
+    'QMJHL': 190,
+    'OHL': 63,
+    'WHL': 266,
+    'USHL': 67,
 }
 
 LEAGUE_KEYS = {
-    'QMJHL': 'c680916776709578',
-    'OHL': 'c680916776709578',
-    'WHL': 'c680916776709578',
+    'QMJHL': 'f322673b6bcae299',
+    'OHL': '2976319eb44abe94',
+    'WHL': '41b145a848f4bd67',
     'USHL': 'e828f89b243dc43f',
     'BCHL': 'ca4e9e599d4dae55',
     'AHL': '50c2cd9b5e18e390'
@@ -142,7 +142,7 @@ FEET_INCH_PATTERN = re.compile(r'(\d).?\s?(\d+)')
 FEET_PATTERN = re.compile(r'(\d).?')
 
 # retrieve players already drafted
-DRAFTED_PLAYERS_FILE = "drafted_players_by_dobs.json"
+DRAFTED_PLAYERS_FILE = "drafted_player_dobs.json"
 
 ###############################################################################
 
@@ -217,7 +217,8 @@ def retrieve_roster(team, league, already_drafted=None):
         # adjusting id to include league:
         plr_id = "".join((league, plr['id'])).lower()
 
-        # skipping player if he has already been drafted
+        # skipping player if he has already been drafted (as noted on his
+        # player page)
         if is_nhl_drafted(plr['draftinfo']):
             continue
 
@@ -227,7 +228,8 @@ def retrieve_roster(team, league, already_drafted=None):
         plr_dob = parse(plr['birthdate']).date()
 
         # skipping player if he is present in a list of already drafted ones
-        if is_nhl_drafted_2(
+        # from a separate source
+        if is_nhl_drafted_extended(
                 " ".join(
                     (plr['first_name'].strip(), plr['last_name'].strip())),
                 plr_dob,
@@ -424,14 +426,14 @@ def is_nhl_drafted(draft_info):
         return False
 
 
-def is_nhl_drafted_2(player_name, player_dob, already_drafted_players):
+def is_nhl_drafted_extended(player_name, player_dob, already_drafted):
     """
     Determines whether specified player name is present in a dictionary of
     already drafted players using the player's date of birth as key comparator.
     """
-    if player_dob.isoformat() in already_drafted_players:
-        for drafted_player in already_drafted_players[player_dob.isoformat()]:
-            drafted_player_name = " ".join(drafted_player)
+    if player_dob.isoformat() in already_drafted:
+        for drafted_player_name in already_drafted[player_dob.isoformat()]:
+            drafted_player_name = drafted_player_name[0]
             levenshtein_ratio = Levenshtein.ratio(
                 player_name, drafted_player_name)
             if levenshtein_ratio > 0.8:
