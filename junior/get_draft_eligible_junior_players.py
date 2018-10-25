@@ -1,12 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# File: get_draft_eligible_junior_players.py
-# Author: Markus Reinhold
-# Contact: markus@leaffan.net
-# Creation Date: 2016/11/03 01:06:32
-
-u"""
+"""
 This script retrieves player information and current season statistics for all
 draft-eligible players in the three junior leagues QMJHL, OHL and WHL and the
 USHL.
@@ -148,7 +143,7 @@ DRAFTED_PLAYERS_FILE = "drafted_players_by_dobs.json"
 
 
 def retrieve_teams(league):
-    u"""
+    """
     Retrieves teams for specified league by downloading and evaluating a
     corresponding JSON file.
     """
