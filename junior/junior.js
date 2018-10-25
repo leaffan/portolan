@@ -72,7 +72,7 @@ angular.module('showSortJuniorApp', [])
     };
 
     // loading skater stats from external json file
-    $http.get('junior.json').then(function(res) {
+    $http.get('junior_skaters.json').then(function(res) {
         $scope.last_modified = res.data[0]['last_modified'];
         $scope.stats = res.data.slice(1);
     });
