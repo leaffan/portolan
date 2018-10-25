@@ -142,7 +142,7 @@ FEET_INCH_PATTERN = re.compile(r'(\d).?\s?(\d+)')
 FEET_PATTERN = re.compile(r'(\d).?')
 
 # retrieve players already drafted
-DRAFTED_PLAYERS_FILE = "drafted_player_dobs.json"
+DRAFTED_PLAYERS_FILE = "drafted_players_by_dobs.json"
 
 ###############################################################################
 
