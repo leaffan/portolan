@@ -26,6 +26,8 @@ SPECIAL_CASES = {
     'Sas': 'SK',
     'MAN': 'MB',
     'Ontario': 'ON',
+    'PEI': 'PE',
+    'CAN': 'Canada',
 }
 
 # state abbreviations for the US
@@ -153,6 +155,7 @@ ISO_COUNTRY_CODES = {
     'Poland': 'pl',
     'France': 'fr',
     'Kazakhstan': 'kz',
+    'Austria': 'at',
 }
 
 
