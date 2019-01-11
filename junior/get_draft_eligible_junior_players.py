@@ -161,6 +161,7 @@ def retrieve_teams(league):
     # updating client code and key to current league
     params['client_code'] = LEAGUE_CODES[league]
     params['key'] = LEAGUE_KEYS[league]
+    params['season_id'] = SEASON_CODES[league]
 
     json_data = fetch_json_data_with_params(BASE_URL, params)
     json_data_node = json_data['SiteKit']['Teamsbyseason']
@@ -248,6 +249,15 @@ def retrieve_roster(team, league, already_drafted=None):
         homeplace_comp = plr['homeplace'].split(",")[-1].strip()
         # converting homeplace string to ISO country code
         country = locations.retrieve_iso_country_code(homeplace_comp)
+
+        # TODO: set missing country codes less awkwardly
+        if not country:
+            if plr['last_name'].strip() == 'Toman':
+                country = 'cz'
+            elif plr['last_name'].strip() == 'Valenti':
+                country = 'de'
+            elif plr['last_name'].strip() == 'Stern':
+                country = 'us'
 
         if plr['position'] == 'G':
             shoots_catches = plr['catches']
@@ -554,8 +564,10 @@ def dump_to_json_file(tgt_path, dump_rosters, dump_stats, goalies=False):
 if __name__ == '__main__':
 
     leagues = ['QMJHL', 'OHL', 'WHL', 'USHL']
-    skater_tgt_path = r"junior.json"
-    goalie_tgt_path = r"junior_goalies.json"
+    skater_tgt_path = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), r"junior_skaters.json")
+    goalie_tgt_path = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), r"junior_goalies.json")
 
     # setting up result containers for rosters and player stats
     rosters = dict()
