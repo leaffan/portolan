@@ -12,9 +12,10 @@ a result a dictionary using the birthdate as key and a list of players born on
 this date as values. Later on this dictionary can be used to determine whether
 a player has already been drafted.
 """
+import os
 import json
 from urllib.parse import urlparse
-from collections import defaultdict, namedtuple
+from collections import defaultdict
 
 import requests
 
@@ -24,9 +25,9 @@ from lxml import html
 BASE_URL = "http://www.eliteprospects.com"
 # url template for draft overview pages at eliteprospects.com
 DRAFT_URL_TEMPLATE = "draft/nhl-entry-draft/%d"
+# default target data file
+TGT_FILE = "drafted_players_by_dobs.json"
 
-# named tuple to contain basic player information
-Player = namedtuple('Player', 'full_name')
 
 
 def retrieve_drafted_player_links(draft_year):
@@ -77,19 +78,26 @@ def retrieve_drafted_player_data(player_links, existing_player_data=None):
 
         # adding current player to dictionary of player using his date of birth
         # as key
-        player_dobs[dob].append(Player(full_name))
+        # temporarily convert list to set in order to avoid duplicate entries
+        dob_players = set(player_dobs[dob])
+        dob_players.add(full_name)
+        # re-converting set to list to make 
+        player_dobs[dob] = list(dob_players)
 
     return player_dobs
 
 
 if __name__ == '__main__':
 
-    all_plr_dobs = defaultdict(list)
+    if os.path.isfile(TGT_FILE):
+        all_plr_dobs = json.loads(open(TGT_FILE).read())
+    else:
+        all_plr_dobs = defaultdict(list)
 
     for year in [2014, 2015, 2016, 2017, 2018]:
         print("+ Retrieving all players drafted in %d" % year)
         plr_links = retrieve_drafted_player_links(year)
         all_plr_dobs = retrieve_drafted_player_data(plr_links, all_plr_dobs)
 
-    open(r"drafted_players_by_dobs.json", 'w').write(
+    open(TGT_FILE, 'w').write(
         json.dumps(all_plr_dobs, indent=2, sort_keys=True))
