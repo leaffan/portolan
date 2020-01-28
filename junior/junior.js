@@ -1,6 +1,29 @@
-angular.module('showSortJuniorApp', [])
+var app = angular.module('showSortJuniorApp', ['ngRoute'])
 
-.controller('mainController', function($scope, $http) {
+app.config(['$routeProvider', function($routeProvider){
+    $routeProvider
+        .when('/skaters/:draft_year?',
+        {
+            title: 'Draft-Eligible Skaters',
+            templateUrl: 'junior_skaters.html',
+            controller: 'mainController as ctrl',
+            reloadOnSearch: false
+        })
+        .when('/goalies/:draft_year?',
+        {
+            title: 'Draft-Eligible Goalies',
+            templateUrl: 'junior_goalies.html',
+            controller: 'mainController as ctrl',
+            reloadOnSearch: false
+        })
+        .otherwise({
+            redirectTo: '/skaters/2020'
+        })
+}]);
+
+app.controller('mainController', function($scope, $http, $routeParams) {
+    
+    $scope.draft_year = $routeParams.draft_year;
     // default table selection and sort criterion for skater page
     $scope.skaterTableSelect = 'skater_basic_stats';
     $scope.skaterSortCriterion = 'points';
@@ -72,13 +95,13 @@ angular.module('showSortJuniorApp', [])
     };
 
     // loading skater stats from external json file
-    $http.get('junior_skaters.json').then(function(res) {
+    $http.get('data/'+ $scope.draft_year + '/junior_skaters.json').then(function(res) {
         $scope.last_modified = res.data[0]['last_modified'];
         $scope.stats = res.data.slice(1);
     });
 
     // loading goalie stats from external json file
-    $http.get('junior_goalies.json').then(function(res) {
+    $http.get('data/'+ $scope.draft_year + '/junior_goalies.json').then(function(res) {
         $scope.goalies_last_modified = res.data[0]['last_modified'];
         $scope.goalie_stats = res.data.slice(1);
     });
