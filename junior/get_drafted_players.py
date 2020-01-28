@@ -104,9 +104,10 @@ if __name__ == '__main__':
     else:
         all_plr_dobs = dict()
 
-    for year in [2014, 2015, 2016, 2017, 2018]:
+    for year in [2014, 2015, 2016, 2017, 2018, 2019]:
         print("+ Retrieving all players drafted in %d" % year)
         plr_links = retrieve_drafted_player_links(year)
+        print("+ Found %d players drafted in %d" % (len(plr_links), year))
         all_plr_dobs = retrieve_drafted_player_data(plr_links, all_plr_dobs)
 
     if all_plr_dobs:
