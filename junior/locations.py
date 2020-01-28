@@ -19,6 +19,7 @@ SPECIAL_CASES = {
     'Russie': 'Russia',
     'Republic of Belarus': 'Belarus',
     'Czech Rep.': 'Czech Republic',
+    'Letvia': 'Latvia',
     # non-standard abbreviations for Canadian provinces
     'NF': 'NL',
     'ONT': 'ON',
@@ -28,6 +29,7 @@ SPECIAL_CASES = {
     'Ontario': 'ON',
     'PEI': 'PE',
     'CAN': 'Canada',
+    'QBC': 'QC'
 }
 
 # state abbreviations for the US
@@ -127,6 +129,7 @@ COUNTRY_ABBREVIATIONS = {
     'EST': 'Estonia',
     'BLR': 'Belarus',
     'KAZ': 'Kazakhstan',
+    'POL': 'Poland'
 }
 
 # look-up dictionary for ISO country codes found relevant for
@@ -156,6 +159,7 @@ ISO_COUNTRY_CODES = {
     'France': 'fr',
     'Kazakhstan': 'kz',
     'Austria': 'at',
+    'Japan': 'jp'
 }
 
 
