@@ -15,7 +15,6 @@ a player has already been drafted.
 import os
 import json
 from urllib.parse import urlparse
-from collections import defaultdict
 
 import requests
 
@@ -27,7 +26,6 @@ BASE_URL = "http://www.eliteprospects.com"
 DRAFT_URL_TEMPLATE = "draft/nhl-entry-draft/%d"
 # default target data file
 TGT_FILE = "drafted_players_by_dobs.json"
-
 
 
 def retrieve_drafted_player_links(draft_year):
@@ -54,15 +52,29 @@ def retrieve_drafted_player_data(player_links, existing_player_data=None):
     # setting up target dictionary using an empty list as a default value
     # because multiple players may be born on the same day
     if existing_player_data is None:
-        player_dobs = defaultdict(list)
+        player_dobs = dict()
     else:
         player_dobs = existing_player_data
+
+    vals = list(player_dobs.values()) 
+    all_tuples = [item for sublist in vals for item in sublist]
+    all_ep_ids = [item[1] for item in all_tuples]
 
     i = 0
     for url in player_links[:]:
         i += 1
+
+        # retrieving eliteprospects id from url
+        ep_id = "/".join(url.split("/")[-2:])
+        # checking whether eliteprospects id has already been registered
+        if ep_id in all_ep_ids:
+            print(
+                "+ Player for URL %d of %d already " % (i, len(player_links)) +
+                "registered (%s)" % ep_id)
+            continue
+
         req = requests.get(url)
-        print("+ Working on url %d of %d (%s)" % (i, len(player_links), url))
+        print("+ Working on URL %d of %d (%s)" % (i, len(player_links), url))
         doc = html.fromstring(req.text)
 
         # retrieving full name from page title
@@ -76,13 +88,11 @@ def retrieve_drafted_player_data(player_links, existing_player_data=None):
             if 'dob' in item:
                 dob = item.split("=")[-1]
 
-        # adding current player to dictionary of player using his date of birth
-        # as key
-        # temporarily convert list to set in order to avoid duplicate entries
-        dob_players = set(player_dobs[dob])
-        dob_players.add(full_name)
-        # re-converting set to list to make 
-        player_dobs[dob] = list(dob_players)
+        # adding current player's name and eliteprospects id to dictionary of
+        # players using date of birth as key
+        if dob not in player_dobs:
+            player_dobs[dob] = list()
+        player_dobs[dob].append((full_name, ep_id))
 
     return player_dobs
 
@@ -92,12 +102,13 @@ if __name__ == '__main__':
     if os.path.isfile(TGT_FILE):
         all_plr_dobs = json.loads(open(TGT_FILE).read())
     else:
-        all_plr_dobs = defaultdict(list)
+        all_plr_dobs = dict()
 
     for year in [2014, 2015, 2016, 2017, 2018]:
         print("+ Retrieving all players drafted in %d" % year)
         plr_links = retrieve_drafted_player_links(year)
         all_plr_dobs = retrieve_drafted_player_data(plr_links, all_plr_dobs)
 
-    open(TGT_FILE, 'w').write(
-        json.dumps(all_plr_dobs, indent=2, sort_keys=True))
+    if all_plr_dobs:
+        open(TGT_FILE, 'w').write(
+            json.dumps(all_plr_dobs, indent=2, sort_keys=True))
