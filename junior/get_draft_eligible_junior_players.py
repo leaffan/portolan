@@ -47,15 +47,15 @@ StatlineGoalie = namedtuple(
 # defining dates
 # lower date of birth for draft-eligible players,
 # older players do not need to be drafted
-LOWER_CUTOFF_DOB = parse("Jan 1, 1999").date()
+LOWER_CUTOFF_DOB = parse("Jan 1, 2000").date()
 # regular cutoff date of birth for draft-eligible players,
 # younger ones weren't draft-eligible in the previous draft
-REGULAR_CUTOFF_DOB = parse("Sep 15, 2000").date()
+REGULAR_CUTOFF_DOB = parse("Sep 15, 2001").date()
 # upper cutoff date of birth for draft-eligible players,
 # younger ones are only draft-eligible in the next draft
-UPPER_CUTOFF_DOB = parse("Sep 15, 2001").date()
+UPPER_CUTOFF_DOB = parse("Sep 15, 2002").date()
 # date of the upcoming draft
-DRAFT_DATE = parse("Jun 21, 2019").date()
+DRAFT_DATE = parse("Jun 26, 2020").date()
 
 BASE_URL = 'http://cluster.leaguestat.com/feed'
 
@@ -70,6 +70,10 @@ BASE_PARAMS = {
 # template parameters for team overview page urls
 TEAM_OVERVIEW_PARAMS = {
     'view': 'teamsbyseason',
+}
+
+SEASON_OVERVIEW_PARAMS = {
+    'view': 'seasons'
 }
 
 # template parameters for team roster page urls
@@ -108,10 +112,10 @@ BASE_URLS = {
 
 # TODO: allow for retrieval of other seasons
 SEASON_CODES = {
-    'QMJHL': 190,
-    'OHL': 63,
-    'WHL': 266,
-    'USHL': 67,
+    'QMJHL': 193,  #190,
+    'OHL': 68,  #63,
+    'WHL': 270, # 266,
+    'USHL': 71, #67,
 }
 
 LEAGUE_KEYS = {
