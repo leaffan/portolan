@@ -1,4806 +1,7048 @@
 {
   "1993-04-08": [
     [
-      "Viktor Arvidsson"
+      "Viktor Arvidsson",
+      "27484/viktor-arvidsson"
     ]
   ],
   "1993-10-04": [
     [
-      "Lukas Sutter"
+      "Lukas Sutter",
+      "48665/lukas-sutter"
     ],
     [
-      "Alexander Kadeykin"
+      "Alexander Kadeykin",
+      "94663/alexander-kadeykin"
     ]
   ],
   "1994-01-13": [
     [
-      "Kyle Schempp"
+      "Kyle Schempp",
+      "121949/kyle-schempp"
     ]
   ],
   "1994-01-30": [
     [
-      "Zach Nagelvoort"
+      "Zach Nagelvoort",
+      "135675/zach-nagelvoort"
     ]
   ],
   "1994-02-07": [
     [
-      "Nathan Walker"
+      "Nathan Walker",
+      "101430/nathan-walker"
     ]
   ],
   "1994-02-19": [
     [
-      "Daniel Walcott"
+      "Daniel Walcott",
+      "257725/daniel-walcott"
     ]
   ],
   "1994-02-21": [
     [
-      "Devon Toews"
+      "Devon Toews",
+      "59575/devon-toews"
     ]
   ],
   "1994-03-02": [
     [
-      "Cam Darcy"
+      "Cameron Darcy",
+      "90353/cameron-darcy"
     ]
   ],
   "1994-03-17": [
     [
-      "C.J. Suess"
+      "C.J. Suess",
+      "195507/c.j.-suess"
     ]
   ],
   "1994-03-26": [
     [
-      "Austin Carroll"
+      "Austin Carroll",
+      "93438/austin-carroll"
     ]
   ],
   "1994-04-11": [
     [
-      "Brandon Montour"
+      "Brandon Montour",
+      "97957/brandon-montour"
     ]
   ],
   "1994-04-13": [
     [
-      "Elvis Merzlikins"
+      "Elvis Merzlikins",
+      "66584/elvis-merzlikins"
     ],
     [
-      "Jeff Taylor"
+      "Jeff Taylor",
+      "122684/jeff-taylor"
     ]
   ],
   "1994-04-14": [
     [
-      "Tyler Vesel"
+      "Tyler Vesel",
+      "121879/tyler-vesel"
     ]
   ],
   "1994-05-02": [
     [
-      "Richard Nejezchleb"
+      "Richard Nejezchleb",
+      "100577/richard-nejezchleb"
     ]
   ],
   "1994-05-15": [
     [
-      "Matt Iacopelli"
+      "Matt Iacopelli",
+      "152075/matt-iacopelli"
     ]
   ],
   "1994-05-27": [
     [
-      "Matt Ustaski"
+      "Matt Ustaski",
+      "146215/matt-ustaski"
     ]
   ],
   "1994-06-06": [
     [
-      "Markus Nutivaara"
+      "Markus Nutivaara",
+      "47273/markus-nutivaara"
     ]
   ],
   "1994-06-27": [
     [
-      "Steven Johnson"
+      "Steve Johnson",
+      "218982/steve-johnson"
     ]
   ],
   "1994-07-16": [
     [
-      "Jesper Pettersson"
+      "Jesper Pettersson",
+      "28988/jesper-pettersson"
     ]
   ],
   "1994-07-29": [
     [
-      "Andrei Mironov"
+      "Andrei Mironov",
+      "159421/andrei-mironov"
     ]
   ],
   "1994-08-08": [
     [
-      "Dominik Simon"
+      "Dominik Simon",
+      "105831/dominik-simon"
     ]
   ],
   "1994-08-12": [
     [
-      "Ivan Nalimov"
+      "Ivan Nalimov",
+      "123057/ivan-nalimov"
     ]
   ],
   "1994-08-30": [
     [
-      "Nikita Tryamkin"
+      "Nikita Tryamkin",
+      "123119/nikita-tryamkin"
     ]
   ],
   "1994-09-19": [
     [
-      "Liam Coughlin"
+      "Liam Coughlin",
+      "248303/liam-coughlin"
     ]
   ],
   "1994-11-13": [
     [
-      "Edgars Kulda"
+      "Edgars Kulda",
+      "52421/edgars-kulda"
     ]
   ],
   "1994-11-29": [
     [
-      "Anton Lindholm"
+      "Anton Lindholm",
+      "39019/anton-lindholm"
     ]
   ],
   "1995-01-13": [
     [
-      "Maxim Mamin"
+      "Maxim Mamin",
+      "155384/maxim-mamin"
     ]
   ],
   "1995-01-26": [
     [
-      "Colby Williams"
+      "Colby Williams",
+      "85035/colby-williams"
     ]
   ],
   "1995-02-05": [
     [
-      "David Westlund"
+      "David Westlund",
+      "67162/david-westlund"
     ]
   ],
   "1995-02-06": [
     [
-      "Ville Husso"
+      "Ville Husso",
+      "50661/ville-husso"
     ]
   ],
   "1995-02-08": [
     [
-      "Ziyat Paigin"
+      "Ziyat Paigin",
+      "163859/ziyat-paigin"
     ]
   ],
   "1995-02-13": [
     [
-      "Maxwell Willman"
+      "Max Willman",
+      "300657/max-willman"
     ]
   ],
   "1995-02-14": [
     [
-      "Anatoli Golyshev"
+      "Anatoli Golyshev",
+      "205469/anatoli-golyshev"
     ]
   ],
   "1995-02-22": [
     [
-      "Jaedon Descheneau"
+      "Jaedon Descheneau",
+      "64576/jaedon-descheneau"
     ]
   ],
   "1995-03-01": [
     [
-      "Hayden Hawkey"
+      "Hayden Hawkey",
+      "190163/hayden-hawkey"
     ],
     [
-      "Matt Roy"
+      "Matt Roy",
+      "191271/matt-roy"
     ]
   ],
   "1995-03-06": [
     [
-      "Sam Lafferty"
+      "Sam Lafferty",
+      "259043/sam-lafferty"
     ]
   ],
   "1995-03-07": [
     [
-      "Miroslav Svoboda"
+      "Miroslav Svoboda",
+      "101860/miroslav-svoboda"
     ]
   ],
   "1995-03-17": [
     [
-      "Christian Wolanin"
+      "Christian Wolanin",
+      "188788/christian-wolanin"
     ]
   ],
   "1995-03-22": [
     [
-      "Dwyer Tschantz"
+      "Dwyer Tschantz",
+      "191247/dwyer-tschantz"
     ]
   ],
   "1995-03-23": [
     [
-      "Julius V\u00e4h\u00e4talo"
+      "Julius V\u00e4h\u00e4talo",
+      "73323/julius-vahatalo"
     ]
   ],
   "1995-03-28": [
     [
-      "Nolan Vesey"
+      "Nolan Vesey",
+      "248373/nolan-vesey"
     ]
   ],
   "1995-03-29": [
     [
-      "Brandon Baddock"
+      "Brandon Baddock",
+      "83627/brandon-baddock"
     ]
   ],
   "1995-04-03": [
     [
-      "Ivan Chukarov"
+      "Ivan Chukarov",
+      "135399/ivan-chukarov"
     ]
   ],
   "1995-04-04": [
     [
-      "Joonas Lyytinen"
+      "Joonas Lyytinen",
+      "66296/joonas-lyytinen"
     ]
   ],
   "1995-05-11": [
     [
-      "Rinat Valiyev"
+      "Rinat Valiyev",
+      "159029/rinat-valiyev"
     ]
   ],
   "1995-05-20": [
     [
-      "Jake Marchment"
+      "Jake Marchment",
+      "95924/jake-marchment"
     ],
     [
-      "Frederik Tiffels"
+      "Frederik Tiffels",
+      "85240/frederik-tiffels"
     ]
   ],
   "1995-06-01": [
     [
-      "Dylan Sikura"
+      "Dylan Sikura",
+      "146580/dylan-sikura"
     ]
   ],
   "1995-07-05": [
     [
-      "Danton Heinen"
+      "Danton Heinen",
+      "105821/danton-heinen"
     ]
   ],
   "1995-07-18": [
     [
-      "Victor Olofsson"
+      "Victor Olofsson",
+      "86308/victor-olofsson"
     ],
     [
-      "Tyler Moy"
+      "Tyler Moy",
+      "118545/tyler-moy"
     ]
   ],
   "1995-07-21": [
     [
-      "Adam Helewka"
+      "Adam Helewka",
+      "119394/adam-helewka"
     ]
   ],
   "1995-08-04": [
     [
-      "Ilya Sorokin"
+      "Ilya Sorokin",
+      "214182/ilya-sorokin"
     ]
   ],
   "1995-08-10": [
     [
-      "Mackenze Stewart"
+      "Mackenze Stewart",
+      "62280/mackenze-stewart"
     ]
   ],
   "1995-09-05": [
     [
-      "Lucas Wallmark"
+      "Lucas Wallmark",
+      "39022/lucas-wallmark"
     ]
   ],
   "1995-09-11": [
     [
-      "Hunter Smith"
+      "Hunter Smith",
+      "117017/hunter-smith"
     ]
   ],
   "1995-09-17": [
     [
-      "Michael Bunting"
+      "Michael Bunting",
+      "245191/michael-bunting"
     ]
   ],
   "1995-09-18": [
     [
-      "Luc Snuggerud"
+      "Luc Snuggerud",
+      "196703/luc-snuggerud"
     ]
   ],
   "1995-09-19": [
     [
-      "Jonas Johansson"
+      "Jonas Johansson",
+      "86174/jonas-johansson"
     ]
   ],
   "1995-09-23": [
     [
-      "Alex Lintuniemi"
+      "Alex Lintuniemi",
+      "50668/alex-lintuniemi"
     ]
   ],
   "1995-09-24": [
     [
-      "Brett Lernout"
+      "Brett Lernout",
+      "104226/brett-lernout"
     ]
   ],
   "1995-10-05": [
     [
-      "Tanner Faith"
+      "Tanner Faith",
+      "101642/tanner-faith"
     ]
   ],
   "1995-10-07": [
     [
-      "Nikolay Goldobin"
+      "Nikolay Goldobin",
+      "160550/nikolay-goldobin"
     ]
   ],
   "1995-10-10": [
     [
-      "Shane Eiserman"
+      "Shane Eiserman",
+      "177720/shane-eiserman"
     ]
   ],
   "1995-10-17": [
     [
-      "Matt Mistele"
+      "Matt Mistele",
+      "117000/matt-mistele"
     ]
   ],
   "1995-10-24": [
     [
-      "Tony DeAngelo"
+      "Tony DeAngelo",
+      "89818/tony-deangelo"
     ]
   ],
   "1995-10-25": [
     [
-      "Chase De Leo"
+      "Chase De Leo",
+      "116909/chase-de-leo"
     ]
   ],
   "1995-10-27": [
     [
-      "Leon Draisaitl"
+      "Leon Draisaitl",
+      "71913/leon-draisaitl"
     ],
     [
-      "Jake Kupsky"
+      "Jake Kupsky",
+      "321904/jake-kupsky"
     ]
   ],
   "1995-10-30": [
     [
-      "Connor Chatham"
+      "Connor Chatham",
+      "114799/connor-chatham"
     ]
   ],
   "1995-11-01": [
     [
-      "Beau Starrett"
+      "Beau Starrett",
+      "252369/beau-starrett"
     ]
   ],
   "1995-11-02": [
     [
-      "Julius Bergman"
+      "Julius Bergman",
+      "38929/julius-bergman"
     ],
     [
-      "Jack Ramsey"
+      "Jack Ramsey",
+      "195477/jack-ramsey"
     ]
   ],
   "1995-11-06": [
     [
-      "Sam Reinhart"
+      "Sam Reinhart",
+      "95032/sam-reinhart"
     ]
   ],
   "1995-11-07": [
     [
-      "Ryan Rehill"
+      "Ryan Rehill",
+      "83900/ryan-rehill"
     ]
   ],
   "1995-11-08": [
     [
-      "Ondrej Kase"
+      "Ondrej Kase",
+      "165006/ondrej-kase"
     ]
   ],
   "1995-11-21": [
     [
-      "Vladislav Gavrikov"
+      "Vladislav Gavrikov",
+      "165015/vladislav-gavrikov"
     ]
   ],
   "1995-12-03": [
     [
-      "Julius Honka"
+      "Julius Honka",
+      "65456/julius-honka"
     ]
   ],
   "1995-12-05": [
     [
-      "Nick Ritchie"
+      "Nick Ritchie",
+      "99036/nick-ritchie"
     ]
   ],
   "1995-12-08": [
     [
-      "Thatcher Demko"
+      "Thatcher Demko",
+      "155248/thatcher-demko"
     ]
   ],
   "1995-12-12": [
     [
-      "Alex Schoenborn"
+      "Alex Schoenborn",
+      "118437/alex-schoenborn"
     ],
     [
-      "Kevin Labanc"
+      "Kevin Labanc",
+      "133841/kevin-labanc"
     ]
   ],
   "1995-12-14": [
     [
-      "Ivan Barbashyov"
+      "Ivan Barbashyov",
+      "108659/ivan-barbashyov"
     ]
   ],
   "1995-12-15": [
     [
-      "Steven Spinner"
+      "Steven Spinner",
+      "196597/steven-spinner"
     ]
   ],
   "1995-12-21": [
     [
-      "Alexis Vanier"
+      "Alexis Vanier",
+      "128447/alexis-vanier"
     ]
   ],
   "1995-12-25": [
     [
-      "Mark Friedman"
+      "Mark Friedman",
+      "107113/mark-friedman"
     ]
   ],
   "1995-12-30": [
     [
-      "Nikita Scherbak"
+      "Nikita Scherbak",
+      "209468/nikita-scherbak"
     ],
     [
-      "Igor Shestyorkin"
+      "Igor Shestyorkin",
+      "195577/igor-shestyorkin"
     ]
   ],
   "1996-01-01": [
     [
-      "Jayce Hawryluk"
+      "Jayce Hawryluk",
+      "120626/jayce-hawryluk"
     ],
     [
-      "Joni Tuulola"
+      "Joni Tuulola",
+      "90023/joni-tuulola"
     ]
   ],
   "1996-01-02": [
     [
-      "Jacob Middleton"
+      "Jacob Middleton",
+      "150872/jacob-middleton"
     ]
   ],
   "1996-01-04": [
     [
-      "Maximilian Pajpach"
+      "Maximilian Pajpach",
+      "176686/maximilian-pajpach"
     ]
   ],
   "1996-01-05": [
     [
-      "Rodrigo Abols"
+      "Rodrigo Abols",
+      "154962/rodrigo-abols"
     ]
   ],
   "1996-01-07": [
     [
-      "Alex Nedeljkovic"
+      "Alex Nedeljkovic",
+      "135425/alex-nedeljkovic"
     ],
     [
-      "Michael Prapavessis"
+      "Michael Prapavessis",
+      "195224/michael-prapavessis"
     ],
     [
-      "Radel Fazleyev"
+      "Radel Fazleyev",
+      "231738/radel-fazleyev"
     ]
   ],
   "1996-01-09": [
     [
-      "Vitek Vanecek"
+      "Vitek Vanecek",
+      "161469/vitek-vanecek"
     ],
     [
-      "Hugo Fagerblom"
+      "Hugo Fagerblom",
+      "146833/hugo-fagerblom"
     ]
   ],
   "1996-01-10": [
     [
-      "Cristiano DiGiacinto"
+      "Cristiano DiGiacinto",
+      "204054/cristiano-digiacinto"
     ]
   ],
   "1996-01-11": [
     [
-      "Jaden Lindo"
+      "Jaden Lindo",
+      "189413/jaden-lindo"
     ]
   ],
   "1996-01-15": [
     [
-      "Mason Appleton"
+      "Mason Appleton",
+      "266919/mason-appleton"
     ]
   ],
   "1996-01-19": [
     [
-      "Nikolas Koberstein"
+      "Nikolas Koberstein",
+      "84120/nikolas-koberstein"
     ],
     [
-      "Kyle Pettit"
+      "Kyle Pettit",
+      "204921/kyle-pettit"
     ]
   ],
   "1996-01-20": [
     [
-      "Roland McKeown"
+      "Roland McKeown",
+      "189364/roland-mckeown"
     ]
   ],
   "1996-01-21": [
     [
-      "Andreas Englund"
+      "Andreas Englund",
+      "115148/andreas-englund"
     ]
   ],
   "1996-01-22": [
     [
-      "Robby Fabbri"
+      "Robby Fabbri",
+      "156923/robby-fabbri"
     ],
     [
-      "Joshua Ho-Sang"
+      "Josh Ho-Sang",
+      "161290/josh-ho-sang"
     ]
   ],
   "1996-01-23": [
     [
-      "Jared Fiegl"
+      "Jared Fiegl",
+      "122120/jared-fiegl"
     ]
   ],
   "1996-01-24": [
     [
-      "Sergei Boikov"
+      "Sergei Boikov",
+      "218306/sergei-boikov"
     ]
   ],
   "1996-01-25": [
     [
-      "Lukas Vejdemo"
+      "Lukas Vejdemo",
+      "142243/lukas-vejdemo"
     ]
   ],
   "1996-01-26": [
     [
-      "Chandler Yakimowicz"
+      "Chandler Yakimowicz",
+      "276562/chandler-yakimowicz"
     ],
     [
-      "Stephen Desrocher"
+      "Stephen Desrocher",
+      "205526/stephen-desrocher"
     ],
     [
-      "Blake Hillman"
+      "Blake Hillman",
+      "248356/blake-hillman"
     ]
   ],
   "1996-01-28": [
     [
-      "Reid Duke"
+      "Reid Duke",
+      "62308/reid-duke"
     ]
   ],
   "1996-01-29": [
     [
-      "Juho Lammikko"
+      "Juho Lammikko",
+      "151955/juho-lammikko"
     ],
     [
-      "Joey Dudek"
+      "J.D. Dudek",
+      "211276/j.d.-dudek"
     ]
   ],
   "1996-02-01": [
     [
-      "Dominik Masin"
+      "Dominik Masin",
+      "127501/dominik-masin"
     ]
   ],
   "1996-02-02": [
     [
-      "Christian Dvorak"
+      "Christian Dvorak",
+      "194889/christian-dvorak"
     ]
   ],
   "1996-02-06": [
     [
-      "Aaron Haydon"
+      "Aaron Haydon",
+      "189374/aaron-haydon"
     ]
   ],
   "1996-02-07": [
     [
-      "Aaron Ekblad"
+      "Aaron Ekblad",
+      "49042/aaron-ekblad"
     ],
     [
-      "Conner Bleackley"
-    ],
-    [
-      "Conner Bleackley"
+      "Conner Bleackley",
+      "84020/conner-bleackley"
     ]
   ],
   "1996-02-08": [
     [
-      "Chase Perry"
+      "Chase Perry",
+      "183537/chase-perry"
     ]
   ],
   "1996-02-14": [
     [
-      "Nikolaj Ehlers"
+      "Nikolaj Ehlers",
+      "66581/nikolaj-ehlers"
     ],
     [
-      "Ryan MacInnis"
+      "Ryan MacInnis",
+      "168707/ryan-macinnis"
     ]
   ],
   "1996-02-15": [
     [
-      "Josh Jacobs"
+      "Josh Jacobs",
+      "168704/josh-jacobs"
     ]
   ],
   "1996-02-16": [
     [
-      "Austin Poganski"
+      "Austin Poganski",
+      "231724/austin-poganski"
     ],
     [
-      "Matthew Berkovitz"
+      "Matthew Berkovitz",
+      "220352/matthew-berkovitz"
     ]
   ],
   "1996-02-17": [
     [
-      "Olivier LeBlanc"
+      "Olivier LeBlanc",
+      "151757/olivier-leblanc"
     ],
     [
-      "Sebastian Aho"
+      "Sebastian Aho",
+      "67208/sebastian-aho"
     ]
   ],
   "1996-02-20": [
     [
-      "Maxim Letunov"
+      "Maxim Letunov",
+      "233028/maxim-letunov"
     ],
     [
-      "Jake Walman"
+      "Jake Walman",
+      "248066/jake-walman"
     ]
   ],
   "1996-02-22": [
     [
-      "William Lagesson"
+      "William Lagesson",
+      "86158/william-lagesson"
     ],
     [
-      "Christopher Brown"
+      "Christopher Brown",
+      "248309/christopher-brown"
     ]
   ],
   "1996-02-23": [
     [
-      "Nick Schmaltz"
+      "Nick Schmaltz",
+      "156966/nick-schmaltz"
     ]
   ],
   "1996-02-25": [
     [
-      "Dominic Turgeon"
+      "Dominic Turgeon",
+      "120642/dominic-turgeon"
     ]
   ],
   "1996-02-27": [
     [
-      "Blake Siebenaler"
+      "Blake Siebenaler",
+      "192880/blake-siebenaler"
     ]
   ],
   "1996-02-28": [
     [
-      "Jakub Vr\u00e1na"
+      "Jakub Vr\u00e1na",
+      "101250/jakub-vrana"
     ],
     [
-      "Rhett Gardner"
+      "Rhett Gardner",
+      "119371/rhett-gardner"
     ]
   ],
   "1996-02-29": [
     [
-      "Brett Seney"
+      "Brett Seney",
+      "204125/brett-seney"
     ]
   ],
   "1996-03-01": [
     [
-      "Gilles Senn"
+      "Gilles Senn",
+      "164037/gilles-senn"
     ]
   ],
   "1996-03-03": [
     [
-      "Aaron Irving"
+      "Aaron Irving",
+      "84245/aaron-irving"
     ]
   ],
   "1996-03-05": [
     [
-      "Garrett Metcalf"
+      "Garrett Metcalf",
+      "215452/garrett-metcalf"
     ]
   ],
   "1996-03-06": [
     [
-      "Anthony Angello"
+      "Anthony Angello",
+      "178527/anthony-angello"
     ],
     [
-      "Sam Ruopp"
+      "Sam Ruopp",
+      "120650/sam-ruopp"
     ],
     [
-      "Patrik Virta"
+      "Patrik Virta",
+      "98096/patrik-virta"
     ]
   ],
   "1996-03-11": [
     [
-      "Conor Garland"
+      "Conor Garland",
+      "177208/conor-garland"
     ]
   ],
   "1996-03-13": [
     [
-      "Brayden Point"
+      "Brayden Point",
+      "62204/brayden-point"
     ]
   ],
   "1996-03-15": [
     [
-      "Brendan Lemieux"
+      "Brendan Lemieux",
+      "177647/brendan-lemieux"
     ]
   ],
   "1996-03-17": [
     [
-      "Brett Pollock"
+      "Brett Pollock",
+      "84111/brett-pollock"
     ],
     [
-      "Tyler Nanne"
+      "Tyler Nanne",
+      "194952/tyler-nanne"
     ],
     [
-      "Miguel Fidler"
+      "Miguel Fidler",
+      "248353/miguel-fidler"
     ]
   ],
   "1996-03-19": [
     [
-      "Chase Priskie"
+      "Chase Priskie",
+      "177666/chase-priskie"
     ]
   ],
   "1996-03-21": [
     [
-      "Matt Schmalz"
+      "Matt Schmalz",
+      "189373/matt-schmalz"
     ]
   ],
   "1996-03-29": [
     [
-      "Travis Sanheim"
+      "Travis Sanheim",
+      "120938/travis-sanheim"
     ],
     [
-      "Brandon Halverson"
+      "Brandon Halverson",
+      "213262/brandon-halverson"
     ],
     [
-      "Clark Bishop"
+      "Clark Bishop",
+      "191376/clark-bishop"
     ]
   ],
   "1996-04-01": [
     [
-      "Warren Foegele"
+      "Warren Foegele",
+      "210317/warren-foegele"
     ]
   ],
   "1996-04-02": [
     [
-      "Dylan Sadowy"
+      "Dylan Sadowy",
+      "194119/dylan-sadowy"
     ],
     [
-      "Pavel Jenys"
+      "Pavel Jenys",
+      "112375/pavel-jenys"
     ],
     [
-      "Christian Jaros"
+      "Christian Jaros",
+      "166373/christian-jaros"
     ],
     [
-      "Patrick Kudla"
+      "Patrick Kudla",
+      "219542/patrick-kudla"
     ]
   ],
   "1996-04-03": [
     [
-      "Rourke Chartier"
+      "Rourke Chartier",
+      "120201/rourke-chartier"
     ],
     [
-      "Todd Burgess"
+      "Todd Burgess",
+      "206321/todd-burgess"
     ]
   ],
   "1996-04-04": [
     [
-      "Andrew Mangiapane"
+      "Andrew Mangiapane",
+      "223199/andrew-mangiapane"
     ]
   ],
   "1996-04-05": [
     [
-      "Keegan Iverson"
+      "Keegan Iverson",
+      "185603/keegan-iverson"
     ],
     [
-      "Christoffer Ehn"
+      "Christoffer Ehn",
+      "115020/christoffer-ehn"
     ]
   ],
   "1996-04-06": [
     [
-      "Andrei Svetlakov"
+      "Andrei Svetlakov",
+      "168686/andrei-svetlakov"
     ]
   ],
   "1996-04-09": [
     [
-      "Ryan Donato"
+      "Ryan Donato",
+      "195235/ryan-donato"
     ],
     [
-      "Josh Wesley"
+      "Josh Wesley",
+      "189578/josh-wesley"
     ]
   ],
   "1996-04-11": [
     [
-      "Eric Cornel"
+      "Eric Cornel",
+      "154475/eric-cornel"
     ],
     [
-      "Daniel Bernhardt"
+      "Daniel Bernhardt",
+      "142253/daniel-bernhardt"
     ]
   ],
   "1996-04-13": [
     [
-      "Brandon Hickey"
+      "Brandon Hickey",
+      "64587/brandon-hickey"
     ],
     [
-      "Steven Lorentz"
+      "Steven Lorentz",
+      "204707/steven-lorentz"
     ]
   ],
   "1996-04-16": [
     [
-      "John Quenneville"
+      "John Quenneville",
+      "84092/john-quenneville"
     ]
   ],
   "1996-04-18": [
     [
-      "Francis Perron"
+      "Francis Perron",
+      "151539/francis-perron"
     ]
   ],
   "1996-04-19": [
     [
-      "Keven Bouchard"
+      "Keven Bouchard",
+      "151165/keven-bouchard"
     ]
   ],
   "1996-04-22": [
     [
-      "Kyle Jenkins"
+      "Kyle Jenkins",
+      "205495/kyle-jenkins"
     ]
   ],
   "1996-04-23": [
     [
-      "Mason McDonald"
+      "Mason McDonald",
+      "194200/mason-mcdonald"
     ]
   ],
   "1996-04-24": [
     [
-      "Alexis P\u00e9pin"
+      "Alexis P\u00e9pin",
+      "128459/alexis-pepin"
     ]
   ],
   "1996-04-25": [
     [
-      "Spencer Watson"
+      "Spencer Watson",
+      "189462/spencer-watson"
     ]
   ],
   "1996-04-27": [
     [
-      "Brendan Perlini"
+      "Brendan Perlini",
+      "186992/brendan-perlini"
     ],
     [
-      "Niko Mikkola"
+      "Niko Mikkola",
+      "94439/niko-mikkola"
     ]
   ],
   "1996-04-29": [
     [
-      "Kelly Summers"
+      "Kelly Summers",
+      "152175/kelly-summers"
     ]
   ],
   "1996-05-01": [
     [
-      "William Nylander"
+      "William Nylander",
+      "38703/william-nylander"
     ]
   ],
   "1996-05-02": [
     [
-      "Vaclav Karabacek"
+      "Vaclav Karabacek",
+      "130789/vaclav-karabacek"
     ]
   ],
   "1996-05-04": [
     [
-      "Kyle Wood"
+      "Kyle Wood",
+      "189639/kyle-wood"
     ]
   ],
   "1996-05-05": [
     [
-      "Alec Dillon"
+      "Alec Dillon",
+      "120757/alec-dillon"
     ]
   ],
   "1996-05-06": [
     [
-      "Ryan Collins"
+      "Ryan Collins",
+      "120935/ryan-collins"
     ],
     [
-      "Daniel Audette"
+      "Daniel Audette",
+      "128505/daniel-audette"
     ],
     [
-      "Emil Johansson"
+      "Emil Johansson",
+      "79498/emil-johansson"
     ],
     [
-      "Adam Brooks"
+      "Adam Brooks",
+      "120202/adam-brooks"
     ]
   ],
   "1996-05-08": [
     [
-      "Marcus Pettersson"
+      "Marcus Pettersson",
+      "86321/marcus-pettersson"
     ]
   ],
   "1996-05-09": [
     [
-      "Brycen Martin"
+      "Brycen Martin",
+      "62212/brycen-martin"
     ]
   ],
   "1996-05-10": [
     [
-      "Alex Tuch"
+      "Alex Tuch",
+      "178526/alex-tuch"
     ],
     [
-      "Nicolas Aub\u00e9-Kubel"
+      "Nicolas Aub\u00e9-Kubel",
+      "151146/nicolas-aube-kubel"
     ]
   ],
   "1996-05-11": [
     [
-      "Adin Hill"
+      "Adin Hill",
+      "62230/adin-hill"
     ]
   ],
   "1996-05-12": [
     [
-      "Sonny Milano"
+      "Sonny Milano",
+      "189415/sonny-milano"
     ]
   ],
   "1996-05-13": [
     [
-      "Michael Amadio"
+      "Michael Amadio",
+      "151385/michael-amadio"
     ]
   ],
   "1996-05-14": [
     [
-      "Louie Belpedio"
+      "Louie Belpedio",
+      "177686/louie-belpedio"
     ]
   ],
   "1996-05-15": [
     [
-      "Dakota Joshua"
+      "Dakota Joshua",
+      "194948/dakota-joshua"
     ],
     [
-      "Cam Clarke"
+      "Cam Clarke",
+      "288967/cam-clarke"
     ]
   ],
   "1996-05-16": [
     [
-      "Petter Hansson"
+      "Petter Hansson",
+      "111641/petter-hansson"
     ]
   ],
   "1996-05-17": [
     [
-      "Jack Glover"
+      "Jack Glover",
+      "168703/jack-glover"
     ]
   ],
   "1996-05-23": [
     [
-      "Miro Karjalainen"
+      "Miro Karjalainen",
+      "151918/miro-karjalainen"
     ]
   ],
   "1996-05-25": [
     [
-      "David Pastrnak"
+      "David Pastrnak",
+      "130383/david-pastrnak"
     ],
     [
-      "Jack Dougherty"
+      "Jack Dougherty",
+      "204300/jack-dougherty"
     ],
     [
-      "Karel Vejmelka"
+      "Karel Vejmelka",
+      "189829/karel-vejmelka"
     ]
   ],
   "1996-05-26": [
     [
-      "Ryan Jones"
+      "Ryan Jones",
+      "266154/ryan-jones"
     ]
   ],
   "1996-05-27": [
     [
-      "Fredrik Olofsson"
+      "Fredrik Olofsson",
+      "195218/fredrik-olofsson"
     ],
     [
-      "Nelson Nogier"
+      "Nelson Nogier",
+      "120646/nelson-nogier"
     ]
   ],
   "1996-05-28": [
     [
-      "Ben Thomas"
+      "Ben Thomas",
+      "62287/ben-thomas"
     ]
   ],
   "1996-05-29": [
     [
-      "Nick Magyar"
+      "Nick Magyar",
+      "135423/nick-magyar"
     ],
     [
-      "Kevin Elgest\u00e5l"
+      "Kevin Elgest\u00e5l",
+      "146825/kevin-elgestal"
     ],
     [
-      "Vincent Desharnais"
+      "Vincent Desharnais",
+      "264690/vincent-desharnais"
     ]
   ],
   "1996-05-31": [
     [
-      "Jared McCann"
+      "Jared McCann",
+      "189369/jared-mccann"
     ],
     [
-      "Pierre Engvall"
+      "Pierre Engvall",
+      "147720/pierre-engvall"
     ]
   ],
   "1996-06-02": [
     [
-      "John MacLeod"
+      "John MacLeod",
+      "177674/john-macleod"
     ],
     [
-      "Jake Evans"
+      "Jake Evans",
+      "152048/jake-evans"
     ]
   ],
   "1996-06-07": [
     [
-      "Noah Rod"
+      "Noah Rod",
+      "97120/noah-rod"
     ]
   ],
   "1996-06-12": [
     [
-      "J.J. Piccinich"
+      "J.J. Piccinich",
+      "191113/j.j.-piccinich"
     ],
     [
-      "Gustav Forsling"
+      "Gustav Forsling",
+      "86366/gustav-forsling"
     ],
     [
-      "Pontus Sj\u00e4lin"
+      "Pontus Sj\u00e4lin",
+      "86227/pontus-sjalin"
     ]
   ],
   "1996-06-16": [
     [
-      "Joe Wegwerth"
+      "Joe Wegwerth",
+      "130916/joe-wegwerth"
     ],
     [
-      "Andreas S\u00f6derberg"
+      "Andreas S\u00f6derberg",
+      "107557/andreas-soderberg"
     ]
   ],
   "1996-06-17": [
     [
-      "Sammy Blais"
+      "Sammy Blais",
+      "213830/sammy-blais"
     ]
   ],
   "1996-06-18": [
     [
-      "Ryan Mantha"
+      "Ryan Mantha",
+      "203339/ryan-mantha"
     ]
   ],
   "1996-06-20": [
     [
-      "Sam Bennett"
+      "Michael Dal Colle",
+      "152047/michael-dal-colle"
     ],
     [
-      "Michael Dal Colle"
+      "Sam Bennett",
+      "189371/sam-bennett"
     ]
   ],
   "1996-06-23": [
     [
-      "Sebastian Repo"
+      "Sebastian Repo",
+      "92192/sebastian-repo"
     ]
   ],
   "1996-06-26": [
     [
-      "Ryan Lohin"
+      "Ryan Lohin",
+      "79424/ryan-lohin"
     ]
   ],
   "1996-06-28": [
     [
-      "Miles Gendron"
+      "Miles Gendron",
+      "248347/miles-gendron"
     ],
     [
-      "Julien Pelletier"
+      "Julien Pelletier",
+      "149432/julien-pelletier"
     ],
     [
-      "Patrick Sanvido"
+      "Patrick Sanvido",
+      "189460/patrick-sanvido"
     ]
   ],
   "1996-06-29": [
     [
-      "Axel Holmstr\u00f6m"
+      "Axel Holmstr\u00f6m",
+      "86320/axel-holmstrom"
     ]
   ],
   "1996-07-02": [
     [
-      "Alexander Peters"
+      "Alexander Peters",
+      "196066/alexander-peters"
     ]
   ],
   "1996-07-05": [
     [
-      "Brent Moran"
+      "Brent Moran",
+      "196507/brent-moran"
     ]
   ],
   "1996-07-06": [
     [
-      "Carl Neill"
+      "Carl Neill",
+      "151536/carl-neill"
     ]
   ],
   "1996-07-08": [
     [
-      "Haydn Fleury"
+      "Haydn Fleury",
+      "119392/haydn-fleury"
     ]
   ],
   "1996-07-10": [
     [
-      "Shane Gersich"
+      "Shane Gersich",
+      "168706/shane-gersich"
     ],
     [
-      "Christopher Wilkie"
+      "Christopher Wilkie",
+      "120644/christopher-wilkie"
     ],
     [
-      "Yegor Korshkov"
+      "Yegor Korshkov",
+      "176637/yegor-korshkov"
     ]
   ],
   "1996-07-14": [
     [
-      "John Nyberg"
+      "John Nyberg",
+      "146820/john-nyberg"
     ]
   ],
   "1996-07-22": [
     [
-      "Kevin Fiala"
+      "Kevin Fiala",
+      "87971/kevin-fiala"
     ],
     [
-      "Nolan Stevens"
+      "Nolan Stevens",
+      "146116/nolan-stevens"
     ]
   ],
   "1996-07-23": [
     [
-      "Kasperi Kapanen"
+      "Kasperi Kapanen",
+      "92226/kasperi-kapanen"
     ]
   ],
   "1996-07-30": [
     [
-      "Dylan Larkin"
+      "Dylan Larkin",
+      "177693/dylan-larkin"
     ],
     [
-      "Adam Ollas Mattsson"
+      "Adam Ollas Mattsson",
+      "114812/adam-ollas-mattsson"
     ],
     [
-      "Jack Walker"
+      "Jack Walker",
+      "195217/jack-walker"
     ]
   ],
   "1996-08-02": [
     [
-      "Justin Kirkland"
+      "Justin Kirkland",
+      "63133/justin-kirkland"
     ]
   ],
   "1996-08-03": [
     [
-      "Anton Karlsson"
+      "Anton Karlsson",
+      "88845/anton-karlsson"
     ],
     [
-      "Bokondji Imama"
+      "Bokondji Imama",
+      "151711/bokondji-imama"
     ]
   ],
   "1996-08-05": [
     [
-      "Anders Bjork"
+      "Anders Bjork",
+      "183809/anders-bjork"
     ]
   ],
   "1996-08-12": [
     [
-      "Vladislav Kamenev"
+      "Vladislav Kamenev",
+      "216659/vladislav-kamenev"
     ]
   ],
   "1996-08-14": [
     [
-      "Tyler Bird"
+      "Tyler Bird",
+      "178706/tyler-bird"
     ]
   ],
   "1996-08-15": [
     [
-      "Oskar Lindblom"
+      "Oskar Lindblom",
+      "86181/oskar-lindblom"
     ]
   ],
   "1996-08-16": [
     [
-      "Kaapo K\u00e4hk\u00f6nen"
+      "Kaapo K\u00e4hk\u00f6nen",
+      "114708/kaapo-kahkonen"
     ]
   ],
   "1996-08-17": [
     [
-      "Jake Virtanen"
+      "Jake Virtanen",
+      "120197/jake-virtanen"
     ],
     [
-      "Dysin Mayo"
+      "Dysin Mayo",
+      "120638/dysin-mayo"
     ]
   ],
   "1996-08-19": [
     [
-      "Joel Daccord"
+      "Joey Daccord",
+      "248377/joey-daccord"
     ]
   ],
   "1996-08-23": [
     [
-      "Linus S\u00f6derstr\u00f6m"
+      "Linus S\u00f6derstr\u00f6m",
+      "114810/linus-soderstrom"
     ]
   ],
   "1996-08-26": [
     [
-      "Dylan Gambrell"
+      "Dylan Gambrell",
+      "192301/dylan-gambrell"
     ]
   ],
   "1996-09-06": [
     [
-      "Julien Nantel"
+      "Julien Nantel",
+      "151707/julien-nantel"
     ]
   ],
   "1996-09-09": [
     [
-      "Spencer Smallman"
+      "Spencer Smallman",
+      "166979/spencer-smallman"
     ],
     [
-      "Michael Eyssimont"
+      "Michael Eyssimont",
+      "196603/michael-eyssimont"
     ]
   ],
   "1996-09-11": [
     [
-      "Pavel Kraskovsky"
+      "Pavel Kraskovsky",
+      "212441/pavel-kraskovsky"
     ],
     [
-      "Ross Colton"
+      "Ross Colton",
+      "300911/ross-colton"
     ]
   ],
   "1996-09-13": [
     [
-      "Adrian Kempe"
+      "Adrian Kempe",
+      "86313/adrian-kempe"
     ],
     [
-      "Chase Lang"
+      "Chase Lang",
+      "120657/chase-lang"
     ]
   ],
   "1996-09-16": [
     [
-      "Ryan Gropp"
+      "Ryan Gropp",
+      "120198/ryan-gropp"
     ]
   ],
   "1996-09-20": [
     [
-      "Kevin Stenlund"
+      "Kevin Stenlund",
+      "142262/kevin-stenlund"
     ]
   ],
   "1996-09-25": [
     [
-      "Chris Martenet"
+      "Chris Martenet",
+      "226615/chris-martenet"
     ]
   ],
   "1996-09-27": [
     [
-      "Alexander Dergachyov"
+      "Alexander Dergachyov",
+      "231966/alexander-dergachyov"
     ]
   ],
   "1996-10-01": [
     [
-      "Dmytro Timashov"
+      "Dmytro Timashov",
+      "115161/dmytro-timashov"
     ],
     [
-      "Patrick Holway"
+      "Patrick Holway",
+      "203358/patrick-holway"
     ]
   ],
   "1996-10-03": [
     [
-      "Adam Gaudette"
+      "Adam Gaudette",
+      "203361/adam-gaudette"
     ]
   ],
   "1996-10-08": [
     [
-      "Timo Meier"
+      "Timo Meier",
+      "95921/timo-meier"
     ],
     [
-      "Alexandre Carrier"
+      "Alexandre Carrier",
+      "151143/alexandre-carrier"
     ]
   ],
   "1996-10-09": [
     [
-      "Cameron Hughes"
+      "Cameron Hughes",
+      "62155/cameron-hughes"
     ]
   ],
   "1996-10-10": [
     [
-      "Ryan Pilon"
+      "Ryan Pilon",
+      "119271/ryan-pilon"
     ],
     [
-      "Sami Niku"
+      "Sami Niku",
+      "92502/sami-niku"
     ]
   ],
   "1996-10-14": [
     [
-      "Erik K\u00e4llgren"
+      "Erik K\u00e4llgren",
+      "142236/erik-kallgren"
     ]
   ],
   "1996-10-17": [
     [
-      "Jake DeBrusk"
+      "Jake DeBrusk",
+      "84242/jake-debrusk"
     ]
   ],
   "1996-10-21": [
     [
-      "Jeremiah Addison"
+      "Jeremiah Addison",
+      "169051/jeremiah-addison"
     ]
   ],
   "1996-10-26": [
     [
-      "Thomas Schemitsch"
+      "Thomas Schemitsch",
+      "232612/thomas-schemitsch"
     ]
   ],
   "1996-10-27": [
     [
-      "Rasmus Andersson"
+      "Rasmus Andersson",
+      "86137/rasmus-andersson"
     ]
   ],
   "1996-10-28": [
     [
-      "Jack Eichel"
+      "Jack Eichel",
+      "191959/jack-eichel"
     ]
   ],
   "1996-10-29": [
     [
-      "Mikko Rantanen"
+      "Mikko Rantanen",
+      "91186/mikko-rantanen"
     ],
     [
-      "Vince Dunn"
+      "Vince Dunn",
+      "161816/vince-dunn"
     ]
   ],
   "1996-10-30": [
     [
-      "Sam Montembeault"
+      "Sam Montembeault",
+      "187526/sam-montembeault"
     ],
     [
-      "Dennis Gilbert"
+      "Dennis Gilbert",
+      "267396/dennis-gilbert"
     ]
   ],
   "1996-10-31": [
     [
-      "Yevgeni Svechnikov"
+      "Yevgeni Svechnikov",
+      "168679/yevgeni-svechnikov"
     ],
     [
-      "Jakob Forsbacka Karlsson"
+      "Jakob Forsbacka Karlsson",
+      "115158/jakob-forsbacka-karlsson"
     ]
   ],
   "1996-11-04": [
     [
-      "Paul Bittner"
+      "Paul Bittner",
+      "216874/paul-bittner"
     ]
   ],
   "1996-11-06": [
     [
-      "Adam Smith"
+      "Adam Smith",
+      "259294/adam-smith"
     ]
   ],
   "1996-11-11": [
     [
-      "Gabriel Gagn\u00e9"
+      "Gabriel Gagn\u00e9",
+      "156103/gabriel-gagne"
     ]
   ],
   "1996-11-13": [
     [
-      "Andrew Nielsen"
+      "Andrew Nielsen",
+      "131262/andrew-nielsen"
     ]
   ],
   "1996-11-16": [
     [
-      "Robin Kovacs"
+      "Robin Kov\u00e1cs",
+      "85693/robin-kovacs"
     ]
   ],
   "1996-11-17": [
     [
-      "Roope Hintz"
+      "Roope Hintz",
+      "92117/roope-hintz"
     ]
   ],
   "1996-11-21": [
     [
-      "Manuel Wiederer"
+      "Manuel Wiederer",
+      "86675/manuel-wiederer"
     ]
   ],
   "1996-11-26": [
     [
-      "Brandon Carlo"
+      "Brandon Carlo",
+      "120965/brandon-carlo"
     ]
   ],
   "1996-11-28": [
     [
-      "Ivan Fedotov"
+      "Ivan Fedotov",
+      "250489/ivan-fedotov"
     ]
   ],
   "1996-12-04": [
     [
-      "J\u00e9r\u00e9my Davies"
+      "J\u00e9r\u00e9my Davies",
+      "213454/jeremy-davies"
     ]
   ],
   "1996-12-09": [
     [
-      "Kyle Connor"
+      "Kyle Connor",
+      "177671/kyle-connor"
     ],
     [
-      "Mackenzie Blackwood"
+      "Mackenzie Blackwood",
+      "203280/mackenzie-blackwood"
     ]
   ],
   "1996-12-10": [
     [
-      "Roy Radke"
+      "Roy Radke",
+      "232637/roy-radke"
     ]
   ],
   "1996-12-14": [
     [
-      "A.J. Greer"
+      "A.J. Greer",
+      "151125/a.j.-greer"
     ]
   ],
   "1996-12-18": [
     [
-      "Stepan Falkovsky"
+      "Stepan Falkovsky",
+      "248808/stepan-falkovsky"
     ]
   ],
   "1996-12-19": [
     [
-      "William Borgen"
+      "William Borgen",
+      "248330/william-borgen"
     ]
   ],
   "1996-12-20": [
     [
-      "Anthony Richard"
+      "Anthony Richard",
+      "155661/anthony-richard"
     ],
     [
-      "Cooper Marody"
+      "Cooper Marody",
+      "248334/cooper-marody"
     ]
   ],
   "1996-12-22": [
     [
-      "Travis Dermott"
+      "Travis Dermott",
+      "214673/travis-dermott"
     ]
   ],
   "1997-01-01": [
     [
-      "Steven Ruggiero"
+      "Steven Ruggiero",
+      "245150/steven-ruggiero"
     ],
     [
-      "Chaz Reddekopp"
+      "Chaz Reddekopp",
+      "199398/chaz-reddekopp"
     ]
   ],
   "1997-01-02": [
     [
-      "Gabriel Carlsson"
+      "Gabriel Carlsson",
+      "187919/gabriel-carlsson"
     ],
     [
-      "Blake Speers"
+      "Blake Speers",
+      "186413/blake-speers"
     ],
     [
-      "Devante Stephens"
+      "Devante Stephens",
+      "268073/devante-stephens"
     ]
   ],
   "1997-01-03": [
     [
-      "Adam Parsells"
+      "Adam Parsells",
+      "245310/adam-parsells"
     ]
   ],
   "1997-01-04": [
     [
-      "Brad Morrison"
+      "Brad Morrison",
+      "199394/brad-morrison"
     ],
     [
-      "Connor Hobbs"
+      "Connor Hobbs",
+      "199904/connor-hobbs"
     ]
   ],
   "1997-01-05": [
     [
-      "Mikhail Vorobyov"
+      "Mikhail Vorobyov",
+      "285679/mikhail-vorobyov"
     ]
   ],
   "1997-01-06": [
     [
-      "Ales Stezka"
+      "Ales Stezka",
+      "189834/ales-stezka"
     ]
   ],
   "1997-01-07": [
     [
-      "Aleksi Saarela"
+      "Aleksi Saarela",
+      "94117/aleksi-saarela"
     ]
   ],
   "1997-01-08": [
     [
-      "Mattias Elfstr\u00f6m"
+      "Mattias Elfstr\u00f6m",
+      "212529/mattias-elfstrom"
     ]
   ],
   "1997-01-12": [
     [
-      "Felix Sandstr\u00f6m"
+      "Felix Sandstr\u00f6m",
+      "146703/felix-sandstrom"
     ],
     [
-      "Simon Bourque"
+      "Simon Bourque",
+      "213536/simon-bourque"
     ]
   ],
   "1997-01-13": [
     [
-      "Connor McDavid"
+      "Connor McDavid",
+      "183442/connor-mcdavid"
     ],
     [
-      "Ivan Provorov"
+      "Ivan Provorov",
+      "242584/ivan-provorov"
     ],
     [
-      "Graham Knott"
+      "Graham Knott",
+      "225057/graham-knott"
     ],
     [
-      "Yakov Trenin"
+      "Yakov Trenin",
+      "277485/yakov-trenin"
     ]
   ],
   "1997-01-14": [
     [
-      "Julius N\u00e4ttinen"
+      "Julius N\u00e4ttinen",
+      "85961/julius-nattinen"
     ]
   ],
   "1997-01-18": [
     [
-      "Denis Malgin"
+      "Denis Malgin",
+      "117376/denis-malgin"
     ]
   ],
   "1997-01-21": [
     [
-      "Jake Massie"
+      "Jake Massie",
+      "304382/jake-massie"
     ]
   ],
   "1997-01-22": [
     [
-      "Matt Bradley"
+      "Matt Bradley",
+      "199714/matt-bradley"
     ],
     [
-      "John Dahlstr\u00f6m"
+      "John Dahlstr\u00f6m",
+      "212530/john-dahlstrom"
     ]
   ],
   "1997-01-24": [
     [
-      "Gustav Bouramman"
+      "Gustav Bouramman",
+      "142252/gustav-bouramman"
     ]
   ],
   "1997-01-25": [
     [
-      "Noah Hanifin"
+      "Noah Hanifin",
+      "177710/noah-hanifin"
     ]
   ],
   "1997-01-27": [
     [
-      "Radovan Bondra"
+      "Radovan Bondra",
+      "157407/radovan-bondra"
     ]
   ],
   "1997-01-28": [
     [
-      "David Kase"
+      "David Kase",
+      "158842/david-kase"
     ]
   ],
   "1997-01-29": [
     [
-      "Joel Eriksson Ek"
+      "Joel Eriksson Ek",
+      "139633/joel-eriksson-ek"
     ],
     [
-      "Jack Roslovic"
+      "Jack Roslovic",
+      "226309/jack-roslovic"
     ]
   ],
   "1997-01-30": [
     [
-      "Thomas Chabot"
+      "Thomas Chabot",
+      "213607/thomas-chabot"
     ],
     [
-      "Colin White"
+      "Colin White",
+      "183810/colin-white"
     ]
   ],
   "1997-01-31": [
     [
-      "Andong Song"
+      "Andong Song",
+      "291003/andong-song"
     ]
   ],
   "1997-02-02": [
     [
-      "Brandon Crawley"
+      "Brandon Crawley",
+      "258636/brandon-crawley"
     ]
   ],
   "1997-02-03": [
     [
-      "Giorgio Estephan"
+      "Giorgio Estephan",
+      "131304/giorgio-estephan"
     ]
   ],
   "1997-02-05": [
     [
-      "Mitchell Stephens"
+      "Mitchell Stephens",
+      "186392/mitchell-stephens"
     ],
     [
-      "Nicolas Roy"
+      "Nicolas Roy",
+      "151361/nicolas-roy"
     ],
     [
-      "John Adams"
+      "John Adams",
+      "248398/john-adams"
     ]
   ],
   "1997-02-08": [
     [
-      "Nikita Korostelev"
+      "Nikita Korostelev",
+      "183258/nikita-korostelev"
     ]
   ],
   "1997-02-09": [
     [
-      "Mathieu Joseph"
+      "Mathieu Joseph",
+      "227640/mathieu-joseph"
     ]
   ],
   "1997-02-10": [
     [
-      "Tyler Soy"
+      "Tyler Soy",
+      "199395/tyler-soy"
     ]
   ],
   "1997-02-11": [
     [
-      "Mitchell Vande Sompel"
+      "Mitchell Vande Sompel",
+      "204918/mitchell-vande-sompel"
     ],
     [
-      "Ryan Shea"
+      "Ryan Shea",
+      "232931/ryan-shea"
     ],
     [
-      "Luke Stevens"
+      "Luke Stevens",
+      "248399/luke-stevens"
     ]
   ],
   "1997-02-13": [
     [
-      "Veini Vehvil\u00e4inen"
+      "Veini Vehvil\u00e4inen",
+      "176290/veini-vehvilainen"
     ]
   ],
   "1997-02-16": [
     [
-      "Jordan Greenway"
+      "Jordan Greenway",
+      "183455/jordan-greenway"
     ]
   ],
   "1997-02-17": [
     [
-      "Joseph Masonius"
+      "Joe Masonius",
+      "222493/joe-masonius"
     ]
   ],
   "1997-02-21": [
     [
-      "Jakub Zboril"
+      "Jakub Zboril",
+      "112379/jakub-zboril"
     ],
     [
-      "Sergei Zborovsky"
+      "Sergei Zborovsky",
+      "277798/sergei-zborovsky"
     ]
   ],
   "1997-02-22": [
     [
-      "Ilya Samsonov"
+      "Ilya Samsonov",
+      "277797/ilya-samsonov"
     ]
   ],
   "1997-02-25": [
     [
-      "Brock Boeser"
+      "Brock Boeser",
+      "248381/brock-boeser"
     ],
     [
-      "Casey Fitzgerald"
+      "Casey Fitzgerald",
+      "177660/casey-fitzgerald"
     ]
   ],
   "1997-02-26": [
     [
-      "Damien Riat"
+      "Damien Riat",
+      "153634/damien-riat"
     ],
     [
-      "Kristoffer Gunnarsson"
+      "Kristoffer Gunnarsson",
+      "212814/kristoffer-gunnarsson"
     ]
   ],
   "1997-02-27": [
     [
-      "Luke Opilka"
+      "Luke Opilka",
+      "233432/luke-opilka"
     ],
     [
-      "Evan Smith"
+      "Evan Smith",
+      "286349/evan-smith"
     ]
   ],
   "1997-03-03": [
     [
-      "Marcus Vela"
+      "Marcus Vela",
+      "199950/marcus-vela"
     ]
   ],
   "1997-03-06": [
     [
-      "Jakob Stukel"
+      "Jakob Stukel",
+      "197807/jakob-stukel"
     ]
   ],
   "1997-03-07": [
     [
-      "Dylan Strome"
+      "Dylan Strome",
+      "228107/dylan-strome"
     ]
   ],
   "1997-03-10": [
     [
-      "Karch Bachman"
+      "Karch Bachman",
+      "245262/karch-bachman"
     ]
   ],
   "1997-03-11": [
     [
-      "Travis Konecny"
+      "Travis Konecny",
+      "205148/travis-konecny"
     ]
   ],
   "1997-03-12": [
     [
-      "Brett McKenzie"
+      "Brett McKenzie",
+      "207349/brett-mckenzie"
     ],
     [
-      "Jonathan Davidsson"
+      "Jonathan Davidsson",
+      "187862/jonathan-davidsson"
     ]
   ],
   "1997-03-15": [
     [
-      "Pavel Karnaukhov"
+      "Pavel Karnaukhov",
+      "268038/pavel-karnaukhov"
     ]
   ],
   "1997-03-17": [
     [
-      "Daniel Sprong"
+      "Daniel Sprong",
+      "231299/daniel-sprong"
     ],
     [
-      "Jeremy Bracco"
+      "Jeremy Bracco",
+      "197800/jeremy-bracco"
     ]
   ],
   "1997-03-21": [
     [
-      "Tate Olson"
+      "Tate Olson",
+      "199682/tate-olson"
     ]
   ],
   "1997-03-22": [
     [
-      "Victor Brattstr\u00f6m"
+      "Victor Brattstr\u00f6m",
+      "212526/victor-brattstrom"
     ]
   ],
   "1997-03-23": [
     [
-      "Nikita Pavlychev"
+      "Nikita Pavlychev",
+      "248436/nikita-pavlychev"
     ]
   ],
   "1997-03-24": [
     [
-      "Matthew Spencer"
+      "Matthew Spencer",
+      "225188/matthew-spencer"
     ],
     [
-      "Dmitri Zhukenov"
+      "Dmitri Zhukenov",
+      "277804/dmitri-zhukenov"
     ]
   ],
   "1997-03-25": [
     [
-      "Jean-Christophe Beaudin"
+      "Glenn Gawdin",
+      "192245/glenn-gawdin"
     ],
     [
-      "Glenn Gawdin"
-    ],
-    [
-      "Patrick Shea"
+      "Patrick Shea",
+      "277759/patrick-shea"
     ]
   ],
   "1997-03-26": [
     [
-      "Adam Musil"
+      "Adam Musil",
+      "189422/adam-musil"
     ]
   ],
   "1997-03-27": [
     [
-      "Mike Robinson"
+      "Jean-Christophe Beaudin",
+      "204169/jean-christophe-beaudin"
+    ],
+    [
+      "Mike Robinson",
+      "297557/mike-robinson"
     ]
   ],
   "1997-03-30": [
     [
-      "Zach Senyshyn"
+      "Zach Senyshyn",
+      "245108/zach-senyshyn"
     ],
     [
-      "Matteo Gennaro"
+      "Matteo Gennaro",
+      "131328/matteo-gennaro"
     ]
   ],
   "1997-03-31": [
     [
-      "Ryan Bednard"
+      "Ryan Bednard",
+      "271339/ryan-bednard"
     ],
     [
-      "Connor Ingram"
+      "Connor Ingram",
+      "200675/connor-ingram"
     ]
   ],
   "1997-04-02": [
     [
-      "Noah Juulsen"
+      "Noah Juulsen",
+      "199905/noah-juulsen"
     ],
     [
-      "Rem Pitlick"
+      "Rem Pitlick",
+      "199968/rem-pitlick"
     ]
   ],
   "1997-04-04": [
     [
-      "Martins Dzierkals"
+      "Martins Dzierkals",
+      "239362/martins-dzierkals"
     ]
   ],
   "1997-04-06": [
     [
-      "Pavel Zacha"
+      "Pavel Zacha",
+      "130786/pavel-zacha"
     ]
   ],
   "1997-04-08": [
     [
-      "Keegan Kolesar"
+      "Keegan Kolesar",
+      "197560/keegan-kolesar"
     ],
     [
-      "Rudolfs Balcers"
+      "Rudolfs Balcers",
+      "153652/rudolfs-balcers"
     ],
     [
-      "Dominik Lakatos"
+      "Dominik Lakatos",
+      "195562/dominik-lakatos"
     ]
   ],
   "1997-04-09": [
     [
-      "Michael Spacek"
+      "Michael Spacek",
+      "199564/michael-spacek"
     ]
   ],
   "1997-04-10": [
     [
-      "Samuel Dove-McFalls"
+      "Samuel Dove-McFalls",
+      "135860/samuel-dove-mcfalls"
     ]
   ],
   "1997-04-11": [
     [
-      "Jens L\u00f6\u00f6ke"
+      "Jens L\u00f6\u00f6ke",
+      "146691/jens-looke"
     ]
   ],
   "1997-04-13": [
     [
-      "Alex Dostie"
+      "Alex Dostie",
+      "213787/alex-dostie"
     ]
   ],
   "1997-04-14": [
     [
-      "Dennis Yan"
+      "Dennis Yan",
+      "183259/dennis-yan"
     ],
     [
-      "Deven Sideroff"
+      "Deven Sideroff",
+      "202370/deven-sideroff"
     ],
     [
-      "Yegor Rykov"
+      "Yegor Rykov",
+      "269022/yegor-rykov"
     ],
     [
-      "Wyatt Kalynuk"
+      "Wyatt Kalynuk",
+      "196651/wyatt-kalynuk"
     ]
   ],
   "1997-04-15": [
     [
-      "Christian Fischer"
+      "Christian Fischer",
+      "226901/christian-fischer"
     ]
   ],
   "1997-04-18": [
     [
-      "Vladimir Bobylyov"
+      "Vladimir Bobylyov",
+      "268059/vladimir-bobylyov"
     ]
   ],
   "1997-04-19": [
     [
-      "Jack Sadek"
+      "Jack Sadek",
+      "300900/jack-sadek"
     ]
   ],
   "1997-04-26": [
     [
-      "Kirill Kaprizov"
+      "Kirill Kaprizov",
+      "265645/kirill-kaprizov"
     ]
   ],
   "1997-04-27": [
     [
-      "Philip Nyberg"
+      "Philip Nyberg",
+      "146985/philip-nyberg"
     ]
   ],
   "1997-04-28": [
     [
-      "J\u00e9r\u00e9my Lauzon"
+      "J\u00e9r\u00e9my Lauzon",
+      "213715/jeremy-lauzon"
     ],
     [
-      "Thomas Novak"
+      "Thomas Novak",
+      "248374/thomas-novak"
     ]
   ],
   "1997-04-29": [
     [
-      "Jacob Larsson"
+      "Jacob Larsson",
+      "147719/jacob-larsson"
     ]
   ],
   "1997-04-30": [
     [
-      "Gabriel Fontaine"
+      "Gabriel Fontaine",
+      "213781/gabriel-fontaine"
     ]
   ],
   "1997-05-02": [
     [
-      "Adam Werner"
+      "Adam Werner",
+      "147736/adam-werner"
     ]
   ],
   "1997-05-03": [
     [
-      "Colton White"
+      "Colton White",
+      "204911/colton-white"
     ]
   ],
   "1997-05-05": [
     [
-      "Mitchell Marner"
+      "Mitchell Marner",
+      "223194/mitchell-marner"
     ]
   ],
   "1997-05-06": [
     [
-      "Jonas Siegenthaler"
+      "Jonas Siegenthaler",
+      "105407/jonas-siegenthaler"
     ]
   ],
   "1997-05-07": [
     [
-      "Brendan Warren"
+      "Brendan Warren",
+      "208973/brendan-warren"
     ]
   ],
   "1997-05-10": [
     [
-      "Filip Berglund"
+      "Filip Berglund",
+      "113834/filip-berglund"
     ]
   ],
   "1997-05-12": [
     [
-      "Adam Huska"
+      "Adam Huska",
+      "201638/adam-huska"
     ]
   ],
   "1997-05-14": [
     [
-      "J\u00e9r\u00e9my Roy"
+      "J\u00e9r\u00e9my Roy",
+      "151150/jeremy-roy"
     ]
   ],
   "1997-05-15": [
     [
-      "Vili Saarij\u00e4rvi"
+      "Vili Saarij\u00e4rvi",
+      "122954/vili-saarijarvi"
     ]
   ],
   "1997-05-19": [
     [
-      "Oliver Kylington"
+      "Oliver Kylington",
+      "142238/oliver-kylington"
     ],
     [
-      "Jesper Lindgren"
+      "Jesper Lindgren",
+      "187806/jesper-lindgren"
     ]
   ],
   "1997-05-21": [
     [
-      "Callum Booth"
+      "Callum Booth",
+      "231344/callum-booth"
     ],
     [
-      "John Marino"
+      "John Marino",
+      "278675/john-marino"
     ]
   ],
   "1997-05-22": [
     [
-      "Brandon Duhaime"
+      "Brandon Duhaime",
+      "202463/brandon-duhaime"
     ]
   ],
   "1997-05-23": [
     [
-      "Nicholas Merkley"
+      "Nick Merkley",
+      "107894/nick-merkley"
     ],
     [
-      "Jansen Harkins"
+      "Jansen Harkins",
+      "160158/jansen-harkins"
     ],
     [
-      "Joseph Cecconi"
+      "Joseph Cecconi",
+      "232945/joseph-cecconi"
     ]
   ],
   "1997-05-24": [
     [
-      "Matej Tomek"
+      "Matej Tomek",
+      "221902/matej-tomek"
     ],
     [
-      "Peter Thome"
+      "Peter Thome",
+      "271358/peter-thome"
     ]
   ],
   "1997-05-25": [
     [
-      "Jeremy Helvig"
+      "Jeremy Helvig",
+      "234452/jeremy-helvig"
     ]
   ],
   "1997-05-26": [
     [
-      "Mathew Barzal"
+      "Mathew Barzal",
+      "186310/mathew-barzal"
     ]
   ],
   "1997-05-28": [
     [
-      "Erik Cernak"
+      "Erik Cernak",
+      "166368/erik-cernak"
     ]
   ],
   "1997-06-01": [
     [
-      "Tanner Laczynski"
+      "Tanner Laczynski",
+      "234312/tanner-laczynski"
     ]
   ],
   "1997-06-03": [
     [
-      "Filip Chlap\u00edk"
+      "Filip Chlap\u00edk",
+      "157524/filip-chlapik"
     ]
   ],
   "1997-06-05": [
     [
-      "Joren van Pottelberghe"
+      "Joren van Pottelberghe",
+      "156081/joren-van-pottelberghe"
     ],
     [
-      "Linus \u00d6lund"
+      "Linus \u00d6lund",
+      "146700/linus-olund"
     ]
   ],
   "1997-06-06": [
     [
-      "Caleb Jones"
+      "Caleb Jones",
+      "199902/caleb-jones"
     ]
   ],
   "1997-06-07": [
     [
-      "Denis Guryanov"
+      "Denis Guryanov",
+      "263964/denis-guryanov"
     ]
   ],
   "1997-06-08": [
     [
-      "Anthony Beauvillier"
+      "Anthony Beauvillier",
+      "213435/anthony-beauvillier"
     ]
   ],
   "1997-06-10": [
     [
-      "Kale Howarth"
+      "Kale Howarth",
+      "131227/kale-howarth"
     ]
   ],
   "1997-06-12": [
     [
-      "Filip Ahl"
+      "Filip Ahl",
+      "162177/filip-ahl"
     ]
   ],
   "1997-06-16": [
     [
-      "Veeti Vainio"
+      "Veeti Vainio",
+      "104435/veeti-vainio"
     ]
   ],
   "1997-06-17": [
     [
-      "Jesse Gabrielle"
+      "Jesse Gabrielle",
+      "199921/jesse-gabrielle"
     ],
     [
-      "Karlis Cukste"
+      "Karlis Cukste",
+      "214273/karlis-cukste"
     ]
   ],
   "1997-06-21": [
     [
-      "Nathan Noel"
+      "Nathan Noel",
+      "183451/nathan-noel"
     ]
   ],
   "1997-06-23": [
     [
-      "Lawson Crouse"
+      "Lawson Crouse",
+      "205155/lawson-crouse"
     ],
     [
-      "Austin Wagner"
+      "Austin Wagner",
+      "161117/austin-wagner"
     ]
   ],
   "1997-06-24": [
     [
-      "Jack Becker"
+      "Jack Becker",
+      "248382/jack-becker"
     ]
   ],
   "1997-06-25": [
     [
-      "Kristian Oldham"
+      "Kristian Oldham",
+      "248368/kristian-oldham"
     ]
   ],
   "1997-06-26": [
     [
-      "Ethan Bear"
+      "Ethan Bear",
+      "197561/ethan-bear"
     ]
   ],
   "1997-06-27": [
     [
-      "Calvin Th\u00fcrkauf"
+      "Calvin Th\u00fcrkauf",
+      "186336/calvin-thurkauf"
     ]
   ],
   "1997-06-30": [
     [
-      "Erik Foley"
+      "Erik Foley",
+      "212561/erik-foley"
     ]
   ],
   "1997-07-01": [
     [
-      "Ryan Zuhlsdorf"
+      "Ryan Zuhlsdorf",
+      "248447/ryan-zuhlsdorf"
     ]
   ],
   "1997-07-03": [
     [
-      "Gustav Olhaver"
+      "Gustav Olhaver",
+      "212720/gustav-olhaver"
     ]
   ],
   "1997-07-05": [
     [
-      "Lucas Carlsson"
+      "Lucas Carlsson",
+      "212334/lucas-carlsson"
     ]
   ],
   "1997-07-09": [
     [
-      "David Cotton"
+      "David Cotton",
+      "225022/david-cotton"
     ]
   ],
   "1997-07-10": [
     [
-      "Kasper Bj\u00f6rkqvist"
+      "Kasper Bj\u00f6rkqvist",
+      "122146/kasper-bjorkqvist"
     ]
   ],
   "1997-07-12": [
     [
-      "Johnathan Kovacevic"
+      "Johnathan Kovacevic",
+      "239820/johnathan-kovacevic"
     ]
   ],
   "1997-07-15": [
     [
-      "Anthony Cirelli"
+      "Anthony Cirelli",
+      "274875/anthony-cirelli"
     ]
   ],
   "1997-07-16": [
     [
-      "Riley Bruce"
+      "Riley Bruce",
+      "245105/riley-bruce"
     ],
     [
-      "Petrus Palmu"
+      "Petrus Palmu",
+      "112892/petrus-palmu"
     ]
   ],
   "1997-07-18": [
     [
-      "Nicolas Meloche"
+      "Nicolas Meloche",
+      "213821/nicolas-meloche"
     ]
   ],
   "1997-07-19": [
     [
-      "Zach Werenski"
+      "Zach Werenski",
+      "186311/zach-werenski"
     ],
     [
-      "Zach Fischer"
+      "Zach Fischer",
+      "153108/zach-fischer"
     ]
   ],
   "1997-07-21": [
     [
-      "Guillaume Brisebois"
+      "Guillaume Brisebois",
+      "213397/guillaume-brisebois"
     ]
   ],
   "1997-07-23": [
     [
-      "William Reilly"
+      "William Reilly",
+      "250209/william-reilly"
     ]
   ],
   "1997-07-26": [
     [
-      "Sebastian Aho"
+      "Sebastian Aho",
+      "152111/sebastian-aho"
     ]
   ],
   "1997-07-28": [
     [
-      "Jacob Friend"
+      "Jacob Friend",
+      "253249/jacob-friend"
     ]
   ],
   "1997-07-29": [
     [
-      "Brendan Guhle"
+      "Brendan Guhle",
+      "63250/brendan-guhle"
     ]
   ],
   "1997-08-01": [
     [
-      "Nikolai Chebykin"
+      "Nikolai Chebykin",
+      "300931/nikolai-chebykin"
     ]
   ],
   "1997-08-02": [
     [
-      "Alexander Volkov"
+      "Alexander Volkov",
+      "277802/alexander-volkov"
     ]
   ],
   "1997-08-05": [
     [
-      "Jonne Tammela"
+      "Jonne Tammela",
+      "131138/jonne-tammela"
     ]
   ],
   "1997-08-06": [
     [
-      "Henrik Borgstr\u00f6m"
+      "Henrik Borgstr\u00f6m",
+      "118332/henrik-borgstrom"
     ]
   ],
   "1997-08-12": [
     [
-      "Brent Gates"
+      "Brent Gates Jr.",
+      "208974/brent-gates-jr."
     ],
     [
-      "Denis Smirnov"
+      "Denis Smirnov",
+      "248278/denis-smirnov"
     ]
   ],
   "1997-08-13": [
     [
-      "Kyle Capobianco"
+      "Kyle Capobianco",
+      "225186/kyle-capobianco"
     ]
   ],
   "1997-08-18": [
     [
-      "Carson Meyer"
+      "Carson Meyer",
+      "272540/carson-meyer"
     ]
   ],
   "1997-08-20": [
     [
-      "Dan Vladar"
+      "Dan Vladar",
+      "215223/dan-vladar"
     ]
   ],
   "1997-08-22": [
     [
-      "Adam Marsh"
+      "Adam Marsh",
+      "234343/adam-marsh"
     ]
   ],
   "1997-08-23": [
     [
-      "Chase Pearson"
+      "Chase Pearson",
+      "245117/chase-pearson"
     ],
     [
-      "Markus Ruusu"
+      "Markus Ruusu",
+      "221660/markus-ruusu"
     ]
   ],
   "1997-08-24": [
     [
-      "Parker Wotherspoon"
+      "Parker Wotherspoon",
+      "195951/parker-wotherspoon"
     ]
   ],
   "1997-08-28": [
     [
-      "Lukas Jasek"
+      "Lukas Jasek",
+      "213164/lukas-jasek"
     ],
     [
-      "Croix Evingson"
+      "Croix Evingson",
+      "269704/croix-evingson"
     ]
   ],
   "1997-09-04": [
     [
-      "Vasili Glotov"
+      "Vasili Glotov",
+      "313721/vasili-glotov"
     ]
   ],
   "1997-09-08": [
     [
-      "Nicholas Boka"
+      "Nick Boka",
+      "206621/nick-boka"
     ]
   ],
   "1997-09-09": [
     [
-      "Nick Swaney"
+      "Nick Swaney",
+      "274245/nick-swaney"
     ]
   ],
   "1997-09-10": [
     [
-      "Troy Terry"
+      "Troy Terry",
+      "234046/troy-terry"
     ]
   ],
   "1997-09-12": [
     [
-      "Petr Kvaca"
+      "Petr Kvaca",
+      "189822/petr-kvaca"
     ]
   ],
   "1997-09-15": [
     [
-      "Liam Dunda"
+      "Liam Dunda",
+      "234450/liam-dunda"
     ]
   ],
   "1997-09-17": [
     [
-      "Auston Matthews"
+      "Auston Matthews",
+      "199898/auston-matthews"
     ]
   ],
   "1997-09-18": [
     [
-      "Tyler Parsons"
+      "Tyler Parsons",
+      "234378/tyler-parsons"
     ],
     [
-      "Jordy Stallard"
+      "Jordy Stallard",
+      "199912/jordy-stallard"
     ]
   ],
   "1997-09-20": [
     [
-      "Konstantin Volkov"
+      "Konstantin Volkov",
+      "280073/konstantin-volkov"
     ]
   ],
   "1997-09-28": [
     [
-      "Mark Shoemaker"
+      "Mark Shoemaker",
+      "245255/mark-shoemaker"
     ]
   ],
   "1997-10-01": [
     [
-      "Benjamin Finkelstein"
+      "Benjamin Finkelstein",
+      "260602/benjamin-finkelstein"
     ]
   ],
   "1997-10-14": [
     [
-      "Wade Allison"
+      "Wade Allison",
+      "199949/wade-allison"
     ]
   ],
   "1997-10-15": [
     [
-      "Julien Gauthier"
+      "Julien Gauthier",
+      "213464/julien-gauthier"
     ]
   ],
   "1997-10-20": [
     [
-      "Ty Ronning"
+      "Ty Ronning",
+      "195952/ty-ronning"
     ]
   ],
   "1997-10-29": [
     [
-      "Max Zimmer"
+      "Max Zimmer",
+      "248441/max-zimmer"
     ]
   ],
   "1997-10-30": [
     [
-      "Tage Thompson"
+      "Tage Thompson",
+      "301349/tage-thompson"
     ]
   ],
   "1997-11-02": [
     [
-      "Filip Hronek"
+      "Filip Hronek",
+      "191286/filip-hronek"
     ]
   ],
   "1997-11-05": [
     [
-      "Maxime Lajoie"
+      "Max Lajoie",
+      "161131/max-lajoie"
     ]
   ],
   "1997-11-06": [
     [
-      "Evan Cormier"
+      "Evan Cormier",
+      "245119/evan-cormier"
     ]
   ],
   "1997-11-07": [
     [
-      "Brandon Gignac"
+      "Brandon Gignac",
+      "213725/brandon-gignac"
     ]
   ],
   "1997-11-16": [
     [
-      "Lucas Johansen"
+      "Lucas Johansen",
+      "199937/lucas-johansen"
     ]
   ],
   "1997-11-18": [
     [
-      "Jacob Bryson"
+      "Jacob Bryson",
+      "253923/jacob-bryson"
     ]
   ],
   "1997-11-24": [
     [
-      "Carsen Twarynski"
+      "Carsen Twarynski",
+      "107898/carsen-twarynski"
     ]
   ],
   "1997-12-01": [
     [
-      "Carl Grundstr\u00f6m"
+      "Carl Grundstr\u00f6m",
+      "113516/carl-grundstrom"
     ],
     [
-      "David Bernhardt"
+      "David Bernhardt",
+      "187875/david-bernhardt"
     ]
   ],
   "1997-12-02": [
     [
-      "Noah Carroll"
+      "Noah Carroll",
+      "240028/noah-carroll"
     ]
   ],
   "1997-12-03": [
     [
-      "Rasmus Asplund"
+      "Rasmus Asplund",
+      "139616/rasmus-asplund"
     ]
   ],
   "1997-12-04": [
     [
-      "Luke Kunin"
+      "Luke Kunin",
+      "245278/luke-kunin"
     ]
   ],
   "1997-12-06": [
     [
-      "Nathan Bastian"
+      "Nathan Bastian",
+      "245157/nathan-bastian"
     ]
   ],
   "1997-12-10": [
     [
-      "Hudson Elynuik"
+      "Hudson Elynuik",
+      "107909/hudson-elynuik"
     ]
   ],
   "1997-12-11": [
     [
-      "Matthew Tkachuk"
+      "Matthew Tkachuk",
+      "233030/matthew-tkachuk"
     ]
   ],
   "1997-12-16": [
     [
-      "Mathias From"
+      "Mathias From",
+      "220307/mathias-from"
     ]
   ],
   "1997-12-18": [
     [
-      "Alex DeBrincat"
+      "Alex DeBrincat",
+      "231275/alex-debrincat"
     ]
   ],
   "1997-12-20": [
     [
-      "Jonathan Dahl\u00e9n"
+      "Jonathan Dahl\u00e9n",
+      "212368/jonathan-dahlen"
     ]
   ],
   "1997-12-21": [
     [
-      "Charlie McAvoy"
+      "Charlie McAvoy",
+      "245142/charlie-mcavoy"
     ]
   ],
   "1997-12-27": [
     [
-      "Fr\u00e9d\u00e9ric Allard"
+      "Fr\u00e9d\u00e9ric Allard",
+      "213473/frederic-allard"
     ]
   ],
   "1997-12-31": [
     [
-      "Matt Filipe"
+      "Matt Filipe",
+      "286690/matt-filipe"
     ]
   ],
   "1998-01-02": [
     [
-      "Mitchell Mattson"
+      "Mitchell Mattson",
+      "291902/mitchell-mattson"
     ]
   ],
   "1998-01-03": [
     [
-      "Dylan Wells"
+      "Dylan Wells",
+      "239801/dylan-wells"
     ]
   ],
   "1998-01-06": [
     [
-      "Jack LaFontaine"
+      "Jack LaFontaine",
+      "234448/jack-lafontaine"
     ]
   ],
   "1998-01-07": [
     [
-      "Tyler Steenbergen"
+      "Tyler Steenbergen",
+      "131215/tyler-steenbergen"
     ]
   ],
   "1998-01-08": [
     [
-      "Linus Lindstr\u00f6m"
+      "Linus Lindstr\u00f6m",
+      "242668/linus-lindstrom"
     ],
     [
-      "Casey Staum"
+      "Casey Staum",
+      "300828/casey-staum"
     ]
   ],
   "1998-01-09": [
     [
-      "Sean Day"
+      "Sean Day",
+      "228106/sean-day"
     ]
   ],
   "1998-01-12": [
     [
-      "Luke Green"
+      "Luke Green",
+      "195389/luke-green"
     ],
     [
-      "Fredrik Karlstr\u00f6m"
+      "Fredrik Karlstr\u00f6m",
+      "220059/fredrik-karlstrom"
     ],
     [
-      "Otto Somppi"
+      "Otto Somppi",
+      "196406/otto-somppi"
     ]
   ],
   "1998-01-14": [
     [
-      "Tyler Wall"
+      "Tyler Wall",
+      "253962/tyler-wall"
     ]
   ],
   "1998-01-18": [
     [
-      "Dmitri Zaitsev"
+      "Dmitri Zaitsev",
+      "312205/dmitri-zaitsev"
     ],
     [
-      "Jermaine Loewen"
+      "Jermaine Loewen",
+      "201127/jermaine-loewen"
     ]
   ],
   "1998-01-19": [
     [
-      "Jack Badini"
+      "Jack Badini",
+      "229589/jack-badini"
     ]
   ],
   "1998-01-20": [
     [
-      "Skyler McKenzie"
+      "Skyler McKenzie",
+      "166653/skyler-mckenzie"
     ]
   ],
   "1998-01-21": [
     [
-      "Nick Pastujov"
+      "Nick Pastujov",
+      "233429/nick-pastujov"
     ]
   ],
   "1998-01-22": [
     [
-      "Jasper Weatherby"
+      "Jasper Weatherby",
+      "262799/jasper-weatherby"
     ]
   ],
   "1998-01-23": [
     [
-      "Tim S\u00f6derlund"
+      "Tim S\u00f6derlund",
+      "188028/tim-soderlund"
     ]
   ],
   "1998-01-26": [
     [
-      "Mikael Hakkarainen"
+      "Mikael Hakkarainen",
+      "221342/mikael-hakkarainen"
     ]
   ],
   "1998-01-28": [
     [
-      "Evan Fitzpatrick"
+      "Evan Fitzpatrick",
+      "216160/evan-fitzpatrick"
     ],
     [
-      "Connor Hall"
+      "Connor Hall",
+      "254039/connor-hall"
     ],
     [
-      "Tanner Kaspick"
+      "Tanner Kaspick",
+      "201245/tanner-kaspick"
     ]
   ],
   "1998-01-29": [
     [
-      "Vojtech Budik"
+      "Vojtech Budik",
+      "201615/vojtech-budik"
     ]
   ],
   "1998-01-30": [
     [
-      "Jacob Cederholm"
+      "Jacob Cederholm",
+      "169012/jacob-cederholm"
     ]
   ],
   "1998-01-31": [
     [
-      "Jonathan Ang"
+      "Jonathan Ang",
+      "251447/jonathan-ang"
     ]
   ],
   "1998-02-03": [
     [
-      "Michael McLeod"
+      "Michael McLeod",
+      "240821/michael-mcleod"
     ],
     [
-      "Sam Steel"
+      "Sam Steel",
+      "154496/sam-steel"
     ]
   ],
   "1998-02-04": [
     [
-      "Libor H\u00e1jek"
+      "Libor H\u00e1jek",
+      "195023/libor-hajek"
     ],
     [
-      "Beck Malenstyn"
+      "Beck Malenstyn",
+      "247477/beck-malenstyn"
     ]
   ],
   "1998-02-10": [
     [
-      "Keaton Middleton"
+      "Keaton Middleton",
+      "249597/keaton-middleton"
     ],
     [
-      "Axel Jonsson Fj\u00e4llby"
+      "Axel Jonsson Fj\u00e4llby",
+      "246070/axel-jonsson-fjallby"
     ]
   ],
   "1998-02-11": [
     [
-      "Trent Frederic"
+      "Trent Frederic",
+      "272221/trent-frederic"
     ],
     [
-      "Ryan Lindgren"
+      "Ryan Lindgren",
+      "226442/ryan-lindgren"
     ]
   ],
   "1998-02-13": [
     [
-      "Cole Candella"
+      "Cole Candella",
+      "247116/cole-candella"
     ]
   ],
   "1998-02-14": [
     [
-      "Artur Kayumov"
+      "Artur Kayumov",
+      "312217/artur-kayumov"
     ]
   ],
   "1998-02-15": [
     [
-      "Dennis Cholowski"
+      "Dennis Cholowski",
+      "247137/dennis-cholowski"
     ]
   ],
   "1998-02-17": [
     [
-      "Max Jones"
+      "Max Jones",
+      "233448/max-jones"
     ],
     [
-      "Adam Fox"
+      "Adam Fox",
+      "248380/adam-fox"
     ]
   ],
   "1998-02-18": [
     [
-      "Taylor Raddysh"
+      "Taylor Raddysh",
+      "245610/taylor-raddysh"
     ]
   ],
   "1998-02-23": [
     [
-      "Arvid Henrikson"
+      "Arvid Henrikson",
+      "246448/arvid-henrikson"
     ]
   ],
   "1998-02-25": [
     [
-      "Joona Koppanen"
+      "Joona Koppanen",
+      "279893/joona-koppanen"
+    ]
+  ],
+  "1998-02-26": [
+    [
+      "Arsen Khisamutdinov",
+      "372023/arsen-khisamutdinov"
     ]
   ],
   "1998-02-27": [
     [
-      "Givani Smith"
+      "Givani Smith",
+      "252472/givani-smith"
     ]
   ],
   "1998-03-01": [
     [
-      "Tarmo Reunanen"
+      "Tarmo Reunanen",
+      "221513/tarmo-reunanen"
     ],
     [
-      "Mikhail Berdin"
+      "Mikhail Berdin",
+      "312197/mikhail-berdin"
     ]
   ],
   "1998-03-02": [
     [
-      "Alexander Nylander"
+      "Alexander Nylander",
+      "212641/alexander-nylander"
     ]
   ],
   "1998-03-04": [
     [
-      "Colton Point"
+      "Colton Point",
+      "275708/colton-point"
     ]
   ],
   "1998-03-05": [
     [
-      "Logan Brown"
+      "Logan Brown",
+      "248391/logan-brown"
     ],
     [
-      "Jack Kopacka"
+      "Jack Kopacka",
+      "233512/jack-kopacka"
     ],
     [
-      "Anthony Salinitri"
+      "Anthony Salinitri",
+      "254246/anthony-salinitri"
     ],
     [
-      "Nicolas Mattinen"
+      "Nicolas Mattinen",
+      "251744/nicolas-mattinen"
     ]
   ],
   "1998-03-09": [
     [
-      "Riley Stillman"
+      "Riley Stillman",
+      "252469/riley-stillman"
     ],
     [
-      "Oskar Steen"
+      "Oskar Steen",
+      "212666/oskar-steen"
     ]
   ],
   "1998-03-12": [
     [
-      "Mikhail Maltsev"
+      "Mikhail Maltsev",
+      "312218/mikhail-maltsev"
     ]
   ],
   "1998-03-13": [
     [
-      "Michael Pezzetta"
+      "Michael Pezzetta",
+      "269038/michael-pezzetta"
     ],
     [
-      "David Quenneville"
+      "David Quenneville",
+      "166662/david-quenneville"
     ]
   ],
   "1998-03-14": [
     [
-      "Tyson Jost"
+      "Tyson Jost",
+      "148111/tyson-jost"
     ]
   ],
   "1998-03-15": [
     [
-      "Tyler Benson"
+      "Tyler Benson",
+      "154220/tyler-benson"
     ]
   ],
   "1998-03-17": [
     [
-      "Andrew Peeke"
+      "Andrew Peeke",
+      "291905/andrew-peeke"
     ],
     [
-      "Eetu Tuulola"
+      "Eetu Tuulola",
+      "123542/eetu-tuulola"
     ],
     [
-      "Jakob Stenqvist"
+      "Jakob Stenqvist",
+      "212688/jakob-stenqvist"
     ]
   ],
   "1998-03-19": [
     [
-      "Jake Ryczek"
+      "Jake Ryczek",
+      "297332/jake-ryczek"
     ]
   ],
   "1998-03-21": [
     [
-      "Matthew Hellickson"
+      "Matthew Hellickson",
+      "247916/matthew-hellickson"
     ]
   ],
   "1998-03-23": [
     [
-      "Brendan De Jong"
+      "Brendan De Jong",
+      "247160/brendan-de-jong"
     ]
   ],
   "1998-03-24": [
     [
-      "Jack Dugan"
+      "Jack Dugan",
+      "345694/jack-dugan"
     ]
   ],
   "1998-03-27": [
     [
-      "Christopher Paquette"
+      "Christopher Paquette",
+      "252451/christopher-paquette"
     ]
   ],
   "1998-03-29": [
     [
-      "Brett Howden"
+      "Brett Howden",
+      "232712/brett-howden"
     ]
   ],
   "1998-03-31": [
     [
-      "Jakob Chychrun"
+      "Jakob Chychrun",
+      "243386/jakob-chychrun"
     ]
   ],
   "1998-04-06": [
     [
-      "Matthew Phillips"
+      "Matthew Phillips",
+      "161060/matthew-phillips"
     ]
   ],
   "1998-04-09": [
     [
-      "Pascal Laberge"
+      "Pascal Laberge",
+      "252492/pascal-laberge"
     ],
     [
-      "Filip Helt"
+      "Filip Helt",
+      "167520/filip-helt"
     ]
   ],
   "1998-04-10": [
     [
-      "Riley Tufte"
+      "Riley Tufte",
+      "291903/riley-tufte"
     ],
     [
-      "Chad Krys"
+      "Chad Krys",
+      "229559/chad-krys"
     ]
   ],
   "1998-04-11": [
     [
-      "Jordan Sambrook"
+      "Jordan Sambrook",
+      "268675/jordan-sambrook"
     ]
   ],
   "1998-04-13": [
     [
-      "Garrett Pilon"
+      "Garrett Pilon",
+      "49041/garrett-pilon"
     ],
     [
-      "Oleg Sosunov"
+      "Oleg Sosunov",
+      "324561/oleg-sosunov"
     ]
   ],
   "1998-04-14": [
     [
-      "Timothy Gettinger"
+      "Tim Gettinger",
+      "272570/tim-gettinger"
     ],
     [
-      "Dmitri Sokolov"
+      "Dmitri Sokolov",
+      "279385/dmitri-sokolov"
     ]
   ],
   "1998-04-16": [
     [
-      "Connor Bunnaman"
+      "Connor Bunnaman",
+      "267790/connor-bunnaman"
     ]
   ],
   "1998-04-19": [
     [
-      "Patrik Laine"
+      "Patrik Laine",
+      "221667/patrik-laine"
     ],
     [
-      "Linus Weissbach"
+      "Linus Weissbach",
+      "230472/linus-weissbach"
     ]
   ],
   "1998-04-20": [
     [
-      "Vladislav Kara"
+      "Vladislav Kara",
+      "322627/vladislav-kara"
     ]
   ],
   "1998-04-24": [
     [
-      "Collin Adams"
+      "Collin Adams",
+      "233489/collin-adams"
     ]
   ],
   "1998-04-27": [
     [
-      "James Greenway"
+      "James Greenway",
+      "226438/james-greenway"
     ],
     [
-      "Matthew Cairns"
+      "Matthew Cairns",
+      "245621/matthew-cairns"
     ],
     [
-      "Drake Batherson"
+      "Drake Batherson",
+      "195192/drake-batherson"
     ]
   ],
   "1998-04-30": [
     [
-      "Austin Osmanski"
+      "Austin Osmanski",
+      "267695/austin-osmanski"
     ],
     [
-      "Milan Kloucek"
+      "Milan Kloucek",
+      "236454/milan-kloucek"
     ]
   ],
   "1998-05-03": [
     [
-      "Yegor Zaitsev"
+      "Yegor Zaitsev",
+      "312209/yegor-zaitsev"
     ]
   ],
   "1998-05-05": [
     [
-      "Olli Juolevi"
+      "Olli Juolevi",
+      "196391/olli-juolevi"
     ],
     [
-      "Josh Mahura"
+      "Jordan Kyrou",
+      "269034/jordan-kyrou"
     ],
     [
-      "D\u00e1vid Hren\u00e1k"
+      "Josh Mahura",
+      "166669/josh-mahura"
+    ],
+    [
+      "D\u00e1vid Hren\u00e1k",
+      "225473/david-hrenak"
     ]
   ],
   "1998-05-07": [
     [
-      "Jesse Puljuj\u00e4rvi"
+      "Jesse Puljuj\u00e4rvi",
+      "152117/jesse-puljujarvi"
     ]
   ],
   "1998-05-08": [
     [
-      "Jordan Kyrou"
+      "Vitali Abramov",
+      "295715/vitali-abramov"
     ],
     [
-      "Vitali Abramov"
-    ],
-    [
-      "Nate Clurman"
+      "Nate Clurman",
+      "353810/nate-clurman"
     ]
   ],
   "1998-05-09": [
     [
-      "Braydyn Chizen"
+      "Braydyn Chizen",
+      "247979/braydyn-chizen"
     ]
   ],
   "1998-05-10": [
     [
-      "Linus N\u00e4ss\u00e9n"
+      "Linus N\u00e4ss\u00e9n",
+      "240064/linus-nassen"
     ]
   ],
   "1998-05-11": [
     [
-      "Niclas Almari"
+      "Niclas Almari",
+      "241335/niclas-almari"
     ]
   ],
   "1998-05-12": [
     [
-      "Samuel Girard"
+      "Samuel Girard",
+      "251476/samuel-girard"
     ]
   ],
   "1998-05-17": [
     [
-      "Cole Koepke"
+      "Cole Koepke",
+      "300846/cole-koepke"
     ]
   ],
   "1998-05-22": [
     [
-      "Cole Hults"
+      "Cole Hults",
+      "300850/cole-hults"
     ]
   ],
   "1998-05-25": [
     [
-      "Janne Kuokkanen"
+      "Janne Kuokkanen",
+      "209426/janne-kuokkanen"
     ]
   ],
   "1998-05-26": [
     [
-      "Logan Stanley"
+      "Logan Stanley",
+      "240108/logan-stanley"
     ]
   ],
   "1998-05-28": [
     [
-      "Roman Durny"
+      "Roman Durn\u00fd",
+      "275725/roman-durny"
     ]
   ],
   "1998-06-01": [
     [
-      "Aapeli R\u00e4s\u00e4nen"
+      "Aapeli R\u00e4s\u00e4nen",
+      "118081/aapeli-rasanen"
     ]
   ],
   "1998-06-03": [
     [
-      "Cliff Pu"
+      "Cliff Pu",
+      "245616/cliff-pu"
     ]
   ],
   "1998-06-05": [
     [
-      "Kale Clague"
+      "Kale Clague",
+      "108472/kale-clague"
     ]
   ],
   "1998-06-06": [
     [
-      "Adam Mascherin"
+      "Adam Mascherin",
+      "240112/adam-mascherin"
     ],
     [
-      "Adam Mascherin"
-    ],
-    [
-      "Yegor Sharangovich"
+      "Yegor Sharangovich",
+      "271111/yegor-sharangovich"
     ]
   ],
   "1998-06-07": [
     [
-      "Filip Gustavsson"
+      "Filip Gustavsson",
+      "212732/filip-gustavsson"
     ],
     [
-      "Victor Mete"
+      "Victor Mete",
+      "232703/victor-mete"
     ]
   ],
   "1998-06-08": [
     [
-      "Markus Niemel\u00e4inen"
+      "Markus Niemel\u00e4inen",
+      "175894/markus-niemelainen"
     ]
   ],
   "1998-06-09": [
     [
-      "Jake Bean"
+      "Jake Bean",
+      "199660/jake-bean"
     ],
     [
-      "Artyom Manukyan"
+      "Artyom Manukyan",
+      "312221/artyom-manukyan"
     ]
   ],
   "1998-06-10": [
     [
-      "Kieffer Bellows"
+      "Kieffer Bellows",
+      "247945/kieffer-bellows"
     ]
   ],
   "1998-06-11": [
     [
-      "Trenton Bourque"
+      "Trent Bourque",
+      "239804/trent-bourque"
     ],
     [
-      "Jesper Sellgren"
+      "Jesper Sellgren",
+      "244673/jesper-sellgren"
     ]
   ],
   "1998-06-12": [
     [
-      "Alfons Malmstr\u00f6m"
+      "Alfons Malmstr\u00f6m",
+      "212632/alfons-malmstrom"
     ],
     [
-      "Dean Stewart"
+      "Dean Stewart",
+      "247935/dean-stewart"
     ]
   ],
   "1998-06-14": [
     [
-      "Brandon Saigeon"
+      "Brandon Saigeon",
+      "239031/brandon-saigeon"
     ]
   ],
   "1998-06-15": [
     [
-      "Nick Perbix"
+      "Nicklaus Perbix",
+      "380612/nicklaus-perbix"
     ]
   ],
   "1998-06-18": [
     [
-      "Boris Katchouk"
+      "Boris Katchouk",
+      "269859/boris-katchouk"
     ],
     [
-      "Alex Green"
+      "Alexander Green",
+      "233565/alexander-green"
     ]
   ],
   "1998-06-19": [
     [
-      "Cam Dineen"
+      "Cam Dineen",
+      "268444/cam-dineen"
     ],
     [
-      "Joey Anderson"
+      "Joey Anderson",
+      "247964/joey-anderson"
     ]
   ],
   "1998-06-20": [
     [
-      "Dante Fabbro"
+      "Dante Fabbro",
+      "247041/dante-fabbro"
     ],
     [
-      "William Lockwood"
+      "William Lockwood",
+      "272186/william-lockwood"
     ]
   ],
   "1998-06-24": [
     [
-      "Pierre-Luc Dubois"
+      "Pierre-Luc Dubois",
+      "252480/pierre-luc-dubois"
     ]
   ],
   "1998-06-25": [
     [
-      "Mikhail Sergachyov"
+      "Mikhail Sergachyov",
+      "312213/mikhail-sergachyov"
     ]
   ],
   "1998-06-27": [
     [
-      "German Rubtsov"
+      "German Rubtsov",
+      "312227/german-rubtsov"
     ]
   ],
   "1998-06-29": [
     [
-      "Markus Nurmi"
+      "Markus Nurmi",
+      "158967/markus-nurmi"
     ]
   ],
   "1998-07-04": [
     [
-      "Hardy H\u00e4man Aktell"
+      "Hardy H\u00e4man Aktell",
+      "242658/hardy-haman-aktell"
     ]
   ],
   "1998-07-10": [
     [
-      "Will Bitten"
+      "Will Bitten",
+      "245965/will-bitten"
     ],
     [
-      "Igor Shvyryov"
+      "Igor Shvyryov",
+      "312234/igor-shvyryov"
     ]
   ],
   "1998-07-11": [
     [
-      "Hugh McGing"
+      "Hugh McGing",
+      "233569/hugh-mcging"
     ]
   ],
   "1998-07-12": [
     [
-      "Joseph Woll"
+      "Joseph Woll",
+      "272227/joseph-woll"
+    ]
+  ],
+  "1998-07-13": [
+    [
+      "Ilya Konovalov",
+      "313916/ilya-konovalov"
     ]
   ],
   "1998-07-17": [
     [
-      "Joachim Blichfeld"
+      "Joachim Blichfeld",
+      "211282/joachim-blichfeld"
     ]
   ],
   "1998-07-20": [
     [
-      "Dillon Dub\u00e9"
+      "Dillon Dub\u00e9",
+      "157256/dillon-dube"
     ],
     [
-      "Brett Murray"
+      "Brett Murray",
+      "267772/brett-murray"
     ],
     [
-      "Morgan Geekie"
+      "Morgan Geekie",
+      "247912/morgan-geekie"
     ]
   ],
   "1998-07-24": [
     [
-      "Graham McPhee"
+      "Graham McPhee",
+      "226444/graham-mcphee"
     ]
   ],
   "1998-07-28": [
     [
-      "Noah Gregor"
+      "Noah Gregor",
+      "162892/noah-gregor"
     ]
   ],
   "1998-07-29": [
     [
-      "Clayton Keller"
+      "Clayton Keller",
+      "226432/clayton-keller"
     ],
     [
-      "Patrick Harper"
+      "Patrick Harper",
+      "229608/patrick-harper"
     ]
   ],
   "1998-07-30": [
     [
-      "Jesper Bratt"
+      "Jesper Bratt",
+      "117698/jesper-bratt"
     ]
   ],
   "1998-07-31": [
     [
-      "Wouter Peeters"
+      "Wouter Peeters",
+      "241698/wouter-peeters"
     ]
   ],
   "1998-08-04": [
     [
-      "Andrei Altybarmakyan"
+      "Andrei Altybarmakyan",
+      "313706/andrei-altybarmakyan"
     ]
   ],
   "1998-08-06": [
     [
-      "Drake Rymsha"
+      "Drake Rymsha",
+      "268925/drake-rymsha"
     ]
   ],
   "1998-08-07": [
     [
-      "John Leonard"
+      "John Leonard",
+      "272976/john-leonard"
     ]
   ],
   "1998-08-08": [
     [
-      "Matt Brassard"
+      "Matt Brassard",
+      "268659/matt-brassard"
     ]
   ],
   "1998-08-12": [
     [
-      "Nikolaj Krag Christensen"
+      "Nikolaj Krag Christensen",
+      "207452/nikolaj-krag-christensen"
     ]
   ],
   "1998-08-13": [
     [
-      "Carter Hart"
+      "Carter Hart",
+      "161850/carter-hart"
     ]
   ],
   "1998-08-17": [
     [
-      "Filip Larsson"
+      "Filip Larsson",
+      "264409/filip-larsson"
     ],
     [
-      "Travis Barron"
+      "Travis Barron",
+      "252446/travis-barron"
     ]
   ],
   "1998-08-18": [
     [
-      "Scott Perunovich"
+      "Scott Perunovich",
+      "300906/scott-perunovich"
     ]
   ],
   "1998-08-23": [
     [
-      "Roope Laavainen"
+      "Roope Laavainen",
+      "249738/roope-laavainen"
     ]
   ],
   "1998-08-27": [
     [
-      "Cam Morrison"
+      "Cam Morrison",
+      "268696/cam-morrison"
     ],
     [
-      "Brandon Hagel"
+      "Brandon Hagel",
+      "161843/brandon-hagel"
     ]
   ],
   "1998-08-29": [
     [
-      "Josh Anderson"
+      "Josh Anderson",
+      "247061/josh-anderson"
     ]
   ],
   "1998-08-31": [
     [
-      "Jacob Moverare"
+      "Jacob Moverare",
+      "212726/jacob-moverare"
     ]
   ],
   "1998-09-01": [
     [
-      "Otto Koivula"
+      "Otto Koivula",
+      "241338/otto-koivula"
     ]
   ],
   "1998-09-02": [
     [
-      "Eetu Luostarinen"
+      "Eetu Luostarinen",
+      "299319/eetu-luostarinen"
     ]
   ],
   "1998-09-04": [
     [
-      "Linus H\u00f6gberg"
+      "Linus H\u00f6gberg",
+      "244643/linus-hogberg"
     ]
   ],
   "1998-09-07": [
     [
-      "Nicholas Caamano"
+      "Nicholas Caamano",
+      "252448/nicholas-caamano"
     ]
   ],
   "1998-09-12": [
     [
-      "Parker Foo"
+      "Parker Foo",
+      "153054/parker-foo"
     ]
   ],
   "1998-09-14": [
     [
-      "Nick Leivermann"
+      "Nick Leivermann",
+      "344081/nick-leivermann"
     ]
   ],
   "1998-09-17": [
     [
-      "Mario Ferraro"
+      "Mario Ferraro",
+      "245622/mario-ferraro"
     ]
   ],
   "1998-09-18": [
     [
-      "Conor Timmins"
+      "Conor Timmins",
+      "267584/conor-timmins"
     ]
   ],
   "1998-09-19": [
     [
-      "Nolan Patrick"
+      "Nolan Patrick",
+      "201274/nolan-patrick"
     ]
   ],
   "1998-09-20": [
     [
-      "Luke Martin"
+      "Luke Martin",
+      "272217/luke-martin"
     ],
     [
-      "Dylan Ferguson"
+      "Dylan Ferguson",
+      "247471/dylan-ferguson"
     ]
   ],
   "1998-09-26": [
     [
-      "Mac Hollowell"
+      "Mac Hollowell",
+      "267652/mac-hollowell"
     ]
   ],
   "1998-09-29": [
     [
-      "Kailer Yamamoto"
+      "Kailer Yamamoto",
+      "247915/kailer-yamamoto"
     ]
   ],
   "1998-09-30": [
     [
-      "Robbie Stucker"
+      "Robbie Stucker",
+      "300993/robbie-stucker"
     ]
   ],
   "1998-10-06": [
     [
-      "Juuso V\u00e4lim\u00e4ki"
+      "Juuso V\u00e4lim\u00e4ki",
+      "221525/juuso-valimaki"
     ]
   ],
   "1998-10-08": [
     [
-      "Ville R\u00e4s\u00e4nen"
+      "Ville R\u00e4s\u00e4nen",
+      "314467/ville-rasanen"
     ]
   ],
   "1998-10-10": [
     [
-      "Zachary Lauzon"
+      "Zachary Lauzon",
+      "254662/zachary-lauzon"
     ]
   ],
   "1998-10-12": [
     [
-      "Jonah Gadjovich"
+      "Jonah Gadjovich",
+      "252476/jonah-gadjovich"
     ]
   ],
   "1998-10-13": [
     [
-      "Lias Andersson"
+      "Lias Andersson",
+      "214318/lias-andersson"
     ],
     [
-      "Robin Salo"
+      "Robin Salo",
+      "197821/robin-salo"
     ]
   ],
   "1998-10-16": [
     [
-      "Kole Lind"
+      "Kole Lind",
+      "200933/kole-lind"
     ]
   ],
   "1998-10-18": [
     [
-      "Nathan Smith"
+      "Nathan Smith",
+      "484201/nathan-smith"
     ]
   ],
   "1998-10-20": [
     [
-      "Gustav Lindstr\u00f6m"
+      "Gustav Lindstr\u00f6m",
+      "212379/gustav-lindstrom"
     ]
   ],
   "1998-10-21": [
     [
-      "Sean Durzi"
+      "Sean Durzi",
+      "268973/sean-durzi"
     ],
     [
-      "Hunter Drew"
+      "Hunter Drew",
+      "267823/hunter-drew"
     ]
   ],
   "1998-10-22": [
     [
-      "Jakov Novak"
+      "Jakov Novak",
+      "269880/jakov-novak"
     ]
   ],
   "1998-10-28": [
     [
-      "Marian Studenic"
+      "Marian Studenic",
+      "305485/marian-studenic"
     ]
   ],
   "1998-10-30": [
     [
-      "Cale Makar"
+      "Cale Makar",
+      "199655/cale-makar"
     ],
     [
-      "Jesper Boqvist"
+      "Jesper Boqvist",
+      "212690/jesper-boqvist"
     ]
   ],
   "1998-11-01": [
     [
-      "Stuart Skinner"
+      "Stuart Skinner",
+      "166664/stuart-skinner"
     ]
   ],
   "1998-11-03": [
     [
-      "Mason Shaw"
+      "Mason Shaw",
+      "162926/mason-shaw"
     ],
     [
-      "Arvid Holm"
+      "Arvid Holm",
+      "231395/arvid-holm"
     ]
   ],
   "1998-11-12": [
     [
-      "Elias Pettersson"
+      "Elias Pettersson",
+      "266336/elias-pettersson"
     ]
   ],
   "1998-11-16": [
     [
-      "Kasper Kotkansalo"
+      "Kasper Kotkansalo",
+      "221328/kasper-kotkansalo"
     ]
   ],
   "1998-11-18": [
     [
-      "Marcus Davidsson"
+      "Marcus Davidsson",
+      "240720/marcus-davidsson"
     ]
   ],
   "1998-11-19": [
     [
-      "Cale Fleury"
+      "Cale Fleury",
+      "200710/cale-fleury"
     ]
   ],
   "1998-11-20": [
     [
-      "Nikita A. Popugayev"
+      "Nikita Popugayev",
+      "312680/nikita-popugayev"
     ]
   ],
   "1998-11-22": [
     [
-      "Casey Mittelstadt"
+      "Casey Mittelstadt",
+      "300831/casey-mittelstadt"
     ]
   ],
   "1998-11-24": [
     [
-      "Jeremy Swayman"
+      "Jeremy Swayman",
+      "269688/jeremy-swayman"
     ]
   ],
   "1998-11-25": [
     [
-      "Benton Maass"
+      "Benton Maass",
+      "380606/benton-maass"
     ]
   ],
   "1998-12-02": [
     [
-      "Morgan Barron"
+      "Morgan Barron",
+      "195024/morgan-barron"
     ]
   ],
   "1998-12-05": [
     [
-      "Nic Hague"
+      "Nicolas Hague",
+      "253977/nicolas-hague"
     ]
   ],
   "1998-12-13": [
     [
-      "Cal Foote"
+      "Cal Foote",
+      "247895/cal-foote"
     ]
   ],
   "1998-12-18": [
     [
-      "Jake Oettinger"
+      "Jake Oettinger",
+      "247982/jake-oettinger"
     ],
     [
-      "Michael Karow"
+      "Michael Karow",
+      "350368/michael-karow"
     ]
   ],
   "1998-12-27": [
     [
-      "Lane Zablocki"
+      "Lane Zablocki",
+      "247919/lane-zablocki"
     ]
   ],
   "1998-12-31": [
     [
-      "Josiah Slavin"
+      "Josiah Slavin",
+      "324913/josiah-slavin"
     ]
   ],
   "1999-01-01": [
     [
-      "Urho Vaakanainen"
+      "Urho Vaakanainen",
+      "180538/urho-vaakanainen"
+    ],
+    [
+      "Greg Meireles",
+      "286948/greg-meireles"
     ]
   ],
   "1999-01-03": [
     [
-      "Ryan Poehling"
+      "Ryan Poehling",
+      "288045/ryan-poehling"
     ]
   ],
   "1999-01-04": [
     [
-      "Nico Hischier"
+      "Nico Hischier",
+      "116244/nico-hischier"
     ],
     [
-      "Ivan Chekhovich"
+      "Ivan Chekhovich",
+      "333786/ivan-chekhovich"
     ]
   ],
   "1999-01-06": [
     [
-      "Matthew Strome"
+      "Matthew Strome",
+      "268417/matthew-strome"
     ],
     [
-      "Noel Hoefenmayer"
+      "Noel Hoefenmayer",
+      "201670/noel-hoefenmayer"
     ],
     [
-      "Anton Andersson"
+      "Anton Andersson",
+      "316531/anton-andersson"
+    ],
+    [
+      "Rafa\u00ebl Harvey-Pinard",
+      "354123/rafael-harvey-pinard"
     ]
   ],
   "1999-01-08": [
     [
-      "Maxime Comtois"
+      "Maxime Comtois",
+      "201534/maxime-comtois"
     ]
   ],
   "1999-01-09": [
     [
-      "Aleksi Heponiemi"
+      "Aleksi Heponiemi",
+      "284816/aleksi-heponiemi"
     ]
   ],
   "1999-01-11": [
     [
-      "Ian Scott"
+      "Ian Scott",
+      "257786/ian-scott"
     ]
   ],
   "1999-01-12": [
     [
-      "Scott Walford"
+      "Scott Walford",
+      "258428/scott-walford"
     ]
   ],
   "1999-01-14": [
     [
-      "Malte Setkov"
+      "Malte Setkov",
+      "265424/malte-setkov"
     ],
     [
-      "Arnaud Durandeau"
+      "Arnaud Durandeau",
+      "201536/arnaud-durandeau"
     ]
   ],
   "1999-01-15": [
     [
-      "Martin Necas"
+      "Martin Necas",
+      "237071/martin-necas"
     ]
   ],
   "1999-01-18": [
     [
-      "Ian Mitchell"
+      "Ian Mitchell",
+      "201362/ian-mitchell"
     ],
     [
-      "Antti Paloj\u00e4rvi"
+      "Antti Paloj\u00e4rvi",
+      "244216/antti-palojarvi"
     ]
   ],
   "1999-01-24": [
     [
-      "Dylan Samberg"
+      "Dylan Samberg",
+      "201527/dylan-samberg"
     ],
     [
-      "C\u00e9dric Par\u00e9"
+      "C\u00e9dric Par\u00e9",
+      "319958/cedric-pare"
     ]
   ],
   "1999-01-27": [
     [
-      "Fedor Gordeev"
+      "Fedor Gordeev",
+      "273797/fedor-gordeev"
     ]
   ],
   "1999-01-29": [
     [
-      "Kirill Ustimenko"
+      "Kirill Ustimenko",
+      "326697/kirill-ustimenko"
     ],
     [
-      "Ryan McGregor"
+      "Ryan McGregor",
+      "289231/ryan-mcgregor"
+    ]
+  ],
+  "1999-01-31": [
+    [
+      "Filip Lindberg",
+      "294782/filip-lindberg"
     ]
   ],
   "1999-02-05": [
     [
-      "Noah Cates"
+      "Noah Cates",
+      "201517/noah-cates"
     ]
   ],
   "1999-02-06": [
     [
-      "Justin Almeida"
+      "Justin Almeida",
+      "245573/justin-almeida"
     ]
   ],
   "1999-02-09": [
     [
-      "Keith Petruzzelli"
+      "Keith Petruzzelli",
+      "278954/keith-petruzzelli"
     ]
   ],
   "1999-02-10": [
     [
-      "Maxim Sushko"
+      "Maxim Sushko",
+      "313615/maxim-sushko"
     ]
   ],
   "1999-02-11": [
     [
-      "Ostap Safin"
+      "Ostap Safin",
+      "272770/ostap-safin"
     ],
     [
-      "Aarne Talvitie"
+      "Aarne Talvitie",
+      "299098/aarne-talvitie"
     ],
     [
-      "Logan Hutsko"
+      "Logan Hutsko",
+      "201502/logan-hutsko"
     ]
   ],
   "1999-02-12": [
     [
-      "Philip Kemp"
+      "Philip Kemp",
+      "311901/philip-kemp"
     ]
   ],
   "1999-02-13": [
     [
-      "Tobias Geisser"
+      "Tobias Geisser",
+      "274212/tobias-geisser"
     ]
   ],
   "1999-02-15": [
     [
-      "Isaac Ratcliffe"
+      "Isaac Ratcliffe",
+      "300398/isaac-ratcliffe"
     ]
   ],
   "1999-02-16": [
     [
-      "Owen Tippett"
+      "Owen Tippett",
+      "201664/owen-tippett"
     ],
     [
-      "Nick Campoli"
+      "Nick Campoli",
+      "273669/nick-campoli"
     ]
   ],
   "1999-02-17": [
     [
-      "Pavel Koltygin"
+      "Pavel Koltygin",
+      "273659/pavel-koltygin"
     ]
   ],
   "1999-02-18": [
     [
-      "Jack Studnicka"
+      "Jack Studnicka",
+      "284096/jack-studnicka"
     ],
     [
-      "Antoine Morand"
+      "Antoine Morand",
+      "275608/antoine-morand"
     ],
     [
-      "Evan Barratt"
+      "Evan Barratt",
+      "303599/evan-barratt"
     ],
     [
-      "Radim Salda"
+      "Radim Salda",
+      "225136/radim-salda"
     ]
   ],
   "1999-02-19": [
     [
-      "Grant Mismash"
+      "Grant Mismash",
+      "269306/grant-mismash"
     ]
   ],
   "1999-02-23": [
     [
-      "Brett Stapley"
+      "Brett Stapley",
+      "201696/brett-stapley"
     ]
   ],
   "1999-02-24": [
     [
-      "Jiri Patera"
+      "Jiri Patera",
+      "247398/jiri-patera"
     ]
   ],
   "1999-02-25": [
     [
-      "Nate Schnarr"
+      "Nate Schnarr",
+      "283248/nate-schnarr"
     ],
     [
-      "Jake McGrew"
+      "Jake McGrew",
+      "201452/jake-mcgrew"
     ]
   ],
   "1999-02-26": [
     [
-      "Ben Jones"
+      "Ben Jones",
+      "273677/ben-jones"
     ]
   ],
   "1999-02-27": [
     [
-      "Erik Walli Walterholm"
+      "Erik Walli Walterholm",
+      "246501/erik-walli-walterholm"
     ]
   ],
   "1999-03-03": [
     [
-      "Logan Cockerill"
+      "Logan Cockerill",
+      "273963/logan-cockerill"
     ]
   ],
   "1999-03-05": [
     [
-      "Ivan Prosvetov"
+      "Ivan Prosvetov",
+      "361155/ivan-prosvetov"
     ]
   ],
   "1999-03-06": [
     [
-      "Eemeli R\u00e4s\u00e4nen"
+      "Eemeli R\u00e4s\u00e4nen",
+      "302228/eemeli-rasanen"
     ],
     [
-      "Zach Gallant"
+      "Zach Gallant",
+      "273617/zach-gallant"
     ]
   ],
   "1999-03-09": [
     [
-      "Ukko-Pekka Luukkonen"
+      "Ukko-Pekka Luukkonen",
+      "286397/ukko-pekka-luukkonen"
     ],
     [
-      "Pontus Holmberg"
+      "Pontus Holmberg",
+      "265859/pontus-holmberg"
     ]
   ],
   "1999-03-10": [
     [
-      "Jake Leschyshyn"
+      "Jake Leschyshyn",
+      "279125/jake-leschyshyn"
+    ]
+  ],
+  "1999-03-11": [
+    [
+      "Mark Kastelic",
+      "276474/mark-kastelic"
     ]
   ],
   "1999-03-15": [
     [
-      "Jarret Tyszka"
+      "Jarret Tyszka",
+      "297994/jarret-tyszka"
     ]
   ],
   "1999-03-19": [
     [
-      "Sebastian Walfridsson"
+      "Sebastian Walfridsson",
+      "244393/sebastian-walfridsson"
     ]
   ],
   "1999-03-20": [
     [
-      "Jacob Golden"
+      "Jacob Golden",
+      "201654/jacob-golden"
+    ],
+    [
+      "Ronald Attard",
+      "284030/ronald-attard"
     ]
   ],
   "1999-03-21": [
     [
-      "Markus Phillips"
+      "Markus Phillips",
+      "201660/markus-phillips"
     ]
   ],
   "1999-03-22": [
     [
-      "Kyle Olson"
+      "Kyle Olson",
+      "161063/kyle-olson"
     ]
   ],
   "1999-03-25": [
     [
-      "Santtu Kinnunen"
+      "Santtu Kinnunen",
+      "376060/santtu-kinnunen"
     ]
   ],
   "1999-03-26": [
     [
-      "Brandon Kruse"
+      "Brandon Kruse",
+      "273154/brandon-kruse"
     ]
   ],
   "1999-03-27": [
     [
-      "Daniil Tarasov"
+      "Daniil Tarasov",
+      "359971/daniil-tarasov"
     ]
   ],
   "1999-03-31": [
     [
-      "Jonas R\u00f8ndbjerg"
+      "Jonas R\u00f8ndbjerg",
+      "220099/jonas-rondbjerg"
     ],
     [
-      "Jordan Hollett"
+      "Jordan Hollett",
+      "286741/jordan-hollett"
+    ],
+    [
+      "F\u00e9lix Bibeau",
+      "284916/felix-bibeau"
     ]
   ],
   "1999-04-01": [
     [
-      "Cody Glass"
+      "Cody Glass",
+      "201704/cody-glass"
     ],
     [
-      "Jan Drozg"
+      "Jan Drozg",
+      "265944/jan-drozg"
     ]
   ],
   "1999-04-03": [
     [
-      "Joshua Ess"
+      "Joshua Ess",
+      "312022/joshua-ess"
     ]
   ],
   "1999-04-04": [
     [
-      "Scott Reedy"
+      "Scott Reedy",
+      "269301/scott-reedy"
     ]
   ],
   "1999-04-06": [
     [
-      "Cole Guttman"
+      "Cole Guttman",
+      "201449/cole-guttman"
+    ],
+    [
+      "Kirill Slepets",
+      "312832/kirill-slepets"
     ]
   ],
   "1999-04-07": [
     [
-      "D'Artagnan Joly"
+      "D'Artagnan Joly",
+      "307537/d-artagnan-joly"
+    ],
+    [
+      "Logan Neaton",
+      "284121/logan-neaton"
     ]
   ],
   "1999-04-10": [
     [
-      "David No\u00ebl"
+      "David No\u00ebl",
+      "284907/david-noel"
     ]
   ],
   "1999-04-14": [
     [
-      "Joni Ikonen"
+      "Joni Ikonen",
+      "221341/joni-ikonen"
     ]
   ],
   "1999-04-17": [
     [
-      "Michael Rasmussen"
+      "Michael Rasmussen",
+      "286738/michael-rasmussen"
     ],
     [
-      "Filip Westerlund"
+      "Filip Westerlund",
+      "262145/filip-westerlund"
     ]
   ],
   "1999-04-18": [
     [
-      "Liam Hawel"
+      "Liam Hawel",
+      "297961/liam-hawel"
     ],
     [
-      "Brady Gilmour"
+      "Brady Gilmour",
+      "297674/brady-gilmour"
     ]
   ],
   "1999-04-19": [
     [
-      "Eetu M\u00e4kiniemi"
+      "Eetu M\u00e4kiniemi",
+      "279023/eetu-makiniemi"
+    ]
+  ],
+  "1999-04-20": [
+    [
+      "Lukas Rousek",
+      "236358/lukas-rousek"
     ]
   ],
   "1999-04-21": [
     [
-      "Reilly Walsh"
+      "Reilly Walsh",
+      "300597/reilly-walsh"
     ]
   ],
   "1999-04-22": [
     [
-      "Eeli Tolvanen"
+      "Eeli Tolvanen",
+      "249730/eeli-tolvanen"
     ]
   ],
   "1999-04-24": [
     [
-      "Vladislav Yeryomenko"
+      "Vladislav Yeryomenko",
+      "383083/vladislav-yeryomenko"
     ]
   ],
   "1999-04-25": [
     [
-      "Ryan O'Connell"
+      "Ryan O'Connell",
+      "286946/ryan-o-connell"
     ]
   ],
   "1999-04-29": [
     [
-      "Daniel Bukac"
+      "Daniel Bukac",
+      "247222/daniel-bukac"
     ]
   ],
   "1999-04-30": [
     [
-      "Timothy Liljegren"
+      "Timothy Liljegren",
+      "224910/timothy-liljegren"
+    ],
+    [
+      "Brett Leason",
+      "257755/brett-leason"
     ]
   ],
   "1999-05-02": [
     [
-      "Tomas Vomacka"
+      "Tomas Vomacka",
+      "247581/tomas-vomacka"
     ]
   ],
   "1999-05-04": [
     [
-      "Reilly Webb"
+      "Reilly Webb",
+      "273694/reilly-webb"
     ]
   ],
   "1999-05-05": [
     [
-      "Josh Norris"
+      "Josh Norris",
+      "273954/josh-norris"
     ],
     [
-      "Klim Kostin"
+      "Klim Kostin",
+      "312823/klim-kostin"
     ],
     [
-      "Cameron Crotty"
+      "Cameron Crotty",
+      "299556/cameron-crotty"
     ]
   ],
   "1999-05-06": [
     [
-      "Tyler Inamoto"
+      "Tyler Inamoto",
+      "201486/tyler-inamoto"
     ]
   ],
   "1999-05-08": [
     [
-      "Benjamin Mirageas"
+      "Benjamin Mirageas",
+      "313516/benjamin-mirageas"
     ]
   ],
   "1999-05-11": [
     [
-      "Santeri Virtanen"
+      "Santeri Virtanen",
+      "283531/santeri-virtanen"
     ],
     [
-      "Adam Ruzicka"
+      "Adam Ruzicka",
+      "228366/adam-ruzicka"
     ]
   ],
   "1999-05-14": [
     [
-      "Morgan Frost"
+      "Morgan Frost",
+      "317025/morgan-frost"
     ]
   ],
   "1999-05-17": [
     [
-      "Maxwell Gildon"
+      "Maxwell Gildon",
+      "272169/maxwell-gildon"
     ]
   ],
   "1999-05-20": [
     [
-      "Jack Rathbone"
+      "Jack Rathbone",
+      "311766/jack-rathbone"
     ]
   ],
   "1999-05-25": [
     [
-      "Michael Anderson"
+      "Mikey Anderson",
+      "201512/mikey-anderson"
+    ],
+    [
+      "Matthew Wedman",
+      "201359/matthew-wedman"
     ]
   ],
   "1999-05-26": [
     [
-      "Jacob Paquette"
+      "Jacob Paquette",
+      "297973/jacob-paquette"
     ],
     [
-      "Trey Fix-Wolansky"
+      "Trey Fix-Wolansky",
+      "257717/trey-fix-wolansky"
     ]
   ],
   "1999-05-31": [
     [
-      "Leon Gawanke"
+      "Leon Gawanke",
+      "243313/leon-gawanke"
     ]
   ],
   "1999-06-01": [
     [
-      "Kristian Vesalainen"
+      "Kristian Vesalainen",
+      "222125/kristian-vesalainen"
     ],
     [
-      "Emil Bemstr\u00f6m"
+      "Emil Bemstr\u00f6m",
+      "313359/emil-bemstrom"
     ],
     [
-      "Kirill Maximov"
+      "Kirill Maximov",
+      "273658/kirill-maximov"
     ],
     [
-      "Brett Davis"
+      "Brett Davis",
+      "201702/brett-davis"
+    ],
+    [
+      "Cole Coskey",
+      "284005/cole-coskey"
+    ]
+  ],
+  "1999-06-02": [
+    [
+      "Viktor Lodin",
+      "287856/viktor-lodin"
     ]
   ],
   "1999-06-03": [
     [
-      "Matt Villalta"
+      "Matthew Villalta",
+      "414507/matthew-villalta"
+    ]
+  ],
+  "1999-06-04": [
+    [
+      "Nicholas Abruzzese",
+      "201476/nicholas-abruzzese"
+    ],
+    [
+      "Valtteri Puustinen",
+      "332963/valtteri-puustinen"
     ]
   ],
   "1999-06-07": [
     [
-      "Samuel Walker"
+      "Samuel Walker",
+      "300078/samuel-walker"
     ]
   ],
   "1999-06-09": [
     [
-      "Michael DiPietro"
+      "Michael DiPietro",
+      "300424/michael-dipietro"
     ],
     [
-      "Alexander Chmelevski"
+      "Sasha Chmelevski",
+      "201447/sasha-chmelevski"
     ]
   ],
   "1999-06-14": [
     [
-      "Stelio Mattheos"
+      "Stelio Mattheos",
+      "201293/stelio-mattheos"
     ],
     [
-      "Simon Johansson"
+      "Simon Johansson",
+      "289775/simon-johansson"
     ]
   ],
   "1999-06-15": [
     [
-      "Jakub Galvas"
+      "Jakub Galvas",
+      "236429/jakub-galvas"
     ]
   ],
   "1999-06-16": [
     [
-      "Dmitri Samorukov"
+      "Dmitri Samorukov",
+      "312819/dmitri-samorukov"
     ]
   ],
   "1999-06-17": [
     [
-      "Henri Jokiharju"
+      "Henri Jokiharju",
+      "277056/henri-jokiharju"
     ],
     [
-      "Josh Brook"
+      "Josh Brook",
+      "201551/josh-brook"
     ]
   ],
   "1999-06-22": [
     [
-      "Olle Eriksson Ek"
+      "Olle Eriksson Ek",
+      "263668/olle-eriksson-ek"
     ]
   ],
   "1999-06-23": [
     [
-      "David Farrance"
+      "David Farrance",
+      "269310/david-farrance"
     ]
   ],
   "1999-06-25": [
     [
-      "Alexei Toropchenko"
+      "Alexei Toropchenko",
+      "312825/alexei-toropchenko"
     ],
     [
-      "Mitchell Gibson"
+      "Mitchell Gibson",
+      "312029/mitchell-gibson"
+    ],
+    [
+      "Pyotr Kochetkov",
+      "359578/pyotr-kochetkov"
     ]
   ],
   "1999-06-26": [
     [
-      "Connor Dewar"
+      "Connor Dewar",
+      "283843/connor-dewar"
     ]
   ],
   "1999-07-01": [
     [
-      "Pierre-Olivier Joseph"
+      "Pierre-Olivier Joseph",
+      "284911/pierre-olivier-joseph"
     ]
   ],
   "1999-07-02": [
     [
-      "Robert Thomas"
+      "Robert Thomas",
+      "201681/robert-thomas"
     ],
     [
-      "Oskari Laaksonen"
+      "Oskari Laaksonen",
+      "372926/oskari-laaksonen"
     ],
     [
-      "Joey Keane"
+      "Joey Keane",
+      "201468/joey-keane"
     ]
   ],
   "1999-07-03": [
     [
-      "Filip Sveningsson"
+      "Filip Sveningsson",
+      "244859/filip-sveningsson"
     ]
   ],
   "1999-07-04": [
     [
-      "Nick Henry"
+      "Nick Henry",
+      "201705/nick-henry"
     ]
   ],
   "1999-07-05": [
     [
-      "Ty Taylor"
+      "Ty Taylor",
+      "297989/ty-taylor"
+    ]
+  ],
+  "1999-07-12": [
+    [
+      "Tyce Thompson",
+      "201472/tyce-thompson"
     ]
   ],
   "1999-07-14": [
     [
-      "MacKenzie Entwistle"
+      "MacKenzie Entwistle",
+      "273678/mackenzie-entwistle"
     ]
   ],
   "1999-07-18": [
     [
-      "Miro Heiskanen"
+      "Miro Heiskanen",
+      "250075/miro-heiskanen"
     ]
   ],
   "1999-07-19": [
     [
-      "Jacob Peterson"
+      "Jacob Peterson",
+      "313350/jacob-peterson"
     ]
   ],
   "1999-07-22": [
     [
-      "Jason Robertson"
+      "Jason Robertson",
+      "201455/jason-robertson"
     ],
     [
-      "Maxim Zhukov"
+      "Maxim Zhukov",
+      "326698/maxim-zhukov"
     ],
     [
-      "Jack St. Ivany"
+      "John St. Ivany",
+      "300076/john-st.-ivany"
     ],
     [
-      "Jared Moe"
+      "Jared Moe",
+      "380910/jared-moe"
     ]
   ],
   "1999-07-26": [
     [
-      "Sam Hentges"
+      "Sam Hentges",
+      "425364/sam-hentges"
     ]
   ],
   "1999-07-27": [
     [
-      "Skyler Brind'Amour"
+      "Skyler Brind'Amour",
+      "345585/skyler-brind-amour"
     ],
     [
-      "Shamil Shmakov"
+      "Shamil Shmakov",
+      "378560/shamil-shmakov"
     ]
   ],
   "1999-07-30": [
     [
-      "Shane Bowers"
+      "Shane Bowers",
+      "216102/shane-bowers"
     ]
   ],
   "1999-08-02": [
     [
-      "Victor Berglund"
+      "Victor Berglund",
+      "287706/victor-berglund"
     ]
   ],
   "1999-08-10": [
     [
-      "Nick Suzuki"
+      "Nick Suzuki",
+      "300436/nick-suzuki"
     ]
   ],
   "1999-08-11": [
     [
-      "Cayden Primeau"
+      "Cayden Primeau",
+      "256228/cayden-primeau"
     ]
   ],
   "1999-08-14": [
     [
-      "Pavel Shen"
+      "Pavel Shen",
+      "359981/pavel-shen"
     ]
   ],
   "1999-08-16": [
     [
-      "Gabriel Vilardi"
+      "Gabe Vilardi",
+      "286867/gabe-vilardi"
     ]
   ],
   "1999-08-17": [
     [
-      "Alexei Lipanov"
+      "Alexei Lipanov",
+      "312824/alexei-lipanov"
     ]
   ],
   "1999-08-18": [
     [
-      "Lucas Elvenes"
+      "Lucas Elvenes",
+      "290074/lucas-elvenes"
     ],
     [
-      "Seth Barton"
+      "Seth Barton",
+      "299929/seth-barton"
     ]
   ],
   "1999-08-23": [
     [
-      "Cole Fraser"
+      "Cole Fraser",
+      "297963/cole-fraser"
     ]
   ],
   "1999-08-24": [
     [
-      "Olle Lycksell"
+      "Olle Lycksell",
+      "265290/olle-lycksell"
     ]
   ],
   "1999-08-25": [
     [
-      "Fabian Zetterlund"
+      "Fabian Zetterlund",
+      "265608/fabian-zetterlund"
     ]
   ],
   "1999-08-28": [
     [
-      "Kristian R\u00f8yk\u00e5s Marthinsen"
+      "Kristian R\u00f8yk\u00e5s Marthinsen",
+      "297223/kristian-roykas-marthinsen"
     ]
   ],
   "1999-08-31": [
     [
-      "Ivan Lodnia"
+      "Ivan Lodnia",
+      "201450/ivan-lodnia"
     ]
   ],
   "1999-09-02": [
     [
-      "Erik Br\u00e4nnstr\u00f6m"
+      "Erik Br\u00e4nnstr\u00f6m",
+      "255167/erik-brannstrom"
     ],
     [
-      "Calle Sj\u00e4lin"
+      "Calle Sj\u00e4lin",
+      "266116/calle-sjalin"
     ]
   ],
   "1999-09-05": [
     [
-      "Filip Chytil"
+      "Filip Chytil",
+      "236806/filip-chytil"
     ],
     [
-      "Bryce Misley"
+      "Bryce Misley",
+      "273632/bryce-misley"
     ]
   ],
   "1999-09-08": [
     [
-      "Jocktan Chainey"
+      "Jocktan Chainey",
+      "267626/jocktan-chainey"
     ]
   ],
   "1999-09-09": [
     [
-      "Clayton Phillips"
+      "Clayton Phillips",
+      "353590/clayton-phillips"
     ]
   ],
   "1999-09-12": [
     [
-      "Jaret Anderson-Dolan"
+      "Jaret Anderson-Dolan",
+      "278859/jaret-anderson-dolan"
     ],
     [
-      "Lauri Pajuniemi"
+      "Lauri Pajuniemi",
+      "285894/lauri-pajuniemi"
+    ],
+    [
+      "Mikhail Shalagin",
+      "340214/mikhail-shalagin"
     ]
   ],
   "1999-09-13": [
     [
-      "Alexandre Texier"
+      "Alexandre Texier",
+      "296904/alexandre-texier"
     ],
     [
-      "Alex Formenton"
+      "Alex Formenton",
+      "273622/alex-formenton"
     ]
   ],
   "1999-09-14": [
     [
-      "Shawn Boudrias"
+      "Shawn Boudrias",
+      "275589/shawn-boudrias"
     ]
   ],
   "1999-09-15": [
     [
-      "Jack Gorniak"
+      "Jack Gorniak",
+      "431145/jack-gorniak"
     ]
   ],
   "1999-09-16": [
     [
-      "Brady Tkachuk"
+      "Brady Tkachuk",
+      "201473/brady-tkachuk"
+    ]
+  ],
+  "1999-09-17": [
+    [
+      "Carter Berger",
+      "299029/carter-berger"
     ]
   ],
   "1999-09-21": [
     [
-      "Ryan McLeod"
+      "Ryan McLeod",
+      "271502/ryan-mcleod"
     ]
   ],
   "1999-09-23": [
     [
-      "Jacob Ragnarsson"
+      "Jakob Ragnarsson",
+      "304366/jakob-ragnarsson"
     ],
     [
-      "Michael Callahan"
+      "Michael Callahan",
+      "201479/michael-callahan"
     ]
   ],
   "1999-09-25": [
     [
-      "Jake Kucharski"
+      "Jacob Kucharski",
+      "393537/jacob-kucharski"
     ]
   ],
   "1999-10-02": [
     [
-      "Martin Kaut"
+      "Martin Kaut",
+      "237068/martin-kaut"
     ],
     [
-      "Angus Crookshank"
+      "Angus Crookshank",
+      "201687/angus-crookshank"
     ]
   ],
   "1999-10-03": [
     [
-      "Jesse Yl\u00f6nen"
+      "Jesse Yl\u00f6nen",
+      "299117/jesse-ylonen"
     ],
     [
-      "Eetu P\u00e4kkil\u00e4"
+      "Eetu P\u00e4kkil\u00e4",
+      "375979/eetu-pakkila"
     ]
   ],
   "1999-10-06": [
     [
-      "Martin Feh\u00e9rv\u00e1ry"
+      "Martin Feh\u00e9rv\u00e1ry",
+      "274991/martin-fehervary"
     ]
   ],
   "1999-10-07": [
     [
-      "Nicolas Beaudin"
+      "Nicolas Beaudin",
+      "284924/nicolas-beaudin"
+    ]
+  ],
+  "1999-10-11": [
+    [
+      "Marc Del Gaizo",
+      "201481/marc-del-gaizo"
     ]
   ],
   "1999-10-12": [
     [
-      "Philipp Kurashev"
+      "Philipp Kurashev",
+      "279238/philipp-kurashev"
     ]
   ],
   "1999-10-13": [
     [
-      "Kody Clark"
+      "Kody Clark",
+      "273613/kody-clark"
     ]
   ],
   "1999-10-14": [
     [
-      "Quinn Hughes"
+      "Quinn Hughes",
+      "201671/quinn-hughes"
     ]
   ],
   "1999-10-17": [
     [
-      "Nikolai Kovalenko"
+      "Nikolai Kovalenko",
+      "339499/nikolai-kovalenko"
     ]
   ],
   "1999-10-20": [
     [
-      "Evan Bouchard"
+      "Evan Bouchard",
+      "300591/evan-bouchard"
     ],
     [
-      "Samuel Ersson"
+      "Samuel Ersson",
+      "292581/samuel-ersson"
     ],
     [
-      "Filip Kr\u00e1l"
+      "Filip Kr\u00e1l",
+      "247241/filip-kral"
     ]
   ],
   "1999-10-25": [
     [
-      "Riley Sutter"
+      "Riley Sutter",
+      "281307/riley-sutter"
     ]
   ],
   "1999-11-02": [
     [
-      "Wyatte Wylie"
+      "Wyatte Wylie",
+      "300071/wyatte-wylie"
     ]
   ],
   "1999-11-04": [
     [
-      "Jay O'Brien"
+      "Jay O'Brien",
+      "312015/jay-o-brien"
     ]
   ],
   "1999-11-06": [
     [
-      "Isac Lundestr\u00f6m"
+      "Isac Lundestr\u00f6m",
+      "265570/isac-lundestrom"
     ],
     [
-      "Milos Roman"
+      "Milos Roman",
+      "223844/milos-roman"
+    ],
+    [
+      "Aidan McDonough",
+      "348494/aidan-mcdonough"
     ]
   ],
   "1999-11-08": [
     [
-      "Zachary Bouthillier"
+      "Zachary Bouthillier",
+      "305661/zachary-bouthillier"
     ]
   ],
   "1999-11-09": [
     [
-      "Tyler Madden"
+      "Tyler Madden",
+      "201489/tyler-madden"
     ]
   ],
   "1999-11-10": [
     [
-      "Jakub Skarek"
+      "Jakub Skarek",
+      "189765/jakub-skarek"
     ]
   ],
   "1999-11-15": [
     [
-      "Alexander Alexeyev"
+      "Alexander Alexeyev",
+      "333787/alexander-alexeyev"
     ]
   ],
   "1999-11-16": [
     [
-      "Linus Karlsson"
+      "Linus Karlsson",
+      "314906/linus-karlsson"
     ],
     [
-      "Paul Cotter"
+      "Paul Cotter",
+      "284097/paul-cotter"
     ]
   ],
   "1999-11-19": [
     [
-      "Martin Pospisil"
+      "Martin Pospisil",
+      "341691/martin-pospisil"
     ]
   ],
   "1999-11-20": [
     [
-      "Johan S\u00f6dergran"
+      "Johan S\u00f6dergran",
+      "246437/johan-sodergran"
     ]
   ],
   "1999-11-25": [
     [
-      "David Tendeck"
+      "David Tendeck",
+      "297918/david-tendeck"
     ]
   ],
   "1999-11-27": [
     [
-      "Filip Zadina"
+      "Filip Zadina",
+      "236471/filip-zadina"
     ]
   ],
   "1999-12-21": [
     [
-      "J\u00e1chym Kondel\u00edk"
+      "Jachym Kondelik",
+      "271580/jachym-kondelik"
     ]
   ],
   "1999-12-23": [
     [
-      "Vitali Kravtsov"
+      "Vitali Kravtsov",
+      "379749/vitali-kravtsov"
     ]
   ],
   "1999-12-29": [
     [
-      "Bulat Shafigullin"
+      "Bulat Shafigullin",
+      "339599/bulat-shafigullin"
     ]
   ],
   "2000-01-02": [
     [
-      "Akil Thomas"
+      "Akil Thomas",
+      "364033/akil-thomas"
     ]
   ],
   "2000-01-03": [
     [
-      "Tyler Weiss"
+      "Tyler Weiss",
+      "355485/tyler-weiss"
     ],
     [
-      "Liam Kirk"
+      "Liam Kirk",
+      "230605/liam-kirk"
     ]
   ],
   "2000-01-04": [
     [
-      "Spencer Stastney"
+      "Spencer Stastney",
+      "283918/spencer-stastney"
     ]
   ],
   "2000-01-05": [
     [
-      "Riley Stotts"
+      "Riley Stotts",
+      "201715/riley-stotts"
     ]
   ],
   "2000-01-06": [
     [
-      "Alexander Romanov"
+      "Alexander Romanov",
+      "396529/alexander-romanov"
     ],
     [
-      "Jack McBain"
+      "Jack McBain",
+      "363685/jack-mcbain"
     ],
     [
-      "Xavier Bernard"
+      "Xavier Bernard",
+      "335702/xavier-bernard"
     ],
     [
-      "Dennis Busby"
+      "Dennis Busby",
+      "273629/dennis-busby"
     ]
   ],
   "2000-01-07": [
     [
-      "Noah Dobson"
+      "Noah Dobson",
+      "275797/noah-dobson"
+    ],
+    [
+      "Luka Burzan",
+      "258430/luka-burzan"
     ]
   ],
   "2000-01-10": [
     [
-      "Eric Florchuk"
+      "Eric Florchuk",
+      "281876/eric-florchuk"
     ]
   ],
   "2000-01-12": [
     [
-      "Declan Chisholm"
+      "Declan Chisholm",
+      "363643/declan-chisholm"
     ],
     [
-      "Dawson Barteaux"
+      "Dawson Barteaux",
+      "285046/dawson-barteaux"
     ]
   ],
   "2000-01-13": [
     [
-      "Joseph Veleno"
+      "Joe Veleno",
+      "271713/joe-veleno"
     ],
     [
-      "Adam Ginning"
+      "Adam Ginning",
+      "281968/adam-ginning"
     ],
     [
-      "Michael Kesselring"
+      "Michael Kesselring",
+      "375367/michael-kesselring"
     ]
   ],
   "2000-01-19": [
     [
-      "Semyon Kizimov"
+      "Semyon Kizimov",
+      "420947/semyon-kizimov"
     ]
   ],
   "2000-01-21": [
     [
-      "K'Andre Miller"
+      "K'Andre Miller",
+      "308192/k-andre-miller"
     ]
   ],
   "2000-01-23": [
     [
-      "Marcus Karlberg"
+      "Marcus Karlberg",
+      "319507/marcus-karlberg"
     ]
   ],
   "2000-01-24": [
     [
-      "Bode Wilde"
+      "Bode Wilde",
+      "283932/bode-wilde"
     ]
   ],
   "2000-01-26": [
     [
-      "Nico Gross"
+      "Nico Gross",
+      "319554/nico-gross"
     ]
   ],
   "2000-01-27": [
     [
-      "Mitchell Hoelscher"
+      "Mitchell Hoelscher",
+      "360952/mitchell-hoelscher"
+    ]
+  ],
+  "2000-02-01": [
+    [
+      "Kevin Wall",
+      "355153/kevin-wall"
     ]
   ],
   "2000-02-03": [
     [
-      "Dominik Bokk"
+      "Dominik Bokk",
+      "259973/dominik-bokk"
     ],
     [
-      "Jack Drury"
+      "Jack Drury",
+      "283916/jack-drury"
     ]
   ],
   "2000-02-04": [
     [
-      "Liam Foudy"
+      "Liam Foudy",
+      "397650/liam-foudy"
+    ],
+    [
+      "Carson Focht",
+      "289457/carson-focht"
     ]
   ],
   "2000-02-06": [
     [
-      "Benoit-Olivier Groulx"
+      "Benoit-Olivier Groulx",
+      "335689/benoit-olivier-groulx"
     ],
     [
-      "Gabriel Fortier"
+      "Gabriel Fortier",
+      "335707/gabriel-fortier"
     ]
   ],
   "2000-02-08": [
     [
-      "Jacob Olofsson"
+      "Jacob Olofsson",
+      "316535/jacob-olofsson"
     ]
   ],
   "2000-02-10": [
     [
-      "Axel Andersson"
+      "Axel Andersson",
+      "313354/axel-andersson"
     ],
     [
-      "Matej Pekar"
+      "Matej Pekar",
+      "271642/matej-pekar"
     ]
   ],
   "2000-02-11": [
     [
-      "Tim Berni"
+      "Tim Berni",
+      "296565/tim-berni"
     ]
   ],
   "2000-02-14": [
     [
-      "Blake McLaughlin"
+      "Blake McLaughlin",
+      "364230/blake-mclaughlin"
     ],
     [
-      "Allan McShane"
+      "Allan McShane",
+      "313532/allan-mcshane"
     ]
   ],
   "2000-02-17": [
     [
-      "Simon Kjellberg"
+      "Simon Kjellberg",
+      "291923/simon-kjellberg"
     ]
   ],
   "2000-02-21": [
     [
-      "Giovanni Vallati"
+      "Giovanni Vallati",
+      "299432/giovanni-vallati"
     ]
   ],
   "2000-02-24": [
     [
-      "Dmitri Semykin"
+      "Dmitri Semykin",
+      "396119/dmitri-semykin"
     ]
   ],
   "2000-02-25": [
     [
-      "Joel Farabee"
+      "Joel Farabee",
+      "334036/joel-farabee"
     ]
   ],
   "2000-02-28": [
     [
-      "Jake Wise"
+      "Jake Wise",
+      "268432/jake-wise"
     ],
     [
-      "Jacob Pivonka"
+      "Jacob Pivonka",
+      "283915/jacob-pivonka"
     ],
     [
-      "Xavier Bouchard"
+      "Xavier Bouchard",
+      "241374/xavier-bouchard"
     ]
   ],
   "2000-03-01": [
     [
-      "Tyler Tucker"
+      "Tyler Tucker",
+      "399243/tyler-tucker"
     ]
   ],
   "2000-03-03": [
     [
-      "Jonny Tychonick"
+      "Jonny Tychonick",
+      "281730/jonny-tychonick"
     ],
     [
-      "Damien Giroux"
+      "Damien Giroux",
+      "270155/damien-giroux"
     ]
   ],
   "2000-03-06": [
     [
-      "Curtis Douglas"
+      "Curtis Douglas",
+      "351462/curtis-douglas"
     ],
     [
-      "Samuel Houde"
+      "Samuel Houde",
+      "241387/samuel-houde"
     ]
   ],
   "2000-03-07": [
     [
-      "Rasmus Sandin"
+      "Rasmus Sandin",
+      "289453/rasmus-sandin"
     ]
   ],
   "2000-03-11": [
     [
-      "Justus Annunen"
+      "Justus Annunen",
+      "347573/justus-annunen"
     ]
   ],
   "2000-03-12": [
     [
-      "Oskar B\u00e4ck"
+      "Oskar B\u00e4ck",
+      "294263/oskar-back"
     ],
     [
-      "Marcus Westf\u00e4lt"
+      "Marcus Westf\u00e4lt",
+      "290973/marcus-westfalt"
     ]
   ],
   "2000-03-14": [
     [
-      "Mattias Samuelsson"
+      "Mattias Samuelsson",
+      "325127/mattias-samuelsson"
+    ],
+    [
+      "Samuel Fagemo",
+      "288459/samuel-fagemo"
     ]
   ],
   "2000-03-15": [
     [
-      "Rasmus Kupari"
+      "Rasmus Kupari",
+      "319079/rasmus-kupari"
     ]
   ],
   "2000-03-20": [
     [
-      "Riley Damiani"
+      "Riley Damiani",
+      "305431/riley-damiani"
     ]
   ],
   "2000-03-21": [
     [
-      "Jesper Eliasson"
+      "Jesper Eliasson",
+      "314909/jesper-eliasson"
     ],
     [
-      "Ryan O'Reilly"
+      "Ryan O'Reilly",
+      "276199/ryan-o-reilly"
     ],
     [
-      "Alexis Gravel"
+      "Alexis Gravel",
+      "355223/alexis-gravel"
     ]
   ],
   "2000-03-23": [
     [
-      "Filip Johansson"
+      "Filip Johansson",
+      "316794/filip-johansson"
     ]
   ],
   "2000-03-24": [
     [
-      "Ty Smith"
+      "Ty Smith",
+      "281814/ty-smith"
     ],
     [
-      "Demetrios Koumontzis"
+      "Demetrios Koumontzis",
+      "354063/demetrios-koumontzis"
     ],
     [
-      "Otto Kivenm\u00e4ki"
+      "Otto Kivenm\u00e4ki",
+      "376271/otto-kivenmaki"
     ]
   ],
   "2000-03-26": [
     [
-      "Andrei Svechnikov"
+      "Andrei Svechnikov",
+      "328556/andrei-svechnikov"
     ]
   ],
   "2000-03-27": [
     [
-      "Jared McIsaac"
+      "Jared McIsaac",
+      "266786/jared-mcisaac"
     ]
   ],
   "2000-03-28": [
     [
-      "Jakub Lauko"
+      "Jakub Lauko",
+      "273830/jakub-lauko"
     ]
   ],
   "2000-03-31": [
     [
-      "Peter Diliberatore"
+      "Peter Diliberatore",
+      "267086/peter-diliberatore"
     ]
   ],
   "2000-04-03": [
     [
-      "Mathias Emilio Pettersen"
+      "Mathias Emilio Pettersen",
+      "274219/mathias-emilio-pettersen"
     ],
     [
-      "Gavin Hain"
+      "Gavin Hain",
+      "354061/gavin-hain"
     ]
   ],
   "2000-04-04": [
     [
-      "Slava Demin"
+      "Slava Demin",
+      "354045/slava-demin"
     ]
   ],
   "2000-04-08": [
     [
-      "Danila Zhuravlyov"
+      "Daniil Zhuravlyov",
+      "375639/daniil-zhuravlyov"
     ]
   ],
   "2000-04-11": [
     [
-      "Calen Addison"
+      "Calen Addison",
+      "278861/calen-addison"
     ],
     [
-      "David Gustafsson"
+      "David Gustafsson",
+      "293796/david-gustafsson"
     ]
   ],
   "2000-04-12": [
     [
-      "Alexander Khovanov"
+      "Alexander Khovanov",
+      "339559/alexander-khovanov"
+    ],
+    [
+      "Mattias Norlinder",
+      "344235/mattias-norlinder"
     ]
   ],
   "2000-04-13": [
     [
-      "Rasmus Dahlin"
+      "Rasmus Dahlin",
+      "310545/rasmus-dahlin"
     ]
   ],
   "2000-04-16": [
     [
-      "Patrik Siikanen"
+      "Patrik Siikanen",
+      "375834/patrik-siikanen"
+    ]
+  ],
+  "2000-04-19": [
+    [
+      "Maxwell Crozier",
+      "281733/maxwell-crozier"
     ]
   ],
   "2000-04-24": [
     [
-      "Cole Fonstad"
+      "Cole Fonstad",
+      "286578/cole-fonstad"
     ]
   ],
   "2000-04-26": [
     [
-      "Curtis Hall"
+      "Curtis Hall",
+      "285300/curtis-hall"
     ]
   ],
   "2000-04-27": [
     [
-      "Toni Utunen"
+      "Toni Utunen",
+      "355654/toni-utunen"
     ]
   ],
   "2000-04-29": [
     [
-      "Luke Henman"
+      "Luke Henman",
+      "266778/luke-henman"
     ]
   ],
   "2000-04-30": [
     [
-      "Jordan Kooy"
+      "Jordan Kooy",
+      "360915/jordan-kooy"
     ]
   ],
   "2000-05-04": [
     [
-      "Niklas Nordgren"
+      "Niklas Nordgren",
+      "360140/niklas-nordgren"
     ],
     [
-      "Johnny Gruden"
+      "Jonathan Gruden",
+      "276187/jonathan-gruden"
     ]
   ],
   "2000-05-05": [
     [
-      "Ivan D. Morozov"
+      "Ivan D. Morozov",
+      "396897/ivan-d.-morozov"
     ],
     [
-      "Christian Krygier"
+      "Christian Krygier",
+      "283958/christian-krygier"
     ],
     [
-      "Cole Krygier"
+      "Cole Krygier",
+      "283959/cole-krygier"
     ]
   ],
   "2000-05-08": [
     [
-      "Liam Gorman"
+      "Liam Gorman",
+      "364228/liam-gorman"
     ]
   ],
   "2000-05-12": [
     [
-      "Akira Schmid"
+      "Akira Schmid",
+      "336133/akira-schmid"
     ]
   ],
   "2000-05-15": [
     [
-      "William Worge Kre\u00fc"
+      "William Worge Kre\u00fc",
+      "281973/william-worge-kreu"
     ]
   ],
   "2000-05-24": [
     [
-      "Ty Emberson"
+      "Ty Emberson",
+      "365043/ty-emberson"
     ]
   ],
   "2000-05-31": [
     [
-      "Sampo Ranta"
+      "Sampo Ranta",
+      "375954/sampo-ranta"
+    ],
+    [
+      "Matej Bl\u00fcmel",
+      "272376/matej-blumel"
+    ]
+  ],
+  "2000-06-01": [
+    [
+      "Axel Bergkvist",
+      "289485/axel-bergkvist"
     ]
   ],
   "2000-06-09": [
     [
-      "Barrett Hayton"
+      "Barrett Hayton",
+      "317885/barrett-hayton"
     ],
     [
-      "Matthew Thiessen"
+      "Matthew Thiessen",
+      "351272/matthew-thiessen"
     ]
   ],
   "2000-06-10": [
     [
-      "Jacob Ingham"
+      "Jacob Ingham",
+      "404018/jacob-ingham"
     ]
   ],
   "2000-06-13": [
     [
-      "Oliver Wahlstrom"
+      "Oliver Wahlstrom",
+      "241370/oliver-wahlstrom"
     ]
   ],
   "2000-06-15": [
     [
-      "Lenni Killinen"
+      "Lenni Killinen",
+      "332303/lenni-killinen"
     ],
     [
-      "Aidan Dudas"
+      "Aidan Dudas",
+      "348180/aidan-dudas"
     ]
   ],
   "2000-06-19": [
     [
-      "Miska Kukkonen"
+      "Miska Kukkonen",
+      "383305/miska-kukkonen"
     ]
   ],
   "2000-06-20": [
     [
-      "Zachary \u00c9mond"
+      "Zachary \u00c9mond",
+      "382866/zachary-emond"
     ]
   ],
   "2000-06-22": [
     [
-      "Lukas Dostal"
+      "Lukas Dostal",
+      "236340/lukas-dostal"
     ]
   ],
   "2000-06-24": [
     [
-      "Grigori Denisenko"
+      "Grigori Denisenko",
+      "312827/grigori-denisenko"
     ],
     [
-      "Cam Hillis"
+      "Cam Hillis",
+      "404742/cam-hillis"
     ],
     [
-      "Justin Sch\u00fctz"
+      "Justin Sch\u00fctz",
+      "238113/justin-schutz"
     ]
   ],
   "2000-06-27": [
     [
-      "Kevin Bahl"
+      "Kevin Bahl",
+      "248583/kevin-bahl"
     ],
     [
-      "Mathias Laferri\u00e8re"
+      "Mathias Laferri\u00e8re",
+      "382160/mathias-laferriere"
     ],
     [
-      "Riley Hughes"
+      "Riley Hughes",
+      "241597/riley-hughes"
     ]
   ],
   "2000-06-29": [
     [
-      "Filip H\u00e5llander"
+      "Filip H\u00e5llander",
+      "293387/filip-hallander"
+    ],
+    [
+      "Santeri Airola",
+      "376175/santeri-airola"
     ]
   ],
   "2000-06-30": [
     [
-      "Jacob Bernard-Docker"
+      "Jacob Bernard-Docker",
+      "281697/jacob-bernard-docker"
     ]
   ],
   "2000-07-03": [
     [
-      "Linus Cronholm"
+      "Linus Cronholm",
+      "345052/linus-cronholm"
+    ]
+  ],
+  "2000-07-04": [
+    [
+      "Roddy Ross",
+      "411720/roddy-ross"
     ]
   ],
   "2000-07-06": [
     [
-      "Jesperi Kotkaniemi"
+      "Jesperi Kotkaniemi",
+      "363872/jesperi-kotkaniemi"
     ],
     [
-      "Olivier Rodrigue"
+      "Olivier Rodrigue",
+      "354121/olivier-rodrigue"
     ]
   ],
   "2000-07-07": [
     [
-      "Jordan Harris"
+      "Jordan Harris",
+      "321687/jordan-harris"
     ]
   ],
   "2000-07-16": [
     [
-      "Jonatan Berggren"
+      "Jonatan Berggren",
+      "274796/jonatan-berggren"
     ]
   ],
   "2000-07-20": [
     [
-      "Albin Eriksson"
+      "Albin Eriksson",
+      "265297/albin-eriksson"
     ],
     [
-      "Alex Kannok-Leipert"
+      "Alex Kannok-Leipert",
+      "287497/alex-kannok-leipert"
     ]
   ],
   "2000-07-21": [
     [
-      "Ty Dellandrea"
+      "Ty Dellandrea",
+      "399353/ty-dellandrea"
     ],
     [
-      "Kirill Marchenko"
+      "Kirill Marchenko",
+      "392162/kirill-marchenko"
     ]
   ],
   "2000-07-22": [
     [
-      "Ruslan Iskhakov"
+      "Ruslan Iskhakov",
+      "396204/ruslan-iskhakov"
     ]
   ],
   "2000-07-23": [
     [
-      "Olof Lindbom"
+      "Olof Lindbom",
+      "344661/olof-lindbom"
     ]
   ],
   "2000-07-26": [
     [
-      "Luke Loheit"
+      "Luke Loheit",
+      "443742/luke-loheit"
+    ],
+    [
+      "Andre Lee",
+      "350001/andre-lee"
     ]
   ],
   "2000-07-27": [
     [
-      "Nils Lundkvist"
+      "Nils Lundkvist",
+      "384079/nils-lundkvist"
     ],
     [
-      "Jett Woo"
+      "Jett Woo",
+      "281813/jett-woo"
+    ]
+  ],
+  "2000-07-28": [
+    [
+      "Karel Plasek",
+      "272426/karel-plasek"
+    ],
+    [
+      "McKade Webster",
+      "285337/mckade-webster"
     ]
   ],
   "2000-07-30": [
     [
-      "Joel Hofer"
+      "Joel Hofer",
+      "388650/joel-hofer"
+    ]
+  ],
+  "2000-08-02": [
+    [
+      "John Ludvig",
+      "350236/john-ludvig"
     ]
   ],
   "2000-08-04": [
     [
-      "Dustyn McFaul"
+      "Dustyn McFaul",
+      "370364/dustyn-mcfaul"
     ]
   ],
   "2000-08-06": [
     [
-      "Alec Regula"
+      "Alec Regula",
+      "283940/alec-regula"
     ]
   ],
   "2000-08-07": [
     [
-      "Connor Corcoran"
+      "Connor Corcoran",
+      "404752/connor-corcoran"
     ]
   ],
   "2000-08-08": [
     [
-      "Serron Noel"
+      "Serron Noel",
+      "299488/serron-noel"
+    ],
+    [
+      "Kirill Tyutyayev",
+      "398223/kirill-tyutyayev"
+    ]
+  ],
+  "2000-08-09": [
+    [
+      "Bryce Brodzinski",
+      "400134/bryce-brodzinski"
     ]
   ],
   "2000-08-11": [
     [
-      "Blade Jenkins"
+      "Blade Jenkins",
+      "284094/blade-jenkins"
     ],
     [
-      "Dmitri Zavgorodny"
+      "Dmitri Zavgorodny",
+      "396918/dmitri-zavgorodny"
     ]
   ],
   "2000-08-14": [
     [
-      "Ryan Merkley"
+      "Ryan Merkley",
+      "273668/ryan-merkley"
     ]
   ],
   "2000-08-15": [
     [
-      "Adam Boqvist"
+      "Adam Boqvist",
+      "265684/adam-boqvist"
+    ]
+  ],
+  "2000-08-16": [
+    [
+      "Alexander Daryin",
+      "395123/alexander-daryin"
     ]
   ],
   "2000-08-22": [
     [
-      "Kevin Mandolese"
+      "Kevin Mandolese",
+      "241372/kevin-mandolese"
+    ]
+  ],
+  "2000-08-23": [
+    [
+      "Filip Cederqvist",
+      "328238/filip-cederqvist"
     ]
   ],
   "2000-08-26": [
     [
-      "Austin Wong"
+      "Austin Wong",
+      "322072/austin-wong"
     ]
   ],
   "2000-08-28": [
     [
-      "Magnus Chrona"
+      "Magnus Chrona",
+      "381263/magnus-chrona"
+    ]
+  ],
+  "2000-09-03": [
+    [
+      "Erik Portillo",
+      "342286/erik-portillo"
+    ]
+  ],
+  "2000-09-10": [
+    [
+      "Dmitri Voronkov",
+      "450012/dmitri-voronkov"
     ]
   ],
   "2000-09-13": [
     [
-      "Jack Perbix"
+      "Jack Perbix",
+      "363892/jack-perbix"
     ]
   ],
   "2000-09-15": [
     [
-      "Jan Jenik"
+      "Jan Jen\u00edk",
+      "247318/jan-jenik"
     ],
     [
-      "Semyon Der-Arguchintsev"
+      "Semyon Der-Arguchintsev",
+      "315260/semyon-der-arguchintsev"
+    ]
+  ],
+  "2000-09-16": [
+    [
+      "Nikita Alexandrov",
+      "238111/nikita-alexandrov"
+    ]
+  ],
+  "2000-09-21": [
+    [
+      "Hunter Jones",
+      "418628/hunter-jones"
+    ],
+    [
+      "Isaiah Saville",
+      "365042/isaiah-saville"
+    ]
+  ],
+  "2000-09-23": [
+    [
+      "Tomas Mazura",
+      "297692/tomas-mazura"
+    ]
+  ],
+  "2000-09-24": [
+    [
+      "Lassi Thomson",
+      "372919/lassi-thomson"
+    ]
+  ],
+  "2000-09-25": [
+    [
+      "Rapha\u00ebl Lavoie",
+      "335712/raphael-lavoie"
+    ],
+    [
+      "Valentin Nussbaumer",
+      "332479/valentin-nussbaumer"
+    ]
+  ],
+  "2000-09-30": [
+    [
+      "Gianni Fairbrother",
+      "350216/gianni-fairbrother"
+    ],
+    [
+      "Tyler Angle",
+      "403916/tyler-angle"
+    ]
+  ],
+  "2000-10-04": [
+    [
+      "Ryder Donovan",
+      "380281/ryder-donovan"
+    ],
+    [
+      "Ben Brinkman",
+      "327230/ben-brinkman"
+    ]
+  ],
+  "2000-10-05": [
+    [
+      "Anttoni Honka",
+      "395069/anttoni-honka"
+    ],
+    [
+      "Colten Ellis",
+      "266585/colten-ellis"
+    ]
+  ],
+  "2000-10-07": [
+    [
+      "Matthew Stienburg",
+      "267112/matthew-stienburg"
+    ],
+    [
+      "Anthony Romano",
+      "438110/anthony-romano"
+    ]
+  ],
+  "2000-10-08": [
+    [
+      "Simon Lundmark",
+      "344757/simon-lundmark"
+    ]
+  ],
+  "2000-10-12": [
+    [
+      "Adam Edstr\u00f6m",
+      "349951/adam-edstrom"
+    ],
+    [
+      "Timur Ibragimov",
+      "392594/timur-ibragimov"
+    ]
+  ],
+  "2000-10-13": [
+    [
+      "Jack Malone",
+      "364031/jack-malone"
+    ]
+  ],
+  "2000-10-14": [
+    [
+      "Matias Maccelli",
+      "375953/matias-maccelli"
+    ]
+  ],
+  "2000-10-16": [
+    [
+      "Nikola Pasic",
+      "259121/nikola-pasic"
+    ]
+  ],
+  "2000-10-17": [
+    [
+      "Cole Moberg",
+      "428574/cole-moberg"
+    ]
+  ],
+  "2000-10-18": [
+    [
+      "Zachary Jones",
+      "364649/zachary-jones"
+    ]
+  ],
+  "2000-10-20": [
+    [
+      "Daniil Misyul",
+      "395127/daniil-misyul"
+    ]
+  ],
+  "2000-10-26": [
+    [
+      "Pavel Dorofeyev",
+      "398168/pavel-dorofeyev"
+    ]
+  ],
+  "2000-10-30": [
+    [
+      "Dillon Hamaliuk",
+      "281939/dillon-hamaliuk"
+    ]
+  ],
+  "2000-11-12": [
+    [
+      "Shane Pinto",
+      "388979/shane-pinto"
+    ]
+  ],
+  "2000-11-14": [
+    [
+      "Kim Nousiainen",
+      "332966/kim-nousiainen"
+    ]
+  ],
+  "2000-11-16": [
+    [
+      "William Francis",
+      "375487/william-francis"
+    ]
+  ],
+  "2000-11-22": [
+    [
+      "Jacob LeGuerrier",
+      "300751/jacob-leguerrier"
+    ]
+  ],
+  "2000-11-29": [
+    [
+      "Nolan Foote",
+      "240385/nolan-foote"
+    ]
+  ],
+  "2000-12-04": [
+    [
+      "Nikita Okhotyuk",
+      "398144/nikita-okhotyuk"
+    ]
+  ],
+  "2000-12-09": [
+    [
+      "Samuel Bolduc",
+      "356985/samuel-bolduc"
+    ]
+  ],
+  "2000-12-10": [
+    [
+      "Maxim Denezhkin",
+      "360187/maxim-denezhkin"
+    ]
+  ],
+  "2000-12-13": [
+    [
+      "Mads S\u00f8gaard",
+      "265409/mads-sogaard"
+    ]
+  ],
+  "2000-12-20": [
+    [
+      "Nils H\u00f6glander",
+      "311906/nils-hoglander"
+    ]
+  ],
+  "2000-12-23": [
+    [
+      "Danil Savunov",
+      "398544/danil-savunov"
+    ]
+  ],
+  "2000-12-25": [
+    [
+      "Trevor Janicke",
+      "363897/trevor-janicke"
+    ]
+  ],
+  "2001-01-02": [
+    [
+      "Cole Caufield",
+      "316168/cole-caufield"
+    ]
+  ],
+  "2001-01-03": [
+    [
+      "Maxim Cajkovic",
+      "291308/maxim-cajkovic"
+    ]
+  ],
+  "2001-01-04": [
+    [
+      "Artemi Knyazev",
+      "398450/artemi-knyazev"
+    ],
+    [
+      "Albert Johansson",
+      "349991/albert-johansson"
+    ]
+  ],
+  "2001-01-05": [
+    [
+      "Cameron York",
+      "290129/cameron-york"
+    ],
+    [
+      "Cade Webber",
+      "285385/cade-webber"
+    ]
+  ],
+  "2001-01-06": [
+    [
+      "Alexei Protas",
+      "517438/alexei-protas"
+    ]
+  ],
+  "2001-01-08": [
+    [
+      "Eric Hjorth",
+      "300243/eric-hjorth"
+    ],
+    [
+      "Gustav Berglund",
+      "379956/gustav-berglund"
+    ]
+  ],
+  "2001-01-09": [
+    [
+      "Jackson LaCombe",
+      "369937/jackson-lacombe"
+    ],
+    [
+      "Case McCarthy",
+      "290196/case-mccarthy"
+    ]
+  ],
+  "2001-01-11": [
+    [
+      "Patrik Puistola",
+      "397004/patrik-puistola"
+    ],
+    [
+      "Nathan L\u00e9gar\u00e9",
+      "296698/nathan-legare"
+    ]
+  ],
+  "2001-01-14": [
+    [
+      "Eric Ciccolini",
+      "424482/eric-ciccolini"
+    ]
+  ],
+  "2001-01-15": [
+    [
+      "Connor McMichael",
+      "424496/connor-mcmichael"
+    ],
+    [
+      "Santeri Hatakka",
+      "397011/santeri-hatakka"
+    ]
+  ],
+  "2001-01-18": [
+    [
+      "Mikko Kokkonen",
+      "347571/mikko-kokkonen"
+    ]
+  ],
+  "2001-01-20": [
+    [
+      "Antti Tuomisto",
+      "396170/antti-tuomisto"
+    ]
+  ],
+  "2001-01-21": [
+    [
+      "Kirby Dach",
+      "268089/kirby-dach"
+    ]
+  ],
+  "2001-01-22": [
+    [
+      "Yegor Spiridonov",
+      "482887/yegor-spiridonov"
+    ]
+  ],
+  "2001-01-23": [
+    [
+      "Yegor Afanasyev",
+      "450909/yegor-afanasyev"
+    ],
+    [
+      "Patrick Moynihan",
+      "433810/patrick-moynihan"
+    ]
+  ],
+  "2001-01-24": [
+    [
+      "Robert Mastrosimone",
+      "385680/robert-mastrosimone"
+    ],
+    [
+      "Leevi Aaltonen",
+      "347570/leevi-aaltonen"
+    ]
+  ],
+  "2001-01-26": [
+    [
+      "Peyton Krebs",
+      "322178/peyton-krebs"
+    ]
+  ],
+  "2001-01-28": [
+    [
+      "Alex Newhook",
+      "320307/alex-newhook"
+    ]
+  ],
+  "2001-01-29": [
+    [
+      "Kaedan Korczak",
+      "295911/kaedan-korczak"
+    ]
+  ],
+  "2001-01-30": [
+    [
+      "Matvei Guskov",
+      "450910/matvei-guskov"
+    ]
+  ],
+  "2001-02-01": [
+    [
+      "Juuso P\u00e4rssinen",
+      "396656/juuso-parssinen"
+    ]
+  ],
+  "2001-02-02": [
+    [
+      "Hugo Has",
+      "363485/hugo-has"
+    ]
+  ],
+  "2001-02-05": [
+    [
+      "Karl Henriksson",
+      "376987/karl-henriksson"
+    ],
+    [
+      "Trent Miner",
+      "351216/trent-miner"
+    ]
+  ],
+  "2001-02-07": [
+    [
+      "Rhett Pitlick",
+      "497477/rhett-pitlick"
+    ]
+  ],
+  "2001-02-09": [
+    [
+      "Dylan Cozens",
+      "286938/dylan-cozens"
+    ]
+  ],
+  "2001-02-10": [
+    [
+      "Roman Bychkov",
+      "514141/roman-bychkov"
+    ]
+  ],
+  "2001-02-12": [
+    [
+      "Cole Brady",
+      "424491/cole-brady"
+    ]
+  ],
+  "2001-02-13": [
+    [
+      "Kaapo Kakko",
+      "396655/kaapo-kakko"
+    ]
+  ],
+  "2001-02-14": [
+    [
+      "John Farinacci",
+      "445599/john-farinacci"
+    ]
+  ],
+  "2001-02-16": [
+    [
+      "Cooper Moore",
+      "424450/cooper-moore"
+    ]
+  ],
+  "2001-02-19": [
+    [
+      "Lucas Feuk",
+      "385539/lucas-feuk"
+    ]
+  ],
+  "2001-02-20": [
+    [
+      "Reece Newkirk",
+      "351979/reece-newkirk"
+    ]
+  ],
+  "2001-02-22": [
+    [
+      "Layton Ahac",
+      "439814/layton-ahac"
+    ]
+  ],
+  "2001-02-24": [
+    [
+      "Jordan Spence",
+      "320267/jordan-spence"
+    ]
+  ],
+  "2001-02-25": [
+    [
+      "Samuel Poulin",
+      "290171/samuel-poulin"
+    ]
+  ],
+  "2001-02-26": [
+    [
+      "Alex Turcotte",
+      "290043/alex-turcotte"
+    ],
+    [
+      "Victor S\u00f6derstr\u00f6m",
+      "344555/victor-soderstrom"
+    ],
+    [
+      "Jamieson Rees",
+      "418060/jamieson-rees"
+    ]
+  ],
+  "2001-02-27": [
+    [
+      "Alexander Campbell",
+      "296339/alexander-campbell"
+    ]
+  ],
+  "2001-03-01": [
+    [
+      "Frederik Dichow",
+      "318432/frederik-dichow"
+    ]
+  ],
+  "2001-03-02": [
+    [
+      "Ville Heinola",
+      "428795/ville-heinola"
+    ]
+  ],
+  "2001-03-05": [
+    [
+      "Kieran Ruscheinski",
+      "413066/kieran-ruscheinski"
+    ]
+  ],
+  "2001-03-06": [
+    [
+      "Aaron Huglen",
+      "485574/aaron-huglen"
+    ]
+  ],
+  "2001-03-07": [
+    [
+      "Jakob Pelletier",
+      "410525/jakob-pelletier"
+    ]
+  ],
+  "2001-03-09": [
+    [
+      "Matthew Robertson",
+      "326633/matthew-robertson"
+    ]
+  ],
+  "2001-03-12": [
+    [
+      "Henry Thrun",
+      "445218/henry-thrun"
+    ],
+    [
+      "Nicholas Porco",
+      "372048/nicholas-porco"
+    ]
+  ],
+  "2001-03-13": [
+    [
+      "Kalle Loponen",
+      "395424/kalle-loponen"
+    ]
+  ],
+  "2001-03-15": [
+    [
+      "Lukas Parik",
+      "386914/lukas-parik"
+    ],
+    [
+      "Arseni Gritsyuk",
+      "519772/arseni-gritsyuk"
+    ],
+    [
+      "Vadim Zherenko",
+      "450906/vadim-zherenko"
+    ]
+  ],
+  "2001-03-18": [
+    [
+      "Harrison Blaisdell",
+      "352089/harrison-blaisdell"
+    ]
+  ],
+  "2001-03-19": [
+    [
+      "Judd Caulfield",
+      "444997/judd-caulfield"
+    ]
+  ],
+  "2001-03-20": [
+    [
+      "Trevor Zegras",
+      "424453/trevor-zegras"
+    ],
+    [
+      "Ethan Keppen",
+      "418534/ethan-keppen"
+    ],
+    [
+      "Marcus Kallionkieli",
+      "395520/marcus-kallionkieli"
+    ]
+  ],
+  "2001-03-22": [
+    [
+      "Albin Grewe",
+      "342488/albin-grewe"
+    ],
+    [
+      "Arturs Silovs",
+      "477476/arturs-silovs"
+    ]
+  ],
+  "2001-03-26": [
+    [
+      "Drew Helleson",
+      "369942/drew-helleson"
+    ],
+    [
+      "Mikhail Abramov",
+      "514653/mikhail-abramov"
+    ]
+  ],
+  "2001-04-05": [
+    [
+      "Matthew Boldy",
+      "375501/matthew-boldy"
+    ],
+    [
+      "John Beecher",
+      "373899/john-beecher"
+    ]
+  ],
+  "2001-04-06": [
+    [
+      "Moritz Seider",
+      "258987/moritz-seider"
+    ],
+    [
+      "Tobias Bj\u00f6rnfot",
+      "344751/tobias-bjornfot"
+    ]
+  ],
+  "2001-04-13": [
+    [
+      "Mike Koster",
+      "427432/mike-koster"
+    ]
+  ],
+  "2001-04-16": [
+    [
+      "Dustin Wolf",
+      "369943/dustin-wolf"
+    ]
+  ],
+  "2001-04-19": [
+    [
+      "Spencer Knight",
+      "379758/spencer-knight"
+    ]
+  ],
+  "2001-04-20": [
+    [
+      "Marshall Warren",
+      "381692/marshall-warren"
+    ]
+  ],
+  "2001-04-22": [
+    [
+      "Dominic Basse",
+      "294746/dominic-basse"
+    ]
+  ],
+  "2001-04-24": [
+    [
+      "Graeme Clarke",
+      "286955/graeme-clarke"
+    ],
+    [
+      "Jake Schmaltz",
+      "316160/jake-schmaltz"
+    ]
+  ],
+  "2001-04-25": [
+    [
+      "Cole Schwindt",
+      "431915/cole-schwindt"
+    ]
+  ],
+  "2001-04-27": [
+    [
+      "Josh Nodler",
+      "290052/josh-nodler"
+    ]
+  ],
+  "2001-04-28": [
+    [
+      "Henri Nikkanen",
+      "395081/henri-nikkanen"
+    ],
+    [
+      "Maxence Gu\u00e9nette",
+      "410616/maxence-guenette"
+    ]
+  ],
+  "2001-04-29": [
+    [
+      "Hunter Skinner",
+      "359531/hunter-skinner"
+    ]
+  ],
+  "2001-05-01": [
+    [
+      "Mathew Hill",
+      "387330/mathew-hill"
+    ]
+  ],
+  "2001-05-02": [
+    [
+      "J\u00e9r\u00e9my Michel",
+      "410602/jeremy-michel"
+    ]
+  ],
+  "2001-05-06": [
+    [
+      "Sasha Mutala",
+      "290349/sasha-mutala"
+    ]
+  ],
+  "2001-05-07": [
+    [
+      "Ethan Phillips",
+      "305096/ethan-phillips"
+    ]
+  ],
+  "2001-05-09": [
+    [
+      "Quinn Olson",
+      "322103/quinn-olson"
+    ]
+  ],
+  "2001-05-10": [
+    [
+      "Adam Beckman",
+      "291514/adam-beckman"
+    ]
+  ],
+  "2001-05-14": [
+    [
+      "Jack Hughes",
+      "305432/jack-hughes"
+    ]
+  ],
+  "2001-05-17": [
+    [
+      "Owen Lindmark",
+      "315962/owen-lindmark"
+    ]
+  ],
+  "2001-05-19": [
+    [
+      "Samuel Sj\u00f6lund",
+      "381262/samuel-sjolund"
+    ]
+  ],
+  "2001-05-24": [
+    [
+      "Simon Holmstr\u00f6m",
+      "347250/simon-holmstrom"
+    ]
+  ],
+  "2001-05-26": [
+    [
+      "Vladislav Kolyachonok",
+      "490232/vladislav-kolyachonok"
+    ]
+  ],
+  "2001-05-27": [
+    [
+      "Michal Tepl\u00fd",
+      "290470/michal-teply"
+    ]
+  ],
+  "2001-05-28": [
+    [
+      "Ryan Suzuki",
+      "418345/ryan-suzuki"
+    ],
+    [
+      "Brayden Tracey",
+      "351169/brayden-tracey"
+    ]
+  ],
+  "2001-06-03": [
+    [
+      "Yegor Serdyuk",
+      "450506/yegor-serdyuk"
+    ]
+  ],
+  "2001-06-04": [
+    [
+      "Hugo Alnefelt",
+      "346977/hugo-alnefelt"
+    ]
+  ],
+  "2001-06-05": [
+    [
+      "Alex Vlasic",
+      "315969/alex-vlasic"
+    ],
+    [
+      "Carter Gylander",
+      "387643/carter-gylander"
+    ]
+  ],
+  "2001-06-08": [
+    [
+      "Michael Vukojevic",
+      "418533/michael-vukojevic"
+    ]
+  ],
+  "2001-06-13": [
+    [
+      "Bowen Byram",
+      "326522/bowen-byram"
+    ],
+    [
+      "Massimo Rizzo",
+      "286939/massimo-rizzo"
+    ]
+  ],
+  "2001-06-19": [
+    [
+      "Vladislav Firstov",
+      "514167/vladislav-firstov"
+    ]
+  ],
+  "2001-06-21": [
+    [
+      "Matias M\u00e4ntykivi",
+      "428827/matias-mantykivi"
+    ]
+  ],
+  "2001-06-22": [
+    [
+      "Tuukka Tieksola",
+      "395512/tuukka-tieksola"
+    ]
+  ],
+  "2001-06-24": [
+    [
+      "Vasili Podkolzin",
+      "512832/vasili-podkolzin"
+    ]
+  ],
+  "2001-06-25": [
+    [
+      "Philip Broberg",
+      "349467/philip-broberg"
+    ]
+  ],
+  "2001-06-26": [
+    [
+      "Arthur Kaliyev",
+      "316114/arthur-kaliyev"
+    ],
+    [
+      "Ilya Nikolayev",
+      "514152/ilya-nikolayev"
+    ],
+    [
+      "Henrik Rybinski",
+      "351688/henrik-rybinski"
+    ]
+  ],
+  "2001-06-27": [
+    [
+      "Antti Saarela",
+      "396630/antti-saarela"
+    ]
+  ],
+  "2001-07-05": [
+    [
+      "Aku R\u00e4ty",
+      "395509/aku-raty"
+    ],
+    [
+      "Elmer S\u00f6derblom",
+      "350706/elmer-soderblom"
+    ],
+    [
+      "Blake Murray",
+      "416872/blake-murray"
+    ]
+  ],
+  "2001-07-07": [
+    [
+      "Arvid Costmar",
+      "348012/arvid-costmar"
+    ]
+  ],
+  "2001-07-08": [
+    [
+      "Bobby Brink",
+      "496724/bobby-brink"
+    ]
+  ],
+  "2001-07-18": [
+    [
+      "Mason Millman",
+      "418350/mason-millman"
+    ]
+  ],
+  "2001-07-24": [
+    [
+      "Ryan Johnson",
+      "290138/ryan-johnson"
+    ]
+  ],
+  "2001-07-25": [
+    [
+      "Alex Beaucage",
+      "412976/alex-beaucage"
+    ]
+  ],
+  "2001-07-27": [
+    [
+      "Quinn Schmiemann",
+      "352013/quinn-schmiemann"
+    ]
+  ],
+  "2001-07-28": [
+    [
+      "Philip Tomasino",
+      "418531/philip-tomasino"
+    ],
+    [
+      "Mason Primeau",
+      "452004/mason-primeau"
+    ]
+  ],
+  "2001-08-02": [
+    [
+      "Isak Walther",
+      "431803/isak-walther"
+    ]
+  ],
+  "2001-08-07": [
+    [
+      "Semyon Chistyakov",
+      "517832/semyon-chistyakov"
+    ]
+  ],
+  "2001-08-16": [
+    [
+      "Keean Washkurak",
+      "433833/keean-washkurak"
+    ]
+  ],
+  "2001-08-19": [
+    [
+      "Thomas Harley",
+      "465160/thomas-harley"
+    ]
+  ],
+  "2001-08-24": [
+    [
+      "Braden Doyle",
+      "385678/braden-doyle"
+    ]
+  ],
+  "2001-09-04": [
+    [
+      "Ethan Haider",
+      "494432/ethan-haider"
+    ]
+  ],
+  "2001-09-07": [
+    [
+      "Domenick Fensore",
+      "424459/domenick-fensore"
+    ]
+  ],
+  "2001-09-08": [
+    [
+      "Jayden Struble",
+      "465181/jayden-struble"
+    ]
+  ],
+  "2001-09-10": [
+    [
+      "Nikita Nesterenko",
+      "295642/nikita-nesterenko"
+    ]
+  ],
+  "2001-09-11": [
+    [
+      "Nicholas Robertson",
+      "359539/nicholas-robertson"
     ]
   ]
 }
